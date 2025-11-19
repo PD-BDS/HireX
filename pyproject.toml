@@ -10,7 +10,7 @@ dependencies = [
     "streamlit",
     "chromadb",
     "python-dotenv",
-    "PyYAML,
+    "PyYAML",
     "numpy",
     "supabase",
     "tiktoken",
