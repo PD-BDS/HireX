@@ -9,8 +9,6 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-import streamlit as st
-
 # Ensure absolute imports work even when the project is not installed as a package.
 SRC_ROOT = Path(__file__).resolve().parents[2]
 if str(SRC_ROOT) not in sys.path:
@@ -19,6 +17,40 @@ if str(SRC_ROOT) not in sys.path:
 SRC_PACKAGE_ROOT = SRC_ROOT / "src"
 if SRC_PACKAGE_ROOT.exists() and str(SRC_PACKAGE_ROOT) not in sys.path:
 	sys.path.insert(0, str(SRC_PACKAGE_ROOT))
+
+import streamlit as st
+
+
+def _apply_streamlit_secrets() -> None:
+	"""Load Streamlit secrets into os.environ before importing project modules."""
+	try:
+		secrets = st.secrets
+	except Exception:
+		return
+
+	def _as_dict(candidate):
+		if candidate is None:
+			return {}
+		if isinstance(candidate, dict):
+			return candidate
+		try:
+			return dict(candidate)
+		except Exception:
+			return {}
+
+	sections = [_as_dict(secrets)]
+	for key in ("general", "remote_storage", "app"):
+		section = _as_dict(secrets.get(key))
+		if section:
+			sections.append(section)
+
+	for section in sections:
+		for key, value in section.items():
+			if isinstance(value, (str, int, float, bool)) and key:
+				os.environ.setdefault(str(key), str(value))
+
+
+_apply_streamlit_secrets()
 
 from resume_screening_rag_automation.core.constants import (
 	DEFAULT_FEATURE_WEIGHTS,
@@ -54,37 +86,6 @@ from resume_screening_rag_automation.session_memory import (
 	delete_session_memory_storage,
 )
 from resume_screening_rag_automation.storage_sync import knowledge_store_sync
-
-
-def _apply_streamlit_secrets() -> None:
-	try:
-		secrets = st.secrets
-	except Exception:
-		return
-
-	def _as_dict(candidate):
-		if candidate is None:
-			return {}
-		if isinstance(candidate, dict):
-			return candidate
-		try:
-			return dict(candidate)
-		except Exception:
-			return {}
-
-	sections = [_as_dict(secrets)]
-	for key in ("general", "remote_storage", "app"):
-		section = _as_dict(secrets.get(key))
-		if section:
-			sections.append(section)
-
-	for section in sections:
-		for key, value in section.items():
-			if isinstance(value, (str, int, float, bool)) and key:
-				os.environ.setdefault(str(key), str(value))
-
-
-_apply_streamlit_secrets()
 
 LOGGER = logging.getLogger(__name__)
 
