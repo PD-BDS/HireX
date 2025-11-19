@@ -1,0 +1,30 @@
+# Virtual environments & Python caches
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Local knowledge store artifacts
+src/knowledge_store/
+knowledge_store.tar.gz
+knowledge_store/**/*.json
+knowledge_store/**/*.pkl
+
+# Streamlit secrets & local overrides
+.streamlit/secrets.toml
+*.env
+.env.local
+
+# Tooling output
+logs/
+*.log
+*.db
+.idea/
+.vscode/
+
+# OS / archive clutter
+.DS_Store
+Thumbs.db
+*.tar
+*.tar.gz

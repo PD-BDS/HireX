@@ -1,0 +1,117 @@
+retrieve_candidates:
+  description: |
+    ## Mission
+    Transform the confirmed job description and weighting hints into a targeted similarity search so we surface the strongest candidate
+    profiles with clear job-fit signals.
+
+    ## Inputs
+    - Job snapshot:
+      {job_snapshot}
+    - Requested top_k value:
+      {top_k}
+    - Scoring weights:
+      {scoring_weights}
+    - Feature weights:
+      {feature_weights}
+
+    ## Required Actions
+    1. Summarise the role into a precise retrieval brief and **must call** **Extract Candidates** with the requested `top_k`, `scoring_weights`, and `feature_weights` before drafting any answer.
+    2. Do **not** fabricate candidates or reuse memories. If the tool call fails, retry once; otherwise return an explicit escalation message that the tool was unavailable.
+    3. For each returned profile, capture the candidate `metadata`, the full `scores` payload (semantic score, weighted feature score, feature breakdown, similarity, and job fit score), and a short `reasoning` string referencing why the similarity justified inclusion.
+    4. Write `retrieval_md` that explains the search focus, highlights the weighting configuration, and calls out notable gaps or over-represented backgrounds.
+
+  expected_output: |
+    Return JSON validating `CandidateRetrievalOutput`:
+      {
+        "retrieval_md": "<markdown recap explaining the search + weighting>",
+        "candidates": [
+          {
+            "metadata": Metadata,
+            "scores": {
+              "semantic_score": 0.0,
+              "weighted_feature_score": 0.0,
+              "feature_scores": {"skills": 0.0, ...},
+              "job_fit_score": 0.0,
+              "similarity": 0.0
+            },
+            "reasoning": "<reference the similarity and weighting evidence for ranking>"
+          },
+          ...
+        ],
+        "phase": "screening"
+      }
+    - Ensure each candidate entry includes a populated `Metadata` payload plus calibrated scores.
+    - When no candidates surface, explain the failure and recommend next investigative steps inside `retrieval_md`.
+  agent: retriever
+
+
+analyse_candidates:
+  description: |
+    ## Mission
+    Convert the retrieved shortlist into structured insights by grounding each candidate against the job snapshot and resume knowledge sources.
+
+    ## Inputs
+    - Job snapshot:
+      {job_snapshot}
+    - Retrieval summary:
+      {retrieval_md}
+    - Candidate shortlist:
+      {candidates}
+
+    ## Required Actions
+    1. For each candidate, pull structured resume data with **Fetch Candidate Profiles** and, when helpful, augment context using **Search Resumes** filtered by their metadata.
+    2. Draft `summary_md` that captures their background in a few sentences, record supporting points inside `fit_reasoning` (provide each point as a discrete list entry), and populate `matched_features` using the exact keys `matching_skills`, `matching_education`, `matching_experience`, `matching_titles`, and `matching_other` with the strongest overlaps.
+    3. Carry forward the retrieval `scores` (refining only when new evidence changes the confidence), ensure the object still contains `semantic_score`, `weighted_feature_score`, `feature_scores`, `job_fit_score`, and `similarity`, and store source traces or follow-ups inside `knowledge_references` (use a JSON object keyed by reference identifiers or tool citations).
+
+  expected_output: |
+    Produce JSON validating `CandidateAnalysisOutput`:
+      {
+        "candidate_insights": [CandidateInsight, ...],
+        "phase": "screening"
+      }
+    - Every `CandidateInsight` must include:
+      - `metadata`: The unchanged candidate metadata from retrieval.
+      - `scores`: The calibrated `Scores` object with all required numeric fields.
+      - `summary_md`: A markdown paragraph covering the candidate background.
+      - `fit_reasoning`: A list of evidence statements (strings).
+      - `matched_features`: An object shaped as `{ "matching_skills": [], "matching_education": [], "matching_experience": [], "matching_titles": [], "matching_other": [] }`.
+      - `knowledge_references`: A dictionary mapping citation identifiers to supporting snippets or tool outputs.
+    - If the shortlist is empty, return an empty list and explain the gap within the crew response (no placeholder markdown field is required).
+  agent: analyser
+
+
+present_screening_results:
+  description: |
+    ## Mission
+    Deliver a recruiter-ready screening report that blends the scored shortlist with the analyser’s reasoning and clarifies overall dataset coverage.
+
+    ## Inputs
+    - Job snapshot:
+      {job_snapshot}
+    - Retrieval summary:
+      {retrieval_md}
+    - Candidate shortlist:
+      {candidates}
+    - Candidate insights:
+      {candidate_insights}
+
+    ## Required Actions
+    1. Craft `message_md` as polished markdown: include a shortlist table or bullet list referencing each candidate’s metadata, `scores.job_fit_score`, and the top insight takeaways drawn from `fit_reasoning` / `matched_features`.
+    2. Translate all findings into plain, recruiter-friendly language—avoid technical jargon like “semantic similarity” or detailed scoring math; instead, explain what the numbers mean in everyday terms (e.g., “strong match”, “needs more senior experience”).
+    3. Populate `candidate_insights` by reusing or lightly editing the analyser output without altering its structure—`matched_features` must retain the `matching_*` keys and `fit_reasoning` must remain a list of strings, but each string should contain detailed reasoning based on evidence and read as a human-readable sentence.
+    4. Summarise dataset coverage in `database_summary_md` (e.g., abundance of direct matches vs. adjacent talent) using approachable language, and log reusable snippets inside `knowledge_records` (each entry should follow `{ "candidate_id": "<id>", "insight_md": "<markdown note>" }`).
+    5. Use the optional `reasoning` field for high-level guidance written for non-technical readers (e.g., “Why this person is worth interviewing” or “What gaps remain”).
+  expected_output: |
+    Return JSON validating `CandidateScreeningOutput`:
+      {
+        "message_md": "<markdown shortlist and recruiter guidance>",
+        "candidate_insights": [CandidateInsight, ...],
+        "reasoning": "<optional overall explanation>",
+        "database_summary_md": "<markdown dataset summary>",
+        "knowledge_records": [{"candidate_id": "<id>", "insight_md": "<markdown note>"}, ...],
+        "phase": "screening"
+      }
+    - Reference values from the `scores` payload (`job_fit_score`, `semantic_score`, `weighted_feature_score`) where it reinforces the recommendation.
+    - When no candidates qualify, use `message_md` and `database_summary_md` to explain the gap and suggest concrete next steps (e.g., specifically mention to adjust job description features).
+    - Keep `message_md`, `candidate_insights`, and `reasoning` free from technical jargon so any recruiter can quickly understand the story behind the scores.
+  agent: presenter

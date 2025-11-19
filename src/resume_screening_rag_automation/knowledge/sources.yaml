@@ -1,0 +1,56 @@
+defaults:
+  persist_directory: ../knowledge_store/chroma_vectorstore
+
+vector_sources:
+  resumes:
+    persist_directory: ../knowledge_store/chroma_vectorstore
+    collection_name: resumes_collection
+    description: Primary resume embeddings derived from structured resume JSON.
+    metadata:
+      source: resumes
+
+document_sources:
+  structured_resumes:
+    type: json
+    path: ../knowledge_store/structured_resumes.json
+    chunk_size: 2000
+    chunk_overlap: 200
+    metadata:
+      source: structured_resumes
+      data_type: resume_summary
+  generated_screening_insights:
+    type: json
+    path: ../knowledge_store/screening_insights/_placeholder.json
+    chunk_size: 2000
+    chunk_overlap: 200
+    metadata:
+      source: screening_insights
+      data_type: screening_analysis
+
+groups:
+  query_manager:
+    collection_name: resumes_collection
+    vector_sources:
+      - resumes
+    document_sources:
+      - structured_resumes
+  screening:
+    collection_name: resumes_collection
+    vector_sources:
+      - resumes
+    document_sources:
+      - structured_resumes
+      - generated_screening_insights
+  discussion:
+    collection_name: resumes_collection
+    vector_sources:
+      - resumes
+    document_sources:
+      - structured_resumes
+      - generated_screening_insights
+  job_description:
+    collection_name: resumes_collection
+    vector_sources:
+      - resumes
+    document_sources:
+      - structured_resumes

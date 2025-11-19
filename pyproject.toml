@@ -1,0 +1,27 @@
+[project]
+name = "resume_screening_rag_automation"
+version = "0.1.0"
+description = "Resume Screening Chat Assistant Using CrewAI"
+authors = [{ name = "Piyal Dey & Camilla Louise Jensen" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=0.203.0,<1.0.0",
+    "streamlit>=1.36.0,<2.0.0",
+    "chromadb>=0.5.3,<0.6.0",
+    "python-dotenv>=1.0.1,<2.0.0",
+    "PyYAML>=6.0.1,<7.0.0",
+    "numpy>=1.26.0,<3.0.0",
+    "supabase>=2.6.0,<3.0.0",
+    "tiktoken>=0.7.0,<0.8.0",
+]
+
+[project.scripts]
+resume_screening_app = "resume_screening_rag_automation.app:run_streamlit_app"
+resume_screening_cli = "resume_screening_rag_automation.cli:run_cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
