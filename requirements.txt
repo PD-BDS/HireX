@@ -1,12 +1,12 @@
 # Runtime dependencies for Streamlit Cloud deployments
-crewai>=0.203.1
+crewai
 crewai[tools]
-streamlit==1.51.0
-chromadb>=1.1.0,<1.2.0
-python-dotenv>=1.0.1,<2.0.0
-PyYAML>=6.0.1,<7.0.0
-numpy>=1.26.0,<3.0.0
-supabase>=2.6.0,<3.0.0
-tiktoken>=0.7.0,<0.8.0
+streamlit
+chromadb
+python-dotenv
+PyYAML
+numpy
+supabase
+tiktoken
 
 
