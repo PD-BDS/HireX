@@ -11,9 +11,14 @@ from typing import Dict, List, Optional, Tuple
 
 import streamlit as st
 
+# Ensure absolute imports work even when the project is not installed as a package.
 SRC_ROOT = Path(__file__).resolve().parents[2]
 if str(SRC_ROOT) not in sys.path:
 	sys.path.insert(0, str(SRC_ROOT))
+
+SRC_PACKAGE_ROOT = SRC_ROOT / "src"
+if SRC_PACKAGE_ROOT.exists() and str(SRC_PACKAGE_ROOT) not in sys.path:
+	sys.path.insert(0, str(SRC_PACKAGE_ROOT))
 
 from resume_screening_rag_automation.core.constants import (
 	DEFAULT_FEATURE_WEIGHTS,
