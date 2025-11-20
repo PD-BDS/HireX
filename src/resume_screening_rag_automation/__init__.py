@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import importlib
 import os
 import typing
 
@@ -25,31 +26,30 @@ def _ensure_typing_self() -> None:
 
 _ensure_typing_self()
 
-from resume_screening_rag_automation.app import (
-	FlowExecutionError,
-	initialise_session,
-	process_user_message,
-)
-from resume_screening_rag_automation.main import build_flow, ResumeAssistantFlow
-from resume_screening_rag_automation.state import (
-	ChatSessionState,
-	KnowledgeSessionState,
-	ResumeAssistantFlowState,
-	bind_session_to_streamlit,
-	get_or_create_session,
-	persist_session,
-)
+_LAZY_EXPORTS = {
+	"FlowExecutionError": (".app", "FlowExecutionError"),
+	"initialise_session": (".app", "initialise_session"),
+	"process_user_message": (".app", "process_user_message"),
+	"build_flow": (".main", "build_flow"),
+	"ResumeAssistantFlow": (".main", "ResumeAssistantFlow"),
+	"ChatSessionState": (".state", "ChatSessionState"),
+	"KnowledgeSessionState": (".state", "KnowledgeSessionState"),
+	"ResumeAssistantFlowState": (".state", "ResumeAssistantFlowState"),
+	"bind_session_to_streamlit": (".state", "bind_session_to_streamlit"),
+	"get_or_create_session": (".state", "get_or_create_session"),
+	"persist_session": (".state", "persist_session"),
+}
 
-__all__ = [
-	"build_flow",
-	"ResumeAssistantFlow",
-	 "FlowExecutionError",
-	"ChatSessionState",
-	"KnowledgeSessionState",
-	"ResumeAssistantFlowState",
-	 "initialise_session",
-	 "process_user_message",
-	"bind_session_to_streamlit",
-	"get_or_create_session",
-	"persist_session",
-]
+
+def __getattr__(name: str):
+	module_info = _LAZY_EXPORTS.get(name)
+	if not module_info:
+		raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
+	module_path, attr_name = module_info
+	module = importlib.import_module(module_path, __name__)
+	value = getattr(module, attr_name)
+	globals()[name] = value
+	return value
+
+
+__all__ = sorted(_LAZY_EXPORTS.keys())
