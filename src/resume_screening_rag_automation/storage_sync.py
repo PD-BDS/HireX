@@ -202,11 +202,36 @@ class KnowledgeStoreSync:
 		return archive_path
 
 	def _extract_archive(self, archive_path: Path) -> None:
-		if DATA_ROOT.exists():
-			shutil.rmtree(DATA_ROOT)
+		backup = self._evict_existing_data()
 		DATA_ROOT.parent.mkdir(parents=True, exist_ok=True)
-		with tarfile.open(archive_path, "r:gz") as tar:
-			self._safe_extract(tar, DATA_ROOT.parent)
+		try:
+			with tarfile.open(archive_path, "r:gz") as tar:
+				self._safe_extract(tar, DATA_ROOT.parent)
+		except Exception:
+			if DATA_ROOT.exists():
+				shutil.rmtree(DATA_ROOT, ignore_errors=True)
+			if backup and backup.exists():
+				backup.rename(DATA_ROOT)
+			raise
+		else:
+			if backup and backup.exists():
+				shutil.rmtree(backup, ignore_errors=True)
+
+	def _evict_existing_data(self) -> Optional[Path]:
+		if not DATA_ROOT.exists():
+			return None
+		try:
+			shutil.rmtree(DATA_ROOT)
+			return None
+		except OSError as exc:
+			LOGGER.warning("Unable to remove %s directly (%s); falling back to rename", DATA_ROOT, exc)
+		backup = DATA_ROOT.with_name(f"{DATA_ROOT.name}_stale_{int(time.time())}")
+		try:
+			DATA_ROOT.rename(backup)
+		except OSError as rename_exc:
+			LOGGER.error("Failed to rename stale knowledge store %s: %s", DATA_ROOT, rename_exc)
+			raise
+		return backup
 
 	@staticmethod
 	def _safe_extract(tar: tarfile.TarFile, target_dir: Path) -> None:
