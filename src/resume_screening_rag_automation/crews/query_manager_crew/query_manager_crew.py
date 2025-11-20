@@ -32,7 +32,7 @@ class QueryManagerCrew:
         memory_kwargs: Optional[Dict[str, Any]] = None,
         **kwargs: Any,
     ) -> None:
-        super().__init__(*args, **kwargs)
+
         self._session_id = session_id
         self._memory_kwargs = dict(memory_kwargs or {})
         self._memory_enabled = bool(self._memory_kwargs)
