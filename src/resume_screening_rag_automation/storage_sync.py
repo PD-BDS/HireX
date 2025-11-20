@@ -11,25 +11,19 @@ import tarfile
 import tempfile
 import time
 from pathlib import Path
-from typing import Any, Optional, TYPE_CHECKING
+from typing import Optional
 
 from resume_screening_rag_automation.paths import DATA_ROOT
 
 LOGGER = logging.getLogger(__name__)
 
-try:  # Optional dependency; only needed when Supabase sync is enabled.
-	from supabase import create_client
-except ImportError:  # pragma: no cover - Supabase sync is optional.
-	create_client = None
+try:  # Optional dependency for Cloudflare R2 (S3-compatible) sync.
+	import boto3
+except ImportError:  # pragma: no cover - boto3 optional for R2 deployments.
+	boto3 = None
 
-if TYPE_CHECKING:
-	from supabase import Client as SupabaseClient
-else:  # pragma: no cover - typing fallback for runtime environments without supabase
-	SupabaseClient = Any  # type: ignore[assignment]
-
-REMOTE_PROVIDER = os.getenv("REMOTE_STORAGE_PROVIDER", "").strip().lower()
-DEFAULT_OBJECT_NAME = os.getenv("KNOWLEDGE_ARCHIVE_OBJECT", "knowledge_store.tar.gz")
-DEFAULT_BUCKET_NAME = os.getenv("KNOWLEDGE_ARCHIVE_BUCKET", "knowledge-store")
+REMOTE_PROVIDER = os.getenv("REMOTE_STORAGE_PROVIDER", "r2").strip().lower()
+DEFAULT_OBJECT_NAME = os.getenv("R2_OBJECT_NAME", "knowledge_store.tar.gz")
 SYNC_INTERVAL_SECONDS = max(5.0, float(os.getenv("KNOWLEDGE_SYNC_MIN_INTERVAL", "30")))
 
 
@@ -47,41 +41,65 @@ class _BaseRemoteBackend:
 		raise NotImplementedError
 
 
-class SupabaseStorageBackend(_BaseRemoteBackend):
-	"""Supabase storage backend for syncing the knowledge archive."""
+class CloudflareR2Backend(_BaseRemoteBackend):
+	"""Cloudflare R2 (S3-compatible) backend for syncing the knowledge archive."""
 
 	def __init__(self) -> None:
-		if create_client is None:
-			raise RemoteSyncError("supabase-py is not installed; add 'supabase' to dependencies")
+		if boto3 is None:
+			raise RemoteSyncError("boto3 is not installed; add 'boto3' to dependencies for R2 support")
 
-		url = os.getenv("SUPABASE_URL")
-		key = os.getenv("SUPABASE_SERVICE_ROLE_KEY") or os.getenv("SUPABASE_SERVICE_ROLE")
-		if not url or not key:
-			raise RemoteSyncError("Supabase credentials missing (SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY)")
+		access_key = os.getenv("R2_ACCESS_KEY_ID")
+		secret_key = os.getenv("R2_SECRET_ACCESS_KEY")
+		bucket = os.getenv("R2_BUCKET_NAME")
+		object_name = os.getenv("R2_OBJECT_NAME", DEFAULT_OBJECT_NAME)
+		endpoint = os.getenv("R2_ENDPOINT_URL")
+		account_id = os.getenv("R2_ACCOUNT_ID")
+		region = os.getenv("R2_REGION", "auto")
 
-		self.bucket = os.getenv("SUPABASE_KNOWLEDGE_BUCKET", DEFAULT_BUCKET_NAME)
-		self.object_name = os.getenv("SUPABASE_KNOWLEDGE_OBJECT", DEFAULT_OBJECT_NAME)
-		self.client: SupabaseClient = create_client(url, key)
+		if not access_key or not secret_key or not bucket:
+			raise RemoteSyncError("Cloudflare R2 credentials missing (R2_ACCESS_KEY_ID/SECRET + R2_BUCKET_NAME)")
+		if not endpoint:
+			if not account_id:
+				raise RemoteSyncError("Set R2_ENDPOINT_URL or R2_ACCOUNT_ID to build the endpoint URL")
+			endpoint = f"https://{account_id}.r2.cloudflarestorage.com"
+
+		self.bucket = bucket
+		self.object_name = object_name
+		self.client = boto3.client(
+			"s3",
+			endpoint_url=endpoint,
+			aws_access_key_id=access_key,
+			aws_secret_access_key=secret_key,
+			region_name=region,
+		)
 
 	def download_archive(self, target: Path) -> bool:
-		storage = self.client.storage.from_(self.bucket)
 		try:
-			payload = storage.download(self.object_name)
-		except Exception as exc:  # pragma: no cover - network errors depend on Supabase
-			LOGGER.info("Remote knowledge archive missing or unavailable: %s", exc)
+			response = self.client.get_object(Bucket=self.bucket, Key=self.object_name)
+		except self.client.exceptions.NoSuchKey:
+			LOGGER.info("Cloudflare R2 object %s/%s missing", self.bucket, self.object_name)
+			return False
+		except Exception as exc:  # pragma: no cover - network errors depend on environment
+			LOGGER.info("Cloudflare R2 download failed: %s", exc)
 			return False
 
 		target.parent.mkdir(parents=True, exist_ok=True)
-		target.write_bytes(payload)
+		body = response.get("Body")
+		if body is None:
+			return False
+		target.write_bytes(body.read())
 		return True
 
 	def upload_archive(self, source: Path) -> None:
-		storage = self.client.storage.from_(self.bucket)
 		with source.open("rb") as handle:
-			storage.upload(
-				self.object_name,
+			self.client.upload_fileobj(
 				handle,
-				{"cache-control": "no-cache", "content-type": "application/gzip", "upsert": "true"},
+				self.bucket,
+				self.object_name,
+				ExtraArgs={
+					"ContentType": "application/gzip",
+					"CacheControl": "no-cache",
+				},
 			)
 
 
@@ -102,11 +120,11 @@ class KnowledgeStoreSync:
 			LOGGER.info("Remote knowledge sync disabled (provider=%s)", REMOTE_PROVIDER or "local")
 			return None
 
-		if REMOTE_PROVIDER == "supabase":
+		if REMOTE_PROVIDER in {"r2", "cloudflare", "cloudflare-r2"}:
 			try:
-				return SupabaseStorageBackend()
+				return CloudflareR2Backend()
 			except RemoteSyncError as exc:
-				LOGGER.warning("Supabase backend unavailable: %s", exc)
+				LOGGER.warning("Cloudflare R2 backend unavailable: %s", exc)
 				return None
 
 		LOGGER.warning("Unsupported remote storage provider '%s'", REMOTE_PROVIDER)
