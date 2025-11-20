@@ -609,7 +609,6 @@ def run_streamlit_app() -> None:
 	st.title("Resume Screening Assistant")
 	_render_ingestion_banner()
 
-	st.subheader("Conversation")
 
 	user_message = st.chat_input("Ask about the job or candidates…")
 	active_chat = st.session_state.get(SESSION_STATE_CHAT_KEY, chat_state)
