@@ -4,14 +4,15 @@ from __future__ import annotations
 
 import atexit
 import hashlib
+import json
 import logging
+import mimetypes
 import os
 import shutil
-import tarfile
 import tempfile
 import time
 from pathlib import Path
-from typing import Optional
+from typing import Dict, Iterable, Optional
 
 from resume_screening_rag_automation.paths import DATA_ROOT
 
@@ -22,8 +23,13 @@ try:  # Optional dependency for Cloudflare R2 (S3-compatible) sync.
 except ImportError:  # pragma: no cover - boto3 optional for R2 deployments.
 	boto3 = None
 
+try:  # pragma: no cover - botocore ships with boto3 but guard for robustness.
+	from botocore.exceptions import ClientError
+except Exception:  # pragma: no cover - fallback when botocore missing during tests.
+	ClientError = None  # type: ignore[assignment]
+
 REMOTE_PROVIDER = os.getenv("REMOTE_STORAGE_PROVIDER", "r2").strip().lower()
-DEFAULT_OBJECT_NAME = os.getenv("R2_OBJECT_NAME", "knowledge_store.tar.gz")
+DEFAULT_OBJECT_PREFIX = os.getenv("R2_OBJECT_PREFIX") or os.getenv("R2_OBJECT_NAME", "knowledge_store")
 SYNC_INTERVAL_SECONDS = max(5.0, float(os.getenv("KNOWLEDGE_SYNC_MIN_INTERVAL", "30")))
 
 
@@ -34,15 +40,18 @@ class RemoteSyncError(RuntimeError):
 class _BaseRemoteBackend:
 	"""Interface implemented by remote storage providers."""
 
-	def download_archive(self, target: Path) -> bool:  # pragma: no cover - abstract
+	def download_tree(self, target: Path) -> bool:  # pragma: no cover - abstract
 		raise NotImplementedError
 
-	def upload_archive(self, source: Path) -> None:  # pragma: no cover - abstract
+	def upload_tree(self, source: Path, manifest: str) -> None:  # pragma: no cover - abstract
+		raise NotImplementedError
+
+	def fetch_manifest(self) -> Optional[Dict[str, object]]:  # pragma: no cover - abstract
 		raise NotImplementedError
 
 
 class CloudflareR2Backend(_BaseRemoteBackend):
-	"""Cloudflare R2 (S3-compatible) backend for syncing the knowledge archive."""
+	"""Cloudflare R2 (S3-compatible) backend for syncing the knowledge directory."""
 
 	def __init__(self) -> None:
 		if boto3 is None:
@@ -51,7 +60,6 @@ class CloudflareR2Backend(_BaseRemoteBackend):
 		access_key = os.getenv("R2_ACCESS_KEY_ID")
 		secret_key = os.getenv("R2_SECRET_ACCESS_KEY")
 		bucket = os.getenv("R2_BUCKET_NAME")
-		object_name = os.getenv("R2_OBJECT_NAME", DEFAULT_OBJECT_NAME)
 		endpoint = os.getenv("R2_ENDPOINT_URL")
 		account_id = os.getenv("R2_ACCOUNT_ID")
 		region = os.getenv("R2_REGION", "auto")
@@ -63,8 +71,14 @@ class CloudflareR2Backend(_BaseRemoteBackend):
 				raise RemoteSyncError("Set R2_ENDPOINT_URL or R2_ACCOUNT_ID to build the endpoint URL")
 			endpoint = f"https://{account_id}.r2.cloudflarestorage.com"
 
+		prefix = (DEFAULT_OBJECT_PREFIX or "knowledge_store").strip()
+		if prefix.endswith(".tar.gz"):
+			prefix = prefix[: -len(".tar.gz")]
+		self.prefix = prefix.strip("/") or "knowledge_store"
+		self.prefix_with_sep = f"{self.prefix}/" if self.prefix else ""
+		self.manifest_key = f"{self.prefix_with_sep}.manifest.json" if self.prefix_with_sep else ".manifest.json"
+
 		self.bucket = bucket
-		self.object_name = object_name
 		self.client = boto3.client(
 			"s3",
 			endpoint_url=endpoint,
@@ -72,35 +86,125 @@ class CloudflareR2Backend(_BaseRemoteBackend):
 			aws_secret_access_key=secret_key,
 			region_name=region,
 		)
+		self._validate_bucket_access()
 
-	def download_archive(self, target: Path) -> bool:
+	def _validate_bucket_access(self) -> None:
+		if ClientError is None:
+			return
 		try:
-			response = self.client.get_object(Bucket=self.bucket, Key=self.object_name)
-		except self.client.exceptions.NoSuchKey:
-			LOGGER.info("Cloudflare R2 object %s/%s missing", self.bucket, self.object_name)
-			return False
-		except Exception as exc:  # pragma: no cover - network errors depend on environment
-			LOGGER.info("Cloudflare R2 download failed: %s", exc)
-			return False
+			self.client.head_bucket(Bucket=self.bucket)
+		except Exception as exc:
+			raise RemoteSyncError(f"Unable to access Cloudflare R2 bucket {self.bucket}: {exc}") from exc
 
-		target.parent.mkdir(parents=True, exist_ok=True)
-		body = response.get("Body")
-		if body is None:
+	def download_tree(self, target: Path) -> bool:
+		keys = self._list_objects()
+		payload_keys = [key for key in keys if key not in {self.manifest_key} and not key.endswith("/")]
+		if not payload_keys:
 			return False
-		target.write_bytes(body.read())
+		for key in payload_keys:
+			relative = key
+			if self.prefix_with_sep and key.startswith(self.prefix_with_sep):
+				relative = key[len(self.prefix_with_sep) :]
+			destination = target / relative
+			destination.parent.mkdir(parents=True, exist_ok=True)
+			try:
+				response = self.client.get_object(Bucket=self.bucket, Key=key)
+			except self.client.exceptions.NoSuchKey:
+				continue
+			except Exception as exc:  # pragma: no cover - network errors depend on environment
+				LOGGER.info("Cloudflare R2 download failed for %s: %s", key, exc)
+				continue
+			body = response.get("Body")
+			if not body:
+				continue
+			destination.write_bytes(body.read())
 		return True
 
-	def upload_archive(self, source: Path) -> None:
-		with source.open("rb") as handle:
-			self.client.upload_fileobj(
-				handle,
-				self.bucket,
-				self.object_name,
-				ExtraArgs={
-					"ContentType": "application/gzip",
-					"CacheControl": "no-cache",
-				},
+	def upload_tree(self, source: Path, manifest: str) -> None:
+		existing_keys = set(self._list_objects())
+		uploaded_keys = set()
+		for file_path in self._iter_files(source):
+			relative_key = self._build_key(file_path.relative_to(source))
+			uploaded_keys.add(relative_key)
+			extra_args = self._build_extra_args(file_path)
+			with file_path.open("rb") as handle:
+				put_kwargs = {
+					"Bucket": self.bucket,
+					"Key": relative_key,
+					"Body": handle,
+				}
+				if extra_args:
+					put_kwargs.update(extra_args)
+				self.client.put_object(**put_kwargs)
+		self.client.put_object(
+			Bucket=self.bucket,
+			Key=self.manifest_key,
+			Body=manifest.encode("utf-8"),
+			ContentType="application/json",
+		)
+		self._prune_remote_objects(existing_keys, uploaded_keys)
+
+	def fetch_manifest(self) -> Optional[Dict[str, object]]:
+		try:
+			response = self.client.get_object(Bucket=self.bucket, Key=self.manifest_key)
+		except self.client.exceptions.NoSuchKey:
+			return None
+		except Exception as exc:  # pragma: no cover - network errors depend on environment
+			LOGGER.info("Cloudflare R2 manifest fetch failed: %s", exc)
+			return None
+		body = response.get("Body")
+		if body is None:
+			return None
+		try:
+			return json.loads(body.read().decode("utf-8"))
+		except Exception:
+			LOGGER.warning("Cloudflare R2 manifest unreadable; proceeding without digest")
+			return None
+
+	def _list_objects(self) -> Iterable[str]:
+		kwargs = {"Bucket": self.bucket}
+		if self.prefix_with_sep:
+			kwargs["Prefix"] = self.prefix_with_sep
+		continuation: Optional[str] = None
+		while True:
+			if continuation:
+				kwargs["ContinuationToken"] = continuation
+			response = self.client.list_objects_v2(**kwargs)
+			for obj in response.get("Contents", []) or []:
+				yield obj["Key"]
+			if not response.get("IsTruncated"):
+				break
+			continuation = response.get("NextContinuationToken")
+
+	def _prune_remote_objects(self, existing_keys: Iterable[str], uploaded_keys: Iterable[str]) -> None:
+		uploaded = set(uploaded_keys)
+		stale = [key for key in existing_keys if key not in uploaded and key not in {self.manifest_key}]
+		if not stale:
+			return
+		for i in range(0, len(stale), 1000):
+			chunk = stale[i : i + 1000]
+			self.client.delete_objects(
+				Bucket=self.bucket,
+				Delete={"Objects": [{"Key": key} for key in chunk]},
 			)
+
+	def _build_key(self, relative_path: Path) -> str:
+		rel = relative_path.as_posix().lstrip("/")
+		if self.prefix_with_sep:
+			return f"{self.prefix_with_sep}{rel}" if rel else self.prefix_with_sep.rstrip("/")
+		return rel
+
+	def _build_extra_args(self, file_path: Path) -> Optional[Dict[str, str]]:
+		content_type, _ = mimetypes.guess_type(str(file_path))
+		if content_type:
+			return {"ContentType": content_type, "CacheControl": "no-cache"}
+		return {"CacheControl": "no-cache"}
+
+	@staticmethod
+	def _iter_files(root: Path) -> Iterable[Path]:
+		for path in sorted(root.rglob("*")):
+			if path.is_file():
+				yield path
 
 
 class KnowledgeStoreSync:
@@ -131,7 +235,7 @@ class KnowledgeStoreSync:
 		return None
 
 	def ensure_local_copy(self) -> None:
-		"""Download and extract the remote archive if configured."""
+		"""Download the remote knowledge tree if configured."""
 
 		if self._initialised:
 			return
@@ -140,16 +244,23 @@ class KnowledgeStoreSync:
 		if not self._backend:
 			return
 
-		archive = self._download_temp_archive()
-		if not archive:
-			LOGGER.info("Remote archive not found; keeping existing knowledge_store")
+		manifest = self._backend.fetch_manifest()
+		remote_digest = (manifest or {}).get("digest") if manifest else None
+		local_digest = self._hash_directory(DATA_ROOT) if DATA_ROOT.exists() else None
+		if remote_digest and remote_digest == local_digest:
+			self._last_digest = local_digest
+			return
+
+		snapshot = self._download_remote_snapshot()
+		if not snapshot:
+			LOGGER.info("Remote knowledge prefix empty; keeping existing knowledge_store")
 			return
 
 		try:
-			self._extract_archive(archive)
-			self._last_digest = self._hash_file(archive)
+			self._replace_with_snapshot(snapshot)
+			self._last_digest = remote_digest or self._hash_directory(DATA_ROOT)
 		finally:
-			shutil.rmtree(archive.parent, ignore_errors=True)
+			shutil.rmtree(snapshot.parent, ignore_errors=True)
 
 	def mark_dirty(self) -> None:
 		"""Flag the knowledge store as having local changes."""
@@ -158,7 +269,7 @@ class KnowledgeStoreSync:
 			self._dirty = True
 
 	def flush_if_needed(self, *, force: bool = False) -> None:
-		"""Upload the archive when dirty or requested explicitly."""
+		"""Upload remote objects when the local tree changes."""
 
 		if not self._backend:
 			return
@@ -174,57 +285,47 @@ class KnowledgeStoreSync:
 			LOGGER.warning("Knowledge store directory %s missing; skipping sync", DATA_ROOT)
 			return
 
-		archive = self._build_archive()
-		try:
-			digest = self._hash_file(archive)
-			if not force and digest == self._last_digest:
-				self._dirty = False
-				return
-			try:
-				self._backend.upload_archive(archive)
-			except Exception as exc:  # pragma: no cover - network failures depend on env
-				LOGGER.warning("Failed to upload knowledge archive; will retry later: %s", exc)
-				self._dirty = True
-				return
-			self._last_digest = digest
-			self._last_flush = now
+		digest = self._hash_directory(DATA_ROOT)
+		if not force and digest == self._last_digest:
 			self._dirty = False
-		finally:
-			shutil.rmtree(archive.parent, ignore_errors=True)
+			return
+		manifest = self._build_manifest(digest)
+		try:
+			self._backend.upload_tree(DATA_ROOT, manifest)
+		except Exception as exc:  # pragma: no cover - network failures depend on env
+			LOGGER.warning("Failed to upload knowledge objects; will retry later: %s", exc)
+			self._dirty = True
+			return
+		self._last_digest = digest
+		self._last_flush = now
+		self._dirty = False
 
 	def flush(self) -> None:
 		"""Force a sync regardless of throttling."""
 
 		self.flush_if_needed(force=True)
 
-	def _download_temp_archive(self) -> Optional[Path]:
+	def _download_remote_snapshot(self) -> Optional[Path]:
 		if not self._backend:
 			return None
 
 		tmpdir = Path(tempfile.mkdtemp(prefix="knowledge_sync_dl_"))
-		target = tmpdir / DEFAULT_OBJECT_NAME
+		target = tmpdir / "data"
+		target.mkdir()
 		try:
-			if not self._backend.download_archive(target):
+			if not self._backend.download_tree(target):
 				shutil.rmtree(tmpdir, ignore_errors=True)
 				return None
 			return target
 		except Exception as exc:  # pragma: no cover - depends on backend implementation
 			shutil.rmtree(tmpdir, ignore_errors=True)
-			raise RemoteSyncError(f"Failed to download remote archive: {exc}") from exc
+			raise RemoteSyncError(f"Failed to download remote objects: {exc}") from exc
 
-	def _build_archive(self) -> Path:
-		tmpdir = Path(tempfile.mkdtemp(prefix="knowledge_sync_ul_"))
-		archive_path = tmpdir / DEFAULT_OBJECT_NAME
-		with tarfile.open(archive_path, "w:gz") as tar:
-			tar.add(DATA_ROOT, arcname=DATA_ROOT.name)
-		return archive_path
-
-	def _extract_archive(self, archive_path: Path) -> None:
+	def _replace_with_snapshot(self, snapshot: Path) -> None:
 		backup = self._evict_existing_data()
 		DATA_ROOT.parent.mkdir(parents=True, exist_ok=True)
 		try:
-			with tarfile.open(archive_path, "r:gz") as tar:
-				self._safe_extract(tar, DATA_ROOT.parent)
+			shutil.move(str(snapshot), DATA_ROOT)
 		except Exception:
 			if DATA_ROOT.exists():
 				shutil.rmtree(DATA_ROOT, ignore_errors=True)
@@ -251,14 +352,33 @@ class KnowledgeStoreSync:
 			raise
 		return backup
 
+	def _build_manifest(self, digest: str) -> str:
+		file_count = sum(1 for _ in self._iter_files(DATA_ROOT)) if DATA_ROOT.exists() else 0
+		payload = {
+			"digest": digest,
+			"file_count": file_count,
+			"generated_at": time.time(),
+			"version": 1,
+		}
+		return json.dumps(payload, separators=(",", ":"), sort_keys=True)
+
 	@staticmethod
-	def _safe_extract(tar: tarfile.TarFile, target_dir: Path) -> None:
-		target_dir = target_dir.resolve()
-		for member in tar.getmembers():
-			member_path = (target_dir / member.name).resolve()
-			if not str(member_path).startswith(str(target_dir)):
-				raise RemoteSyncError("Blocked path traversal attempt in archive")
-		tar.extractall(path=target_dir)
+	def _iter_files(root: Path) -> Iterable[Path]:
+		for path in sorted(root.rglob("*")):
+			if path.is_file():
+				yield path
+
+	@classmethod
+	def _hash_directory(cls, root: Path) -> str:
+		if not root.exists():
+			return ""
+		hasher = hashlib.sha256()
+		for file_path in cls._iter_files(root):
+			relative = file_path.relative_to(root).as_posix()
+			hasher.update(relative.encode("utf-8"))
+			hasher.update(b"\0")
+			hasher.update(cls._hash_file(file_path).encode("utf-8"))
+		return hasher.hexdigest()
 
 	@staticmethod
 	def _hash_file(path: Path) -> str:
