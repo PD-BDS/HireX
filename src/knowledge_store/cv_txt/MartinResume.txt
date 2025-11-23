@@ -1,0 +1,295 @@
+MARTIN
+IT Project Manager
+
+
+Summary
+======
+
+Senior Test Manager and Project Manager with extensive expertise in test management, business analysis, and project leadership. Skilled at bridging the gap between business and IT by ensuring business requirements are clearly defined, rigorously tested, and successfully delivered.
+Proven track record in developing and refining test strategies, planning and executing test phases—including UAT, system, integration, and performance testing—and driving team engagement through strong facilitation and coordination. Experienced in Jira and Azure DevOps, with hands-on work in workflow configuration, defect management processes, and user training for clients and vendors.
+Recent roles include leading five software upgrades and a system integration at Systematic, and serving as Project Manager and System Owner for a cloud migration at Grundfos. Known for a proactive and structured approach, strong stakeholder collaboration, and commitment to delivering high-quality outcomes across complex projects.
+
+
+Experience
+======
+Project Manager
+Systematic
+2025 - 2025
+ - Led the planning and execution of a Jira software upgrade across five servers and three integrations with a service management system.
+ - Analyzed, planned, and managed software upgrades, including scheduling, cleanup tasks, script updates, integration validation, time estimationsfallback planning, stakeholder management, and progress reporting.
+ - Successfully delivered the Jira software upgrade across all five servers.
+ - Ensured seamless integration with the Avantis service management solution
+
+Test Manager/ Project Manager
+Grundfos
+2020 - 2025
+ - Led project planning and execution for Atlassian Suite implementations, system upgrades, and cloud migration projects.
+ - Developed and updated test strategies, overseeing test phases including user acceptance testing (UAT), system testing, and integration testing.
+ - Configured and managed Jira workflows, ensuring alignment with business requirements and seamless integration with other systems.
+ - Facilitated stakeholder meetings to clarify requirements, coordinated test participants, and provided training for business users and vendors.
+ - Delivered comprehensive test reporting and provided input on testability during pre-refinement and development phases.
+ - Collaborated with Scrum Masters and Product Owners to streamline defect management processes and ensure effective communication across teams.
+ - Successfully led the cloud migration of the Atlassian Suite, including upgrades to Jira, Bitbucket, Confluence, and Doors NG, enhancing system performance and reliability
+ - Strengthened cross-project and cross-departmental collaboration, enabling more efficient workflows for both IT and business teams.
+ - Improved system performance and supported streamlined processes, resulting in enhanced productivity and operational efficiency
+
+Defect Manager/Test Manager
+Region Hovedstaden
+2019 - 2020
+ - Streamlined and implemented the defect management process for the project
+ - Facilitated requirement clarification meetings with internal and external stakeholders to define the defect management process
+ - Developed and secured stakeholder approval for the defect management process documentation
+ - Configured and set up Jira workflows in alignment with the approved defect management process, including migrating open defects from the legacy system to Jira
+ - Created Jira training materials for both internal and external stakeholders
+ - Delivered training sessions on Jira usage for internal and external users
+
+Project Manager
+Rentaplug
+2017 - 2019
+ - Established Rentaplug IVS, a Danish startup focused on developing electric vehicle charging solutions and a user-based charging network based on a shared economy model
+ - Conducted business analyses and developed business plans to define the company’s strategic direction
+ - Performed requirements analysis to align product development with market and customer needs
+ - Led project management for internal teams and subcontractors, ensuring timely delivery of milestones
+ - Executed marketing initiatives to promote Rentaplug’s products and enhance market presence
+ - Negotiated contracts with subcontractors to secure favorable terms and ensure project alignment
+
+Test Manager/Project Manager
+BEC
+2014 - 2016
+ - Served as Test Manager, Tester, and Project Manager on various market reporting projects, including Finrep and Corep.
+ - Conducted meetings and maintained ongoing dialogue with business stakeholders to align project objectives.
+ - Managed test planning, execution, and reporting, ensuring high-quality deliverables.
+ - Performed test analysis based on requirement specifications to define test cases and scope.
+ - Estimated testing efforts and executed tests for functionality, design, and performance of the Business Intelligence (BI) solution.
+ - Ensured the effective implementation and operation of the Scrum development process.
+ - Provided project management support, assisting in coordination and delivery of project milestones.
+ - Successfully completed the Finrep and Corep market reporting projects, meeting all business and technical requirements
+ - Enhanced the quality and performance of the BI solution through rigorous testing and stakeholder collaboration
+
+Business Solutions Architect
+Nordea
+2012 - 2013
+ - Served as Business Solution Architect on the Trade Repository project, enabling real-time reporting of all derivative transactions.
+ - Facilitated meetings and maintained ongoing dialogue with business stakeholders to ensure compliance with Dodd-Frank and EMIR regulatory requirements.
+ - Conducted data flow analysis across all Nordea front-office systems to support accurate reporting.
+ - Performed data quality analysis of trade warehouse data to ensure reliability and compliance.
+ - Executed XML mapping to Financial products Markup Language (FpML) standards.
+ - Collaborated with developers and business teams to design IT solutions for the reporting system.
+ - Maintained continuous communication with IT developers and business stakeholders to align project objectives.
+ - Analyzed requirements for a new IT reporting system to meet regulatory and business needs.
+ - Engaged in ongoing dialogue with the subcontractor responsible for delivering the reporting solution.
+ - Successfully implemented the Trade Repository project in 2013, enabling real-time reporting of over-the-counter (OTC) derivative transactions in compliance with regulatory standards
+
+Project Manager
+LilienHigh Consulting
+2011 - 2012
+ - Led project management and test management for four outsourcing projects, developing mobile applications for various clients
+ - Managed and prioritized tasks to ensure timely delivery across multiple projects
+ - Conducted functional testing and user acceptance testing for mobile applications
+ - Oversaw development and testing for Android, iPad, and iPhone platforms
+ - Performed business analysis to align solutions with client needs
+ - Developed requirement specifications for mobile solutions
+
+Project Leader
+SDC
+2011 - 2011
+ - Led the implementation of a trading system as Project Manager.
+ - Managed project planning, execution, and delivery, ensuring alignment with client objectives.
+ - Developed project plans, budgets, and performance metrics to guide project execution.
+ - Conducted project estimations to optimize resource allocation and timelines.
+ - Oversaw the implementation of the trading system, addressing technical and operational requirements.
+ - Maintained client communication through presentations and ongoing dialogue.
+ - Directed interactions and negotiations with the subcontractor, Orc Software, to ensure project alignment.
+ - Successfully implemented the trading system despite significant challenges related to time, resources, and changing requirements
+
+Business Developer
+Valueinvestor
+2010 - 2011
+ - Contributed to the development of Valueinvestor's strategy, analysis concept, and client engagement initiatives.
+ - Conducted product development and business analysis to align with new market requirements.
+ - Maintained client communication to support business development efforts.
+ - Developed an analysis concept to enhance Valueinvestor's service offerings.
+ - Successfully supported Valueinvestor's establishment in the market for asset management advisory services
+
+Consultant
+Danske Bank
+2009 - 2010
+ - Client: Danske Bank Role: Business Developer Assignement/task:
+ - Enhanced Danske Bank's LCM currency settlement system to meet new client and market requirements.
+ - Led product development to address evolving market demands.
+ - Conducted business analysis to define new market requirements
+ - Developed project plans, budgets, and performance metrics.
+ - Created acceptance test strategies, system test cases, and acceptance test cases.
+ - Managed an Indian testing team to ensure quality delivery.
+ - Oversaw configuration management for the project.
+ - Successfully implemented system changes, integrating with Trading Line and Settlement Line systems.
+ - Delivered comprehensive analyses of the credit department's requirements, enhancing system functionality
+
+Business Developer
+Zefuture
+2008 - 2009
+ - Client: zefuture Role: Business Developer Assignement/task:
+ - Provided business development services as an independent consultant for multiple companies, including zefuture.
+ - Led product development initiatives to enhance service offerings.
+ - Managed projects and oversaw implementation processes.
+ - Conducted business case analyses to support strategic decisions.
+ - Performed market analyses and drove sales initiatives.
+ - Engaged in capital-raising efforts to support company growth.
+ - Developed budgets to guide financial planning.
+ - Secured capital and established business plans, fostering strong client and supplier relationships.
+ - Developed marketing materials and defined strategic focus and product offerings.
+
+Consultant
+Benchmark-pricing
+2008 - 2009
+ - Client: Benchmark-princing Role: Co founder Assignement/task:
+ - Led project management, business development, and model development for a web solution providing objective valuations and performance measurements for mid-sized companies.
+ - Analyzed client requirements for valuation models and web portal data presentation.
+ - Developed solution proposals, including valuation models and web layout designs.
+ - Created valuation models in Excel with a stock price feed, enabling manual uploads to the company's web portal.
+ - Analyzed client requirements for valuation models and web portal data presentation.
+ - Developed solution proposals, including valuation models and web layout designs.
+ - Created valuation models in Excel with a stock price feed, enabling manual uploads to the company's web portal.
+
+Product owner and Project Manager
+Nasdaq OMX Group
+2005 - 2008
+ - Client: Nasdaq OMX Group Role: Product owner and project manager Assignement/task:
+ - Led the development and implementation of three information products: accounting data, corporate action data, and derivatives data, focusing on market analysis, system development, and real-time data solutions.
+ - Conducted market research and client surveys to define product requirements for key clients like Reuters and Bloomberg, focusing on data quality, content, and time-to-market.
+ - Developed requirement specifications for accounting data calculations, corporate action data quality, system requirements, and real-time derivatives metrics (approximately 40 options metrics).
+ - Created four IFRS input modules to standardize financial data for cross-country comparisons and developed valuation models for corporate actions and derivatives.
+ - Led software development in Sweden, coordinating with developers, prioritizing resources, and serving as a sparring partner.
+ - Oversaw outsourcing to Lithuania, supporting the establishment of the Vilnius team for accounting data production.
+ - Developed project plans, budgets, and performance metrics for implementation.
+ - Created test cases and conducted internal and external testing via client systems.
+ - Managed ongoing dialogue and negotiations with subcontractors for software solutions.
+ - Delivered user training and oversaw solution approvals.
+ - Developed a standardized accounting data system producing approximately 2,800 high-quality financial reports annually in Vilnius, with industry-leading time-to-market.
+ - Created a market-leading corporate action data feed, feeding OMX systems like the accounting data system and Saxess trading system.
+ - Delivered a real-time derivatives data feed sold to clients like Reuters, integrated into their trading systems
+
+Employee and Co founder
+Aktieanalysehuset
+2003 - 2005
+ - Co-founded Aktieanalysehuset, an independent equity analysis firm providing stock analyses, technical analyses, industry reports, and other analyses for small and mid-sized banks, covering approximately 40 Danish stocks with a team of six employees
+ - Responsibilities:
+ - Led business development, creating a user-friendly analysis concept for private equity investors
+ - Developed innovative stock valuation models and new analysis concepts
+ - Produced high-quality analyses for small and mid-sized banks
+ - Provided equity advisory services based on distributed analyses
+ - Created marketing and sales materials
+
+Project Manager and Team Lead
+Scanplan Ejendomme
+2002 - 2004
+ - Employee Client: Scanplan Ejendomme Role: Project manager and Team Lead Assignement/task:
+ - Collaborated with the CEO and CFO to enhance Excel models for investment calculations and improve project materials for savings projects targeting high-income individuals.
+ - Developed investment calculations to support project evaluations.
+ - Enhanced offering materials, significantly improving quality and presentation.
+ - Created marketing and sales materials
+ - Developed budget models to assess investment performance.
+ - Provided sparring support to sales teams during project execution.
+ - Led a digitization project to streamline paper-based processes with banks, lawyers, and auditors.
+ - Acted as an advisor to sales teams during client meetings.
+ - Maintained relationships with banks, lawyers, and auditors.
+ - Led a team of four employees in the project department.
+Achievements
+ - Significantly increased sales through improved products and streamlined processes, while freeing up management resources
+
+Analyst and Stock Dealer
+Danske Bank
+2000 - 2002
+ - Employee Client: Danske Bank Role: Analyst and Stock Dealer Assignement/task:
+ - Worked in Danske Bank's investment banking division as a trainee and stock dealer, gaining insight into various investment banking functions.
+ - Analyzed companies to support investment decisions.
+ - Advised Danske Bank's investment centers.
+ - Developed performance and investment models.
+ - Conducted meetings with investment advisors.
+ - Traded stocks and options in Nordic markets, utilizing Reuters trading portal, Bloomberg information portal, and Danske Bank's proprietary trading system.
+ - Analyzed financial reports, budgets, and estimates.
+ - Conducted strategy and industry analyses, contributing to equity investments.
+ - Performed company valuations and forecasts, participating in corporate finance projects.
+ - Worked in the equity analysis, corporate finance, and asset management departments.
+Achievements:
+ - Contributed to successful equity investments and corporate finance projects through high-quality analyses and advisory services
+
+
+Skills
+======
+ - Atlassian
+ - Azure
+ - Atlassian Suite
+ - Confluence
+ - Dataflow
+ - Eclipse
+ - Functional Testing
+ - HTML
+ - IFRS
+ - Integration Testing
+ - Java
+ - JavaScript
+ - JIRA
+ - Microsoft Office
+ - Project management
+ - Regressionstest
+ - Test Management
+ - Advisory
+ - Requirements Analysis
+ - SAS Programming
+ - Scrum
+ - SQL
+ - UAT
+ - Xcode
+ - XML
+ - Bloomberg
+ - BitBucket
+ - Benchmark
+ - iPad
+
+
+Training / Courses
+======
+Various Jira Administration Courses
+
+Certified Coaching Course
+
+Scrum Master Accredited Certification
+
+Xcode Development Course
+
+Test management and test analyst courses, internal courses in Danske Bank
+
+Project Management Course with Certification (Ledernes Kursuscenter)
+
+Advanced Excel Course (Danske Bank)
+
+Presentation Skills Course (Danske Bank)
+
+Negotiation Techniques Course (Danske Bank)
+
+Mindfulness Meditation Course
+
+Developing Innovative Ideas for New Companies
+
+Inspiring Leadership through Emotional Intelligence
+
+Creativity, Innovation, and Change
+
+Xcode Development Course
+
+Quality Center (QC) Testing Course
+
+Saxess Course with Certification (OMX)
+
+Personal Planning Course
+
+SAS Programming Course
+
+
+Languages
+======
+Danish
+
+English
+

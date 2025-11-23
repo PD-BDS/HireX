@@ -1,0 +1,150 @@
+ADARSH
+E&I Project Leader/Manager
+
+
+Summary
+======
+A seasoned professional with 17 years of experience in business development, project management, and software development within PLC, SCADA, and DCS-based process automation. This includes extensive expertise in installation, commissioning, project engineering, and network services. Domain expertise spans data center EPMS, brewery, water treatment, chemical, boiler, and power plants, supported by strong capabilities in hardware engineering. Known for implementing customer-centric strategies aligned with organizational standards, the professional excels in managing complex, large-scale processes and ensuring timely deliverables through effective stakeholder collaboration. With excellent communication, presentation, and interpersonal skills, they bring a unique blend of technical proficiency and business acumen to drive growth and enhance customer satisfaction.
+
+
+Experience
+======
+Business Development
+Cotmac Electronics Pvt Ltd
+2022 - Ongoing
+India
+ - Helping Organization to identify new customers for data center vertical PAN India
+ - Helping organizations identify new customers for the data center vertical PAN India.
+ - Convinced customers and provided solutions on LV boards, PLC/RIO solutions, and focused on sales.
+ - Submitted technical and commercial proposals to customers on time.
+ - Attended to client technical issues and offered prompt services and commercial solutions.
+ - Negotiated with buyers.
+ - Equipped staff with the technical and social skills needed to enhance sales.
+ - Downloaded the scope of work and project details to the execution team.
+ - Followed up with internal and external stakeholders regarding project progress.
+ - Followed up on payments with buyers regarding payment terms in purchase or work orders.
+ - Conducted review meetings with internal stakeholders on technical, commercial, and customer feedback on executed projects.
+
+Project Leader
+Cotmac Electronics Pvt Ltd
+2008 - 2022
+India
+ - Understanding the design inputs such as P&ID, User requirement specifications, Design Statement and Control philosophy, and if these are not available then to help customers prepare the same as per contract document
+ - Understanding and implementation of process sequences, interlocks requirements and preparation of necessary URS & FDS documents
+ - Software development on Siemens platform
+ - Accountable for Communicating tag list (for PLC/ External systems interfaces)
+ - Complete software development and give FAT and SAT
+ - Derive the scope from the inputs provided by the customer
+ - Define the milestone for project, coordinating with team from for Project time schedule (MSP), team's weekly reports and work allocation
+ - Maintain project execution documents throughout the phases of project
+ - Work on Technical and Commercial proposals for automation system
+ - Customer Visit for Sales, Technical discussion, Project Estimation
+
+
+Projects
+======
+Data Center Projects Chennai (L&T Construction)
+Siemens S7400H PLC, WinCC SCADA, Server –Client Configuration,S71200, Modbus TCP/IP, IEC 61850, PROFIBUS, PROFINET
+ - Project Manager, Cost Estimation, Define Milestone for the Project, Resource allocation, Coordinating with Factory, Coordination with different vendors for ensuring no delay in project schedules ( Cable laying, Control Panel Errection , Cable tray work, Field and Panel side instrument cable and power cable termination), Progress reports to stake holders, Meeting with OEMs and End User, Ensuring Onetime delivery of PLC – SCADA software’s
+
+Data Center Projects Pune. (Sterling and Wilson)
+Siemens S7400H PLC, WinCC SCADA, Server –Client Configuration,S71200, Modbus TCP/IP, IEC 61850, PROFIBUS, PROFINET
+ - Project Manager, Cost Estimation, Define Milestone for the Project, Resource allocation, Coordinating with Factory, Coordination with different vendors for ensuring no delay in project schedules ( Cable laying, Control Panel Errection , Cable tray work, Field and Panel side instrument cable and power cable termination), Progress reports to stake holders, Meeting with OEMs and End User, Ensuring Onetime delivery of PLC – SCADA software’s
+
+Rosema Bricks South Africa.
+AB Compact Logix PLC 1769-L36ERM
+ - Project Manager, Cost Estimation, Define Milestone for Project, Resource allocation, Coordinating with Factory
+
+Sidegua.
+S7414 3PN/DP PCS7 9.0 System
+ - Project Bidding, Project Manager, Cost Estimation, Define Milestone for Project, Resource allocation, Coordinating with Factory,
+
+Nippon Japan.
+Mitsubishi L02-CPU-P L-SERIES CPU
+ - Project Manager, Cost Estimation, Define Milestone for Project, Resource allocation, Coordinating with Factory
+
+Oman International Airport.
+Omron PLC CP1L-M60DR-A
+ - Project Bidding, Project Manager, Cost Estimation, Define Milestone for Project, Resource allocation.
+
+PT Indorama Petrochemicals.
+S7 400H, Safety-SIL2, Safety Modules, WinCC 7.3
+ - Project Lead, Project execution, Software Development, FAT, panel testing
+
+Apollo Breweries, Execution for Praj Industries Ltd.
+S7 400, PCS7.1
+ - Project lead, Software Development, FAT, panel testing
+
+Ecologix water treatment plant.(RO, UF, Filters)
+S7 1500, TIA portal V13 SP1, TP1500 HMI
+ - Project lead ,Software Development, FAT, panel testing
+
+Kraiburg Water treatment. (Water Cooling plant)
+S7 1200, TIA portal V13 SP1, TP900 HMI
+ - Project lead ,Software Development, FAT, panel testing
+
+MSPL.( Power plant: Turbine, Boiler, BOP Automation)
+S7 400H, PCS 7 version 7.1
+ - S7 400H, PCS 7 version 7.1
+
+Stonewool, Saint Gobain Saudi (Line drive system )
+S7 400, PCS 7 version 8.0, G-120 VFD, WinCC Flexible 2008
+ - Project lead ,Software Development, FAT, panel testing
+
+Devans Modern Brewery (Alfa Laval India Ltd )
+S7 400, PCS 7 version 7.0,
+ - Software Development, SAT
+
+Yuksome Brewery (Zieman Ltd )
+S7 300, Simatic Manager, WinCC Flexible 2008
+ - Software Development
+
+Dassapa Brewery (Alfa laval India Ltd)
+S7 400, PCS 7 version 6.2
+ - Software Development, SAT
+
+Kenai Water Treatment Plant (Filters)
+S7 300, Simatic Manager, WinCC Flexible 2008
+ - Software Development, FAT
+
+Transco (Water Distribution)
+S7 300, Simatic Manager, WinCC Flexible 2008
+ - Software Development, FAT
+
+
+Education
+======
+B-Tech: Electronics and Instrumentation
+Capital university
+
+
+Skills
+======
+ - Apollo
+ - ASP.NET
+ - CPanel
+ - Cybersecurity
+ - DCS
+ - Ethernet
+ - Instrumentation
+ - LTE
+ - Microsoft Suite
+ - Modbus
+ - MPI
+ - PLC
+ - RFQ
+ - SCADA
+ - SQL
+ - STL
+ - WinCC
+ - TCP
+
+
+Languages
+======
+English
+
+Hindi
+
+Malayalam
+

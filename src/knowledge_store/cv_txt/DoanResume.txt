@@ -1,0 +1,66 @@
+DOAN
+I&C Commissioning Lead Engineer
+
+
+Summary
+======
+Instrumentation & Control Engineer with 10+ years of experience in commissioning DCS/PLC systems, field instrumentation, and automation in power and industrial plants across Southeast Asia. Specialized in Siemens, Allen Bradley, Emerson, and Honeywell systems. Proficient in loop checking, interlock testing, FAT/SAT, control logic verification, and cross-discipline coordination. Skilled in high-pressure site environments with a track record of delivering efficient, safe, and timely commissioning.
+
+
+Experience
+======
+I&C Commissioning Lead Engineer
+Black and Veatch Philippines Company
+2023 - 2025
+ - Lead I&C commissioning for GIS, WTP, WWTP, HRSG, GT & ST units
+ - Configured and commissioned Siemens, Allen Bradley PLC, and iFix, NR SCADA
+ - Verified logic, interlock, sequences; ensured redundancy and system optimization
+ - Check communication between DCS and other system in network architecture as Modbus RTU, TCP/IP
+ - Loop checking and Instrument Calibration: Pressure, level, flow transmitter, water analyzer
+ - Managed team planning, daily progress tracking, and stakeholder coordination
+ - Delivered final documentation, training, and handover to O&M team
+
+I&C Commissioning Lead Engineer
+Black and Veatch Indonesia Company
+2020 - 2022
+ - Lead I&C team
+ - Commissioned BOP systems including ESP, coal/ash handling, and water treatment
+ - Loop checking, function interlock testing and calibrated field devices: transmitters, valves, analyzers; verified installation and cabling
+ - Tested Allen Bradley PLC & Wonderware SCADA systems
+ - Coordinated safety and commissioning procedures with cross-functional teams
+
+PLC/DCS Commissioning Engineer
+Black and Veatch Viet Nam Company
+2018 - 2020
+ - Commissioned ESP, coal/ash handling, and water systems
+ - Performed control logic simulation, FAT/SAT, function test, interlock testing and SCADA optimization with Allen Bradley PLC and Wonderware Intouch SCADA, Siemen Touch Screen
+ - Supported root-cause troubleshooting and interfacing with vendors
+
+
+Education
+======
+Automation and Control
+Ha Noi University of Science and Technology
+2007 - 2012
+
+
+Skills
+======
+ - AutoCAD
+ - DCS
+ - Instrumentation
+ - Microsoft Office
+ - Modbus
+ - PLC
+ - QGIS
+ - SCADA
+ - Symfony
+ - WinCC
+ - Gmail
+ - TCP
+
+
+Languages
+======
+English
+

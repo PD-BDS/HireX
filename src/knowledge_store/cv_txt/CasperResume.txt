@@ -1,0 +1,163 @@
+CASPER
+Software Engineer
+
+
+Summary
+======
+A result-oriented software engineer with solid experience in software development, system architecture and technical consulting. As a consultant, I deliver high quality, strong business understanding and the ability to quickly navigate complex technical domains. My background as a lead developer, consultant and entrepreneur has given me a broad toolbox and a practical approach to problem solving. I focus on creating concrete value through hands-on development, technical sparring and collaboration close to the business. I have experience from both startups, consultancies and industrial companies, and approach each task with a combination of technical depth and commercial overview. My solutions are scalable, well-documented and developed with a focus on stable operations and business impact. I work independently, communicate clearly with both technical and non-technical stakeholders and create progress in both agile and classic project environments. With me, you get a reliable and solution-oriented software profile that understands how to translate technology into real value for your business. I regularly hold presentations and workshops in Al and Machine Learning for some of Denmark's largest companies and industry organizations
+
+
+Experience
+======
+Tech Lead and Manager
+Techsoft A/S
+11/2022 - Ongoing
+ - Technically responsible for the development and operation of highly specialized software solutions with a full product lifecycle: idea, architecture, development, test and release
+ - Hands-on development and system architecture in a commercial setup with responsibility for technical roadmaps, quality assurance and deliveries
+ - Direct customer contact, communication, and execution on various projects
+ - Often brought into projects where technical management and overview are key
+ - Close collaboration with the business and stakeholders across the organization, especially around AI, data processing and scalable systems
+ - Translating business needs into stable technical solutions and delivering low-friction results
+
+Software Engineer
+DIS/CREADIS
+02/2020 - 11/2022
+ - Consultant with direct customer contact, clarification of requirements and estimation of tasks
+ - Delivered end-to-end software solutions, both in digital and embedded terms, as part of the clients' development teams
+ - Responsible for documentation, testing and implementation - often in critical industrial environments
+ - Projects required both independent development and consulting, in close collaboration with customers
+ - Worked both as a one-man developer and as part of a larger team
+
+Cybersecurity
+C2IT Kolding
+01/2019 - 06/2019
+ - Participated in the development and advice on IoT solutions, mobile apps and IT security in customer cases
+ - Independent development in C# and SQL
+ - Participated in customer meetings and facilitated technical workshops
+
+Entrepreneur
+Saveren A/S
+02/2014 - 10/2016
+ - Founded tech startup and was responsible for strategy, technical development and international cooperation (DK, CH, USA, UA, RU)
+ - Drove development of the first version of the product and assembled the first team, both technically and commercially
+ - Role as an entrepreneur and developer has provided a strong understanding of the entire value chain - from code to customer
+ - The experience has given unique ability to understand both the business side and the developer's reality
+ - Several solutions for some of Denmark's largest companies, especially in Machine Learning and Computer Vision
+ - The projects included optimization of delivery patterns with clustering, detection and rectification of production errors via CV models and parameter optimization of industrial robots with classification algorithms
+
+
+Projects
+======
+AI & Machine Learning Solutions
+(Python, scikit-learn, OpenCV, PyTorch, Azure ML)
+ - Several solutions for some of Denmark's largest companies, especially in Machine Learning and Computer Vision.
+ - The projects included optimization of delivery patterns with clustering, detection and rectification of production errors via CV models
+ - 
+Parameter optimization of industrial robots with classification algorithms.
+
+
+ 
+
+Predictive maintenance in the wind and energy industry
+(C#, Python, PostgreSQL, Bash, Kubernetes)
+ - System for monitoring and operating ML models in Kubernetes
+ - Included real-time data collection, analysis, and decision support for use in mission-critical environments
+ - Visualization and alerting integrated into the system
+
+MES and SCADA systems for logistics and production
+(React, C#, Python, MQTT, Siemens, Beckhoff)
+ - Full-stack development of own systems for data collection, flow control and integration with industrial automation systems
+ - Used by several of the country's largest logistics and production companies in daily operations.
+
+Digital twins and emulation for airports
+(C#, Experior, Unity, VR/AR)
+ - Development of digital twins and virtual environments for simulation and testing of baggage handling and flow at several major European airports.
+ - The solution reduced on-site testing time from 2 months to just 2 weeks.
+
+SCADA platform for wind farm
+(Technology Selection, Architecture, System Design)
+ - Requirements gathering and technology determination of SCADA framework system for control and monitoring of a large wind farm
+ - Focus on scalability, integration and maintenance.
+
+Computer Vision i production
+(HALCON, C#, Python)
+ - Detection and classification of faulty components in production lines via CV and ML.
+ - The system was subsequently used as a training and evaluation tool internally at the customer and launched in collaboration with the company's branch in Michigan.
+
+Clo-equipped robot control via mobile and embedded
+(.NET Core, Xamarin, Azure, C++)
+ - Development of mobile interface and cloud backend for managing and configuring robot installations.
+ - The solution was used both onsite and remote and integrated embedded logic with modern UX.
+
+Data Center Simulator for Technical Training
+(Unity, C#, SQL)
+ - Simulator developed for technical training of network engineers in global data center company.
+ - Realistic training environment with fully interactive simulation of network setups and system behavior.
+
+Deposit and automation system
+(C#, SQL)
+ - Development of a global bulk registration system for deposit and return systems.
+ - The system automated both identification, sorting and data logging in industrial plants and ensured stable and scalable operations across national borders.
+
+Web and XR configurator for the interior industry
+(TypeScript, Angular, Silverlight)
+ - Development and modernization of configuration tool for 3D and AR visualization.
+ - Migrated from Silverlight to Angular and adapted to today's browser and mobile platforms.
+
+Decryption and NoSQL data storage
+(Python, MongoDB)
+ - Development of Python tool for decryption of test data delivered in unknown, encrypted formats.
+ - The solution enabled the customer to regain access to previous test data and use it in further development
+
+XR platform with photogrammetry for the B2C market
+(React, Python, Swift, C#)
+ - Full-stack software solution to digitize and visualize physical products using photogrammetry.
+ - The solution focused on scalability and was targeted at e-commerce and product presentation.
+
+Alarm and maintenance control for hydrogen refuelling
+(PowerBI, Grafana, Python)
+ - Automation of alarm and maintenance flows at hydrogen stations.
+ - 
+The system freed operational personnel from manual preparedness and implemented automatic notifications, status, and logic.
+
+
+ 
+
+
+Skills
+======
+ - Agile
+ - Azure
+ - C#/.NET/Core
+ - Python
+ - JavaScript
+ - Machine Learning
+ - Data Engineering
+ - Communicative
+ - JavaScript
+ - HTML/CSS
+ - SQL
+ - NoSQL
+ - MongoDB
+ - Postgres
+ - MSSQL
+ - MYSQL
+ - Articulate Solution
+ - Azure Machine Learning
+ - Power BI
+ - SCADA
+
+
+Education
+======
+Bachelor of Engineering in Software Engineering
+
+Datamatician – Special AI/ML
+
+
+Languages
+======
+Danish
+
+English
+

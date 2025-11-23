@@ -1,0 +1,185 @@
+MADS
+Senior FPGA and ASIC developer
+
+
+Summary
+======
+
+Senior Innovation Systems Specialist and accomplished Senior Engineer with over 30 years of experience in the design and development of advanced processing systems for professional audio equipment. Recognized for deep expertise in microcontroller architectures, FPGA and ASIC development, high-speed memory systems, AD/DA converters, digital audio interfaces, and custom chip design.
+A proven technical leader with extensive experience guiding projects from concept to production, applying rigorous modeling, simulation, and design review methodologies to ensure Right the First Time results. Skilled in balancing performance, reliability, cost, and time-to-market demands while fostering collaboration within agile, cross-functional teams.
+Throughout a distinguished career at TC Electronic (later Music Tribe), led major innovations including the development of custom ASICs, FPGA-based platforms, and pioneering digital audio technologies such as MADI and Audio over Firewire. Consistently delivered cutting-edge solutions for broadcast, studio, and live applications, resulting in award-winning and industry-standard products still in use today.
+Beyond technical mastery, brings strong project management, coordination, and mentoring experience, ensuring alignment across hardware, software, mechanical, and production teams. Known for problem-solving in high-performance digital and analog design, EMC compliance, system integration, and test/verification strategies.
+Driven by innovation, precision, and collaboration, Mads has built a career at the forefront of professional audio technology—delivering robust solutions that meet the highest industry standards.
+
+
+Experience
+======
+Senior Innovation Systems Specialist
+TC Electronic
+2015 - 2025
+ - Senior Innovation Systems Specialist for Studio products
+ - Development of new complex processing platform with features such as multicore ARM processing, touch display, Xilinx/AMD FPGA, PLL, Analog I/O, and different high-speed interfaces (USB, MIPI DSI, and gigabit network)
+ - Developed new product line (Icon series) of USB modules for remote controls of Software plug-ins in DAW's
+ - Chosen microcontrollers from Microchip SAM D and ST STM32 processor families for these products
+ - Included various UI features, including display on some modules
+ - Created 8 different modules: TC2290-DT, DVR250-DT, TC1210-DT, TC8210-DT, Master X HD-DT, Brickwall HD-DT, PEQ3000-DT, and DYN3000-DT
+ - Daily coordination with scrum team members and stakeholders (product owners, shared services, and other external dependencies) every 1-3 weeks
+
+Senior Digital Hardware Engineer
+Broadcast and Studio Products
+2008 - 2015
+ - Senior Digital Hardware Engineer for Broadcast and Studio products
+ - Scrum introduced for all project teams, and I became team member on the Broadcast and Studio team
+ - Implemented digital part of a new processing platform for a new line of Broadcast products for 24/7 transmission
+ - Platform was based on NXP i.MX251 ARM9 processor and Analog Devices Sharc DSP's
+ - The platform also contained complex high-speed interfaces such as 3G SDI and MADI
+ - Many of the interface features was implemented in FPGA for some of the product variants
+ - Intensive simulation prior to PCB release of all the high-speed interfaces was made using Mentor Graphics Hyperlynx
+ - Mainboard ended up being released in version A and 'Right the first time' principles have been used ever since
+ - Product releases based on the new platform: DB6, Upcon, Loudness Pilot, Reverb Twentyfour and Clarity X
+ - Most of the products became available in different processing and I/O configurations
+
+Senior Digital Hardware Engineer
+Studio Products
+2004 - 2008
+ - Hardware TFM (Task Force Manager) and Senior Digital Hardware Engineer for Studio products
+ - Hardware lead on projects for the Studio marked implementing DSP platforms using the DICE chips and Freescale DSPs
+ - Daily coordinating HW tasks with team members for other disciplines such as power supply, analog audio design and PLL design
+ - Weekly coordination with project management and TFMs for mechanics, software and production/testing
+ - The outcome of these projects was a product line that included Konnekt 8, Konnekt 24D (later released as Impact Twin), Konnekt Live, Studiokonnekt 48, Desktop Konnekt and BMC-2
+ - Implemented interface chip (FPGA) for the joint venture with Dynaudio Professional for their AIR Series of Studio Monitors
+
+Lead Engineer
+Large Custom Chip Project
+2000 - 2004
+ - Designed and developed custom chip integrating ARM processor system, complex PLL technology (JetPLL), High bandwidth audio routing engine and all known digital audio formats incl. Audio over Firewire (IEEE1394) for multichannel / multiformat audio interfaces
+ - Link to public chip announcement: https://www.mixonline.com/recording/tc-applied-technologies-launches-dice-ii-chip-set-374534
+ - Leading/Guiding 5 engineers and coordinated with external design houses (Sonopsis, Synopsys and Samsung) for some of the technology and the backend process (synthesis, technology choice, layout and testing)
+ - Chip was not only used for internal use but was sold to other customers and became the choice for many of our competitors designing audio interface products with Firewire
+ - The chip team was for several reasons moved to an independent company, TC Applied Technologies in Canada and DICE II was used as background for future chip releases such as DICE Jr, DICE Mini and DICE III
+ - I chose not to move with the team to Canada
+
+Hardware design manager
+Mentor Graphics
+1997 - 2000
+ - Hardware design manager
+ - Making technology choices for the projects developed during this period
+ - Implemented new Design Tools for Electronics development - Viewlogic (later known as Mentor Graphics) design suite (Viewdraw/DX Designer, PADS, simulator and data management)
+ - Lead engineer for new host platform for our high-end and price-winning flagship product - System 6000. This platform included Hitachi H8 host processor and Quicklogic FPGA technology
+ - Lead engineer on DSP and Audio I/O interface card for the Yamaha 02R mixing console. This platform included Hitachi H8 host processor, Motorola DSP and Motorola FPGA technology
+
+Lead Engineer
+Custom Chip Project
+1994 - 1997
+ - Lead engineer on custom chip project (DARC2/DARC3) and new platform
+ - Custom chip for new cost-optimized platform that integrates DSP co-processing features and different digital audio interface formats
+ - First version of platform was released with FPGA Technology (QuickLogic) and later with a full custom chip
+ - The platform included besides the new chip a Hitachi H8 host processor, Motorola DSP, PLL and analog interfaces in different variants
+ - Platform was used to make very popular products like Finalizer 96k, M2000/M3000, GoldChannel, G-Force and many more
+ - Many of those products are still in use today
+
+Part Time Employee
+Århus Stiftstidende
+1991 - 1994
+ - Receiving calls from subscription customers
+ - Making sure they receive their newspaper
+
+Internship as preparation for Engineering School
+TERMA ELEKTRONIK A/S
+1990 - 1991
+ - Inspection, testing and control of incoming products and components.
+ - Mock-up and repair work at the space department.
+ - Responsible for public school visitors and interns.
+ - Completed soldering training/course.
+
+Substitute and part time driver
+Stafetten kurer service
+1989 - 1992
+ - Courier service for companies in the Aarhus area
+
+Danish Army
+Dragonregimentet, Holstebro
+1988 - 1989
+ - 12-month military service in the armored infantry
+ - Chairman of the room and second in command of the squad (Gun 1)
+ - Completed Squad leader training/course
+
+Piccolo
+PURUP ELECTRONICS A/S
+1987 - 1988
+ - Internal and external mail/delivery service
+ - Copying sales/educational material
+ - Helping in the kitchen during lunch time
+ - Maintaining/Cleaning company cars
+
+Part time employee in the packing house
+Aarhus stifstidende
+1984 - 1987
+ - Servicing/Controlling the newspaper packing machines
+ - Loading trucks for newspaper delivery
+
+
+Skills
+======
+ - Adobe Flash
+ - AES
+ - Agile
+ - Altium
+ - DSP
+ - UI
+ - Network and USB
+ - Audio clock systems / PLLs
+ - Project Management
+ - EMC
+ - Ethernet
+ - FPGA
+ - Functional Testing
+ - IAM
+ - Interface Design
+ - Microsoft 365
+ - ModelSim
+ - Oscilloscope
+ - PCB
+ - Scrum
+ - SPI
+ - STM32
+ - Vivado
+ - VMware Workstation
+ - Xilinx
+ - SolidWorks
+ - CAD
+ - Batch
+ - Mechanics
+ - ARM
+
+
+Training / Courses
+======
+Project Management course
+Ledelsesakademi Aarhus
+
+Signal Integrity / Advanced Digital Design
+Nordcad Systems
+
+
+Education
+======
+Engineering School, B.Sc.E.E., Electronics
+Aarhus Teknikum
+1991 - 1994
+
+Engineering preparation/workshop course
+Aarhus Tech
+1990 - 1990
+
+High school, Mathematics/Physics
+Viby Amtsgymnasium
+1984 - 1987
+
+
+Languages
+======
+Danish
+
+English
+

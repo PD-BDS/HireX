@@ -1,0 +1,232 @@
+BENNY
+Senior Mechanical Engineer
+
+
+Summary
+======
+I am an experienced, dedicated and curious person, with more than 30 years of experience in the metal industry/production area. As a colleague, I am responsive and open, and am good at working across networks and teams. I am known for wearing the YES hat, and not least for having a keen eye for detail and quality. I greatly appreciate professional and personal development at my workplace
+
+
+Experience
+======
+Project Engineer
+Advansor A/S
+01/2023 - Ongoing
+ - Design refrigeration systems and heat pumps on CO2 for large plants
+ - Create a completely new design that can be built up
+ - Designed in SolidWorks and Driveworks
+ - Result: Faster design time, from 150 hours to 60 hours (complete plant)
+
+Project Engineer
+Nature Energy A/S
+07/2022 - 01/2023
+ - Implementere PLANT3D/VAULT
+ - Build file structure and templates
+ - Lave HOW TO guidelines til:
+PLANT3D
+INVENTOR
+SOLIDWORKS
+VAULT
+NAVISWORK
+
+Senior Design Engineer
+Novo Nordisk
+09/2021 - 06/2022
+ - Product optimization and redesign
+ - 3D modeling - 2D production basis
+ - Documentation
+ - Design platforms and walkways in an existing production hall with 21 tanks and pipes for Novo Nordisk (building JC10), subsequently move the pipes and valve batteries that came into conflict with the new platform
+ - Opmåling on site
+ - Make installation plans
+ - Support til montage on-site
+
+Senior Design Engineer
+Arla
+09/2020 - 09/2021
+ - Troubleshooting and CE marking entire process lines for ARLA, as well as making shielding, light curtains and risk assessment according to the Machinery Directive
+ - Design of washing machine for cheese blocks and design of cutter section for feta (make CE marking and assemble new and old equipment)
+
+Senior Engineer and Project Manager
+LM Wind Power
+03/2017 - 09/2020
+ - Uniform design of scaffolding and platforms
+ - Optimize frame design for the wing shapes
+ - Concept development / finished development of split mould
+ - Unidirectional Drawing Layout/Design Worldwide
+ - Perform SAT and FAT
+ - CE marking and documentation
+ - Easier set-up and use of scaffolding
+ - 85% of scaffolding is now standard according to the "Machinery Directive" and 14122-1 to 14122-4
+ - The world's first split blade is in production (easier and cheaper transport)
+ - Easier and faster to check and review drawings
+
+R&D Engineer
+Danfoss
+07/2015 - 03/2017
+ - Review 27000m2 of production area
+ - Risk assessment
+ - Documentation
+
+Designer
+Babcock & Wilcox Vølund
+04/2015 - 07/2015
+ - Update 2D drawings in AutoCAD
+ - The drawings will subsequently be used by subcontractors and in their own forging department
+
+Project Employee
+Novo Nordisk, Kalundborg
+10/2014 - 02/2015
+ - Drawing and calculating a new pipe bridge (supply routes)
+ - 3D piping
+
+Project Employee
+Dk Food
+06/2014 - 10/2014
+ - Analyze existing production line
+ - Design and implement a production step that cuts and removes skins from whole pepperoni sausages before they are cut into slices
+ - Perform SAT and running-in
+
+R&D Engineer
+Zederkof
+04/2013 - 06/2015
+ - Produktoptimere/redesign
+ - Contact with subcontractors (Poland and China)
+ - 3D modeling - 2D production basis
+ - Lower cost price
+ - Lower shipping costs (stackable more compactly, due to design)
+
+R&D Engineer
+SCHULSTAD/KOHBERG
+02/2014 - 04/2014
+ - Designing "box turner" for return bread
+ - Documentation
+ - Production optimization
+
+Piping designer/piping engineer
+GEA Filtration
+08/2013 - 05/2014
+ - Piping designer/piping engineer (EBL)
+ - Designing new process equipment in a new building
+ - Make installation plans
+ - CO project manager on-site (assembly of own equipment)
+ - Design pipe bridge
+ - Update interfaces between all new and old process equipment
+ - Make "AS BUILD" documentation on design changes
+ - Contacting subcontractors and doing quality checks
+
+Piping Designer
+Niras
+12/2012 - 08/2013
+ - Designe piperack
+ - Design 2 tank farms with pumps and pipes
+ - Make installation plans
+ - CO project manager on-site (assembly of own equipment)
+ - Prepare PFD (Process Flow Diagram)
+ - Prepare isometrics and check against final design
+
+Piping designer/Piping engineer
+NNE PHARMAPLAN
+03/2012 - 10/2012
+ - Projektansat piping designer/piping engineer (EBL)
+ - Prepare design basis/layout at new factory
+ - Design 1400m pipe bridge
+ - Strengthen cooperation with the Chinese manufacturing company and NNE's design department in China
+ - Worked in China where I was responsible for quality follow-up on design
+ - Worked in China where I was responsible for quality follow-up on design
+
+Lead Piping Designer
+Union Engineering
+09/2006 - 03/2012
+ - Super user and trained employees in the use of various drawing programs
+ - Bentley piping
+ - As lead piping designer, I was responsible for quality control - both drawings and items from subcontractors
+ - Product Optimization
+ - Designoptimering / standardunits
+ - Standardization of pipe routing
+ - CO project manager on site (EON power plant in Wilhelmshaven)
+ - Help with assembly of units - make assembly plans
+ - On-site troubleshooting - documentation of these
+ - Make as-built designs on-site (pipes, platforms and service platforms)
+ - Control of work from subcontractors
+ - Cost optimization - 15% cheaper units/plants
+ - Reduce delivery time from 21 weeks to 9 weeks (turn key projects)
+ - Ensarte design worldwide
+
+Project Engineer for Outsourcing
+Johnsson control
+03/2005 - 09/2006
+ - Updated drawings with GPS & WPS and worked with ISO 8501 (surface requirements) and ISO 9013 (quality requirements)
+ - The drawings were to be used for subcontractors in Poland, Hungary, Spain and Italy
+ - Ensure a uniform production base
+
+Project Employed Engineer (EBL)
+Aalborg Aluminium Industri
+09/2004 - 03/2005
+ - Preparation of documentation - CE marking such as facades and lifts
+
+Mechanical Engineer
+Self Employed
+2002 - Ongoing
+ - Works as a Mechanical Engineer/ Design Engineer:
+ - Preparation of documentation
+ - Risk assessment
+ - 3D modeling - 2D production basis
+ - Product development / optimization
+ - Perform SAT and FAT
+ - 3D scanning
+
+
+Training / Courses
+======
+LAUS: EN50100 - work on or near electrical installations
+
+Personal safety when working with EPOXY Stainless steel, corrosin and hygienic design
+
+Sale part 2 - Esbjerg Business Development
+
+Sale part 1 - Esbjerg Business Development
+
+SolidWorks 2015 kursus - Advanced Part Modeling
+
+SolidWorks 2014 kursus - Advanced Part Modeling
+
+SolidWorks 2014 course - Sheet Metal
+
+SolidWorks 2014 kursus
+
+SolidWorks 2014 kursus
+
+AutoCAD Plant 3D seminar
+
+
+Skills
+======
+ - 3D Modeling
+ - AutoCAD
+ - Creo
+ - Inventor
+ - Microsoft Office
+ - Microsoft Power Point
+ - Siemens NX
+ - SolidWorks
+
+
+Education
+======
+B.Sc. Mechanical Engineering
+Aalborg Universitet
+1988 - 1991
+
+Technical Assistant/Technical Designer "Maskinlinien"
+Aalborg Technical School
+1986 - 1988
+
+Master apprenticeship as a blacksmith/sheet metal and plumbing
+Stoense Smedeforretning
+1982 - 1985
+
+
+Languages
+======
+English
+

@@ -1,0 +1,212 @@
+JACOB
+Project Manager
+
+
+Summary
+======
+
+Experienced Technical Project Manager and Change Management Consultant with 20+ years across wind energy, automation, and industrial project execution. Proven success leading cross-functional teams and delivering SCADA and automation solutions for major clients such as KK Wind Solutions, Vestas, and Novo Nordisk. Skilled in modular product development, Smart Factory transformations, and large-scale system implementation.
+Extensive background in SCADA engineering, AGV project delivery, and technical sales support. Strong leadership in driving operational efficiency, documentation compliance (CE/UL), and mentoring across departments. Holds an AP degree in Leadership & Management and PRINCE2® certification, with hands-on expertise in industrial automation, control systems, and renewable energy technologies.
+
+
+Experience
+======
+External consultant
+KK Wind Solutions
+2024 - 2025
+ - External consultant at KK Wind Solutions | Technical Project Manager (TPM)
+ - Accountable for the design and delivery of the 'VES SCADA Panels' for a leading wind turbine manufacturer
+ - Defined Technical Product Specifications (TPS) within a B2B partnership
+ - Oversaw new product development (NPD)
+ - Managed prototype and Zero-Series builds
+ - Guided products through maturity to successful new product implementation (NPI)
+ - Coordinated closely with cross-functional teams to ensure complete and compliant documentation for CE and UL-approved serial production
+ - Expanded responsibilities to include standardizing and modularizing the SCADA tower panel portfolio (Metering, Gateway, Compact, Witness)
+ - Led the restructuring and implementation of a modular building block approach, improving scalability and reducing complexity
+ - Provided effective leadership to cross-functional teams, including electrical engineers, mechanical engineers, Eplan specialists, and prototype technicians
+ - Guided teams in delivering MkO SCADA panel solutions for high-profile offshore wind projects such as Baltic Power, He Dreiht, and Empire Wind
+ - Achieved on-time delivery and met stringent quality and compliance requirements
+
+External Consultant
+Abena
+2024 - 2024
+ - External consultant at Abena as change management and lead project manager
+ - For the implementation of Smart Factory
+ - To manage the replacement of existing systems and devise new ways of working in the future
+ - Reporting progress and uncertainties to the steering committee
+ - Taking care of technical project management and developing overall plans
+ - Ensuring knowledge is documented and collected
+ - Building bridges between supplier and employees
+ - Being an Abena ambassador in meetings with the supplier
+
+Change Management Consultant
+Nuet
+2023 - 2023
+ - External Change management consultant at Nuet
+ - Joined as an external consultant to upgrade accounting and booking systems with new online platforms
+ - Evaluated old methods, identified improvements, and implemented advanced software to simplify and speed up processes
+ - Transformation enhanced the owner's decision-making with real-time information and set the company up for future growth
+ - Continue to consult for Nuet, ensuring the systems evolve to meet changing needs and support sustained success
+
+Vice-Chairman and board member
+Vi Netværker
+2023 - 2023
+ - Steering group and committee in a business network association
+
+Technical Sales Support Manager
+Vestas Wind System A/S
+2022 - 2023
+ - External Contract as SCADA-TBM, PM & Change Management at Vestas Wind System A/S, Plant Engineering in NCE
+ - Contract build and review, technical sales support and configuration build
+ - Project management and execution in both new sales and in Vestas Preowned
+ - New Process build and SCADA alignment for preowned SCADA solution
+ - SCADA technical sales and SCADA project management
+ - Documentation review and clean up alignment strategy cross gates
+ - Mentoring cross departments
+ - Onboarding new PMs
+
+Consultant
+Bankrupt Suntherm Aps
+2022 - 2022
+ - Conducted meetings and contract review
+ - Performed onsite installation reviews and valuations
+ - Provided single household/unit consulting
+
+Project Manager
+N.C Nielsen A/S
+2021 - 2022
+ - Built up a dedicated project department in a company traditionally focused on equipment sales, service and operations - without prior in-house project structures
+ - Led AGV implementation projects from scoping to handover, including:
+ - Retrofit and safety upgrades to Novo Nordisk's AGV setup (route improvements, door integrations, critical zone adaptations)
+ - Early-stage project design and proposals for one of Novo's large remote warehouses
+ - Delivery of a custom heavy-duty AGV system to Siemens Gamesa in Brande
+ - AGV deployments for Rockwool in Denmark and France
+ - AGV solution for Danske Fragtmænd, including experimentation with 5G-based control infrastructure
+ - Key responsibilities:
+ - Full project ownership: technical design, scheduling, budgeting, and cross-departmental coordination
+ - Sales engineering and offer support with DS/EN/ISO compliance
+ - Internal transformation: created project structure and governance in a sales-driven culture
+
+Project Manager
+Beumer Group A/S
+2021 - 2021
+ - Stage-gate and PMI Project management
+ - Product knowledge and technical project management in airports and distribution facilities
+
+Production Manager
+Suntherm Aps
+2020 - 2021
+ - Development and automation in i.a. HA (House Automation) and 3rd-party components within renewable energy and thermal storage, hydraulics and switchboards for optimizing installation
+ - Project DomOS under EU Commission, Air / water heat pumps, thermal storage, thermostat control via forecast & cloud
+ - District heating, larger buildings and house installations but great focus on an expected 85% optimization in product economy, purchase, sales operation and maintenance as well as end-user operating economy over the entire product life in a section on CO2 emissions all with an eye to rules, directives and legal requirements
+ - To take a product out of the 'sandbox', through a loop of gates for optimization, documentation and maturation
+ - For job descriptions, working drawings and production through project until a full transfer of a turnkey HMI and automated RE product
+
+Scada Engineer
+Vestas Wind System
+2006 - 2019
+ - Involved, ready for changes, with good abilities and international mind-set, collegial cooperation between us 10 core employees and management for such an expansion
+ - Managed customer-specific SCADA aftersales requests, initially delivered as BlackBox solutions, with a long-term focus on developing scalable 'off-the-shelf' offerings.
+ - Led the update and alignment of SCADA solutions with evolving EU environmental regulations and contributed to the standardization of technical offerings.
+ - Conducted market analysis for emerging SCADA technologies in collaboration with customers and R&D to drive optimization and modularization of automation solutions.
+ - Oversaw and coordinated subcontractors at all levels, acting as a key internal support function for CRM teams across the EMEA region.
+ - Prepared and customized SCADA service contracts, including multi-tiered options covering up to 30-year durations.
+ - Acted as a subject-matter expert in technical meetings and contract negotiations, serving as a trusted liaison between customers and Vestas—particularly in bid/tender phases and new project planning.
+ - Delivered advanced customer training at the Technical Training Center, customizing sessions beyond standard curriculum when required.
+ - Contributed across the entire SCADA project lifecycle since 2006—from pre-sales and scoping to programming, installation, testing, and commissioning.
+ - Onboarded and trained new global SCADA team members, including content development for internal training programs.
+ - Collaborated closely with education teams and technical trainers to ensure field knowledge and real-world experience were integrated into SCADA training materials.
+ - Performed hands-on work in fiber splicing, redundant fiber networks, hardware/software integration, and substation automation (e.g., black start capabilities, switchgear control).
+ - Facilitated the transformation of ad-hoc custom solutions into standardized turbine-integrated functionalities.
+ - Planned and managed large-scale international projects involving multiple stakeholders, ensuring alignment and on-time delivery.
+ - Led full contractual handovers, including end-user training for both standard and customized SCADA systems.
+
+Skilled Automation Professional
+Vestas Wind System A/S
+2003 - 2006
+ - Techniques education at Vestas Wind System A/S
+ - Performed servicing and maintenance on a wide range of Vestas wind turbines across Europe, from early models like the V17 to larger units such as the V80 2MW.
+ - Carried out installation and commissioning of turbines including the V52 (850kW) up to the V90 (3MW), with a focus on onshore installations and occasional offshore projects.
+ - Operated in all aspects of turbine installation projects — from logistics coordination to mechanical and electrical assembly using specialized hydraulic tools and large cranes.
+ - Led preparation, start-up, and test run-in of turbines before final handover, often under challenging conditions in remote locations such as forests, mountains, or coastal hillsides.
+ - Executed complex upgrades and Corrective Improvement Measures (CIM), including gearbox and generator inspections, blade repairs, and tower resonance/vibration mitigation.
+ - Conducted detailed diagnostics and repairs involving various curvature systems and documented incidents such as mechanical failures, fires, or structural damage.
+ - Part of a specialized startup team responsible for improving turbine startup processes, quality assurance, error correction, and performance optimization.
+ - Played a key role in prototype and Version 0 turbine testing, modifications, and validation across the full Vestas product range up to the V90 3MW series.
+
+Constable
+Jydske Dragon Regiment
+1997 - 2003
+ - Trained shooter and shooter helper
+ - Tactical planning, reconnaissance and execution
+ - Handling of weapons, ammunition and explosives
+ - Mechanical maintenance of tanks and vehicles
+ - Incl. a Posting with 2/1. Tank Squadron, for SFOR in former Yugoslavia
+
+Taxi driver
+Vaft
+1998 - 2003
+ - Day, evening, night and weekend driving
+ - Large and small trolley driving
+ - Patient driving
+ - School driving
+ - VAFT driving at Skive Taxi
+
+Available contract
+Jydske Dragon Regiment Trumpet Corps
+1998 - 1999
+
+Skilled Car Paint
+Skilled Car Paint
+1992 - 1996
+
+
+Skills
+======
+ - C / ++
+ - Python
+ - Retrofit
+ - SCADA
+ - Prince2
+
+
+Training / Courses
+======
+Change Management & Change Communication
+
+Armor-Shooting & Helper, 1st. Tank Squadron, Jydske Dragon Regiment
+
+Skilled Automation Professional techniques education at Vestas Wind System A/S
+
+Project Management
+
+Organization and work psychology
+
+The strategic leadership
+
+Management in practice
+
+Skilled Car Painters education at Skive Autolakkeri
+
+Conscript Commander
+
+
+Education
+======
+Academy Profession (AP) degree in Leadership & Management
+Dania Business Academy
+2016 - 2022
+
+Higher Preparatory Examination Programme
+VUC Skive
+1997 - 1999
+
+
+Languages
+======
+Danish
+
+English
+
+Scandinavian
+

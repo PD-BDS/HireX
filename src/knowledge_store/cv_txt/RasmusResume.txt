@@ -1,0 +1,71 @@
+RASMUS
+
+
+Summary
+======
+Marine Engineer specializing in energy systems, electrical installations, and project management, with a focus on sustainability and the green transition. Experienced in technical installations, real-time data visualization, and energy optimization. Strong international experience and a proactive approach to project execution, ensuring efficiency and quality in all aspects of engineering work.
+
+
+Experience
+======
+Bachelor Intern
+Noven
+08/2024 - 01/2025
+ - Developed Live Data dashboard visualizations for energy monitoring
+ - Assisted in technical support and troubleshooting for service teams
+ - Conducted KPI analysis on energy consumption, including kWh per apartment, COP for heat pumps, and solar energy utilization
+ - Handled sensor installation, wiring, and configuration for BMS systems
+ - Wrote a Bachelor's thesis on the economic feasibility of energy storage systems, achieving a final grade of 12
+
+Student Worker
+Energihuset
+10/2022 - 02/2024
+ - Conducted technical reviews of housing sector installations for the national assessment by Landsbyggefonden
+ - Analyzed and classified technical systems in residential buildings
+ - Managed image documentation and reporting for assessment projects
+
+Workshop Intern & Student Worker
+UltraAqua
+04/2021 - 01/2022
+ - Built test systems for R&D, ensuring compliance with performance benchmarks
+ - Conducted service visits in Norway, Switzerland, and the Netherlands
+ - Assembled electrical panels for UV treatment systems
+ - Assisted in logistics, preparation, and quality control for system shipments
+
+
+Education
+======
+Bachelor of Engineering in Marine Engineering
+Martec
+01/2020 - 01/2025
+ - Specialization: Sustainable Energy & Management
+ - Final GPA: 10
+
+Uddannelsescenter Holstebro
+HTX Technical Gymnasium
+01/2017 - 01/2020
+ - Mathematics & Physics track
+ - A-level subjects: Danish, English, Mathematics, Physics, and Energy
+
+
+Certification
+======
+Driver's license (b)
+
+
+Languages
+======
+Danish
+
+English
+
+Norwegian
+
+
+Skills
+======
+ - Microsoft Office
+ - Microsoft Power Point
+ - CAD Software
+ - CAD
+

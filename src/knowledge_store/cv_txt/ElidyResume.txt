@@ -1,0 +1,169 @@
+ELIDY
+Electrical Engineer
+
+
+Summary
+======
+Dynamic and results-driven Electrical Engineer with strong expertise in the design of electrical installations and energy evacuation systems for both decentralized medium-scale and utility-scale photovoltaic (PV) generators. Demonstrated proficiency in the full lifecycle of PV systems, including design, application, operations, and maintenance, with a strategic focus on CMMS documentation (manuals, schedules, procedures), performance analysis, and loss mitigation. Proven ability to manage and supervise high-quality electrical projects in compliance with regional and international regulations. Adept at integrating renewable energy systems into national interconnected grids, with in-depth knowledge of electricity market structures across Latin America and Europe. Experienced in aligning technical execution with market requirements to optimize operational efficiency and regulatory compliance.
+
+
+Experience
+======
+Service Manager
+CAF Turnkey & Engineering
+09/2020 - 12/2024
+ - Operation and Maintenance Management and post-sale warranty management of medium-scale (Industrial and Commercial Scale) and large-scale (Utility Scale) photovoltaic generators built by the company
+ - Creation of the entire operation and maintenance plan (CMMS) according to the preventive, predictive and corrective maintenance needs of each generator
+ - Structuring from scratch the company's first OYM department for the Energy Unit
+ - Strategic representative of the department with potential clients
+ - Customer service
+ - Coordination of support and technical advice after the project is launched
+ - Flagship project: Sandalia Solar Farm (Sardinia)
+ - 70 MWp photovoltaic generator, metal structure driven into the ground (Free Field), solar trackers, 11 central inverter skids and Power Transformer Station PSTS (3.5 MW and 6.25 MW)
+ - Operation of an electrical substation and Condominium in coordination with the Sardinian Electrical Regulatory Body (TERNA)
+
+Project Site Manager
+Consortium Server
+09/2019 - 01/2020
+ - Coordination, planning and logistics in the previous phase before starting the construction of all the work to become, including hiring and planning with suppliers related to the project, as well as with the client
+ - Resource management and logistics in the implementation of the construction
+ - Management of the timeline (and baseline) and project budget, managing any delays or problems encountered on site during a construction project
+ - Planning and implementation of the weekly activity plan according to the project schedule baseline
+ - Warehouse management and logistics in the receipt of materials
+ - Indirect management of the daily tasks to be performed, delegating over a Site Supervisor
+ - Recruitment of local technical operator staff
+ - Management of the technical operator staff, reaching a peak of more than 40 people directly in charge
+ - Quality control management, health and safety checks and inspection of the work performed
+ - Manage communications between all parties involved in the on-site development of the project
+
+Engineering Coordinator
+Soventix Caribbean SRL
+06/2018 - 10/2018
+ - Coordination of the planning and design of the company's photovoltaic construction projects, in accordance with national regulations and established regulations by the Ministry of Public Works, the National Energy Commission, among others
+ - Standardization and creation of procedures, in favor of established good practices for design
+ - Worked in accordance with the state entities related to construction and the electricity sector, for project approval and interconnection to the system, without affecting network stability
+ - Technical coordination in commercial offers
+ - Strategic representative of the department with potential clients
+ - Technical advice to the commercial department and/or clients
+ - Coordination of customer support
+ - Flagship Project: Canoa Solar – Large-scale photovoltaic generator of 28 MWp, with an internal electrical network divided into 5 mini-substations from 5 MW to 35kV and a general substation of 30 MW to 138 kV, interconnected to the SENI
+
+O&M Manager (Interim)
+Soventix Caribbean SRL
+01/2018 - 06/2018
+ - Led O&M for 12 medium-scale photovoltaic plants (100-2,000 kWp) and a large-scale plant, 'Monte Plata Solar' (33 MWp), the largest PV generator in the Caribbean and Central America.
+ - Creating the entire operation and maintenance plan according to the preventive, predictive and corrective maintenance needs of each generator
+ - 16 people directly in charge
+ - Commercial and electrical market management of Mount Solar Silver
+ - Management and strategic representation of the department in offers to potential customers
+ - Representative intervention of the company with customers and service management
+ - Provide support and technical advice to the sales department with commercial offers and/or customers
+ - Flagship project: Monte Plata Solar
+ - Coordinate with the National Electrical Market Coordinator (OC-SENI) the injection of electricity generated according to the order of merit
+ - Report to the OC-SENI the energy to be generated according to the estimated irradiation
+ - Reports of the monthly energy generated to the National Electrical Administrator (CDEEE)
+ - Real-time communication with the National Electrical System Coordinator and the Dominican Electric Transmission Company (CCE-ETED) of the nominal values of the plant as well as the stops and entrances of the plant
+ - Operation of a radially connected electrical lift substation (60 MW - 69 and 138 kV)
+
+Engineering Assistant
+Soventix Caribbean SRL
+08/2016 - 01/2018
+ - Department of Engineering & Project Management: advice and design of electrical installations and energy evacuation route in projects
+ - O&M Department: design the Operation & Maintenance Plan for Monte Plata Solar (the largest photovoltaic plant in the region), including manuals, schedule, procedures for each task, and verification sheet
+ - Coordination of on-site operating personnel
+ - Monitoring and coordination preventive, corrective and predictive maintenance of 12 medium-scale and one large-scale projects
+ - Operation, Control of the electric market of Monte Plata Solar
+ - Representative intervention of the company with customers and service management
+ - Support and technical advice to the sales department with commercial offers and/or directly to customers
+ - Management of the operating and maintenance personnel
+ - Analysis of generation of medium and large-scale photovoltaic plants
+ - Evaluation, coordination of the company's Occupational Safety and Health plan
+
+Internal Seller
+Industrial Electric S.A.S
+07/2016 - 08/2016
+ - Company for the design and construction of Electrical Equipment (Transfer Modules, Electrical Panels...)
+ - Calculation of electrical equipment needed to solve energy efficiency problems and electrical installations
+ - Sale, technical guidance and support of the equipment in a way that adapts to the needs of the customer
+ - Advice and support of the teams in a way that adapts to the needs of the client
+ - Electrical billing assessment and one-line calculations
+ - Base management and design of electrical calculation templates in Excel
+
+Technical Assistant
+Compañía Dominicana de Telecomunicaciones CODETEL (Claro)
+12/2015 - 07/2016
+ - Project for the location of all company resources in a georefenced system
+ - Purpose was to assign and correct the external plant resource information for geolocation
+ - Utilized map and drawing visualization programs such as MicroStation and Qgis
+ - Managed an entire database with Excel Advanced
+ - Administration and verification of information in Excel for introduction into database
+ - Visualization and analysis of maps, geographic planes
+ - Design, update, template management for database in Excel
+
+
+Skills
+======
+ - AutoCAD
+ - MATLAB
+ - Microsoft Access
+ - Microsoft Excel
+ - PV-Syst
+ - Rslogix
+ - PowerWorld
+ - DigSilent
+ - SolidWorks
+
+
+Training / Courses
+======
+Advanced Microsoft Excel
+UNAPEC Technology Learning Center (CETA)
+
+Workshop on Atmospheric Protection and Landing Systems (2018)
+IMPROCA
+
+Diploma in Project Management and Management, based on the PMI (2017-2018)
+Quality Global Business
+
+Photovoltaic Systems Design (2016)
+Knowlergy Consulting Group
+
+Programmable Logic Controls - Plc (2015)
+Loyola Polytechnic Institute Continuing Education
+
+Electrical Controls (2014)
+Continued Education of the Loyola Polytechnic Institute
+
+Industrial Electricity (2014)
+Continued Education of the Loyola Polytechnic Institute
+
+Residential Electricity (2014)
+Continued Education of the Loyola Polytechnic Institute
+
+AutoCAD (2012)
+Loyola Polytechnic Institute
+
+
+Education
+======
+Master's Degree in Electric Power Systems
+University of Seville
+2018 - 2020
+
+Degree in Electrical Engineering
+APEC University (UNAPEC)
+2013 - 2017
+
+Technical Bachelor in Industrial Electronics
+Loyola Polytechnic Institute
+2010 - 2013
+
+
+Languages
+======
+English
+
+Italian
+
+Spanish
+

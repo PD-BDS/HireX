@@ -1,0 +1,87 @@
+MIKE
+
+
+Summary
+======
+Mike is a seasoned Project Manager and Claims Specialist with extensive experience in large-scale industrial construction, automation, and process optimization. With over 30 years in EPC projects, he has successfully managed cement plant projects worldwide, leading contract negotiations, claims resolution, and risk management strategies. His expertise lies in structured project execution, process automation, and AI-driven contract reviews, ensuring cost-effective project delivery and efficient claims handling. A results-oriented leader, Mike is known for his strong problem-solving skills, cross-functional collaboration, and data-driven decision-making.
+
+
+Experience
+======
+Project Manager
+Thyssenkrupp Industrial Solutions AG
+10/2011
+Beckum, Germany
+ - Led end-to-end project execution for cement plant construction worldwide
+ - Managed risk assessment, workflow disruptions, and customer relations pre- and post-contract signing
+ - Coordinated cost control, claim negotiations, timeline management, and quality assurance with stakeholders
+ - Developed company-wide contract review processes using AI to enhance efficiency
+ - Created complex monitoring and reporting tools with database integration for project tracking
+ - Fostered collaborative leadership through team-building and knowledge-sharing initiatives
+ - Successfully executed EPC projects in multiple countries, optimizing costs and mitigating risks
+ - Designed and implemented a structured contract review and project monitoring system
+ - Conducted customer satisfaction surveys to enhance project transparency and efficiency
+
+Claims Manager & Technical Coordinator
+Thyssenkrupp Industrial Solutions AG
+12/1997 - 09/2011
+Beckum, Germany
+ - Identified and documented workflow disruptions, assessing claim potential and legal implications
+ - Led contract negotiations, claim resolutions, and arbitration support for disputed cases
+ - Managed acceleration programs, procurement processes, and warranty claims
+ - Supported project leadership with decision-making tools and process evaluations
+ - Developed training programs to enhance cost-awareness and adherence to claim procedures
+ - Negotiated successful claims settlements, minimizing financial risk and project disruptions
+ - Created custom reporting tools for claim tracking, improving dispute resolution efficiency
+
+Process Automation Engineer
+Thyssenkrupp Industrial Solutions AG
+01/1994 - 11/1997
+Beckum, Germany
+ - Designed, implemented, and commissioned expert systems for process optimization in large industrial plants
+ - Developed AI-driven automation solutions to adapt production based on real-time process data
+ - Conducted on-site commissioning and system integration for extended periods
+
+Process Automation Engineer
+Thyssenkrupp Industrial Solutions AG
+09/1991 - 01/1994
+Beckum, Germany
+ - Led the development, implementation, and commissioning of large-scale automation systems for industrial plants
+ - Specialized in electrical engineering and process control optimization
+
+
+Education
+======
+Diplom-Ingenieur (Master’s Degree) in Electrical Engineering
+RWTH Aachen University
+01/1985 - 01/1991
+
+
+Certification
+======
+PMI® Project Management Standards & Tools
+
+Contract Law & Claims Management
+
+Industrial Automation & Process Control
+
+AI & Data-driven Decision Support Systems
+
+
+Languages
+======
+English
+
+German
+
+
+Skills
+======
+ - VBA
+ - SQL
+ - HTML
+ - JavaScript
+ - SAP
+ - COSMOS
+ - Office 365
+

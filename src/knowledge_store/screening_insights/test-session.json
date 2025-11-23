@@ -1,0 +1,52 @@
+{
+  "session_id": "test-session",
+  "records": [
+    {
+      "session_id": "test-session",
+      "job_title": "Senior Engineer",
+      "timestamp": "2025-11-13T13:51:34.078502+00:00",
+      "message_md": "Test screening output",
+      "database_summary_md": "Summary",
+      "candidate_insights": [
+        {
+          "metadata": {
+            "file_name": null,
+            "candidate_name": "Jane Doe",
+            "candidate_id": "CAND001",
+            "current_title": null,
+            "content_hash": null
+          },
+          "scores": {
+            "semantic_score": 0.0,
+            "weighted_feature_score": 0.0,
+            "feature_scores": {},
+            "job_fit_score": 0.87,
+            "similarity": null
+          },
+          "summary_md": "Great fit",
+          "fit_reasoning": [
+            "Strong experience"
+          ],
+          "matched_features": {
+            "matching_skills": [],
+            "matching_education": [],
+            "matching_experience": [],
+            "matching_titles": [],
+            "matching_other": []
+          },
+          "knowledge_references": {}
+        }
+      ],
+      "knowledge_records": [
+        {
+          "source": "structured_resumes",
+          "id": "CAND001"
+        }
+      ]
+    }
+  ],
+  "job_titles": [
+    "Senior Engineer"
+  ],
+  "last_updated": "2025-11-13T13:51:34.078933+00:00"
+}

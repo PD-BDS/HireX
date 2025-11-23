@@ -1,0 +1,72 @@
+PETR_Z
+
+
+Summary
+======
+Experienced Automation & Commissioning Engineer with a strong background in programming, commissioning, and optimizing industrial automation systems across Europe and South America. Skilled in Siemens and Rockwell platforms, SCADA integration, and end-to-end project execution from development to site support. Brings a passion for innovation, process efficiency, and customer satisfaction. Certified in pneumatics and electropneumatics, with international experience in the automotive, food and beverage sectors.
+
+
+Experience
+======
+Automation & Commissioning Engineer
+Bühler, Haas - Cookies (Denmark, Sweden, Latvia, Italy, Vienna):
+01/2021 - Ongoing
+Brazil
+ - Programmed and commissioned dough feeders, moulders and ovens for Bühler, Haas - Cookies (Denmark, Sweden, Latvia, Italy, Vienna)
+ - Improved Haas standard program efficiency
+ - Resolved hardware and software issues during deployment on Siemens and Rockwell systems (I/O, IOLink, VFDs, Servos)
+ - Managed the projects from in-house development to site finalization
+ - Customer support, operator training and after delivery site bug fixing
+
+Automation & Commissioning Engineer
+Gea
+ - On-site commissioning of Rockwell hardware (I/O, VFDs, Servos) for GEA - Coffee Freeze Dryer (Brazil)
+ - Adjusted standard process logic according to on site needs followed by SCADA systems as well
+ - Completely finalized 2 Freeze Drying plants
+ - Commissioned hardware and software, including SCADA server setup for Bühler - Soufflet Malting (Ethiopia)
+ - Setup of approx. 2km profinet ring and profibus VFDs
+ - Rewired cabinets and resolved software bugs up to wet run phase
+ - Customly designed HMI for DK Poklad - Theater Lighting (Czechia)
+ - Implemented Modbus communication with 3rd party control system
+ - Written bespoke logic for wireless lights and dimmers on AMIT PLC
+
+Automation Engineer
+Vítkovice IT Solutions a.s.
+01/2018 - 01/2020
+Belgium
+ - Supported operators in production
+ - Improved line tact time with software adjustments
+ - Fine tuning of 3rd party automation processes data exchange
+ - Developed sequence logic and designed HMI based on my old manipulator personal analysis, no technology description provided
+ - Completed machine commissioning and deployment (I/O, Servos)
+ - Set up Profinet network and its remote accessibility via VPN
+ - Conducted hardware commissioning (I/O, VFDs)
+
+Managing Director
+ONLINE TRADING s.r.o
+01/2016 - 01/2018
+ - Conducted business meetings and maintained client communication
+ - Administered the company's e-shop using an advanced interface
+
+Technical Manager
+MagnaTeam z.s
+01/2015
+ - Managed and maintained a streaming studio
+ - Edited videos for online content creation
+
+
+Education
+======
+Automation technology
+SPŠE, Havířov
+01/2008 - 01/2012
+Havířov
+ - Festo Didactic Certification:
+ - Pneumatics PN111
+ - Electropneumatics PN281 (2012)
+
+
+Languages
+======
+English
+

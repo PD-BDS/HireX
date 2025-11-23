@@ -1,0 +1,536 @@
+{
+  "session_id": "30315b413c314d3c90c7aa0d233d09e6",
+  "knowledge_session_id": "30315b413c314d3c90c7aa0d233d09e6",
+  "messages": [
+    {
+      "role": "user",
+      "content_md": "Hi, i want to find candidates for this role\n\nJob title: Senior Electrical and Automation Engineer\n\nLocation: Denmark (Copenhagen / Aalborg / Aarhus)\n\nExperience (years): 10\n\nRequired skills:\n\nSiemens PCS 7 TIA Portal CEMAT S7 SCADA environments PLC programming HMI software development EPLAN AutoCAD process instrumentation project management Responsibilities:\n\nLead the design, configuration, and implementation of process control systems (PCS) for industrial plants, including cement, industrial gas, and manufacturing facilities. Develop and maintain PLC and HMI software, primarily using Siemens PCS 7, TIA Portal, and WinCC. Design electrical control cabinets, power supply systems (LV/MV), and instrumentation layouts using EPLAN and AutoCAD. Oversee the integration of instrumentation and field devices, ensuring accuracy, reliability, and compliance with safety standards. Manage full project lifecycle from concept design, documentation, and FAT/SAT testing to commissioning and maintenance. Provide technical leadership for automation and electrical design teams, including mentoring and cross-functional collaboration. Troubleshoot, optimize, and maintain process control systems to ensure maximum plant uptime and operational efficiency. Collaborate with cross-disciplinary teams including mechanical, process, and electrical engineers to ensure seamless system integration. Conduct risk assessments, system testing, and validation of control system modifications and new installations. Support supplier quality inspections, FATs, and equipment acceptance. Maintain up-to-date documentation and participate in continuous improvement initiatives for engineering standards and processes. Education:\n\nMaster’s Degree in Electrical Engineering or Industrial Automation (Kryvyi Rih National University or equivalent) Job type: Full Time\n\nLanguage requirements:\n\nFluent in English Working knowledge of Polish Working knowledge of Russia",
+      "phase": null,
+      "timestamp": "2025-11-14T14:16:49Z"
+    },
+    {
+      "role": "assistant",
+      "content_md": "Thank you for your prompt response! I'm excited to assist you in finding candidates for this important role. We have confirmed the job title as 'Senior Electrical and Automation Engineer' and outlined the key requirements and responsibilities for the position.\n\n**Updates captured**\n- Job title updated to 'Senior Electrical and Automation Engineer'\n- Location updated to 'Denmark (Copenhagen / Aalborg / Aarhus)'\n- Experience level updated to 10 years\n- Required skills updated to include Siemens PCS 7, TIA Portal, CEMAT, S7, SCADA environments, PLC programming, HMI software development, EPLAN, AutoCAD, process instrumentation, project management\n- Job responsibilities detailed and updated\n- Education requirements updated to 'Master’s Degree in Electrical Engineering or Industrial Automation'\n- Job type updated to 'Full Time'\n- Language requirements updated to include 'Fluent in English', 'Working knowledge of Polish', 'Working knowledge of Russian'\n\nPlease review the updated job snapshot and let me know if there are any additional details you'd like to provide or if you're ready to screen candidates.\n\n**Recommended information**\n1. Are there certifications that are required or preferred?\n\nLooking forward to your next steps!",
+      "phase": "job_description",
+      "timestamp": "2025-11-14T14:18:43Z"
+    },
+    {
+      "role": "user",
+      "content_md": "screen candidates for this role",
+      "phase": null,
+      "timestamp": "2025-11-14T14:28:01Z"
+    },
+    {
+      "role": "assistant",
+      "content_md": "The candidate pool included a mix of relevant engineering backgrounds, with ROMASHCHENKO being the standout candidate. Abhiram has relevant experience but is less aligned with the core responsibilities. Prasad's background in logistics indicates a significant gap in the required skills and experience for this role.\n\n# Candidate Shortlist for Senior Electrical and Automation Engineer\n\n| Candidate Name | Current Title | Job Fit Score |\n|----------------|----------------|---------------|\n| ROMASHCHENKO   | Electrical and Automation Engineer | 0.88 |\n| Abhiram        | Electrical & Control Installation Engineer | 0.73 |\n| Prasad         | Warehouse Management and Logistics Manager | 0.64 |\n\n## Key Insights\n- **ROMASHCHENKO** is the strongest candidate with a job fit score of **0.88**. They possess extensive experience in leading the design and implementation of process control systems, and their skills align closely with the job requirements, particularly in Siemens PCS 7 and EPLAN.\n- **Abhiram** has a job fit score of **0.73**. They have relevant experience and skills but may need to strengthen their background in project management and HMI software development.\n- **Prasad** scored **0.64**, indicating a weaker fit primarily due to their current role in logistics management, which diverges from the core responsibilities of the engineering position.\n\nOverall, ROMASHCHENKO stands out as the best fit for the role, while Abhiram could be considered for further evaluation if no other candidates are available.\n\n### Reasoning\n\n#### 1. ROMASHCHENKO\n\nROMASHCHENKO has a strong background in electrical engineering with a focus on automation. They have led significant projects in process control systems and have a solid grasp of required software tools.\n\n- ROMASHCHENKO has a Master's Degree in Electrical Engineering, meeting the educational requirement.\n- They possess key skills such as Siemens PCS 7 and EPLAN, which are critical for the role.\n- Their experience includes leading the design and implementation of process control systems, aligning well with job responsibilities.\n\n#### 2. Abhiram\n\nAbhiram has relevant experience in electrical and control systems but may need to enhance their project management skills to fully meet the job requirements.\n\n- Abhiram holds a Master's Degree in Electrical Engineering, fulfilling the educational criteria.\n- They have experience with Siemens PCS 7 and SCADA environments, which are important for the role.\n- However, their current title suggests a focus on installation rather than design, which may limit their fit.\n\n#### 3. Prasad\n\nPrasad's background in logistics management does not align well with the engineering focus of this role, resulting in a lower fit score.\n\n- Prasad has a Master's Degree in Electrical Engineering, which meets the educational requirement.\n- However, their current role in logistics management diverges significantly from the engineering responsibilities outlined in the job description.\n- They have some relevant skills but lack the necessary experience in process control systems.",
+      "phase": "screening",
+      "timestamp": "2025-11-14T14:32:16Z"
+    },
+    {
+      "role": "user",
+      "content_md": "tell me more about romashchenko, what attribute of him makes him a fit for this job, and how can he contribute?",
+      "phase": null,
+      "timestamp": "2025-11-14T14:43:54Z"
+    },
+    {
+      "role": "user",
+      "content_md": "tell me more about romashchenko, what attribute of him makes him a fit for this job, and how can he contribute?",
+      "phase": null,
+      "timestamp": "2025-11-14T14:57:12Z"
+    },
+    {
+      "role": "assistant",
+      "content_md": "Thank you for your inquiry about Romashchenko. I have gathered detailed insights regarding his qualifications and how he aligns with the Senior Electrical and Automation Engineer position.\n\nRomashchenko is a strong candidate for this role due to his Master's Degree in Electrical Engineering and extensive experience in leading the design and implementation of process control systems. His job fit score of 0.88 indicates a high alignment with the job requirements. He possesses critical skills such as Siemens PCS 7 and EPLAN, which are essential for the responsibilities outlined in the job description, including managing full project lifecycles and overseeing the integration of instrumentation.\n\nRomashchenko's educational background and hands-on experience in process control systems make him well-suited for the role. His ability to lead projects aligns with the job's requirement for technical leadership and collaboration with cross-disciplinary teams. Additionally, his high semantic and weighted feature scores reflect a strong match with the job's expectations, ensuring he can contribute effectively from day one.\n\nTo further assess Romashchenko's fit, would you like to explore specific aspects of his project management experience or technical leadership? Are there particular contributions or projects you are interested in discussing?\n\nI look forward to your thoughts and am here to assist you in moving forward with Romashchenko's candidacy.",
+      "phase": "discussion",
+      "timestamp": "2025-11-14T14:58:22Z"
+    },
+    {
+      "role": "user",
+      "content_md": "what kind of projects he worked previously",
+      "phase": null,
+      "timestamp": "2025-11-14T15:02:39Z"
+    }
+  ],
+  "job_snapshot": {
+    "job_title": "Senior Electrical and Automation Engineer",
+    "location": "Denmark (Copenhagen / Aalborg / Aarhus)",
+    "experience_level_years": 10,
+    "required_skills": [
+      "Siemens PCS 7",
+      "TIA Portal",
+      "CEMAT",
+      "S7",
+      "SCADA environments",
+      "PLC programming",
+      "HMI software development",
+      "EPLAN",
+      "AutoCAD",
+      "process instrumentation",
+      "project management"
+    ],
+    "job_responsibilities": [
+      "Lead the design, configuration, and implementation of process control systems (PCS) for industrial plants, including cement, industrial gas, and manufacturing facilities.",
+      "Develop and maintain PLC and HMI software, primarily using Siemens PCS 7, TIA Portal, and WinCC.",
+      "Design electrical control cabinets, power supply systems (LV/MV), and instrumentation layouts using EPLAN and AutoCAD.",
+      "Oversee the integration of instrumentation and field devices, ensuring accuracy, reliability, and compliance with safety standards.",
+      "Manage full project lifecycle from concept design, documentation, and FAT/SAT testing to commissioning and maintenance.",
+      "Provide technical leadership for automation and electrical design teams, including mentoring and cross-functional collaboration.",
+      "Troubleshoot, optimize, and maintain process control systems to ensure maximum plant uptime and operational efficiency.",
+      "Collaborate with cross-disciplinary teams including mechanical, process, and electrical engineers to ensure seamless system integration.",
+      "Conduct risk assessments, system testing, and validation of control system modifications and new installations.",
+      "Support supplier quality inspections, FATs, and equipment acceptance.",
+      "Maintain up-to-date documentation and participate in continuous improvement initiatives for engineering standards and processes."
+    ],
+    "education_requirements": [
+      "Master’s Degree in Electrical Engineering or Industrial Automation"
+    ],
+    "extra_requirements": null,
+    "job_type": "full_time",
+    "language_requirements": [
+      "Fluent in English",
+      "Working knowledge of Polish",
+      "Working knowledge of Russian"
+    ],
+    "certification_requirements": [],
+    "outstanding_questions": [
+      "Are there certifications that are required or preferred?"
+    ]
+  },
+  "latest_job_output": {
+    "message": {
+      "acknowledgement": "Thank you for your prompt response! I'm excited to assist you in finding candidates for this important role.",
+      "summary_sentence": "We have confirmed the job title as 'Senior Electrical and Automation Engineer' and outlined the key requirements and responsibilities for the position.",
+      "updates": [
+        "Job title updated to 'Senior Electrical and Automation Engineer'",
+        "Location updated to 'Denmark (Copenhagen / Aalborg / Aarhus)'",
+        "Experience level updated to 10 years",
+        "Required skills updated to include Siemens PCS 7, TIA Portal, CEMAT, S7, SCADA environments, PLC programming, HMI software development, EPLAN, AutoCAD, process instrumentation, project management",
+        "Job responsibilities detailed and updated",
+        "Education requirements updated to 'Master’s Degree in Electrical Engineering or Industrial Automation'",
+        "Job type updated to 'Full Time'",
+        "Language requirements updated to include 'Fluent in English', 'Working knowledge of Polish', 'Working knowledge of Russian'"
+      ],
+      "guidance": "Please review the updated job snapshot and let me know if there are any additional details you'd like to provide or if you're ready to screen candidates.",
+      "recommended": [
+        "Are there certifications that are required or preferred?"
+      ],
+      "closing": "Looking forward to your next steps!"
+    },
+    "message_md": "Thank you for your prompt response! I'm excited to assist you in finding candidates for this important role. We have confirmed the job title as 'Senior Electrical and Automation Engineer' and outlined the key requirements and responsibilities for the position.\n\n**Updates captured**\n- Job title updated to 'Senior Electrical and Automation Engineer'\n- Location updated to 'Denmark (Copenhagen / Aalborg / Aarhus)'\n- Experience level updated to 10 years\n- Required skills updated to include Siemens PCS 7, TIA Portal, CEMAT, S7, SCADA environments, PLC programming, HMI software development, EPLAN, AutoCAD, process instrumentation, project management\n- Job responsibilities detailed and updated\n- Education requirements updated to 'Master’s Degree in Electrical Engineering or Industrial Automation'\n- Job type updated to 'Full Time'\n- Language requirements updated to include 'Fluent in English', 'Working knowledge of Polish', 'Working knowledge of Russian'\n\nPlease review the updated job snapshot and let me know if there are any additional details you'd like to provide or if you're ready to screen candidates.\n\n**Recommended information**\n1. Are there certifications that are required or preferred?\n\nLooking forward to your next steps!",
+    "jd": {
+      "job_title": "Senior Electrical and Automation Engineer",
+      "location": "Denmark (Copenhagen / Aalborg / Aarhus)",
+      "experience_level_years": 10,
+      "required_skills": [
+        "Siemens PCS 7",
+        "TIA Portal",
+        "CEMAT",
+        "S7",
+        "SCADA environments",
+        "PLC programming",
+        "HMI software development",
+        "EPLAN",
+        "AutoCAD",
+        "process instrumentation",
+        "project management"
+      ],
+      "job_responsibilities": [
+        "Lead the design, configuration, and implementation of process control systems (PCS) for industrial plants, including cement, industrial gas, and manufacturing facilities.",
+        "Develop and maintain PLC and HMI software, primarily using Siemens PCS 7, TIA Portal, and WinCC.",
+        "Design electrical control cabinets, power supply systems (LV/MV), and instrumentation layouts using EPLAN and AutoCAD.",
+        "Oversee the integration of instrumentation and field devices, ensuring accuracy, reliability, and compliance with safety standards.",
+        "Manage full project lifecycle from concept design, documentation, and FAT/SAT testing to commissioning and maintenance.",
+        "Provide technical leadership for automation and electrical design teams, including mentoring and cross-functional collaboration.",
+        "Troubleshoot, optimize, and maintain process control systems to ensure maximum plant uptime and operational efficiency.",
+        "Collaborate with cross-disciplinary teams including mechanical, process, and electrical engineers to ensure seamless system integration.",
+        "Conduct risk assessments, system testing, and validation of control system modifications and new installations.",
+        "Support supplier quality inspections, FATs, and equipment acceptance.",
+        "Maintain up-to-date documentation and participate in continuous improvement initiatives for engineering standards and processes."
+      ],
+      "education_requirements": [
+        "Master’s Degree in Electrical Engineering or Industrial Automation"
+      ],
+      "extra_requirements": null,
+      "job_type": "full_time",
+      "language_requirements": [
+        "Fluent in English",
+        "Working knowledge of Polish",
+        "Working knowledge of Russian"
+      ],
+      "certification_requirements": [],
+      "outstanding_questions": [
+        "Are there certifications that are required or preferred?"
+      ]
+    },
+    "next_steps": "Please confirm any remaining outstanding questions or let me know if you're ready to screen candidates.",
+    "phase": "job_description"
+  },
+  "latest_screening_output": {
+    "message_md": "# Candidate Shortlist for Senior Electrical and Automation Engineer\n\n| Candidate Name | Current Title | Job Fit Score |\n|----------------|----------------|---------------|\n| ROMASHCHENKO   | Electrical and Automation Engineer | 0.88 |\n| Abhiram        | Electrical & Control Installation Engineer | 0.73 |\n| Prasad         | Warehouse Management and Logistics Manager | 0.64 |\n\n## Key Insights\n- **ROMASHCHENKO** is the strongest candidate with a job fit score of **0.88**. They possess extensive experience in leading the design and implementation of process control systems, and their skills align closely with the job requirements, particularly in Siemens PCS 7 and EPLAN.\n- **Abhiram** has a job fit score of **0.73**. They have relevant experience and skills but may need to strengthen their background in project management and HMI software development.\n- **Prasad** scored **0.64**, indicating a weaker fit primarily due to their current role in logistics management, which diverges from the core responsibilities of the engineering position.\n\nOverall, ROMASHCHENKO stands out as the best fit for the role, while Abhiram could be considered for further evaluation if no other candidates are available.",
+    "candidate_insights": [
+      {
+        "metadata": {
+          "file_name": "RomashchenkoResume.txt",
+          "candidate_name": "ROMASHCHENKO",
+          "candidate_id": "CAND011",
+          "current_title": "Electrical and Automation Engineer",
+          "content_hash": "3ab997ed04e8b63d1d652d48de836f801d21111f011b6cc153cd588b0822632a"
+        },
+        "scores": {
+          "semantic_score": 0.854,
+          "weighted_feature_score": 0.941,
+          "feature_scores": {
+            "skills": 0.909,
+            "experience": 0.909,
+            "education": 1.0,
+            "title": 1.0,
+            "other": 1.0
+          },
+          "job_fit_score": 0.88,
+          "similarity": 0.854
+        },
+        "summary_md": "ROMASHCHENKO has a strong background in electrical engineering with a focus on automation. They have led significant projects in process control systems and have a solid grasp of required software tools.",
+        "fit_reasoning": [
+          "ROMASHCHENKO has a Master's Degree in Electrical Engineering, meeting the educational requirement.",
+          "They possess key skills such as Siemens PCS 7 and EPLAN, which are critical for the role.",
+          "Their experience includes leading the design and implementation of process control systems, aligning well with job responsibilities."
+        ],
+        "matched_features": {
+          "matching_skills": [
+            "Siemens PCS 7",
+            "EPLAN",
+            "SCADA environments"
+          ],
+          "matching_education": [
+            "Master’s Degree in Electrical Engineering"
+          ],
+          "matching_experience": [
+            "Lead the design and implementation of process control systems"
+          ],
+          "matching_titles": [
+            "Senior Electrical and Automation Engineer"
+          ],
+          "matching_other": [
+            "Fluent in English",
+            "Working knowledge of Polish"
+          ]
+        },
+        "knowledge_references": {}
+      },
+      {
+        "metadata": {
+          "file_name": "AbhiramResume.txt",
+          "candidate_name": "Abhiram",
+          "candidate_id": "CAND001",
+          "current_title": "Electrical & Control Installation Engineer",
+          "content_hash": "2986d70aad963c3d0f70b3f43ce7b8d603e8a228a718d46522b60974f1c29d42"
+        },
+        "scores": {
+          "semantic_score": 0.702,
+          "weighted_feature_score": 0.81,
+          "feature_scores": {
+            "skills": 0.702,
+            "experience": 0.818,
+            "education": 1.0,
+            "title": 1.0,
+            "other": 0.688
+          },
+          "job_fit_score": 0.734,
+          "similarity": 0.702
+        },
+        "summary_md": "Abhiram has relevant experience in electrical and control systems but may need to enhance their project management skills to fully meet the job requirements.",
+        "fit_reasoning": [
+          "Abhiram holds a Master's Degree in Electrical Engineering, fulfilling the educational criteria.",
+          "They have experience with Siemens PCS 7 and SCADA environments, which are important for the role.",
+          "However, their current title suggests a focus on installation rather than design, which may limit their fit."
+        ],
+        "matched_features": {
+          "matching_skills": [
+            "Siemens PCS 7",
+            "SCADA environments",
+            "PLC programming"
+          ],
+          "matching_education": [
+            "Master’s Degree in Electrical Engineering"
+          ],
+          "matching_experience": [
+            "Lead the design and implementation of process control systems"
+          ],
+          "matching_titles": [
+            "Electrical & Control Installation Engineer"
+          ],
+          "matching_other": [
+            "Fluent in English"
+          ]
+        },
+        "knowledge_references": {}
+      },
+      {
+        "metadata": {
+          "file_name": "PrasadResume.txt",
+          "candidate_name": "Prasad",
+          "candidate_id": "CAND009",
+          "current_title": "Warehouse Management and Logistics Manager",
+          "content_hash": "29d6fbeaab74befbb949147d37b7a1b257cbd5d7b541830e3ee0c36a177e7e2c"
+        },
+        "scores": {
+          "semantic_score": 0.617,
+          "weighted_feature_score": 0.693,
+          "feature_scores": {
+            "skills": 0.617,
+            "experience": 0.636,
+            "education": 1.0,
+            "title": 1.0,
+            "other": 0.364
+          },
+          "job_fit_score": 0.64,
+          "similarity": 0.617
+        },
+        "summary_md": "Prasad's background in logistics management does not align well with the engineering focus of this role, resulting in a lower fit score.",
+        "fit_reasoning": [
+          "Prasad has a Master's Degree in Electrical Engineering, which meets the educational requirement.",
+          "However, their current role in logistics management diverges significantly from the engineering responsibilities outlined in the job description.",
+          "They have some relevant skills but lack the necessary experience in process control systems."
+        ],
+        "matched_features": {
+          "matching_skills": [
+            "Siemens PCS 7",
+            "SCADA environments"
+          ],
+          "matching_education": [
+            "Master’s Degree in Electrical Engineering"
+          ],
+          "matching_experience": [],
+          "matching_titles": [
+            "Warehouse Management and Logistics Manager"
+          ],
+          "matching_other": [
+            "Fluent in English"
+          ]
+        },
+        "knowledge_references": {}
+      }
+    ],
+    "reasoning": "ROMASHCHENKO is the top candidate for the Senior Electrical and Automation Engineer position, demonstrating a strong alignment with the job requirements. Abhiram shows potential but may need further evaluation, while Prasad's current role does not align with the engineering focus needed.",
+    "database_summary_md": "The candidate pool included a mix of relevant engineering backgrounds, with ROMASHCHENKO being the standout candidate. Abhiram has relevant experience but is less aligned with the core responsibilities. Prasad's background in logistics indicates a significant gap in the required skills and experience for this role.",
+    "knowledge_records": [
+      {
+        "candidate_id": "CAND011",
+        "insight_md": "ROMASHCHENKO is a strong candidate with extensive experience in process control systems and relevant skills in Siemens PCS 7 and EPLAN."
+      },
+      {
+        "candidate_id": "CAND001",
+        "insight_md": "Abhiram has relevant skills but may need to strengthen their project management experience to fully meet the job requirements."
+      },
+      {
+        "candidate_id": "CAND009",
+        "insight_md": "Prasad's current role in logistics management does not align well with the engineering focus of this position."
+      }
+    ],
+    "phase": "screening"
+  },
+  "latest_analysis_output": {
+    "candidate_insights": [
+      {
+        "metadata": {
+          "file_name": "RomashchenkoResume.txt",
+          "candidate_name": "ROMASHCHENKO",
+          "candidate_id": "CAND011",
+          "current_title": "Electrical and Automation Engineer",
+          "content_hash": "3ab997ed04e8b63d1d652d48de836f801d21111f011b6cc153cd588b0822632a"
+        },
+        "scores": {
+          "semantic_score": 0.854,
+          "weighted_feature_score": 0.941,
+          "feature_scores": {
+            "skills": 0.909,
+            "experience": 0.909,
+            "education": 1.0,
+            "title": 1.0,
+            "other": 1.0
+          },
+          "job_fit_score": 0.88,
+          "similarity": 0.854
+        },
+        "summary_md": "ROMASHCHENKO has a strong background in electrical engineering with a focus on automation. They have led significant projects in process control systems and have a solid grasp of required software tools.",
+        "fit_reasoning": [
+          "ROMASHCHENKO has a Master's Degree in Electrical Engineering, meeting the educational requirement.",
+          "They possess key skills such as Siemens PCS 7 and EPLAN, which are critical for the role.",
+          "Their experience includes leading the design and implementation of process control systems, aligning well with job responsibilities."
+        ],
+        "matched_features": {
+          "matching_skills": [
+            "Siemens PCS 7",
+            "EPLAN",
+            "SCADA environments"
+          ],
+          "matching_education": [
+            "Master’s Degree in Electrical Engineering"
+          ],
+          "matching_experience": [
+            "Lead the design and implementation of process control systems"
+          ],
+          "matching_titles": [
+            "Senior Electrical and Automation Engineer"
+          ],
+          "matching_other": [
+            "Fluent in English",
+            "Working knowledge of Polish"
+          ]
+        },
+        "knowledge_references": {}
+      },
+      {
+        "metadata": {
+          "file_name": "AbhiramResume.txt",
+          "candidate_name": "Abhiram",
+          "candidate_id": "CAND001",
+          "current_title": "Electrical & Control Installation Engineer",
+          "content_hash": "2986d70aad963c3d0f70b3f43ce7b8d603e8a228a718d46522b60974f1c29d42"
+        },
+        "scores": {
+          "semantic_score": 0.702,
+          "weighted_feature_score": 0.81,
+          "feature_scores": {
+            "skills": 0.702,
+            "experience": 0.818,
+            "education": 1.0,
+            "title": 1.0,
+            "other": 0.688
+          },
+          "job_fit_score": 0.734,
+          "similarity": 0.702
+        },
+        "summary_md": "Abhiram has relevant experience in electrical and control systems but may need to enhance their project management skills to fully meet the job requirements.",
+        "fit_reasoning": [
+          "Abhiram holds a Master's Degree in Electrical Engineering, fulfilling the educational criteria.",
+          "They have experience with Siemens PCS 7 and SCADA environments, which are important for the role.",
+          "However, their current title suggests a focus on installation rather than design, which may limit their fit."
+        ],
+        "matched_features": {
+          "matching_skills": [
+            "Siemens PCS 7",
+            "SCADA environments",
+            "PLC programming"
+          ],
+          "matching_education": [
+            "Master’s Degree in Electrical Engineering"
+          ],
+          "matching_experience": [
+            "Lead the design and implementation of process control systems"
+          ],
+          "matching_titles": [
+            "Electrical & Control Installation Engineer"
+          ],
+          "matching_other": [
+            "Fluent in English"
+          ]
+        },
+        "knowledge_references": {}
+      },
+      {
+        "metadata": {
+          "file_name": "PrasadResume.txt",
+          "candidate_name": "Prasad",
+          "candidate_id": "CAND009",
+          "current_title": "Warehouse Management and Logistics Manager",
+          "content_hash": "29d6fbeaab74befbb949147d37b7a1b257cbd5d7b541830e3ee0c36a177e7e2c"
+        },
+        "scores": {
+          "semantic_score": 0.617,
+          "weighted_feature_score": 0.693,
+          "feature_scores": {
+            "skills": 0.617,
+            "experience": 0.636,
+            "education": 1.0,
+            "title": 1.0,
+            "other": 0.364
+          },
+          "job_fit_score": 0.64,
+          "similarity": 0.617
+        },
+        "summary_md": "Prasad's background in logistics management does not align well with the engineering focus of this role, resulting in a lower fit score.",
+        "fit_reasoning": [
+          "Prasad has a Master's Degree in Electrical Engineering, which meets the educational requirement.",
+          "However, their current role in logistics management diverges significantly from the engineering responsibilities outlined in the job description.",
+          "They have some relevant skills but lack the necessary experience in process control systems."
+        ],
+        "matched_features": {
+          "matching_skills": [
+            "Siemens PCS 7",
+            "SCADA environments"
+          ],
+          "matching_education": [
+            "Master’s Degree in Electrical Engineering"
+          ],
+          "matching_experience": [],
+          "matching_titles": [
+            "Warehouse Management and Logistics Manager"
+          ],
+          "matching_other": [
+            "Fluent in English"
+          ]
+        },
+        "knowledge_references": {}
+      }
+    ],
+    "phase": "screening"
+  },
+  "latest_discussion_output": {
+    "message_md": {
+      "acknowledgement": "Thank you for your inquiry about Romashchenko. I have gathered detailed insights regarding his qualifications and how he aligns with the Senior Electrical and Automation Engineer position.",
+      "query_answers": "Romashchenko is a strong candidate for this role due to his Master's Degree in Electrical Engineering and extensive experience in leading the design and implementation of process control systems. His job fit score of 0.88 indicates a high alignment with the job requirements. He possesses critical skills such as Siemens PCS 7 and EPLAN, which are essential for the responsibilities outlined in the job description, including managing full project lifecycles and overseeing the integration of instrumentation.",
+      "reasoning": "Romashchenko's educational background and hands-on experience in process control systems make him well-suited for the role. His ability to lead projects aligns with the job's requirement for technical leadership and collaboration with cross-disciplinary teams. Additionally, his high semantic and weighted feature scores reflect a strong match with the job's expectations, ensuring he can contribute effectively from day one.",
+      "follow_ups": "To further assess Romashchenko's fit, would you like to explore specific aspects of his project management experience or technical leadership? Are there particular contributions or projects you are interested in discussing?",
+      "closing": "I look forward to your thoughts and am here to assist you in moving forward with Romashchenko's candidacy."
+    },
+    "phase": "discussion"
+  },
+  "latest_routing": {
+    "query_controls": {
+      "phase_sequence": [
+        "job_description",
+        "screening"
+      ],
+      "last_completed_phase": "discussion",
+      "jd_complete": false,
+      "allow_jd_incomplete": true,
+      "update_jd": true,
+      "screen_again": null,
+      "new_job_search": null,
+      "candidates_ready": true
+    },
+    "cleaned_user_query": "what kind of projects he worked previously",
+    "top_k_hint": null,
+    "reasoning": "The recruiter is looking to refine the job description based on the projects the candidate has worked on, which necessitates starting with 'job_description' and then moving to 'screening'. The job description is incomplete, so 'allow_jd_incomplete' is set to true, and 'update_jd' is also true to reflect the need for refinement."
+  },
+  "query_controls": {
+    "phase_sequence": [
+      "job_description",
+      "screening"
+    ],
+    "last_completed_phase": "discussion",
+    "jd_complete": false,
+    "allow_jd_incomplete": true,
+    "update_jd": true,
+    "screen_again": null,
+    "new_job_search": null,
+    "candidates_ready": true
+  },
+  "pending_phases": [],
+  "last_completed_phase": "discussion",
+  "top_k": 5,
+  "scoring_weights": {
+    "semantic": 0.7,
+    "feature": 0.3
+  },
+  "feature_weights": {
+    "skills": 0.35,
+    "experience": 0.3,
+    "education": 0.1,
+    "title": 0.15,
+    "other": 0.1
+  },
+  "last_user_message": "what kind of projects he worked previously",
+  "last_updated_at": "2025-11-14T15:02:58+00:00"
+}

@@ -1,0 +1,101 @@
+AMAL S
+Automation Engineer
+
+
+Summary
+======
+
+Experienced Industrial Automation Engineer with over 4 years of hands-on expertise in designing, programming, and implementing PLC, HMI, and SCADA systems, with a strong foundation in ANSI/ISA-88 standards. Demonstrated success in delivering robust, reliable automation solutions across the cement and tire manufacturing industries, with projects spanning from Banbury mixing to shipping.
+Proficient in end-to-end automation lifecycle — from system design and control logic development to testing, commissioning, and maintenance. Skilled in optimizing complex industrial processes and integrating cutting-edge automation technologies to drive efficiency, productivity, and seamless operations. Committed to 100% client satisfaction, meeting deadlines, and delivering scalable and maintainable control systems.
+
+
+Experience
+======
+Automation Engineer
+Plant Supervision India Pvt Ltd
+03/2023 - 03/2025
+India
+ - Led the development and implementation of PLC, HMI, and SCADA systems aligned with the ANSI/ISA 88.01-1995 standard, driving substantial improvements in industrial operational efficiency.
+ - Played a pivotal role in configuring and optimizing industrial networks, topologies, and communication protocols, ensuring seamless system integration and enhanced connectivity.
+ - Additionally, leveraged expertise in VFDs and Servo drives to implement advanced motion control solutions, enhancing system performance, energy efficiency, and process reliability
+
+Automation Engineer
+Zuari Cement
+India
+ - Preparing input and output
+ - PLC programming and HMI design
+ - FAT & SAT testing
+ - Commissioning support
+
+Automation Engineer
+ACC Tikaria Cements
+India
+ - Conducted comprehensive program testing to ensure functionality and compliance with project requirements.
+ - Performed system commissioning, verifying proper installation, integration, and operational readiness.
+ - Provided ongoing maintenance support for a continuous period of two years, ensuring optimal system performance and reliability.
+
+Automation Engineer
+Orient Cements
+India
+ - Prepared input and output (I/O) configurations to support control system requirements.
+ - Developed PLC programs and designed HMI interfaces tailored to operational needs.
+ - Executed Factory Acceptance Testing (FAT) and Site Acceptance Testing (SAT) to validate system performance.
+ - Provided on-site commissioning support, ensuring smooth system startup and functionality.
+
+Project Engineer deputed
+Diligent automation pvt ltd
+02/2022 - 03/2023
+Chennai, india
+ - Developed and implemented PLC and HMI systems in compliance with the ANSI/ISA 88.01-1995 standard
+ - Rewrote OEM programs to enhance quality benchmarks, minimize engineering breakdowns and improve overall efficiency
+ - Designed innovative automation solutions from scratch and re-engineered existing machinery to meet evolving industry demands
+ - Executed MES data tracking integration at MRF PCR Pondicherry, enabling seamless monitoring of recipe and process data across ~25 machines using CompactLogix, MicroLogix, and S7 PLCs.
+ - Interfaced all machines in the mixing line using ControlLogix, CompactLogix, and MicroLogix PLCs over Ethernet/IP, optimizing communication and efficiency.
+ - Commissioned hydraulic presses at APL MRF, upgrading PLC programs to ISA 88 standards across 30 machines.
+ - Integrated Control Net to Ethernet/IP for smooth communication.
+ - Commissioned a Beijing Jingyie Tire Building Machine with multiple servo axes, optimizing cycle time and motion control using ControlLogix PLC.
+ - Led program development, erection, and commissioning of 60 Uzer Mekina hydraulic presses, implementing optimized cycle time logic and SCADA for enhanced efficiency.
+ - Developed a centralized control system for cooling towers, boiler pumps, and compressors, ensuring seamless integration across multiple equipment makes (Mitsubishi, Atlas) per SA standards.
+ - Led program development, erection, and commissioning of 10 Flap hydraulic presses, optimizing cycle times and integrating SCADA for process monitoring.
+ - Designed a Compact Logix-based centralized system for automated oil distribution and heating across six mixing lines, enhancing precision and efficiency.
+ - Developed an automated TCU water distribution and cooling system for extruders, mills, and batch-offs, optimizing resource utilization across all mixing lines.
+
+
+Skills
+======
+ - ANSI
+ - Apollo
+ - AutoCAD
+ - AutoCAD
+ - DCS
+ - Ethernet
+ - Instrumentation
+ - PLC
+ - PLECS
+ - SCADA Development
+ - WinCC
+ - PCR
+ - Project Documentation
+ - PLC Programming
+ - HMI Development
+
+
+Education
+======
+Diploma in Instrumentation Engineering
+State Board of Kerala
+Kerala
+
+SSLC
+State Board of Education
+Kerala
+
+
+Languages
+======
+English
+
+Tamil
+
+Malayalam
+

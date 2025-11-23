@@ -1,0 +1,113 @@
+JAN
+HSE Supervisor
+
+
+Summary
+======
+
+In my career, I have specialized in developing and implementing HSE strategies that elevate safety standards while supporting operational efficiency. In the cement industry, I designed a replicable O&M framework that integrated Standard Operating Procedures with robust HSE management systems. As Quarry Manager in Angola, I introduced and enforced HSE protocols across quarry and crusher operations, while contributing to site-wide safety initiatives. My work emphasized risk mitigation, workforce protection, and compliance, alongside measurable improvements in raw material quality, fuel efficiency, and emissions reduction.
+At Logical Safety, I advanced my expertise in digital HSE systems, LOTO procedures, and sensor-based safety solutions. I also contributed to knowledge transfer by lecturing on operational safety in Cairo and conducting a full HSE Workplace Evaluation for a Danish factory in 2022. I believe in positioning HSE as a driver of responsibility and accountability within the workforce, ensuring safety is not only a compliance obligation but also a source of synergy between production, maintenance, and community engagement.
+
+
+Experience
+======
+Safety and Sales manager
+Logical Safety
+2018 - 2022
+ - Extensive experience with digital HSE systems, computer aided LOTO system and sensor based anti-collission system
+ - Hands on HSE Supervision of multinational construction teams
+ - Used experience as a cement industry professional and certified Lead Auditor in ISO 14001 to bridge between industries and the technical team in Logical Safety
+
+Contract and Quarry manager
+FLSmidth
+2013 - 2017
+ - Contract and Quarry Management contract with FCKS, Angola
+ - Responsible for developing the part of the HSE system that related to the quarry and the crusher area manager
+ - Member of a special HSE committee with representation from both FLSmidth and the client on site that dealt with HSE issues for the entire site
+ - Implementation of Quality Management System
+
+Senior Geologist
+FLSmidth
+2011 - 2017
+ - Development of a generic concept for cement production that can be copied from O&M contracts (Operation and Maintenance) to O&M contracts with adjustments for local conditions.
+ - Development of a Quarry Management System.
+ - Integration of HSE into the SOPs (Standard Operating Procedures) for the quarry as well as for the rest of the cement plant.
+ - Integration of relevant KPIs for the control of cement production.
+ - Auditing, consulting, and optimization of cement plants.
+ - Conducting reconnaissance investigations for greenfield projects.
+ - Assisting in the commissioning of cement plants.
+ - Troubleshooting cement production issues.
+ - Developing management concepts for cement plants.
+
+Process Engineer
+FLSmidth
+2008 - 2010
+ - Internal consultancy on raw materials
+ - Assistance to material handling product managers
+
+Project Manager
+Jordmiljø A/S
+2003 - 2008
+ - Environmental due diligence on industrial real estate
+ - Environmental investigations
+ - Excavation plans for contaminated soil
+ - Monitoring and reporting to authorities
+ - Project management
+
+Geologist
+Geological Survey of Denmark and Greenland
+1997 - 2003
+ - Development of a database and method to produce geological maps based on digital information.
+ - Industrial minerals exploration in Denmark and Greenland.
+ - Database development for CCSEM (Computer Controlled Scanning Electron Microscope) data.
+ - Development of a method to identify indicator minerals for diamonds with CCSEM data.
+ - Development of a method to use CCSEM data for provenance studies.
+
+
+Education
+======
+HSE Coordinator
+certified by Joblife
+
+MSc Geology
+University of Copenhagen
+
+Software Developee
+Copenhagen Business School
+
+High School
+Helsinge
+
+
+Skills
+======
+ - ArcGIS
+ - Electron
+ - Microsoft Office
+ - QGIS
+ - QMS
+ - REST
+ - S&OP
+ - Synergy
+
+
+Training / Courses
+======
+Lead Auditor ISO14001, certified
+Bureau Veritas
+
+
+Languages
+======
+Danish
+
+English
+
+French
+
+German
+
+Portuguese
+
+Spanish
+

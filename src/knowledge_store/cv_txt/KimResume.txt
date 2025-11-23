@@ -1,0 +1,143 @@
+KIM
+Specialist
+
+
+Summary
+======
+Experienced Software Engineer with a strong background in the design, simulation, and implementation of communication protocols and embedded systems across the telecommunications and renewable energy sectors. Proven expertise in developing ETSI/CCITT/ITU-specified protocols for multiplexers (RSM, ESM, V5) and switches (ISUP - ISDN User Part), with hands-on experience in protocol simulation using SDL/SDT and the Telelogic TAU toolchain. Skilled in mobile handset communication protocols (GSM, GPRS, UMTS), Man-Machine Interface (MMI/HMI) development, and LabVIEW-based system construction.Additionally, possess several years of experience in the development and integration of wind turbine control systems, including vibration sensors, optimization equipment, grid measurement tools, phase compensation, and safety chain systems. Strong focus on system documentation, testing, and ensuring compliance with industry standards.
+
+
+Experience
+======
+Software Specialist
+ENABL A/S
+2021 - 2024
+ - Ensure software development is made in respect to by the company given directions of QMS/IMS, facilitating to fulfill the customers request of task to perform
+ - This includes to adaptation of the customers way of development and documentations in accordance with the quality system given by the company
+ - Park simulator, coded in C# simulating grid power
+ - Functional safety (US related) coded in C
+
+Software/control specialist
+Hydratech Industries
+2020 - 2021
+ - Development and maintenance of physical hydraulic test systems that facilitate the use of the B&R PLC system for automatic testing
+ - Documentation of performed tests based on performed tests
+ - Company went bankrupt in 2021 and was taken over/bought by the Dellner Group, which involved downsizing
+
+Senior Engineer Software Development
+Grundfos Holding A/S
+2016 - 2020
+ - SW development and automatical test benches concerning pump systems verifications
+ - Fault searching andimprovements, Documentation
+ - Testing (LabView)
+
+Development Engineer
+ROMO Wind A/S
+2013 - 2016
+ - Working with enhancement equipment used by wind turbines
+ - The equipment can measure, whether or not the turbine is in alignment with the incoming wind direction
+ - Installation in turbines, fault searching/fix and documentation
+ - If set to the proper direction, the turbines production can be enhanced significantly
+
+Consultant
+Struer
+2013
+ - Working as a consultant with specifications, test and documentation of Medical devices made by B&O Medicom A/S (Now Phillips Medisize)
+
+SW Developer Customer projects
+DEIF A/S (Wind Power Technology)
+2009 - 2013
+ - Analyze, design, construction and test of applications for wind turbine controllers
+ - TCM hardware handling for soft connection to the grid network, and hydraulic pitch control
+
+Application Manager/Software developer
+Mita-Teknik
+2005 - 2009
+ - Management, analyze, design, construction and test of applications for wind turbine control on land, as well as underwater
+ - Vibration sensor handling
+ - Lab Windows test verification of turbine software
+
+Software Engineer
+Bang & Olufsen
+2001 - 2005
+ - Analyze, design, construction and test of communication protocols for DECT phones
+ - Worked on BeoCom 6000 US dual line, BeoCom1 and BeoLine1
+
+System Engineer
+Condat A/S
+2000 - 2001
+ - Analyze, design, construction and test of UMTS protocols for mobile phones
+ - ACI (AT Command Interpreter), PDCP and RABM protocol parts
+
+Telital R&D Denmark A/S
+Telital R&D Denmark A/S
+1999 - 2000
+ - Analyze, design, construction and test of communication protocols for the GPRS protocol for mobile phones
+
+System Engineer
+Ericsson Diax
+1995 - 1999
+ - Analyzing and developing communication protocols for multiplexers and switches
+ - Concentrating on V5.2 protocol from small switch (ANS) to larger switch (AXE)
+ - Screening in ISUP-protocol
+
+
+Education
+======
+B.Sc.E.E, Computer Technology
+University of Southern Denmark
+1995
+
+Computer Science combined with electronics
+University of Southern Denmark
+1991
+
+Mathematical/physical student
+1988
+
+Toftlund folkeskole
+Toftlund folkeskole
+1985
+
+Balling folkeskole
+Balling folkeskole
+1981
+
+
+Skills
+======
+ - Agile
+ - Visual Basic
+ - ANSI C
+ - C++
+ - C#
+ - Modula-2
+ - Pascal
+ - HTML
+ - SDT/SDL
+ - Visual Studio
+ - Java
+ - JavaScript
+ - LabVIEW
+ - OSI Model Layer
+ - UML
+ - Rhapsody
+ - Redmine
+ - Jenkins
+ - Ruby
+ - JIRA
+ - Bitbucket
+ - GIT
+ - Python
+ - HMI Presentation
+ - SQL
+
+
+Languages
+======
+Danish
+
+English
+
+German
+

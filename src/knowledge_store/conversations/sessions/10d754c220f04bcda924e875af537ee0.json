@@ -1,0 +1,136 @@
+{
+  "session_id": "10d754c220f04bcda924e875af537ee0",
+  "knowledge_session_id": "10d754c220f04bcda924e875af537ee0",
+  "messages": [
+    {
+      "role": "user",
+      "content_md": "Hello, I am looking for a Python Developer.",
+      "phase": null,
+      "timestamp": "2025-11-22T20:42:44Z"
+    },
+    {
+      "role": "assistant",
+      "content_md": "Thank you for reaching out regarding the Python Developer position. The job title has been set to 'Python Developer'.\n\n**Updates captured**\n- job_title: updated field now includes Python Developer.\n\nFurther details are required to complete the job description.\n\n**Recommended information**\n1. Where is the role primarily located?\n2. How many years of experience should candidates have?\n3. Which specific skills are required for this position?\n4. What are the key responsibilities for this role?\n5. What is the employment type (e.g. full-time, contract, hybrid)?\n6. Are there any education requirements or preferred degrees?\n7. Should candidates possess any particular language skills?\n8. Are there certifications that are required or preferred?\n\nPlease provide the remaining details for a complete job description.",
+      "phase": "job_description",
+      "timestamp": "2025-11-22T20:44:36Z"
+    }
+  ],
+  "job_snapshot": {
+    "job_title": "Python Developer",
+    "location": null,
+    "experience_level_years": null,
+    "required_skills": [],
+    "job_responsibilities": [],
+    "education_requirements": [],
+    "extra_requirements": null,
+    "job_type": null,
+    "language_requirements": [],
+    "certification_requirements": [],
+    "outstanding_questions": [
+      "Where is the role primarily located?",
+      "How many years of experience should candidates have?",
+      "Which specific skills are required for this position?",
+      "What are the key responsibilities for this role?",
+      "What is the employment type (e.g. full-time, contract, hybrid)?",
+      "Are there any education requirements or preferred degrees?",
+      "Should candidates possess any particular language skills?",
+      "Are there certifications that are required or preferred?"
+    ]
+  },
+  "latest_job_output": {
+    "message": {
+      "acknowledgement": "Thank you for reaching out regarding the Python Developer position.",
+      "summary_sentence": "The job title has been set to 'Python Developer'.",
+      "updates": [
+        "job_title: updated field now includes Python Developer."
+      ],
+      "guidance": "Further details are required to complete the job description.",
+      "recommended": [
+        "Where is the role primarily located?",
+        "How many years of experience should candidates have?",
+        "Which specific skills are required for this position?",
+        "What are the key responsibilities for this role?",
+        "What is the employment type (e.g. full-time, contract, hybrid)?",
+        "Are there any education requirements or preferred degrees?",
+        "Should candidates possess any particular language skills?",
+        "Are there certifications that are required or preferred?"
+      ],
+      "closing": "Please provide the remaining details for a complete job description."
+    },
+    "message_md": "Thank you for reaching out regarding the Python Developer position. The job title has been set to 'Python Developer'.\n\n**Updates captured**\n- job_title: updated field now includes Python Developer.\n\nFurther details are required to complete the job description.\n\n**Recommended information**\n1. Where is the role primarily located?\n2. How many years of experience should candidates have?\n3. Which specific skills are required for this position?\n4. What are the key responsibilities for this role?\n5. What is the employment type (e.g. full-time, contract, hybrid)?\n6. Are there any education requirements or preferred degrees?\n7. Should candidates possess any particular language skills?\n8. Are there certifications that are required or preferred?\n\nPlease provide the remaining details for a complete job description.",
+    "jd": {
+      "job_title": "Python Developer",
+      "location": null,
+      "experience_level_years": null,
+      "required_skills": [],
+      "job_responsibilities": [],
+      "education_requirements": [],
+      "extra_requirements": null,
+      "job_type": null,
+      "language_requirements": [],
+      "certification_requirements": [],
+      "outstanding_questions": [
+        "Where is the role primarily located?",
+        "How many years of experience should candidates have?",
+        "Which specific skills are required for this position?",
+        "What are the key responsibilities for this role?",
+        "What is the employment type (e.g. full-time, contract, hybrid)?",
+        "Are there any education requirements or preferred degrees?",
+        "Should candidates possess any particular language skills?",
+        "Are there certifications that are required or preferred?"
+      ]
+    },
+    "next_steps": "Please provide the remaining details for a complete job description.",
+    "phase": "job_description"
+  },
+  "latest_screening_output": null,
+  "latest_analysis_output": null,
+  "latest_discussion_output": null,
+  "latest_routing": {
+    "query_controls": {
+      "phase_sequence": [
+        "job_description"
+      ],
+      "last_completed_phase": "job_description",
+      "jd_complete": false,
+      "allow_jd_incomplete": null,
+      "update_jd": true,
+      "screen_again": null,
+      "new_job_search": true,
+      "candidates_ready": false
+    },
+    "cleaned_user_query": "Hello, I am looking for a Python Developer.",
+    "top_k_hint": null,
+    "reasoning": "The recruiter is initiating a new job search for a Python Developer, which necessitates creating a job description. Therefore, I set the phase sequence to 'job_description', marked 'update_jd' as true, and set 'new_job_search' to true as this is for a new role."
+  },
+  "query_controls": {
+    "phase_sequence": [
+      "job_description"
+    ],
+    "last_completed_phase": "job_description",
+    "jd_complete": false,
+    "allow_jd_incomplete": null,
+    "update_jd": true,
+    "screen_again": null,
+    "new_job_search": true,
+    "candidates_ready": false
+  },
+  "pending_phases": [
+    "job_description"
+  ],
+  "last_completed_phase": "job_description",
+  "top_k": 5,
+  "scoring_weights": {
+    "semantic": 0.7,
+    "feature": 0.3
+  },
+  "feature_weights": {
+    "skills": 0.35,
+    "experience": 0.3,
+    "education": 0.1,
+    "title": 0.15,
+    "other": 0.1
+  },
+  "last_user_message": "Hello, I am looking for a Python Developer.",
+  "last_updated_at": "2025-11-22T20:44:37+00:00"
+}

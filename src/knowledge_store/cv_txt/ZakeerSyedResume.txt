@@ -1,0 +1,120 @@
+ZAKEER SYED
+Senior Engineer, Electrical
+
+
+Summary
+======
+A highly experienced Senior Instrumentation Engineer with over 15 years of hands-on experience in modern cement plants, with a strong focus on operations from Crusher to Packing. Demonstrates deep technical expertise in VRM and kiln operations, coupled with a proven ability to perform effectively under pressure. Proficient in monitoring and optimizing production processes via DCS systems, ensuring operational efficiency, safety, and reliability. Skilled in troubleshooting, quality control, process improvement, and maintaining compliance with industry safety standards. This combination of technical proficiency and industry-specific knowledge positions him as a valuable contributor to the cement manufacturing sector.
+
+
+Experience
+======
+Senior Engineer, Electrical
+Star Cement
+1992 - 2025
+Meghalaya
+ - Jan 2024-Apr 2025: Senior Sr. Electrical Engineer deputed to Star Cement, Meghalaya
+ - Operation & Maintenance for 7500 TPD Cement plant, taking care of all plant Electrical equipment from 11KV to MCC, Motors, field instruments etc
+ - Nov 2022 - July 2023: Senior Sr. Electrical Engineer Dangote Ethiopia, Area in charge from the Crusher to Pyro
+ - Operation & Maintenance for 5000 TPD with DCS Siemens PCS 7 V8.2, WinCC Runtime for Crusher 1200 TPH, Raw Mill Loesche VRM 450 TPH, Kiln 5000 TPD, Cement Mill Loesche VRM PPC 220 TPH, OPC 180 TPH, Rotor Packer: H&B RCC8 2600 Bags/h, Auto Loader Beumers
+ - Handling 132 kV, 11 kV VCB Breakers, 6MW MV Motors, 3750 KW MV VFD ABB ACS 5000, Sinamics VFD G150, ABB Softstarters, Smart MCC ABB MD102, SIMOCODE
+ - Siemens S7 300, S7 400 PLC - Schenck Weigh Feeders, Weighers, Gas Analysers for Pre Heaters and Coal Mill ABB EL3020 - Instruments miscellaneous
+ - Online, Monitor for Troubleshooting, Bypass, Modification, Upload, and Backup PLC and DCS - N2 Plant Commissioning, GRR Dismantling the LRS, and Erection and commissioning of the GRR
+
+Senior Engineer
+Dangote Cement
+2019 - 2021
+Tanzania
+ - Instrumentation Engineer at Dangote Tanzania, responsible for the Crusher, Raw Mill, Cement Mill & Packing Plant
+ - Operation & Maintenance for 6000 TPD with DCS Siemens PCS 7 V8.2, Wincc Runtime
+ - Took responsibility for E&I Maintenance and Online Monitoring for Troubleshooting, Bypass, Modification, Upload and Backup of PLC and DCS for assigned area
+ - Assisted in the Erection and Commissioning of the CPP 2*25 MW Coal Based CPP with Sinoma and Thermax, including Steam Turbine Make: SIEMENS, SST-300 (C2L/V45DB)
+ - Working experience on Diesel Generators
+
+Electrical Foreman
+Electrical Foreman UCIC KSA
+2015 - 2016
+ - Operation & Maintenance for 6000 TPD
+ - E&I Activities carried from Crusher to Packing Plant
+ - During Erection and Commissioning with Sinoma
+ - DCS ABB 800 XA, commissioned with other equipment partners
+ - Losche, Ikon cooler, Pillard, Ventomatic Packers ABB MV VFD
+
+Electrical Technician Grade
+Lafarge Emirates Cement
+2008 - 2012
+Uae
+ - Operation & Maintenance for 7500 TPD E&I Area Incharge from Crusher to Pyro section
+ - Actively involved in defining Clearly well-Defined Objectives
+ - Visible and Engaged plant management team
+ - 1st Level Inspection
+ - Instrumentation Quality Assurance
+ - Daily Operation Management
+ - Specific Inspection
+ - HVAC maintenance
+ - Performance Improvement and Project
+ - Shutdown Preparation, Execution and Restart
+ - Mid-long-term plant sustainability and Cost Control
+ - Shift operation
+ - Key Technical Support
+ - Front line Supervision
+ - Operational Management
+
+Acting Electrical Foreman
+QNCC 4000 TPD Qatar
+2007
+Qatar
+
+Electrician
+QNCC 2000 TPD Qatar
+1999 - 2004
+ - Independently Handling the Shift Duty from Crusher to Packing Plant for the production of 2000T/d Clinker
+ - Expertly performed preventative maintenance and calibration of equipment and systems
+ - Earning an outstanding reputation for proficiency and quality
+
+Electrical Foreman Erection TCC 3500 TPD KSA
+UBE Japan
+1997 - 1998
+Ksa
+ - E&I Activities carried from Crusher to Packing Plant
+ - During Erection and Commissioning with UBE Japan
+ - Arranging material
+ - Work order closed
+ - Commissioning from Crusher to Packing Plant
+ - Power Plant (ABB)
+
+Substation Engineer
+AP Electricity Board
+1992 - 1997
+Kurnool INDIA
+ - Responsible for Area Planning
+ - Estimate the new and enhanced Industrial, Agricultural, Commercial and Domestic Power Service Connection
+ - Operation and Maintenance 132/33/11KV
+ - Power and Distributed Transformers and Troubleshooting
+ - Monthly Record and Report the Power Consumption
+ - Salary report Preparing
+ - Issued the Material and close the work orders
+
+
+Skills
+======
+ - C#
+ - Microsoft Office
+ - Python
+
+
+Education
+======
+Diploma in Electrical & Electronics Engineering
+Polytechnic Gudur SBTET
+1992
+Hyderabad
+ - Govt. Polytechnic Gudur SBTET, Hyderabad
+
+
+Languages
+======
+English
+
+Hindi
+
