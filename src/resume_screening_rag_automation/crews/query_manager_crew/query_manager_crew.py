@@ -52,7 +52,7 @@ class QueryManagerCrew:
             tools=[self._scenario_hint_tool],
             memory=self._memory_enabled,
             allow_delegation=False,
-            max_iter=3,
+            max_iter=5,  # Increased for slower network latency on Render
         )
 
     @task
