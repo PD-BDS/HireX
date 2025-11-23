@@ -6,6 +6,7 @@ from resume_screening_rag_automation.storage_sync import knowledge_store_sync
 import logging
 import os
 import sys
+import asyncio
 from contextlib import asynccontextmanager
 
 
@@ -34,19 +35,24 @@ for handler in logging.root.handlers:
     handler.flush = lambda: sys.stdout.flush()
 
 
-import asyncio
-
 # Background task for R2 sync
 async def background_r2_sync():
     """Background task that syncs to R2 every 30 seconds."""
+    # Do first sync after 5 seconds to allow app to stabilize
+    await asyncio.sleep(5)
+    
     while True:
         try:
-            await asyncio.sleep(30)  # Wait 30 seconds
-            logger.info("Background R2 sync starting...")
-            knowledge_store_sync.flush_if_needed()
-            logger.info("Background R2 sync complete.")
+            if knowledge_store_sync._dirty:
+                logger.info("🔄 Background R2 sync starting (changes detected)...")
+                knowledge_store_sync.flush_if_needed()
+                logger.info("✅ Background R2 sync complete.")
+            else:
+                logger.debug("⏭️  Background R2 sync skipped (no changes).")
+            await asyncio.sleep(30)  # Wait 30 seconds before next check
         except Exception as e:
-            logger.error(f"Background R2 sync failed: {e}")
+            logger.error(f"❌ Background R2 sync failed: {e}")
+            await asyncio.sleep(30)
 
 
 @asynccontextmanager
