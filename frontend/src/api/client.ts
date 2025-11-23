@@ -1,11 +1,13 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || '/api/v1',
+    baseURL: import.meta.env.PROD
+        ? 'https://hirex-backend-xyz.onrender.com/api/v1'  // Your backend URL
+        : '/api/v1',
+    timeout: 900000,
     headers: {
         'Content-Type': 'application/json',
     },
-    timeout: 900000, // 15 minutes for long-running CrewAI workflows
 });
 
 export interface ChatMessage {
