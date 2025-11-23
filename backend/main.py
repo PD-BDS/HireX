@@ -69,7 +69,7 @@ async def background_r2_sync():
             
             await asyncio.sleep(30)
             
-        except async io.CancelledError:
+        except asyncio.CancelledError:
             logger.info("🛑 Background sync task cancelled")
             raise
         except Exception as e:
