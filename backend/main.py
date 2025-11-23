@@ -38,28 +38,29 @@ for handler in logging.root.handlers:
 # Background task for R2 sync
 async def background_r2_sync():
     """Background task that syncs to R2 every 30 seconds."""
-    # Do first sync after 5 seconds to allow app to stabilize
+    logger.info("⏰ Background sync task starting in 5 seconds...")
     await asyncio.sleep(5)
+    logger.info("⏰ Background sync task now active, will run every 30 seconds")
     
     while True:
         try:
-            if knowledge_store_sync._dirty:
-                logger.info("🔄 Background R2 sync starting (changes detected)...")
-                try:
-                    knowledge_store_sync.flush_if_needed()
-                    logger.info("✅ Background R2 sync complete.")
-                except Exception as sync_error:
-                    logger.error(f"❌ R2 sync failed (will retry): {sync_error}", exc_info=True)
-                    # Don't crash - just log and continue
-            else:
-                logger.debug("⏭️  Background R2 sync skipped (no changes).")
+            # Always log that we're checking
+            logger.info("🔍 Checking for changes to sync...")
             
-            await asyncio.sleep(30)  # Wait 30 seconds before next check
+            try:
+                # Call flush which internally checks if sync is needed
+                knowledge_store_sync.flush_if_needed()
+                logger.info("✅ Sync check complete")
+            except Exception as sync_error:
+                logger.error(f"❌ Sync failed: {sync_error}", exc_info=True)
+            
+            await asyncio.sleep(30)
+            
         except asyncio.CancelledError:
-            logger.info("Background R2 sync task cancelled.")
+            logger.info("🛑 Background sync task cancelled")
             raise
         except Exception as e:
-            logger.error(f"❌ Background R2 sync loop error: {e}", exc_info=True)
+            logger.error(f"❌ Background sync loop error: {e}", exc_info=True)
             await asyncio.sleep(30)
 
 
