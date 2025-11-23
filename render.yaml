@@ -24,6 +24,10 @@ services:
         sync: false
       - key: MODEL
         value: gpt-4o-mini
+      - key: CREW_VERBOSE
+        value: "1"
+      - key: CREWAI_LOG_LEVEL
+        value: DEBUG
 
   # Frontend Static Site
   - type: web

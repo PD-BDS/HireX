@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
     baseURL: import.meta.env.PROD
-        ? 'https://hirex-backend-xyz.onrender.com/api/v1'  // Your backend URL
+        ? 'https://hirex-backend-01b0.onrender.com/api/v1'
         : '/api/v1',
     timeout: 900000,
     headers: {
