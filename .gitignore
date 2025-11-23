@@ -57,9 +57,11 @@ backend.log
 src/knowledge_store/chroma_vectorstore/
 
 # Session data (created during app usage)
+src/knowledge_store/
 src/knowledge_store/conversations/
 src/knowledge_store/knowledge_sessions/
 src/knowledge_store/screening_insights/
+src/knowledge_store/crew_memory/
 
 # CrewAI memory storage
 src/knowledge_store/.crewai_storage/
