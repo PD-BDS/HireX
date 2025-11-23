@@ -101,11 +101,23 @@ class CloudflareR2Backend(_BaseRemoteBackend):
 		payload_keys = [key for key in keys if key not in {self.manifest_key} and not key.endswith("/")]
 		if not payload_keys:
 			return False
+		
 		for key in payload_keys:
 			relative = key
 			if self.prefix_with_sep and key.startswith(self.prefix_with_sep):
 				relative = key[len(self.prefix_with_sep) :]
 			destination = target / relative
+			
+			# Check if file exists and has same size (basic incremental check)
+			# For more robust check, we'd need ETags/hashes, but size is a good start for speed
+			try:
+				head = self.client.head_object(Bucket=self.bucket, Key=key)
+				remote_size = head['ContentLength']
+				if destination.exists() and destination.stat().st_size == remote_size:
+					continue
+			except Exception:
+				pass
+
 			destination.parent.mkdir(parents=True, exist_ok=True)
 			try:
 				response = self.client.get_object(Bucket=self.bucket, Key=key)

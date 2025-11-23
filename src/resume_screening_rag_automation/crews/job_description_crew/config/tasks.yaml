@@ -30,8 +30,8 @@ gather_job_description:
         (the sentence must describe the *current* finalized field only)
 
     Examples:
-      - "required_skills: updated field now includes Siemens PCS 7, TIA Portal, CEMAT S7, SCADA environments, PLC programming, HMI development, EPLAN, AutoCAD, process instrumentation, and project management."
-      - "job_responsibilities: updated field now includes leading PCS system design, PLC/HMI development, cabinet design, instrumentation integration, project lifecycle oversight, team mentoring, plant optimisation, cross-functional coordination, risk assessments, FAT/SAT testing, supplier quality support, and engineering documentation."
+      - "Required Skills: updated field now includes Siemens PCS 7, TIA Portal, CEMAT S7, SCADA environments, PLC programming, HMI development, EPLAN, AutoCAD, process instrumentation, and project management."
+      - "Job Responsibilities: updated field now includes leading PCS system design, PLC/HMI development, cabinet design, instrumentation integration, project lifecycle oversight, team mentoring, plant optimisation, cross-functional coordination, risk assessments, FAT/SAT testing, supplier quality support, and engineering documentation."
 
     ## Inputs
     - Latest recruiter turn:

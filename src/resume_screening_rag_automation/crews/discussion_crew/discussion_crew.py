@@ -117,5 +117,6 @@ class DiscussionCrew:
             verbose=True,
             memory=self._memory_enabled,
             knowledge=self.knowledge,
+            cache=True,  # Enable caching for performance optimization
             **self._memory_kwargs,
         )

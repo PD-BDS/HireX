@@ -1,0 +1,11 @@
+crewai
+crewai[tools]
+chromadb
+python-dotenv
+PyYAML
+numpy
+boto3
+tiktoken
+fastapi
+langchain
+pydantic

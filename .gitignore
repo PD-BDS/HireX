@@ -1,30 +1,80 @@
-# Virtual environments & Python caches
-.venv/
-venv/
-**/__pycache__/
-*.py[cod]
-*.pyo
-
-# Local knowledge store artifacts
-src/knowledge_store/
-knowledge_store.tar.gz
-knowledge_store/**/*.json
-knowledge_store/**/*.pkl
-
-# Streamlit secrets & local overrides
-.streamlit/secrets.toml
-*.env
+# Ignore environment variables
+.env
 .env.local
+.env.production
 
-# Tooling output
-logs/
-*.log
-*.db
-.idea/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+env/
+
+# Node
+node_modules/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# OS / archive clutter
+# OS
 .DS_Store
 Thumbs.db
-*.tar
-*.tar.gz
+
+# Logs
+*.log
+backend.log
+
+# Database
+*.db
+*.sqlite
+
+# ============================================
+# Runtime Data - Managed by R2 Storage
+# ============================================
+# These files are generated at runtime and synced via R2
+# Do NOT commit to keep repository small and clean
+
+# Vector database (large, regenerated from resumes)
+src/knowledge_store/chroma_vectorstore/
+
+# Session data (created during app usage)
+src/knowledge_store/conversations/
+src/knowledge_store/knowledge_sessions/
+src/knowledge_store/screening_insights/
+
+# CrewAI memory storage
+src/knowledge_store/.crewai_storage/
+# Structured resumes (can be regenerated)
+src/knowledge_store/structured_resumes.json
+
+# ============================================
+# Optional: Resume Source Files
+# ============================================
+# OPTION 1: Keep resumes in R2 only (uncomment below)
+src/knowledge_store/cv_txt/
+
+# OPTION 2: Version control seed resumes (comment line above)
+# Then small resume files can be committed as starter data
+
+# Temporary files
+*.tmp
+.cache/

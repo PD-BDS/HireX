@@ -77,6 +77,7 @@ analyse_candidates:
       - `matched_features`: An object shaped as `{ "matching_skills": [], "matching_education": [], "matching_experience": [], "matching_titles": [], "matching_other": [] }`.
       - `knowledge_references`: A dictionary mapping citation identifiers to supporting snippets or tool outputs.
     - If the shortlist is empty, return an empty list and explain the gap within the crew response (no placeholder markdown field is required).
+    - **CRITICAL**: Return ONLY valid JSON. Do NOT include any explanatory text, markdown, or commentary outside the JSON structure.
   agent: analyser
 
 
@@ -96,21 +97,22 @@ present_screening_results:
       {candidate_insights}
 
     ## Required Actions
-    1. Craft `message_md` as polished markdown: include a shortlist table or bullet list referencing each candidate’s metadata, `scores.job_fit_score`, and the top insight takeaways drawn from `fit_reasoning` / `matched_features`.
-    2. Translate all findings into plain, recruiter-friendly language—avoid technical jargon like “semantic similarity” or detailed scoring math; instead, explain what the numbers mean in everyday terms (e.g., “strong match”, “needs more senior experience”).
+    1. Craft `message_md` as polished markdown: include a shortlist table with columns for Rank, Name, Job Fit Score, and Highlights. The Highlights column should contain a brief, comma-separated list of the candidate's key matching attributes (e.g., "Python expert, 5+ yrs experience, Stanford CS") extracted from `matched_features` (skills, education, experience, titles). Do NOT include the full summary_md in the table.
+    2. Translate all findings into plain, recruiter-friendly language—avoid technical jargon like "semantic similarity" or detailed scoring math; instead, explain what the numbers mean in everyday terms (e.g., "strong match", "needs more senior experience").
     3. Populate `candidate_insights` by reusing or lightly editing the analyser output without altering its structure—`matched_features` must retain the `matching_*` keys and `fit_reasoning` must remain a list of strings, but each string should contain detailed reasoning based on evidence and read as a human-readable sentence.
     4. Summarise dataset coverage in `database_summary_md` (e.g., abundance of direct matches vs. adjacent talent) using approachable language, and log reusable snippets inside `knowledge_records` (each entry should follow `{ "candidate_id": "<id>", "insight_md": "<markdown note>" }`).
-    5. Use the optional `reasoning` field for high-level guidance written for non-technical readers (e.g., “Why this person is worth interviewing” or “What gaps remain”).
+    5. Use the optional `reasoning` field for high-level guidance written for non-technical readers (e.g., "Why this person is worth interviewing" or "What gaps remain").
   expected_output: |
     Return JSON validating `CandidateScreeningOutput`:
       {
-        "message_md": "<markdown shortlist and recruiter guidance>",
+        "message_md": "<markdown shortlist table with Rank | Name | Job Fit Score | Highlights (key matches only, not full summary)>",
         "candidate_insights": [CandidateInsight, ...],
         "reasoning": "<optional overall explanation>",
         "database_summary_md": "<markdown dataset summary>",
         "knowledge_records": [{"candidate_id": "<id>", "insight_md": "<markdown note>"}, ...],
         "phase": "screening"
       }
+    - In the shortlist table, the Highlights column must show only key matching features (e.g., "Python, AWS, 7 years, Stanford") - NOT the full candidate summary.
     - Reference values from the `scores` payload (`job_fit_score`, `semantic_score`, `weighted_feature_score`) where it reinforces the recommendation.
     - When no candidates qualify, use `message_md` and `database_summary_md` to explain the gap and suggest concrete next steps (e.g., specifically mention to adjust job description features).
     - Keep `message_md`, `candidate_insights`, and `reasoning` free from technical jargon so any recruiter can quickly understand the story behind the scores.

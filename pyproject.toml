@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "resume_screening_rag_automation"
 version = "0.1.0"
@@ -7,22 +11,21 @@ requires-python = ">=3.10,<3.14"
 dependencies = [
     "crewai",
     "crewai[tools]",
-    "streamlit",
     "chromadb",
     "python-dotenv",
     "PyYAML",
     "numpy",
     "boto3",
     "tiktoken",
+    "fastapi",
+    "langchain",
+    "pydantic"
 ]
 
-[project.scripts]
-resume_screening_app = "resume_screening_rag_automation.app:run_streamlit_app"
-resume_screening_cli = "resume_screening_rag_automation.cli:run_cli"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["resume_screening_rag_automation"]
 
 [tool.crewai]
 type = "crew"
+
