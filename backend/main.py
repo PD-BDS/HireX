@@ -7,6 +7,7 @@ import logging
 import os
 import sys
 import asyncio
+import concurrent.futures
 from contextlib import asynccontextmanager
 
 
@@ -35,6 +36,9 @@ for handler in logging.root.handlers:
     handler.flush = lambda: sys.stdout.flush()
 
 
+# Thread pool for R2 operations
+executor = concurrent.futures.ThreadPoolExecutor(max_workers=2, thread_name_prefix="r2-sync")
+
 # Background task for R2 sync
 async def background_r2_sync():
     """Background task that syncs to R2 every 30 seconds."""
@@ -44,19 +48,28 @@ async def background_r2_sync():
     
     while True:
         try:
-            # Always log that we're checking
+            # Run sync in thread pool to avoid blocking
             logger.info("🔍 Checking for changes to sync...")
+            start_time = asyncio.get_event_loop().time()
             
             try:
-                # Call flush which internally checks if sync is needed
-                knowledge_store_sync.flush_if_needed()
-                logger.info("✅ Sync check complete")
+                # Run sync in thread pool (non-blocking)
+                loop = asyncio.get_event_loop()
+                await loop.run_in_executor(
+                    executor,
+                    knowledge_store_sync.flush_if_needed
+                )
+                
+                elapsed = asyncio.get_event_loop().time() - start_time
+                logger.info(f"✅ Sync check complete ({elapsed:.2f}s)")
+                
             except Exception as sync_error:
-                logger.error(f"❌ Sync failed: {sync_error}", exc_info=True)
+                elapsed = asyncio.get_event_loop().time() - start_time
+                logger.error(f"❌ Sync failed after {elapsed:.2f}s: {sync_error}", exc_info=True)
             
             await asyncio.sleep(30)
             
-        except asyncio.CancelledError:
+        except async io.CancelledError:
             logger.info("🛑 Background sync task cancelled")
             raise
         except Exception as e:
@@ -83,7 +96,12 @@ async def lifespan(app: FastAPI):
         logger.info("✅ R2 configuration detected - enabling remote sync")
         try:
             logger.info("📥 Syncing knowledge store from R2...")
-            knowledge_store_sync.ensure_local_copy()
+            # Run initial sync in thread pool
+            loop = asyncio.get_event_loop()
+            await loop.run_in_executor(
+                executor,
+                knowledge_store_sync.ensure_local_copy
+            )
             logger.info("✅ Knowledge store synced from R2.")
         except Exception as e:
             logger.error(f"❌ Failed to sync from R2: {e}", exc_info=True)
@@ -122,10 +140,20 @@ async def lifespan(app: FastAPI):
     if r2_configured:
         logger.info("📤 Final flush to R2...")
         try:
-            knowledge_store_sync.flush()
+            # Run final flush in thread pool with timeout
+            loop = asyncio.get_event_loop()
+            await asyncio.wait_for(
+                loop.run_in_executor(executor, knowledge_store_sync.flush),
+                timeout=30.0
+            )
             logger.info("✅ Final R2 sync complete.")
+        except asyncio.TimeoutError:
+            logger.error("❌ Final R2 sync timed out after 30s")
         except Exception as e:
             logger.error(f"❌ Final R2 sync failed: {e}")
+    
+    # Shutdown thread pool
+    executor.shutdown(wait=True, cancel_futures=True)
     
     logger.info("=" * 60)
     logger.info("👋 Goodbye!")
