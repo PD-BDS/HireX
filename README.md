@@ -1,47 +1,113 @@
-# Resume-Radiant-Chat
+# HireX
 
-Streamlit application for collaborative resume-screening sessions backed by a shared Cloudflare R2 knowledge store.
+**AI-Powered Recruitment Assistant**
 
-## Installation
+HireX is a sophisticated resume screening and recruitment assistant powered by **CrewAI**, **FastAPI**, and **React**. It leverages RAG (Retrieval-Augmented Generation) to analyze resumes against job descriptions, providing recruiters with deep insights, candidate rankings, and interactive chat capabilities.
 
-```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-pip install -e .
+## 🚀 Features
+
+-   **AI Resume Screening**: Automatically analyzes resumes against job descriptions using multi-agent orchestration (CrewAI).
+-   **RAG-Powered Chat**: Ask questions about any candidate and get answers based on their resume content.
+-   **Persistent Knowledge Store**: All data (conversations, screening results, vector embeddings) is synced to **Cloudflare R2**, ensuring persistence across deployments.
+-   **Modern UI**: Built with React, Vite, and Tailwind CSS for a seamless user experience.
+-   **Private & Secure**: Designed for private repository deployment with strict data separation.
+
+## 🛠️ Tech Stack
+
+-   **Frontend**: React, TypeScript, Vite, Tailwind CSS
+-   **Backend**: Python, FastAPI, Uvicorn
+-   **AI/ML**: CrewAI, LangChain, OpenAI (GPT-4o-mini), ChromaDB
+-   **Storage**: Cloudflare R2 (Object Storage)
+
+## 📦 Installation
+
+### Prerequisites
+
+-   Python 3.10+
+-   Node.js 18+
+-   OpenAI API Key
+-   Cloudflare R2 Credentials
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/PD-BDS/HireX.git
+cd HireX
 ```
 
-## Secrets and environment
+### 2. Backend Setup
 
-Prefer `.streamlit/secrets.toml` for API keys and Cloudflare credentials so Streamlit sets them before the app imports `storage_sync`. Keep `.env` for local tooling only and never commit real keys.
+```bash
+# Create virtual environment
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-### Cloudflare R2 configuration
-
-Knowledge-store archives are now hosted exclusively in Cloudflare R2. Set `REMOTE_STORAGE_PROVIDER=r2` (default) and provide the following variables via secrets:
-
-```
-R2_ACCESS_KEY_ID=<access key>
-R2_SECRET_ACCESS_KEY=<secret>
-R2_BUCKET_NAME=<bucket name>
-R2_OBJECT_NAME=knowledge_store.tar.gz  # optional override
-# Either set a full endpoint URL or provide the account id to build one
-R2_ENDPOINT_URL=https://<account>.r2.cloudflarestorage.com
-# or
-R2_ACCOUNT_ID=<account id>
-R2_REGION=auto  # optional, defaults to auto
+# Install dependencies
+pip install -r requirements.txt
 ```
 
-## Running locally
+### 3. Frontend Setup
 
-```powershell
-Set-Location D:/RAG_CV/Resume-Radiant-Chat
-streamlit run src/resume_screening_rag_automation/app.py
+```bash
+cd frontend
+npm install
 ```
 
-The first launch downloads `knowledge_store.tar.gz` from Cloudflare R2 and extracts it into `src/knowledge_store`.
+### 4. Environment Configuration
 
-## Knowledge store hygiene
+Copy `.env.example` to `.env` and fill in your credentials:
 
-- Do **not** remove the `cv_txt` folder from the archive; the ingestion monitors it for new resumes.
-- `knowledge_store_sync` uploads only when files change and keeps historical sessions intact.
-- To seed new sessions, stop the app, ensure files exist under `src/knowledge_store/conversations`, then relaunch so the archive is updated.
-- Keep `src/knowledge_store/` out of git (already ignored) and regenerate `knowledge_store.tar.gz` with `tar -czf knowledge_store.tar.gz knowledge_store` from the `src/` directory before uploading to R2.
+```bash
+cp .env.example .env
+```
+
+Required variables:
+- `OPENAI_API_KEY`
+- `REMOTE_STORAGE_PROVIDER=r2` (for production) or `local` (for dev)
+- `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET_NAME`, `R2_ENDPOINT_URL`
+
+## 🏃‍♂️ Running Locally
+
+### Start Backend
+
+```bash
+# From root directory
+uvicorn backend.main:app --reload
+```
+
+### Start Frontend
+
+```bash
+# From frontend directory
+npm run dev
+```
+
+Visit `http://localhost:5173` to use the app.
+
+## ☁️ Deployment
+
+HireX is optimized for deployment on **Render** (or similar platforms) with a **private GitHub repository**.
+
+-   **Backend**: Deployed as a Web Service (FastAPI).
+-   **Frontend**: Deployed as a Static Site.
+-   **Data**: Persisted in Cloudflare R2.
+
+👉 **See [DEPLOYMENT.md](DEPLOYMENT.md) for the complete deployment guide.**
+
+## 📂 Project Structure
+
+```
+HireX/
+├── backend/                 # FastAPI application
+├── frontend/                # React application
+├── src/                     # Core AI logic & packages
+│   ├── knowledge_store/     # Local runtime data (synced to R2)
+│   └── resume_screening.../ # CrewAI agents & tools
+├── requirements.txt         # Python dependencies
+├── render.yaml              # Render Blueprint configuration
+└── DEPLOYMENT.md            # Deployment instructions
+```
+
+## 📄 License
+
+Private / Proprietary.

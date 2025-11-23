@@ -97,26 +97,50 @@ class CloudflareR2Backend(_BaseRemoteBackend):
 			raise RemoteSyncError(f"Unable to access Cloudflare R2 bucket {self.bucket}: {exc}") from exc
 
 	def download_tree(self, target: Path) -> bool:
-		keys = self._list_objects()
-		payload_keys = [key for key in keys if key not in {self.manifest_key} and not key.endswith("/")]
-		if not payload_keys:
+		# Optimization: List objects with metadata to avoid separate HEAD requests
+		kwargs = {"Bucket": self.bucket}
+		if self.prefix_with_sep:
+			kwargs["Prefix"] = self.prefix_with_sep
+		
+		continuation: Optional[str] = None
+		objects = []
+		
+		while True:
+			if continuation:
+				kwargs["ContinuationToken"] = continuation
+			try:
+				response = self.client.list_objects_v2(**kwargs)
+			except Exception as exc:
+				LOGGER.warning("Failed to list R2 objects: %s", exc)
+				return False
+				
+			for obj in response.get("Contents", []) or []:
+				objects.append(obj)
+				
+			if not response.get("IsTruncated"):
+				break
+			continuation = response.get("NextContinuationToken")
+
+		payload_objects = [
+			obj for obj in objects 
+			if obj["Key"] != self.manifest_key and not obj["Key"].endswith("/")
+		]
+		
+		if not payload_objects:
 			return False
 		
-		for key in payload_keys:
+		for obj in payload_objects:
+			key = obj["Key"]
+			remote_size = obj["Size"]
+			
 			relative = key
 			if self.prefix_with_sep and key.startswith(self.prefix_with_sep):
 				relative = key[len(self.prefix_with_sep) :]
 			destination = target / relative
 			
-			# Check if file exists and has same size (basic incremental check)
-			# For more robust check, we'd need ETags/hashes, but size is a good start for speed
-			try:
-				head = self.client.head_object(Bucket=self.bucket, Key=key)
-				remote_size = head['ContentLength']
-				if destination.exists() and destination.stat().st_size == remote_size:
-					continue
-			except Exception:
-				pass
+			# Fast incremental check: if file exists and size matches, skip download
+			if destination.exists() and destination.stat().st_size == remote_size:
+				continue
 
 			destination.parent.mkdir(parents=True, exist_ok=True)
 			try:
@@ -256,23 +280,24 @@ class KnowledgeStoreSync:
 		if not self._backend:
 			return
 
+		# Check manifest first
 		manifest = self._backend.fetch_manifest()
 		remote_digest = (manifest or {}).get("digest") if manifest else None
 		local_digest = self._hash_directory(DATA_ROOT) if DATA_ROOT.exists() else None
+		
 		if remote_digest and remote_digest == local_digest:
 			self._last_digest = local_digest
 			return
 
-		snapshot = self._download_remote_snapshot()
-		if not snapshot:
-			LOGGER.info("Remote knowledge prefix empty; keeping existing knowledge_store")
-			return
-
+		# Perform direct incremental sync to DATA_ROOT
+		# This skips files that already exist and match size (fast startup)
+		LOGGER.info("Syncing knowledge store from remote (incremental)...")
 		try:
-			self._replace_with_snapshot(snapshot)
-			self._last_digest = remote_digest or self._hash_directory(DATA_ROOT)
-		finally:
-			shutil.rmtree(snapshot.parent, ignore_errors=True)
+			if self._backend.download_tree(DATA_ROOT):
+				self._last_digest = remote_digest or self._hash_directory(DATA_ROOT)
+		except Exception as e:
+			LOGGER.warning(f"Failed to sync remote knowledge store: {e}")
+			# Fallback: keep existing local data if sync fails
 
 	def mark_dirty(self) -> None:
 		"""Flag the knowledge store as having local changes."""
@@ -317,36 +342,7 @@ class KnowledgeStoreSync:
 
 		self.flush_if_needed(force=True)
 
-	def _download_remote_snapshot(self) -> Optional[Path]:
-		if not self._backend:
-			return None
-
-		tmpdir = Path(tempfile.mkdtemp(prefix="knowledge_sync_dl_"))
-		target = tmpdir / "data"
-		target.mkdir()
-		try:
-			if not self._backend.download_tree(target):
-				shutil.rmtree(tmpdir, ignore_errors=True)
-				return None
-			return target
-		except Exception as exc:  # pragma: no cover - depends on backend implementation
-			shutil.rmtree(tmpdir, ignore_errors=True)
-			raise RemoteSyncError(f"Failed to download remote objects: {exc}") from exc
-
-	def _replace_with_snapshot(self, snapshot: Path) -> None:
-		backup = self._evict_existing_data()
-		DATA_ROOT.parent.mkdir(parents=True, exist_ok=True)
-		try:
-			shutil.move(str(snapshot), DATA_ROOT)
-		except Exception:
-			if DATA_ROOT.exists():
-				shutil.rmtree(DATA_ROOT, ignore_errors=True)
-			if backup and backup.exists():
-				backup.rename(DATA_ROOT)
-			raise
-		else:
-			if backup and backup.exists():
-				shutil.rmtree(backup, ignore_errors=True)
+	# _download_remote_snapshot and _replace_with_snapshot removed as we now sync directly
 
 	def _evict_existing_data(self) -> Optional[Path]:
 		if not DATA_ROOT.exists():
