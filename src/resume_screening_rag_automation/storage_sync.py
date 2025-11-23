@@ -157,11 +157,31 @@ class CloudflareR2Backend(_BaseRemoteBackend):
 		return True
 
 	def upload_tree(self, source: Path, manifest: str) -> None:
-		existing_keys = set(self._list_objects())
+		# Get existing objects with metadata to avoid uploading unchanged files
+		existing_objects = {}
+		for obj in self._list_objects():
+			try:
+				head = self.client.head_object(Bucket=self.bucket, Key=obj)
+				existing_objects[obj] = head.get("ContentLength", 0)
+			except Exception:
+				existing_objects[obj] = 0
+		
 		uploaded_keys = set()
+		skipped_count = 0
+		uploaded_count = 0
+		
 		for file_path in self._iter_files(source):
 			relative_key = self._build_key(file_path.relative_to(source))
 			uploaded_keys.add(relative_key)
+			
+			# Incremental upload: skip if file exists and size matches
+			local_size = file_path.stat().st_size
+			remote_size = existing_objects.get(relative_key, -1)
+			
+			if remote_size == local_size:
+				skipped_count += 1
+				continue
+			
 			extra_args = self._build_extra_args(file_path)
 			with file_path.open("rb") as handle:
 				put_kwargs = {
@@ -172,13 +192,18 @@ class CloudflareR2Backend(_BaseRemoteBackend):
 				if extra_args:
 					put_kwargs.update(extra_args)
 				self.client.put_object(**put_kwargs)
+			uploaded_count += 1
+		
+		# Always update manifest
 		self.client.put_object(
 			Bucket=self.bucket,
 			Key=self.manifest_key,
 			Body=manifest.encode("utf-8"),
 			ContentType="application/json",
 		)
-		self._prune_remote_objects(existing_keys, uploaded_keys)
+		
+		LOGGER.info(f"Upload complete: {uploaded_count} uploaded, {skipped_count} skipped (unchanged)")
+		self._prune_remote_objects(set(existing_objects.keys()), uploaded_keys)
 
 	def fetch_manifest(self) -> Optional[Dict[str, object]]:
 		try:
