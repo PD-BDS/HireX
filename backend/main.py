@@ -12,20 +12,41 @@ from contextlib import asynccontextmanager
 # Enable CrewAI verbose logging
 os.environ["CREW_VERBOSE"] = "1"
 os.environ["CREWAI_LOG_LEVEL"] = "DEBUG"
+os.environ["PYTHONUNBUFFERED"] = "1"  # Force unbuffered output
 
-# Configure logging
+# Configure logging with explicit flush
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
         logging.StreamHandler(sys.stdout)
-    ]
+    ],
+    force=True  # Override any existing config
 )
 logger = logging.getLogger(__name__)
 
 # Ensure CrewAI and app logs are visible
 logging.getLogger("crewai").setLevel(logging.DEBUG)
 logging.getLogger("resume_screening_rag_automation").setLevel(logging.DEBUG)
+
+# Force flush after every log
+for handler in logging.root.handlers:
+    handler.flush = lambda: sys.stdout.flush()
+
+
+import asyncio
+
+# Background task for R2 sync
+async def background_r2_sync():
+    """Background task that syncs to R2 every 30 seconds."""
+    while True:
+        try:
+            await asyncio.sleep(30)  # Wait 30 seconds
+            logger.info("Background R2 sync starting...")
+            knowledge_store_sync.flush_if_needed()
+            logger.info("Background R2 sync complete.")
+        except Exception as e:
+            logger.error(f"Background R2 sync failed: {e}")
 
 
 @asynccontextmanager
@@ -37,8 +58,21 @@ async def lifespan(app: FastAPI):
         logger.info("Knowledge store synced.")
     except Exception as e:
         logger.error(f"Failed to sync knowledge store: {e}")
+    
+    # Start background R2 sync task
+    sync_task = asyncio.create_task(background_r2_sync())
+    logger.info("Background R2 sync task started.")
+    
     yield
+    
     # Shutdown
+    logger.info("Cancelling background sync task...")
+    sync_task.cancel()
+    try:
+        await sync_task
+    except asyncio.CancelledError:
+        pass
+    
     logger.info("Flushing knowledge store to remote...")
     knowledge_store_sync.flush()
 

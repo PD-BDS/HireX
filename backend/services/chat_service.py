@@ -76,10 +76,8 @@ class ChatService:
             persist_session(flow.state.chat_state, flow.state.knowledge_state)
             logger.info(f"Session persisted. Message count: {len(flow.state.chat_state.messages)}")
             
-            # Sync to R2
+            # Mark for background R2 sync
             knowledge_store_sync.mark_dirty()
-            knowledge_store_sync.flush_if_needed()
-            logger.info("Knowledge store synced")
             
             # Return response
             messages = responses or list(flow.state.turn_responses)
@@ -116,7 +114,6 @@ class ChatService:
         chat_state, knowledge_state = get_or_create_session()
         persist_session(chat_state, knowledge_state)
         knowledge_store_sync.mark_dirty()
-        knowledge_store_sync.flush_if_needed()
         return {
             "session_id": chat_state.session_id,
             "created_at": chat_state.last_updated_at
@@ -149,7 +146,6 @@ class ChatService:
             
         persist_session(chat_state, knowledge_state)
         knowledge_store_sync.mark_dirty()
-        knowledge_store_sync.flush_if_needed()
         
         return chat_state.model_dump(mode="json")
 
@@ -197,7 +193,6 @@ class ChatService:
 
         delete_session_memory_storage(session_id)
         knowledge_store_sync.mark_dirty()
-        knowledge_store_sync.flush_if_needed()
         return True
 
 chat_service = ChatService()
