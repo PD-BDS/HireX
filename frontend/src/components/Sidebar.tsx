@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MessageSquare, Plus, Trash2, Briefcase, X, Search, Sliders, HelpCircle, ChevronDown, ChevronUp } from 'lucide-react';
 import clsx from 'clsx';
-import { updateSessionConfig } from '../api/client';
+import { updateSessionConfig, getSession } from '../api/client';
 
 interface SidebarProps {
   isOpen: boolean;
@@ -65,7 +65,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
     const loadJobSnapshot = async () => {
       if (activeSessionId) {
         try {
-          const { getSession } = await import('../api/client');
           const sessionData = await getSession(activeSessionId);
           if (sessionData?.job_snapshot) {
             setConfig((prev: any) => ({
