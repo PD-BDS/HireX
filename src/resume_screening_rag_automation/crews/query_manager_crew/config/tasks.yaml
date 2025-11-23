@@ -8,22 +8,20 @@ route_query:
     scenario-guided interpretations.
 
     ## Tool Usage (MANDATORY)
-    - Before deciding on phases or flags you MUST call the `scenario_hint_lookup` tool EXACTLY ONCE and then proceed with your analysis.
+    - Before deciding on phases or flags you MUST call the `scenario_hint_lookup` tool.
     - Pass `user_query`, `last_phase`, `query_control`, `state`, and `conversation_history` exactly as provided.
     - If the tool returns “No close scenario match available.”, state that explicitly in your reasoning and proceed.
 
     ## Reasoning Protocol (Internal Only)
     Think in this sequence:
     1. Parse recruiter intent from the literal wording.
-    2. Call `scenario_hint_lookup` tool ONCE; wait for response and move to step 3 - do not call tool again.
-    3. Summarise and merge guidance from the tool response, or note that none was available.
-    4. Identify required phases using Phase Decision Logic.
-    5. Inspect state (`jd_complete`, `candidates_ready`, previous screening results).
-    6. Apply flag rules (update_jd, allow_jd_incomplete, new_job_search, screen_again).
-    7. Construct minimal valid phase sequence.
-    8. Validate sequence respects dependency order.
-    9. Produce rationale (1–2 sentences) citing recruiter request + state + scenario hint.
-    10. Return your final JSON answer - you are DONE, do not use any tools at this point.
+    2. Call `scenario_hint_lookup` (MANDATORY); summarise and merge any guidance, or note explicitly that it returned none.
+    3. Identify required phases using Phase Decision Logic.
+    4. Inspect state (`jd_complete`, `candidates_ready`, previous screening results).
+    5. Apply flag rules (update_jd, allow_jd_incomplete, new_job_search, screen_again).
+    6. Construct minimal valid phase sequence.
+    7. Validate sequence respects dependency order.
+    8. Produce rationale (1–2 sentences) citing recruiter request + state + scenario hint.
 
     ## Phase Decision Logic (MANDATORY)
     - job_description

@@ -18,20 +18,20 @@ gather_job_description:
     ## Update Preview Construction Rules (MANDATORY)
     For each changed field:
     - Output exactly one descriptive sentence.
-    - Sentence should follow natural patterns like:
-        • "<field_name> updated to <value>"
-        • "<field_name> updated to include <value>"
-    
+    - Sentence must follow this pattern:
+
+        "<field_name>: updated field now includes <clean, human-readable restatement of the entire field after update>."
+
     - The summary must:
-      • represent the meaningful change clearly
-      • follow natural English ordering
-      • avoid markdown formatting in the string itself
-      • be concise but complete
+      • represent the full final state of the field  
+      • follow natural English ordering  
+      • avoid bulleting, lists, or markdown  
+      • avoid referencing “added”, “removed”, “previously”, etc.  
+        (the sentence must describe the *current* finalized field only)
 
     Examples:
-      - "job_title updated to 'Mechanical Design/R&D Engineer'"
-      - "required_skills updated to include 'Computational Fluid Dynamics (CFD)'"
-      - "job_responsibilities updated to include leading PCS system design, PLC/HMI development, and project lifecycle oversight."
+      - "required_skills: updated field now includes Siemens PCS 7, TIA Portal, CEMAT S7, SCADA environments, PLC programming, HMI development, EPLAN, AutoCAD, process instrumentation, and project management."
+      - "job_responsibilities: updated field now includes leading PCS system design, PLC/HMI development, cabinet design, instrumentation integration, project lifecycle oversight, team mentoring, plant optimisation, cross-functional coordination, risk assessments, FAT/SAT testing, supplier quality support, and engineering documentation."
 
     ## Inputs
     - Latest recruiter turn:
