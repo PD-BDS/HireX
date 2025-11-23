@@ -157,14 +157,30 @@ class CloudflareR2Backend(_BaseRemoteBackend):
 		return True
 
 	def upload_tree(self, source: Path, manifest: str) -> None:
-		# Get existing objects with metadata to avoid uploading unchanged files
+		# Get existing objects with metadata using list_objects_v2 (much faster than head_object per file)
 		existing_objects = {}
-		for obj in self._list_objects():
+		kwargs = {"Bucket": self.bucket}
+		if self.prefix_with_sep:
+			kwargs["Prefix"] = self.prefix_with_sep
+		
+		continuation = None
+		while True:
+			if continuation:
+				kwargs["ContinuationToken"] = continuation
 			try:
-				head = self.client.head_object(Bucket=self.bucket, Key=obj)
-				existing_objects[obj] = head.get("ContentLength", 0)
-			except Exception:
-				existing_objects[obj] = 0
+				response = self.client.list_objects_v2(**kwargs)
+			except Exception as exc:
+				LOGGER.warning("Failed to list R2 objects for upload: %s", exc)
+				break
+			
+			for obj in response.get("Contents", []) or []:
+				key = obj["Key"]
+				size = obj.get("Size", 0)
+				existing_objects[key] = size
+			
+			if not response.get("IsTruncated"):
+				break
+			continuation = response.get("NextContinuationToken")
 		
 		uploaded_keys = set()
 		skipped_count = 0
