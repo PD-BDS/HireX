@@ -65,6 +65,9 @@ gather_job_description:
         • updates = []
         • recommended = jd.outstanding_questions
         • summary_sentence should still be non-empty.
+    - For list fields (language_requirements, certification_requirements, etc.):
+        • ALWAYS return an empty list `[]` if no values exist.
+        • NEVER return `null` for list fields.
 
   expected_output: |
     Return JSON validating against `JobDescriptionOutput` with shape:
