@@ -45,42 +45,90 @@ async def background_r2_sync():
         try:
             if knowledge_store_sync._dirty:
                 logger.info("🔄 Background R2 sync starting (changes detected)...")
-                knowledge_store_sync.flush_if_needed()
-                logger.info("✅ Background R2 sync complete.")
+                try:
+                    knowledge_store_sync.flush_if_needed()
+                    logger.info("✅ Background R2 sync complete.")
+                except Exception as sync_error:
+                    logger.error(f"❌ R2 sync failed (will retry): {sync_error}", exc_info=True)
+                    # Don't crash - just log and continue
             else:
                 logger.debug("⏭️  Background R2 sync skipped (no changes).")
+            
             await asyncio.sleep(30)  # Wait 30 seconds before next check
+        except asyncio.CancelledError:
+            logger.info("Background R2 sync task cancelled.")
+            raise
         except Exception as e:
-            logger.error(f"❌ Background R2 sync failed: {e}")
+            logger.error(f"❌ Background R2 sync loop error: {e}", exc_info=True)
             await asyncio.sleep(30)
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup
-    logger.info("Syncing knowledge store from remote...")
-    try:
-        knowledge_store_sync.ensure_local_copy()
-        logger.info("Knowledge store synced.")
-    except Exception as e:
-        logger.error(f"Failed to sync knowledge store: {e}")
+    logger.info("=" * 60)
+    logger.info("🚀 HireX Backend Starting...")
+    logger.info("=" * 60)
     
-    # Start background R2 sync task
-    sync_task = asyncio.create_task(background_r2_sync())
-    logger.info("Background R2 sync task started.")
+    # Check R2 configuration
+    r2_configured = all([
+        os.getenv("R2_ACCESS_KEY_ID"),
+        os.getenv("R2_SECRET_ACCESS_KEY"),
+        os.getenv("R2_BUCKET_NAME"),
+        os.getenv("R2_ENDPOINT_URL")
+    ])
+    
+    if r2_configured:
+        logger.info("✅ R2 configuration detected - enabling remote sync")
+        try:
+            logger.info("📥 Syncing knowledge store from R2...")
+            knowledge_store_sync.ensure_local_copy()
+            logger.info("✅ Knowledge store synced from R2.")
+        except Exception as e:
+            logger.error(f"❌ Failed to sync from R2: {e}", exc_info=True)
+            logger.warning("⚠️  Continuing with local data only")
+    else:
+        logger.warning("⚠️  R2 not configured - running in LOCAL MODE only")
+        logger.warning("⚠️  Data will NOT persist across restarts!")
+    
+    # Start background R2 sync task only if R2 is configured
+    sync_task = None
+    if r2_configured:
+        sync_task = asyncio.create_task(background_r2_sync())
+        logger.info("🔄 Background R2 sync task started.")
+    else:
+        logger.warning("⏭️  Background R2 sync disabled (not configured)")
+    
+    logger.info("=" * 60)
+    logger.info("✅ HireX Backend Ready!")
+    logger.info("=" * 60)
     
     yield
     
     # Shutdown
-    logger.info("Cancelling background sync task...")
-    sync_task.cancel()
-    try:
-        await sync_task
-    except asyncio.CancelledError:
-        pass
+    logger.info("=" * 60)
+    logger.info("🛑 HireX Backend Shutting Down...")
+    logger.info("=" * 60)
     
-    logger.info("Flushing knowledge store to remote...")
-    knowledge_store_sync.flush()
+    if sync_task:
+        logger.info("Cancelling background sync task...")
+        sync_task.cancel()
+        try:
+            await sync_task
+        except asyncio.CancelledError:
+            pass
+    
+    if r2_configured:
+        logger.info("📤 Final flush to R2...")
+        try:
+            knowledge_store_sync.flush()
+            logger.info("✅ Final R2 sync complete.")
+        except Exception as e:
+            logger.error(f"❌ Final R2 sync failed: {e}")
+    
+    logger.info("=" * 60)
+    logger.info("👋 Goodbye!")
+    logger.info("=" * 60)
 
 app = FastAPI(
     title=settings.PROJECT_NAME,

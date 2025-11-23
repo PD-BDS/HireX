@@ -51,8 +51,9 @@ export const ChatInterface: React.FC = () => {
             const newMessages = response.messages.filter(m => m.role !== 'user');
             setMessages(prev => [...prev, ...newMessages]);
 
+            // Refresh sessions list if this was a new session
             if (!sessionId) {
-                loadSessions();
+                await loadSessions();
             }
         } catch (error) {
             console.error('Failed to send message:', error);
