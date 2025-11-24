@@ -113,7 +113,7 @@ class ScreeningCrew:
         """Task to enrich shortlisted candidates with structured insights."""
         return Task(
             config=self.tasks_config["analyse_candidates"],
-            output_pydantic=CandidateAnalysisOutput,
+            output_json=CandidateAnalysisOutput,
             validate_output=True,
             callback=self._propagate_analysis_results,
         )
