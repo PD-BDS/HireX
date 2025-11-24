@@ -23,10 +23,6 @@ from resume_screening_rag_automation.tools.vectorstore_utils import (
 class SearchResumesInput(BaseModel):
     query: str = Field(..., description="Query text to search resumes")
     top_k: int = Field(5, description="Number of top results to return")
-    collection_name: str = Field(
-        RESUME_COLLECTION_NAME,
-        description="Chroma collection name",
-    )
     where: Optional[Dict[str, Any]] = Field(
         default=None,
         description="Optional metadata filter passed to the vector store query",

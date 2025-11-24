@@ -792,7 +792,6 @@ def _resume_has_content(content: ResumeContent) -> bool:
 class ExtractCandidatesInput(BaseModel):
     job_description: Dict[str, Any] = Field(..., description="Job description dict")
     top_k: int = Field(5, description="Number of candidates to return")
-    collection_name: str = Field(RESUME_COLLECTION_NAME, description="Chroma collection name")
     scoring_weights: Dict[str, float] = Field(default_factory=dict)
     feature_weights: Dict[str, float] = Field(default_factory=dict)
 
