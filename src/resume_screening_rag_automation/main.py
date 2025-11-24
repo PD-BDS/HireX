@@ -289,8 +289,29 @@ def _format_candidate_table(insights: List[CandidateInsight]) -> str:
         candidate_name = _candidate_display_name(insight, idx)
         score = getattr(getattr(insight, "scores", None), "job_fit_score", None)
         score_text = f"{score:.1f}" if isinstance(score, (int, float)) else "-"
-        summary = (insight.summary_md or "").strip().splitlines()[0] if insight.summary_md else ""
-        highlight = summary or (insight.fit_reasoning[0].strip() if insight.fit_reasoning else "")
+        # Construct highlight from specific matched features
+        matched = insight.matched_features
+        parts = []
+        
+        if matched.matching_skills:
+            skills = ", ".join(matched.matching_skills[:3])
+            parts.append(f"Skills: {skills}")
+            
+        if matched.matching_experience:
+            exp = ", ".join(matched.matching_experience[:2])
+            parts.append(f"Exp: {exp}")
+            
+        if matched.matching_education:
+            edu = matched.matching_education[0]
+            parts.append(f"Edu: {edu}")
+            
+        highlight = "; ".join(parts)
+        
+        # Fallback if no specific features matched
+        if not highlight:
+            summary = (insight.summary_md or "").strip().splitlines()[0] if insight.summary_md else ""
+            highlight = summary or (insight.fit_reasoning[0].strip() if insight.fit_reasoning else "")
+            
         highlight = highlight[:140] + ("…" if len(highlight) > 140 else "")
         rows.append(f"| {idx} | {candidate_name} | {score_text} | {highlight or '—'} |")
 

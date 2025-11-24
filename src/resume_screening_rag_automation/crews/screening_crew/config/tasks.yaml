@@ -97,7 +97,7 @@ present_screening_results:
       {candidate_insights}
 
     ## Required Actions
-    1. Craft `message_md` as polished markdown: include a shortlist table with columns for Rank, Name, Job Fit Score, and Highlights. The Highlights column should contain a brief, comma-separated list of the candidate's key matching attributes (e.g., "Python expert, 5+ yrs experience, Stanford CS") extracted from `matched_features` (skills, education, experience, titles). Do NOT include the full summary_md in the table.
+    1. Craft `message_md` as polished markdown: include a shortlist table with columns for Rank, Name, Job Fit Score, and Highlights. The Highlights column **MUST** be a concise, human-readable summary of **specific matches** (e.g., "Skills: Python, React; Exp: 5 yrs; Edu: MS CS") derived strictly from `matched_features`. **DO NOT** use the candidate's bio or `summary_md` here. Keep it short to prevent table wrapping issues.
     2. Translate all findings into plain, recruiter-friendly language—avoid technical jargon like "semantic similarity" or detailed scoring math; instead, explain what the numbers mean in everyday terms (e.g., "strong match", "needs more senior experience").
     3. Populate `candidate_insights` by reusing or lightly editing the analyser output without altering its structure—`matched_features` must retain the `matching_*` keys and `fit_reasoning` must remain a list of strings, but each string should contain detailed reasoning based on evidence and read as a human-readable sentence.
     4. Summarise dataset coverage in `database_summary_md` (e.g., abundance of direct matches vs. adjacent talent) using approachable language, and log reusable snippets inside `knowledge_records` (each entry should follow `{ "candidate_id": "<id>", "insight_md": "<markdown note>" }`).
@@ -105,7 +105,7 @@ present_screening_results:
   expected_output: |
     Return JSON validating `CandidateScreeningOutput`:
       {
-        "message_md": "<markdown shortlist table with Rank | Name | Job Fit Score | Highlights (key matches only, not full summary)>",
+        "message_md": "<markdown shortlist table with Rank | Name | Job Fit Score | Highlights (specific matches only)>",
         "candidate_insights": [CandidateInsight, ...],
         "reasoning": "<optional overall explanation>",
         "database_summary_md": "<markdown dataset summary>",

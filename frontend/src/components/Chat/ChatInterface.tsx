@@ -262,7 +262,7 @@ export const ChatInterface: React.FC = () => {
                                 <div className={clsx(
                                     "max-w-[75%] rounded-2xl px-4 py-3 shadow-md",
                                     msg.role === 'user'
-                                        ? "bg-[#1E1E2E] border-l-4 border-[#AC6AFF] text-gray-100 rounded-br-sm"
+                                        ? "bg-[#1E1E2E] border-r-4 border-[#AC6AFF] text-gray-100 rounded-br-sm"
                                         : "bg-[#1E1E2E] border-l-4 border-[#4687F1] text-gray-100 rounded-bl-sm"
                                 )}>
                                     <div className="prose prose-invert max-w-none leading-relaxed text-xs">
@@ -298,11 +298,13 @@ export const ChatInterface: React.FC = () => {
                                     </div>
                                 </div>
 
-                                {msg.role === 'user' && (
-                                    <div className="w-10 h-10 rounded-xl bg-[#15131D] border border-[#252134] flex items-center justify-center flex-shrink-0">
-                                        <User size={20} className="text-[#757185]" />
-                                    </div>
-                                )}
+                                {
+                                    msg.role === 'user' && (
+                                        <div className="w-10 h-10 rounded-xl bg-[#15131D] border border-[#252134] flex items-center justify-center flex-shrink-0">
+                                            <User size={20} className="text-[#757185]" />
+                                        </div>
+                                    )
+                                }
                             </div>
                         ))}
 
@@ -353,6 +355,6 @@ export const ChatInterface: React.FC = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };

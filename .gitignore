@@ -13,6 +13,7 @@ venv/
 .venv/
 ENV/
 env/
+.venv_test/
 
 # Node
 node_modules/
