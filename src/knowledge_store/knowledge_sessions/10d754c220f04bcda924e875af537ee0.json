@@ -1,8 +1,0 @@
-{
-  "knowledge_session_id": "10d754c220f04bcda924e875af537ee0",
-  "structured_resumes_path": "D:\\GitHub\\Resume-Radiant-Chat\\src\\knowledge_store\\structured_resumes.json",
-  "generated_insights_path": "D:\\GitHub\\Resume-Radiant-Chat\\src\\knowledge_store\\screening_insights\\10d754c220f04bcda924e875af537ee0.json",
-  "vector_collection": "resume_screening",
-  "last_vector_sync": null,
-  "active_candidate_ids": []
-}
