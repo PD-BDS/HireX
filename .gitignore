@@ -73,6 +73,7 @@ deploy.zip
 # Temporary files
 *.tmp
 .cache/
+manual_deploy_temp/
 
 # Local Utility Scripts (do not deploy)
 prepare_deployment.py
