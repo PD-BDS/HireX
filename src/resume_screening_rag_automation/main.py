@@ -91,7 +91,19 @@ def _task_output_to_model(task_output: TaskOutput, model_cls: Any) -> Any:
 
     raw = getattr(task_output, "raw", None)
     if raw:
-        return model_cls.model_validate_json(raw)
+        try:
+            return model_cls.model_validate_json(raw)
+        except Exception:
+            # Try to extract JSON from raw text if it contains extra content
+            import re
+            import json
+            json_match = re.search(r'\{.*\}', raw, re.DOTALL)
+            if json_match:
+                try:
+                    json_data = json.loads(json_match.group())
+                    return model_cls.model_validate(json_data)
+                except Exception:
+                    pass
 
     raise ValueError(f"Unable to coerce crew output into {model_cls.__name__}")
 

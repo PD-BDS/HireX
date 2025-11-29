@@ -1,0 +1,169 @@
+NIELS
+
+
+Summary
+======
+Site Manager with extensive experience in overseeing HSE compliance and operational efficiency in hydrogen production facilities. Proven track record in managing daily operations and maintenance of PtX hydrogen plants, ensuring adherence to safety regulations while optimizing uptime and serviceability. Skilled in troubleshooting, upgrading, and installing industrial machinery, with strong technical sales background emphasizing client satisfaction. Committed to fostering a culture of safety, training team members, and implementing best practices for handling hazardous materials. Adept at collaborating across departments to achieve project goals, minimizing environmental impact and maximizing resource efficiency. Analytical, structured, robust, goal-oriented, and thrives in a busy environment. Proactively resolves potential issues to maintain project momentum and timelines, with a strong dedication to customer satisfaction.
+
+
+Experience
+======
+Site Manager
+Novo Nordisk PPV Kalundborg
+05/2025 - Ongoing
+ - Participated actively in weekly construction meetings to align progress and resolve on-site issues
+ - Attended mandatory NNE safety meetings to ensure compliance with project safety standards
+ - Communicated updated site safety requirements to ABB employees, including coordination with international staff from India
+ - Handled applications for new work permits with NNE to ensure timely onboarding of personnel
+ - Managed extensions of existing work permits in close collaboration with NNE
+ - Participated in daily planning meetings with NNE to coordinate and prioritize schedule tests
+ - Conducted daily whiteboard meetings with Indian programmers to align on tasks, test progress, and troubleshooting
+
+Assistant Site Manager
+Novo Nordisk PPV Kalundborg
+01/2025 - 05/2025
+ - Led ABB's SGS evening shift to ensure loop and proof tests were executed according to the daily plan
+ - Responsible for opening and closing work permits in compliance with site procedures
+ - Maintained a strong safety presence on site, ensuring all activities adhered to safety regulations
+ - Reported evening shift test activities to the day shift, including details on completed, failed, or suspended tests
+ - Communicated root causes and status of failed or suspended tests to NNE, enabling targeted remediation efforts
+
+Site Manager
+Plant Supervision - Stiesdal Hydrogen A/S
+2024 - 2024
+ - Overall HSE compliance at Sønderborg site
+ - Operations and maintenance of electrolyzer plants
+ - Managing operations in cooperation with respective teams
+ - Planning execution of activities
+ - Reporting progress of activities
+
+Lead Electrical
+Bravida A/S, Kolding
+2023 - 2024
+ - Fault finding and rectification of electrical equipment
+ - Supervising Electrical Testers
+ - Supervised a PLC team responsible for the operation, testing, and troubleshooting of safety-critical control systems
+ - Troubleshooting, upgrading, and installing machinery at industrial client sites
+ - Primarily industrial customers focused on machinery installation and fault-finding
+
+Technical Field Service Specialist
+Green Hydrogen Systems ApS (A+X-series)
+2022 - 2023
+ - Contributed to development and scaling-up of the new X-series electrolyzer
+ - Ensured designs optimized for maintenance and operational uptime
+ - Provided practical experience from previous A-series, highlighting serviceability improvements
+ - Managed handling changes requiring new lifting equipment and cranes for the X-series
+
+Customer Care Engineer
+Green Hydrogen Systems
+2021 - 2022
+ - Acted as main customer service contact following company IPO
+ - Conducted training for new service colleagues in electrolyzer operations and safety
+ - Training included theoretical studies, P&ID diagrams walkthrough, and on-site practical instruction
+ - Facilitated on-the-job safety training for handling hydrogen, oxygen, and caustic soda
+ - Participated in HAZOP processes
+
+Service Engineer
+Green Hydrogen Systems ApS
+2020 - 2021
+ - Intensive training and hands-on work with electrolysis processes, Pl diagrams, and programming
+ - Authored work instructions and site-specific guidelines for safety and procedures
+ - Managed systems involving hydrogen, oxygen, and caustic soda
+ - Conducted repairs on high-pressure (300 and 450 bar) piping systems for hydrogen storage
+ - Provided input for developing service and maintenance-friendly next-generation electrolyzers
+ - Collected operational data for KPI calculations
+
+Technical Support Specialist
+STØTEK Danmark A/S
+2019 - 2020
+ - Updated technical drawings for melting furnaces with new components
+ - Supported international service operations in Austria and Germany
+ - Adapted and programmed Siemens PLC and HMI software for furnaces
+ - Offered technical customer support via email and telephone
+ - Assisted in sales processes and furnace production
+
+Technical Manager
+E. Lampe
+2017 - 2019
+ - Managed daily maintenance of sausage production equipment
+ - Coordinated setup, renovation, and relocation of production facilities
+ - Ensured compliance with veterinary regulations and optimized production workflows
+ - Selected energy-efficient and environmentally friendly technical systems
+ - Managed the detailed relocation planning and execution, ensuring minimal disruption to customers
+ - Maintained optimal operation of relocated machinery and new systems post-relocation
+ - Implemented heat recovery systems to generate hot water for daily cleaning
+ - Created a comprehensive technical documentation database
+
+Electrician
+Vojens Køleteknik A/S
+2006 - 2013
+ - Leading Electrical teams through testing of electrical systems
+ - Installation, renovation, and servicing commercial refrigeration systems nationwide
+ - Maintained refrigeration systems for major retail chains (Føtex, Bilka, Netto, Rema, COOP)
+ - Operated and maintained Danfoss IT-based refrigeration monitoring systems
+ - Participated in nationwide on-call rotation, addressing electrical and refrigeration issues
+
+Self-Employed
+Lampes El ApS
+2002 - 2006
+ - Founded and operated own electrical installation business
+
+Overmontør
+ABB A/S Marine
+2001 - 2002
+ - Supervised electrical installations, tests, and commissioning on marine vessels
+ - Conducted service trips and sea trials for A.P. Møller Maersk container ships
+
+Overmontør
+ABB A/S Lokal
+1998 - 2000
+ - Handled electrical installations, personnel management, quotations, and project leadership
+ - Participated in significant industrial projects including SCADA system integration
+
+
+Education
+======
+Marine Engineer
+Fredericia Maskinmester Skole
+2014 - 2017
+
+Certified Electrical Installer
+EUC Sønderborg
+1997 - 1998
+
+(1997–1998)Electrician
+El-Strøm ApS,
+1990 - 1993
+
+Technical School Haderslev
+EFG Jern & Metal
+1989 - 1990
+
+
+Certification
+======
+L-aus Electrical Safety (2024)
+
+Sagkyndighedskursus, valid until Jan 11, 2025
+
+ADR Dangerous goods (2021, valid until Oct 7, 2026)
+
+Hot Work Certificate DBI (2021, valid until Oct 26, 2026)
+
+Board Member training, Board Company (2021)
+
+SITRAIN SIMATIC TIA-portal Programming 1 & 2 (2019)
+
+SITRAIN SIMATIC TIA-portal. Programming 2 (2019)
+
+Refrigeration Technology (2011)
+
+
+Languages
+======
+Danish
+
+English
+
+German
+

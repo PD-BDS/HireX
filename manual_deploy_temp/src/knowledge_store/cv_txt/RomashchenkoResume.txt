@@ -1,0 +1,203 @@
+ROMASHCHENKO
+Electrical and Automation Engineer
+
+
+Summary
+======
+Electrical & Automation Engineer with over 20 years of diverse experience in process control systems, industrial automation, and instrumentation across the cement and industrial gas sectors. Demonstrates deep technical proficiency in Siemens PCS 7, CEMAT S7, FLS ECS, and SCADA systems, with hands-on expertise in both software development and hardware engineering.Adept in engineering design tools including EPLAN and AutoCAD, with a solid background in industrial computing, PLC/HMI systems, power supply systems, and electronic controls. Proven track record of managing and delivering complex automation and control projects, leading cross-functional engineering teams to successful outcomes.Recognized for strong analytical thinking, strategic planning, and the ability to align engineering functions with business goals. Effective communicator and team leader, with the ability to mentor, develop, and motivate teams while fostering a culture of continuous improvement and operational excellence.
+
+
+Experience
+======
+Principal instrumentation & control field engineer
+Air products ukraine
+2025 - 2025
+ - Principal instrumentation & control field engineer for Air separation units (ASU, HPN), gases generators (PHG, HYCO, ATR)
+ - Implementation and maintenance of automated control system of the technological process
+ - Development and implementation of wiring diagrams for control cabinets and control panels
+ - PLC software development
+ - Maintenance of field devices and measuring instruments
+
+Engineer Instrumentation & control
+Air products ukraine
+2021 - 2025
+ - For Air separation units (ASU, HPN), gases generators (PHG, HyCO, ATR)
+ - Implementation and maintenance of automated control system of the technological process
+ - Development and implementation of wiring diagrams for control cabinets and control panels
+ - PLC software development
+ - Maintenance of field devices and measuring instruments
+ - Comprehensive automation based on Siemens PCS7, TIAportal, WiNCC
+
+Engineer of investment department
+Ojsc Kryvyi Rih Cement
+2019 - 2021
+ - Project management of the Electrical & Automation discipline
+ - Development and implementation of control cabinets and control panels
+ - PLC software development
+
+Engineer of investment department
+HeidelbergCement OJSC
+2017 - 2019
+ - Project management of the Electrical & Automation discipline
+ - Development and implementation of control cabinets and control panels
+ - PLC software development
+
+Power engineer department
+HeidelbergCement OJSC Kryvyi Rih Cement
+2017 - 2017
+ - Power engineer department
+ - Engineer on implementation of new equipment and technologies
+
+Plant Project Engineer
+HeidelbergCement Technology Centre
+2015 - 2017
+ - New 10,000 TPD Integra Cement Plant project engineer of the discipline Automation, PCS (SCADA) management
+ - Comprehensive automation based on Siemens PCS7, TIAportal, WINCC
+
+Engineer of Electrical & Automation
+HeidelbergCement Kazakhstan
+2012 - 2014
+ - 2000 TPD Integrated Cement Plant project
+ - Engineer of the Electrical & Automation discipline, PCS (SCADA) management
+ - Comprehensive automation based on Siemens PCS7, TIAportal, WINCC
+
+Project manager - Electrical & Automation
+HeidelbergCement OJSC
+2010 - 2012
+ - Power Engineer Departmentr
+ - PCS (SCADA) management
+
+Process Control System (PCS) Engineer
+HeidelbergCement OJSC Kryvyi Rih Cement
+2009 - 2010
+ - The project "Automation slag dryer" implementation
+ - Implementation and maintenance of automated control system of the technological process
+
+Engineer Automation Department
+HeidelbergCement OJSC Kryvyi Rih Cement”
+2005 - 2009
+ - Implementation and maintenance of automated control system of the technological process
+ - Automation equipment Siemens, Step7
+ - WinCC, FLS/ECS
+ - Development and implementation of control and inspection system of separate technological processes (control of pre-heater tower working processes, filtration system, control of air flows, control of compressor and pumping stations)
+ - Coordination of project works
+ - Coordination of commissioning and erection works
+ - Participated in various projects in 'Kryvyi Rih Cement'
+ - Collaboration with the specialists from Heidelberg Technology Center (Germany) in automation of cement plants in Ukraine
+
+Sales Manager
+LLC Kameliya
+2001 - 2005
+ - Work control of sales agents and consultants
+ - Request preparing
+ - Market monitoring
+
+Service computer engineer
+Oberon
+2001 - 2001
+ - Computer maintenance
+ - Sale of computers
+ - Designing of computer systems
+
+Programmer engineer
+OJSC,Krivorozhskij domostroitel
+1994 - 2001
+ - Software engineering
+ - Development and implementation of automated control system
+
+Electronics engineer
+Krivoi Rog Turbine,KONSTAR
+1993 - 1994
+ - Maintenance and repair works of electronics
+ - PLC implementation (Siemens)
+ - Development and implementation of control system of industrial complex
+
+Programmer engineer
+Centrosoft
+1992 - 1992
+ - Software development and implementation of control of materials and capital equipment of the company
+ - Use of software FoxPro
+
+Mechanic of CAD department
+State design institute Dneprgrazhdanprojekt
+1990 - 1992
+ - Computer-aided design department
+ - Mechanic of CAD department
+ - SCAD maintenance and repair
+
+
+Education
+======
+Diploma Engineering
+Kryvyi Rih National University
+1986 - 1993
+ - Department: Electrotechnical Department
+ - Degree: MS
+ - Specialty: Electric drives and industrial plant automation of technological systems
+
+Diploma Human Resource Management
+Crimea Economics Institute
+2008 - 2009
+ - Degree: Certificate of Completion
+
+
+ACCOMPLISHMENTS
+======
+Project implementation, Electrical & Automation discipline. Comprehensive automation
+
+Integration of a wide variety of systems for process control (PCS), Comprehensive automation.
+
+Design of PCS (based on Siemens PCS7, TIAportal, WiNCC)
+
+Development of industrial automation, programmable logic controllers, SCADA, and HMI
+
+Design of power supply system LV, MV
+
+Maintenance of power supply system LV, Instrumentation, PCS, industrial automation systems.
+
+More than 20 realized process automation projects
+
+Industry awareness: cement production, industrial gas production
+
+
+TRAINING
+======
+Human Resource Management on-site
+
+Safety Training on Coal Handling
+
+Process Interlocking Diagrams”
+
+Effective Business Presentation
+
+Extreme Training «Mission is executable»
+
+Outlines of Project Management
+
+Delta V
+
+Project Management
+
+
+Skills
+======
+ - AutoCAD
+ - Eplan
+ - FoxPro
+ - Instrumentation
+ - PLC
+ - PLECS
+ - SCADA
+ - WinCC
+ - OMRON
+ - Delta V
+
+
+Languages
+======
+English
+
+Polish
+
+Russian
+

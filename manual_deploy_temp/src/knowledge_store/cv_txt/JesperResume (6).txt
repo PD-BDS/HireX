@@ -1,0 +1,156 @@
+JESPER
+Application software developer
+
+
+Summary
+======
+Highly skilled Senior Embedded Software Engineer with over 20 years of experience in embedded system design, architecture, and implementation across renewable energy, marine, industrial automation, and consumer electronics sectors. Proficient in C/C++, Python, and real-time systems, with deep expertise in low-level microcontroller programming and hardware/software integration. Strong background in regulatory-compliant development (CE, DNV-GL) and hands-on experience with platforms such as ARM, Freescale, PowerPC, and Microchip PIC. Led key projects including DNV-approved fire suppression systems and wind turbine control software. Well-versed in PCB design, EMC testing, and production-grade hardware development. Adept with tools like Git, Jenkins, and Visual Studio, and experienced in CI/CD practices and unit testing.
+
+
+Experience
+======
+Specification, design and implementation of next generation fire suppression systems
+Self employed
+2022 - Ongoing
+ - Specification, design and implementation of next generation fire suppression systems
+ - Modularized software with Hardware Abstraction Layer, primarily written in C++20
+ - Unit testing using Google Test
+ - Hardware-In-the-Loop test written Python
+ - BLE communication with web-based setup application
+ - Application software deployable on PC for testing/simulation
+ - Hardware design and implementation (Microchip SAMD, SMPS)
+ - Hardware testing including EMC test in lab
+ - Production test written in Python
+
+Application software developer
+Vestas Wind Systems A/S:
+01/2017 - 12/2024
+ - Application software development for wind turbines
+ - Worked with software for multiple platforms, including upgrade of existing turbines, onshore and offshore turbines
+ - Technical lead for team developing software for new drive train
+ - C++, Git, Bitbucket, Jenkins, unit testing, automated testing
+
+Technical Lead
+Emerson Climate Technologies
+06/2015 - 09/2018
+ - Technical lead with responsibility for team developing BSP for new platform for industrial customer
+ - Platform based on NXP Kinetis processor series
+ - BSP based on NXP Kinetis SDK
+ - Project includes Continuous Integration, unit testing, integration with application, low-level MCU programming (e.g. DMA transfers), integration of OEM protocol stacks (CAN / J1939) etc
+
+Responsible for embedded software for EC-project
+Self employed
+03/2014 - 09/2014
+ - Responsible for embedded software for EC-project "Airfield Monitor"
+ - Research project aiming at providing better and more detailed information about runway conditions in airports
+ - In-field data logging and subsequent data processing
+
+Misc. Projects for customer in the off-shore business
+Self employed
+08/2012 - 01/2014
+ - Including high resolution hydraulic valve controller with PLC interface
+ - High power LED lamps
+
+Software Engineer
+Prevas A/S
+02/2011 - 04/2013
+ - Implementation (C++) of signal processing software modules and vibration measurement software templates
+ - Requirement specification for active loudspeaker to be developed by customer
+ - Software for high performance cooling control system. Distributed IO system using Freescale Kinetis and i.MX controllers/processors. Ported Modbus stack to run on both processors and implemented misc. Drivers for I/O.
+ - Responsible for embedded software for EC-project “Airfield Monitor”: Research project aiming at providing better and more detailed information about runway conditions in airports. In-field data logging and subsequent data processing
+
+Project management of in-house software team
+Vestas Wind Systems
+05/2010 - 02/2011
+ - Project management of in-house software team working for Vestas.
+
+Software Engineer
+Vestas Wind Systems A/S
+01/2010 - 03/2010
+ - Specification and implementation of application layer software for wind turbines
+ - Specification work includes extracting requirements from stakeholders (mechanical/electrical engineers etc.)
+ - Work flow/work environment introduction for new employees at Vestas
+
+Software Engineer
+Prevas A/S
+06/2009 - 12/2009
+ - Bring-up of bootloader/Linux kernel for new Prevas ARM module
+ - Development and debugging of automatic test system
+
+Software Engineer
+Grundfos
+09/2008 - 05/2009
+ - Specification, design, implementation and test of software modules for use in GSM/GPRS remote management box
+ - Collaboration with Indian developers
+
+Software Engineer
+Vestas Wind Systems A/S
+11/2006 - 05/2008
+ - Specification, design, implementation and test of software modules for controlling physical components in wind turbines
+ - Code and documentation, quality control
+ - Code and design guidelines
+ - Specification and development of software for a distributed real time control system with integrated Java driven user interface.
+ - Deployment and testing of several Java Virtual Machines and implementation of Linux device drivers.
+
+Software Engineer
+Prevas A/S
+08/2005 - 11/2006
+ - Building, deployment and test of Linux kernel for a Prevas PowerPC module. Building, deployment and test of X graphics system.
+ - Improvements and support for PowerPC based industrial weighing and counting system, including optimized interrupt handling code.
+
+Software Engineer for 8-bit controllers
+Self employed
+2004
+ - Specification, design and implementation of software for 8-bit controllers for domestic lighting control
+
+
+Skills
+======
+ - C/C++
+ - Eagle
+ - Eclipse
+ - EMC
+ - Git
+ - Java
+ - Linux
+ - MATLAB
+ - Microsoft Visual Studio
+ - Modbus
+ - MPLAB
+ - PowerPC 56x / 83xx
+ - Python
+ - Simulink
+ - SPI
+ - SVN
+ - Unit Testing & CI/CD
+ - Low-Level MCU Programming
+ - Virtual Machines
+ - Visual Studio
+ - WAN
+ - ARM
+ - Analog Circuit Design
+ - Digital Circuit Design
+ - Subversion (SVN)
+ - IAR Embedded Workbench
+ - Atmel AVR Studio
+
+
+Education
+======
+Master degree E.E./ Information Technology
+Aarhus University
+2002 - 2004
+
+Bachelor degree in Electrical Engineering
+Aarhus Engineering College
+1998 - 2002
+
+
+Languages
+======
+Danish
+
+English
+
+German
+

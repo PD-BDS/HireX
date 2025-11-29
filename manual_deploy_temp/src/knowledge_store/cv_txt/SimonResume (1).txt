@@ -1,0 +1,83 @@
+SIMON
+
+
+Summary
+======
+Certified Marine Engineer with a background as an Electrician. For most of the past 10 years, I've worked in boiler service onboard ships, which has given me broad experience in electricity, automation, and mechanics. I'm used to working in multicultural environments and understand the importance of clear communication as one of the key factors in delivering quality results. My strengths lie in automation and troubleshooting, and I have a strong ability to analyze, identify errors, and suggest electrical or mechanical optimizations.
+
+
+Experience
+======
+Project Engineer - Automation
+Global Boiler
+06/2023 - Ongoing
+ - Built control systems from scratch
+ - Electrical diagram construction (EPLAN)
+ - Control cabinet design
+ - PLC programming (Siemens) and testing
+ - Class approvals and FAT class testing
+ - Creation of all related documentation, including manuals
+ - Ordering of components and control cabinets
+ - On-site installation of control systems
+ - Supported spare parts department with selection and identification
+ - Ordered and shipped spare parts for service jobs
+ - Assisted service engineers over the phone
+ - Coordinated service personnel, including booking flights and boarding logistics
+
+Control Project Engineer
+Alfa Laval
+07/2021 - 05/2023
+ - Project execution (primarily retrofitting Alfa Laval systems)
+ - Electrical design (EPLAN), system design, component ordering
+ - Custom design for various boiler systems
+ - Component replacement planning (controllers, PLC parts)
+ - Close collaboration with software team to ensure design matched PLC programming
+ - Provided technical advice based on previous service experience
+
+Regional Service Manager
+Global Boiler A/S, Singapore
+05/2018 - 05/2021
+ - Oversaw service operations and sales in Asia
+ - Conducted boiler automation service work
+ - Provided customer support and coordination for service engineers
+
+Service Engineer
+Skov Thailand
+06/2017 - 03/2018
+ - Installation, commissioning, service, and troubleshooting of Skov systems for automated feeding, climate/temperature control, and lighting in pig and poultry facilities
+
+Service Engineer
+SHO Consult Thailand
+10/2015 - 06/2017
+ - Boiler automation service work under contract with Alfa Laval
+ - Electrical and mechanical faultfinding
+ - System upgrades
+
+Service Engineer
+11/2013 - 09/2015
+ - Boiler control system service (electrical and mechanical)
+ - Replacement of complete or partial control systems
+ - Troubleshooting/replacement of valves (manual, pneumatic, electric actuators)
+ - Troubleshooting/replacement of instrumentation (flow, pressure, DP, temperature transmitters)
+ - Motor and pump service/replacement
+ - Burner troubleshooting, repair, and refurbishment
+ - Control systems included PLCs, relay logic, and hybrid systems (Siemens, Schneider, Mitsubishi)
+
+
+Education
+======
+Marine Engineer
+Martec
+2010 - 2013
+
+Electrician
+Tech College Aalborg - Lindpro
+2000 - 2004
+
+
+Languages
+======
+Danish
+
+English
+

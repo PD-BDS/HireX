@@ -1,0 +1,149 @@
+MICHAEL
+Software Developer
+
+
+Summary
+======
+Have extensive experience from Warwick University (UK), Birmingham University (UK), University of Aarhus (DK), and from The National Agency for IT and Learning (STIL)¹ (DK). Since I was introduced to Unix and the Unix environment during my studies, Unix has played a major role in my professional career. Within the Unix/Linux context I have extensive experience in: • Various operating systems: RedHat, CentOS, Ubuntu, SUSE, HP-UX, Raspbian • Programming, scripting and automation (C, Perl, PHP, R, bash, CSH) • Software development • Cloud AWS and OpenStack • Databases - MySQL/MariaDB, PostgreSQL • Servers • Hardware Teaching web, mail, NIS, NFS, Nginx, Apache, Samba, DNS PC and Raspberry Pi
+
+In STIL I worked on most operational aspects of the AWS cloud and Linux based business critical system www.netproever.dk — Deploys, scripting (SQL, Perl, Terraform, Ansible), back-end technical support. And developing an automatic status-checking and-reporting system for the www.netproever.dk-system (written in Perl and R).The latest PHP-project was Mac-o-matic — a web-based system for administration of DHCP and DNS services.The largest Splus (and later ported to R) related project was maximum likelihood estimation within the 1-, 2- and 3-dimensional hyperbolic distribution.My results are achieved by working:• Systematically• Analytically• Logically and by knowing where to find answers to hard technical problems.As a person, I am stable, service-minded, responsible and loyal and able to work in great detail, but also able to keep the overview, when hell breaks loose. I am used to work both in teams and on my own. I am able to communicate technical stuff to both technical and non-technical people.
+
+
+Experience
+======
+Unix System Administrator
+National Agency for IT and Learning (UNIC)
+08/2017 - 02/2025
+ - Managed {$5 mln.} UNIX system infrastructure, resulting in optimizing resource utilization.
+ - Increased system reliability by managing the AWS-based business-critical platform www.netproever.dk, supporting {50,000} users annually.
+
+Software Developer
+Prevas A/S
+04/2017 - 07/2017
+ - Increased system efficiency by {30%} by implementing advanced optimization techniques in Embedded Linux applications.
+
+Unix system administrator
+University of Aarhus
+1995 - 05/2016
+ - Improved system uptime by {15%} by implementing new Unix server monitoring and maintenance protocols
+ - Managing commercial Unixes, and later Linux
+
+Statistical programmer
+University of Birmingham
+08/1994 - 06/1995
+ - Increased LISP routines by integrating {50} Fortran-level modules into XLISPSTAT.
+
+Research Assistant
+University of Warwick, Department of Statistics Comptier algebra in REDUCE
+01/1993 - 12/1993
+
+Student programmer
+Student programmer University of Aarhus
+06/1988 - 06/1992
+ - Improved departmental system efficiency by maintaining Sun system for {15} users.
+ - Develop the "hyp" programme
+
+
+Skills
+======
+ - AIX
+ - AWS
+ - CCNA
+ - Cisco
+ - Debian
+ - DHCP
+ - DNS
+ - Emacs
+ - Embedded Linux
+ - Ethernet
+ - Fedora
+ - Fortran
+ - HP-UX
+ - HTML
+ - IAM
+ - IBM
+ - ITIL
+ - JBoss
+ - Kerberos
+ - KVM
+ - Latex
+ - LDAP
+ - Linux
+ - Unix Shell Scripting
+ - Unix
+ - LISP
+ - Mac OS
+ - MariaDB
+ - NFS
+ - Nginx
+ - MySQL
+ - Web Service
+ - Ethernet
+ - OpenStack
+ - Perl
+ - PHP
+ - Postfix
+
+
+Training / Courses
+======
+B.Sc. statistics
+
+RHCSA - Red Hat Certified System Administrator, RHEL 7
+
+RHCT Red Hat Certified Technician, RHEL 5
+Red Hat
+
+Full stack developer
+
+Ansible
+
+JBoss
+
+AWS Technical Essentials
+
+Red Hat System Administration III
+
+AWS Technical Essentials
+
+Red Hat Certified Engineer Fast Track Course
+
+Cisco Certified Network Associate
+
+
+Certification
+======
+RHCSA - Red Hat Certified System Administrator, RHEL 7
+
+ITIL Foundation, IT Service Management
+
+RHCSA - Red Hat Certified System Administrator, RHEL 7
+
+
+Education
+======
+M.Sc. computer science
+University of Aarhus
+1983 - 1994
+
+B.Sc. computer science and mathematics
+1987 - 1989
+ - B.Sc. computer science and mathematics
+
+Mathematics and physics
+High school
+1980 - 1983
+
+
+Languages
+======
+Danish
+
+English
+
+French
+
+German
+
+Russian
+

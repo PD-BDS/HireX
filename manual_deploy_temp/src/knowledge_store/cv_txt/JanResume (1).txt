@@ -1,0 +1,293 @@
+JAN
+Senior Engineer
+
+
+Summary
+======
+Professional profile: Personal profile: Private profile: Education as Electrician and Electrical Engineer with wide experience in renewable energy production documentation within Wind, PTX and Hydrogen: - P&ID process, instrumentation, data processing, CE and ATEX documentation. - System development with advanced number system like RDS-PP for power plants based on RDS standard. - Data processing with Excel, Pivot Tables and Power Query for easy data visualization and migration. - Project, quality QMS, maintenance and production management MPSII. - Mechanical 2D and 3D CAD drawing including motion mechanisms, molding or BIM building design. R&D product development including patenting. - Production optimization Kaizen and, H&SE, standardization. Administrative background in management, IT management, technical sales, marketing, purchasing, order processing etc. using ERP systems. - Highly committed, patient and outgoing and likes to work with other people in project groups, but also with stakeholders in complex organizations. - Ability to look objectively at a project for the efficient and effective implementation, but can also go for detail solutions, when a higher level of detail is required
+
+
+Experience
+======
+Senior Engineer - Consulting
+Enabl A/S
+2021 - 2025
+ - Senior Engineer - Consulting
+ - Ampersand: Documentation of high voltage Charging Station for lories, ships etc
+ - Unify Cooling P&ID, Electrical and Mechanical 3D documentation
+ - Creating Work instructions for outsourcing the production of a Container Charging Station
+ - NEL/Cavendish: Hydrogen Fueling Station Maintenance Plan
+ - Create 5000+ maintenance instructions for 500+ components in Hydrogen Fueling stations, combining ERP, Mechanical, Electrical and Process data with Service plan via Excel data migration and Power Query's
+ - Siemens Gamesa: PTX plant Installation
+ - Check and Implement P&ID documentation from subcontractor for PTX plant installation
+ - Siemens Gamesa: Component owner of SCADA cabinet
+ - Prepare cabinet for outsourcing including production plan, work instructions and CE documentation
+ - Billund Aqua: Electrical and Instrumentation Engineering for Salomon fish production plant
+ - Updating and review of TAG list vs TAG and P&ID drawings for specification of water pipe and tank plant facilities for RAS fish grow and food production
+ - Grundfos: Electro Mechanical and Technical Project Lead for specification of Test Equipment produced in DK by Unimec for installation in Hungary
+ - Prepare and maintain documentation for specification and manufacturing of more electrical HV and firmware test stations in a robotic production cell environment for new developed sustainable and innovative motor technology
+ - Specify and prepare user and safety documentation for installation of High Voltage test and laboratory facilities
+
+Tech-Huset
+ECM Industries
+2020 - 2020
+ - Documentation Engineer - Consulting
+ - GreenTec: CE documentation and user manual for Forestry Cutting Machinery
+ - ECM Industries: Risk analytic, CE documentation and user manual for production equipment for resin surface treatment of renewable wing production
+
+Project Manager - Consulting
+Gram Commercial A/
+2019 - 2020
+ - Project manager - Consulting at Gram Commercial A/S
+ - Cost efficiency and automatization of technical production equipment for refrigerator serial production
+ - Prepare for collaborative robot implementation for overall productivity increase and cost reduction
+ - Writing and instruct work instructions SOP
+ - Implement production efficiency upgrade and test systems
+ - Implement foam machinery safety and efficiency upgrade
+ - Implementation of Industrial 4.0 production OEE visualization system
+
+Senior Engineer - Consulting
+Dansk Ingeniør Service A/S
+2014 - 2019
+ - Creating P&ID documentation for a complete oil and waste processing plant
+ - Identifying valves and sensors for maintaining and updating SCADA system and for migrating the processes to an alternative plant
+ - Defining a pre-study and business case with a list of practical cost-effective R&D solutions for wood blade clamps holding a test blade at LM Wind Power
+ - Preparing a bare offshore platform from scratch for installation of a temporary or provisional 12 section 36kV high voltage switch gear container, complete with hand tools, power generator, welding and lifting equipment as well as sanitary solution at Semco
+ - Preparing the high voltage switchgear container with emergency power supply and fire warning solution
+ - Configuring a GSM SMS modem unit for communication of alarm and switch gear status
+ - Educating 15 operators for operating the switchgear container, including operating the 12 sections of 36kV switchgears with the remote operating control unit
+ - Operating the fire alarm panel and Energen gas bottles in case of fire
+ - Operating the emergency power supply
+ - Operating the GSM SMS modem with the codes for switchgear, power supply and fire alarm status as well as the SMS codes interface sent in case of fire
+ - Adding RDS-PP code (Reference Designation System for Power Plants) based on RDS - ISO/IEC 81346 to the data stream for the service catalogs, covering all service parts of a Wind Turbine Generator at Siemens
+ - Management, creation and maintenance of Spare Part Catalogs for the whole platform of a Wind Turbine Generator at Siemens
+ - Continuously updating documentation and with a critical approach to processes, optimizing or omitting workflows, for example by introducing templates and naming list for revision of existing as well as new modules, omitting random sample testing in favor of 100% check, in less time at Siemens
+ - Project managing, cost and material optimization, R&D development and design of a construction for testing the flow of wind passing a new Wind Turbine Generator at Siemens
+ - Modularizing the design in comparison to an existing construction for a smaller WTG type, reducing the weight from 3T to 1.6T by inducing the combination of steel and plywood
+
+Electrical Engineer
+Semco Maritime
+2014 - 2014
+ - Electrical design of offshore wind turbine transformer platform
+ - Specification and drawing of power and signal cable connections via Comos CAE
+ - Maintenance of numbering system RDS-PP
+ - Specification of UPS and battery system
+ - Preparation of As-Built documentation
+
+Plant Design Engineer
+ANDRITZ Feed & Biofuel A/S
+2011 - 2014
+ - Design of pelleting plant, machinery and equipment for production of Pellet Biofuel
+ - PFD Process Flow Diagram via Comos
+ - P&ID Piping & Instrumentation Documentation via Comos
+ - Design and specification of process routes and equipment for air and mechanical transport of chips, fiber, pellets, flour and dust
+ - Design, specification and instrumentation of machinery including temperature, pressure and level switches
+ - Design and specification of steam and condensate equipment
+ - Design and specification of fire protection equipment and spark detection
+ - Project planning and risk assessment for the specification of ATEX equipment in dust zones
+ - Maintenance and synchronization of customer's alias number systems
+
+Project Engineer
+Eltronic A/S
+2010 - 2011
+ - Eltronic A/S
+ - Project Engineer
+ - R&D Product development, requirement specification and solutions for business case for servicing offshore wind turbine installations
+ - Positioning and leveling of ships under the influence of wind and waves
+ - Impacts from weather conditions like ice and lightning
+ - Building of functional models
+ - Visual animation and presentation
+
+Project Manager
+Bolltec ApS
+2008 - 2008
+ - Design and installation of painting and grinding finishing lines:
+ - 3D visualization solution for automation of robot painting fiberglass yacht
+ - Relocation and start-up of a finishing plant from DK to Estonia for transporting, painting, drying and grinding of flat wood elements on roller conveyor
+ - Preparation of English user manual
+ - Planning, AutoCAD drawing, installation and commissioning of edge treatment plant for transport, robot painting, drying and robot grinding of batches of kitchen doors
+ - Risk assessment for the specification of ATEX equipment in dust zones
+ - Recording and editing of sales video for visualization and marketing of edge treatment plants
+
+Product Manager
+Prima-vent A/S
+2006 - 2008
+ - R&D Design of ventilation and conveyor systems for fiber aspiration and finishing lines
+ - Project planning, specification, installation and electrical assembly of finishing lines in Norway for transport, painting, sanding and drying of lacquered items
+ - Project planning, specification and 2D detail drawing of complete ventilation systems for plants in Norway including silo storage, incineration, heat recovery and chain filter as well as air transport and conveying of wood shavings and dust from wood treatment machinery
+ - 3D Inventor design of manufacturing drawings for CAD/CAM plasma cutter and production of bent parts
+ - Build up and maintaining product numbering system
+ - Recording and editing sales video for visualization and marketing of surface treatment and finishing plant
+
+R&D, IT and Business Manager
+Fabriken Asbro ApS
+1993 - 2006
+ - Management of machinery plant with serial production of own products as well as subcontracting within bending, pressing and welding of black iron and stainless steel
+ - Management of 20 - 30 employees
+ - Chairman of the Board
+ - Purchase, sales and order processing
+ - Planning and participation in exhibition and fairs
+ - Protect ownership of product by winning law suit | Germany
+ - Acquisition of factory by means of generation change
+ - IT and development management of machinery plant with serial production of own products as well as subcontracting within bending, pressing and welding of black iron and stainless steel
+ - R&D, Drawing, production and approval of offshore pipe handling product with DNV technical rapport
+ - R&D, Drawing, production and approval of offshore containers acc. to DNV. 2.7.1
+ - R&D, Drawing, production and CE approval of motorized forest product acc. to machine directive 95/16/EF
+ - R&D, Drawing, production and CE and Demko approval of electrical agriculture products
+ - R&D, Patenting and product development within mechanisms and sheet metal in Solid Edge 3D Drawing
+ - Optimize production process and documentation process by means of data acquisition and Kaizen
+ - Implementing and maintenance of MPSII Material and Production Management System
+ - Implementing and maintenance of K&G - Come and Go system with data acquisition for piecework
+ - Implementing and maintenance of numbering system for drawings, sales, purchase and products
+ - Implementing and maintenance and welding procedures with WPS, WPQR acc. to DS/EN ISO 15607
+ - Implementing and maintenance of a quality system acc. to ISO9001
+ - Implementing and maintenance of MS Small Business Server with backup, file and mail server
+ - Installing and maintenance of IT infrastructure
+ - Periodically Payroll and Bookkeeping tasks
+ - Employer safety representative
+ - Member of the board
+
+Quality Manager
+Elcon A/S
+1987 - 1993
+ - Elcon A/S - Quality Manager - PCB electronic print board production
+ - Maternity leave x2
+ - Enrollment Civil Defense
+ - Electrical installation of an Industrial production line at Gullfiber Isolationsfabrik in Billesholm SE
+ - Electrical installation of an Industrial PLC control system at Degerfors Stålvalseværk SE
+ - Electrical installation of an Industrial Power plant in Stokholm SE
+ - Esbjerg Termoplast - Electrician - Industrial installation and maintenance
+
+
+Skills
+======
+ - AutoCAD
+ - Arduino
+ - C
+ - VBA
+ - Pascal
+ - IAR assembler
+ - Siemens Comos
+ - PC Schematic
+ - Orcad
+ - Electronic Workbench
+ - JLCPCB
+ - MS Small Business Server
+ - SAP
+ - Navision
+ - Navigator
+ - XAL
+ - C5
+ - Solid Edge
+ - Inventor
+ - MS Project
+ - Navigator MPSII
+ - MS Office
+ - Siemens Comos CAE
+ - Visio
+ - Autodesk Vault
+ - SharePoint
+ - Team center
+ - Revit
+
+
+Training / Courses
+======
+Meaningful Entrepreneurship
+Kaospilot+
+
+GPDR & Cyber awareness course
+Deloitte
+
+QMS for medical devices ISO13485
+Gram Commercial
+
+TWI Training course
+TWI Institute
+
+Prince2 foundation - Project management
+DIS Esbjerg
+
+SSG Safety Training
+Fortum Århus
+
+Safety Training
+Semco Esbjerg
+
+Teamcenter
+Siemens Brande
+
+Comos for SuperUsers K3
+Andritz Gratz Esbjerg
+
+Avanceret Word og Excel
+EUC Vest Esbjerg
+
+Arbejdsmiljøuddannelsen
+DA Kolding
+
+Teknonom Arbejdspsykologi I
+ETS Esbjerg
+
+Styr på materiale og produktion
+TIC Vejen
+
+Kursus i Industriel design
+TIC Hovborg
+
+Målstyring og planlægning
+Mercuri Int. Kolding
+
+Psykologi for ledere
+Mercuri Int. Helsingør
+
+Grundlæggende salg
+Mercuri Int. Helsingør
+
+Udvikling af din lederrolle
+Mercuri Int. Korsør
+
+Kursus i materiale teknologi
+Force Herning
+
+Mekanisme design SolidEdge
+Kirkholm Ry
+
+KVIK Kvalitetsstyring
+DTI Vejen
+
+Kursus i kvalitetsstyring ISO9000
+OTS Odense
+
+
+Education
+======
+Electrical Engineer
+Odense Teknikum
+1987 - 1992
+ - (Teknikum / Diplom / Bachelor)
+ - Electro Data technology
+ - Odense Teknikum
+ - Final project - Instructible Welding Robot for automatic welding of stainless-steel items on a round table for
+ - Rational feeding
+ - Project - Heat refrigeration systems for recovering heat from the air to house warming
+
+Electrician
+Technical School Esbjerg
+1983 - 1987
+ - Høgholm A/S
+ - Installation and maintenance of power in private and industrial installations
+ - Home and cottage installations and maintenance
+ - Industrial installations and maintenance within food, machinery and plastics industries
+ - Industrial installation and maintenance of machinery for extruding PE plastic for heating and forming plates for
+ - Refrigerator bodies
+
+
+Languages
+======
+Danish
+
+English
+
+German
+

@@ -1,0 +1,87 @@
+SIMON
+Automation Engineer
+
+
+Summary
+======
+Automation Engineer with a solid background as a Marine Engineer and Control and Regulation Electrician, Simon combines technical knowledge with practical skills in the automation field. 
+
+As an Application Engineer at Nordomatic Pharma, Simon has led projects involving PLC programming for BMS systems from leading manufacturers such as Siemens, Schneider, and Beckhoff. He has also developed innovative solutions for SCADA and HMI.
+
+Simon's experience includes project management and coordination of electrical work on construction sites, as well as hands-on work with I/O testing and functional verification. With his education and experience, Simon is ready to deliver effective automation solutions and take responsibility for projects.
+
+
+Experience
+======
+Automation Engineer
+Self employed
+2024 - Ongoing
+ - PLC and HMI programming (Siemens)(PackML)
+
+Application Engineer
+Nordomatic Pharma
+2021 - 2024
+ - PLC programming for BMS systems (Siemens, Schneider and Beckhoff)
+ - Development and design of SCADA software (iFIX, WinCC)
+ - Development and design of HMI software
+ - Project management, coordination, and supervision of electrical work on large construction sites
+ - Experience working in GMP-regulated environments
+ - Design and preparation of electrical panel drawings (PC schematic)
+ - On-site I/O and function testing
+ - Commissioning of ventilation and heating systems
+ - Preparation of quality assurance documentation
+ - Service inspections of automation and machine components in existing systems
+ - Extensive travel across the country
+
+Marine and Technical Engineer, Intern
+Nordomatic Pharma
+2020 - 2020
+ - Conducted on-site I/O and function testing for control and regulation systems.
+ - Designed and prepared electrical panel drawings using PC schematic.
+ - Programmed PLC systems for Building Management Systems (BMS), with a focus on Schneider platforms.
+
+Control and Regulation Electrician Apprentice
+MacArtney Manufacturing
+2016 - 2017
+
+Control and Regulation Electrician Apprentice
+Dansk Miljø- og Energistyring
+2015 - 2016
+
+Control and Regulation Electrician Apprentice
+Birn
+2013 - 2015
+
+
+Education
+======
+Marine and Technical Engineer
+Aarhus School of Marine and Technical Engineering
+2018 - 2021
+ - Project management: Business understanding, innovation, and motivation
+ - PLC and HMI programming: Allen Bradley and FactoryTalk
+ - Control Engineering
+ - Calculation and dimensioning of electrical installations
+ - Electrical installer certification
+ - Motor and pump technology
+ - Machine safety
+ - Energy calculations
+ - Environmental laws and regulations
+
+EUX Control and Regulation Electrician
+Den Jyske Håndværkerskole | Hadsten
+2012 - 2017
+ - PLC programming: Allen Bradley
+ - Control technology
+ - Analog and control engineering
+ - Hydraulics and pneumatics
+ - Measuring techniques and troubleshooting
+ - Laws and regulations
+
+
+Languages
+======
+Danish
+
+English
+

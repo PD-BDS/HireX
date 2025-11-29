@@ -378,9 +378,22 @@ def _print_result(result: Any) -> None:
     print(result)
 
 
-def main() -> None:
+def main(num_scenarios: Optional[int] = None) -> None:
+    """Run the kickoff test with optional scenario count limit."""
+    import random
+    
+    # Select scenarios to run
+    if num_scenarios is None or num_scenarios >= len(SCENARIOS):
+        selected_scenarios = list(enumerate(SCENARIOS, start=1))
+    else:
+        # Randomly select scenarios
+        indices = random.sample(range(len(SCENARIOS)), num_scenarios)
+        selected_scenarios = [(idx + 1, SCENARIOS[idx]) for idx in sorted(indices)]
+    
+    print(f"Running {len(selected_scenarios)} out of {len(SCENARIOS)} scenarios")
+    
     summaries: List[Dict[str, Any]] = []
-    for idx, scenario in enumerate(SCENARIOS, start=1):
+    for idx, scenario in selected_scenarios:
         session_id = f"kickoff-demo-{idx}"
         controls = QueryControls(**scenario["controls"])
         memory_bundle: SessionMemoryBundle = create_session_memory_bundle(
@@ -469,50 +482,69 @@ def main() -> None:
 
         result = crew.kickoff(inputs=inputs)
 
-        payload = getattr(result, "pydantic", None)
-        if payload is not None:
-            output_controls = payload.query_controls.model_dump()
-            expectations = scenario.get("expectations", {})
-            expected_phases = expectations.get("phase_sequence")
-            expected_flags: Dict[str, Any] = expectations.get("flags", {})
-            forbidden_flags: Dict[str, Any] = expectations.get("forbidden_flags", {})
-            expected_top_k = expectations.get("top_k_hint")
+        # Extract the pydantic output (disabled, using manual parsing)
+        payload = None
+        raw = getattr(result, "raw", "")
+        if raw:
+            from resume_screening_rag_automation.core.py_models import QueryRoutingOutput
+            import re
+            
+            # Try to extract JSON from raw text
+            json_match = re.search(r'\{.*\}', raw, re.DOTALL)
+            if json_match:
+                try:
+                    json_data = json.loads(json_match.group())
+                    payload = QueryRoutingOutput.model_validate(json_data)
+                except Exception:
+                    pass
+        
+        if payload is None:
+            print(f"Failed to parse output for scenario {idx}")
+            _print_result(result)
+            continue
 
-            phase_match = expected_phases is None or output_controls.get("phase_sequence") == expected_phases
-            flag_mismatches: Dict[str, Dict[str, Any]] = {}
-            for key, expected_value in expected_flags.items():
-                actual_value = output_controls.get(key)
-                if actual_value != expected_value:
-                    flag_mismatches[key] = {
-                        "expected": expected_value,
-                        "actual": actual_value,
-                    }
+        output_controls = payload.query_controls.model_dump()
+        expectations = scenario.get("expectations", {})
+        expected_phases = expectations.get("phase_sequence")
+        expected_flags: Dict[str, Any] = expectations.get("flags", {})
+        forbidden_flags: Dict[str, Any] = expectations.get("forbidden_flags", {})
+        expected_top_k = expectations.get("top_k_hint")
 
-            for key, forbidden_value in forbidden_flags.items():
-                actual_value = output_controls.get(key)
-                if actual_value == forbidden_value:
-                    flag_mismatches[key] = {
-                        "expected_not": forbidden_value,
-                        "actual": actual_value,
-                    }
-
-            actual_top_k = getattr(payload, "top_k_hint", None)
-            top_k_match = expected_top_k is None or actual_top_k == expected_top_k
-
-            summaries.append(
-                {
-                    "name": scenario["name"],
-                    "input_controls": controls.model_dump(),
-                    "output_controls": output_controls,
-                    "expected_phases": expected_phases,
-                    "expected_flags": expected_flags,
-                    "phase_match": phase_match,
-                    "flag_mismatches": flag_mismatches,
-                    "expected_top_k": expected_top_k,
-                    "actual_top_k": actual_top_k,
-                    "top_k_match": top_k_match,
+        phase_match = expected_phases is None or output_controls.get("phase_sequence") == expected_phases
+        flag_mismatches: Dict[str, Dict[str, Any]] = {}
+        for key, expected_value in expected_flags.items():
+            actual_value = output_controls.get(key)
+            if actual_value != expected_value:
+                flag_mismatches[key] = {
+                    "expected": expected_value,
+                    "actual": actual_value,
                 }
-            )
+
+        for key, forbidden_value in forbidden_flags.items():
+            actual_value = output_controls.get(key)
+            if actual_value == forbidden_value:
+                flag_mismatches[key] = {
+                    "expected_not": forbidden_value,
+                    "actual": actual_value,
+                }
+
+        actual_top_k = getattr(payload, "top_k_hint", None)
+        top_k_match = expected_top_k is None or actual_top_k == expected_top_k
+
+        summaries.append(
+            {
+                "name": scenario["name"],
+                "input_controls": controls.model_dump(),
+                "output_controls": output_controls,
+                "expected_phases": expected_phases,
+                "expected_flags": expected_flags,
+                "phase_match": phase_match,
+                "flag_mismatches": flag_mismatches,
+                "expected_top_k": expected_top_k,
+                "actual_top_k": actual_top_k,
+                "top_k_match": top_k_match,
+            }
+        )
 
         _print_result(result)
 
@@ -550,4 +582,12 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    num_scenarios = None
+    if len(sys.argv) > 1:
+        try:
+            num_scenarios = int(sys.argv[1])
+        except ValueError:
+            print("Usage: python kickoff_query_manager.py [num_scenarios]")
+            sys.exit(1)
+    main(num_scenarios)

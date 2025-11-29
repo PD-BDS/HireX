@@ -150,9 +150,36 @@ class JobDescription(BaseModel):
     education_requirements: List[str] = Field(default_factory=list)
     extra_requirements: Optional[str] = None
     job_type: Optional[JobType] = None
-    language_requirements: List[str] = Field(default_factory=list)
-    certification_requirements: List[str] = Field(default_factory=list)
-    outstanding_questions: List[str] = Field(default_factory=list)
+    language_requirements: Optional[List[str]] = Field(default_factory=list)
+    certification_requirements: Optional[List[str]] = Field(default_factory=list)
+    outstanding_questions: Optional[List[str]] = Field(default_factory=list)
+
+    @field_validator("required_skills", "job_responsibilities", "education_requirements", "language_requirements", "certification_requirements", "outstanding_questions", mode="before")
+    @classmethod
+    def _ensure_list_fields(cls, value: Optional[Any]) -> List[str]:
+        if value is None:
+            return []
+        if isinstance(value, list):
+            result: List[str] = []
+            for item in value:
+                text = str(item).strip()
+                if text:
+                    result.append(text)
+            return result
+        if isinstance(value, str):
+            text = value.strip()
+            return [text] if text else []
+        return []
+
+    @field_validator("experience_level_years", mode="before")
+    @classmethod
+    def _ensure_experience_years(cls, value: Optional[Any]) -> Optional[int]:
+        if value is None or value == "":
+            return None
+        try:
+            return int(value)
+        except (ValueError, TypeError):
+            return None
 
     @field_validator("job_type", mode="before")
     @classmethod
@@ -298,7 +325,7 @@ class CandidateMatch(BaseModel):
 class CandidateRetrievalOutput(BaseModel):
     """Output of the retrieval agent containing scored candidates."""
 
-    retrieval_md: str
+    retrieval_md: str = ""
     candidates: List[CandidateMatch] = Field(default_factory=list)
     phase: ConversationPhase = ConversationPhase.screening
 
@@ -402,6 +429,38 @@ class QueryRoutingOutput(BaseModel):
     cleaned_user_query: Optional[str] = None
     top_k_hint: Optional[int] = Field(default=None, ge=1)
     reasoning: Optional[str] = None
+
+    @field_validator("query_controls", mode="before")
+    @classmethod
+    def _validate_query_controls(cls, value: Optional[Any]) -> QueryControls:
+        if isinstance(value, dict):
+            return QueryControls(**value)
+        return QueryControls()
+
+    @field_validator("cleaned_user_query", mode="before")
+    @classmethod
+    def _validate_cleaned_user_query(cls, value: Optional[Any]) -> Optional[str]:
+        if isinstance(value, str):
+            return value.strip() or None
+        return None
+
+    @field_validator("top_k_hint", mode="before")
+    @classmethod
+    def _validate_top_k_hint(cls, value: Optional[Any]) -> Optional[int]:
+        if value is None:
+            return None
+        try:
+            v = int(value)
+            return v if v >= 1 else None
+        except (ValueError, TypeError):
+            return None
+
+    @field_validator("reasoning", mode="before")
+    @classmethod
+    def _validate_reasoning(cls, value: Optional[Any]) -> Optional[str]:
+        if isinstance(value, str):
+            return value.strip() or None
+        return None
 
 class AppState(BaseModel):
     """Encapsulates the current state of the application relevant to query routing."""

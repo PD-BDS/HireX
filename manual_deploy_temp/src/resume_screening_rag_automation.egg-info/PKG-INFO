@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: resume_screening_rag_automation
+Version: 0.1.0
+Summary: Resume Screening Chat Assistant Using CrewAI
+Author: Piyal Dey & Camilla Louise Jensen
+Requires-Python: <3.14,>=3.10
+License-File: LICENSE
+Requires-Dist: crewai
+Requires-Dist: crewai[tools]
+Requires-Dist: chromadb
+Requires-Dist: python-dotenv
+Requires-Dist: PyYAML
+Requires-Dist: numpy
+Requires-Dist: boto3
+Requires-Dist: tiktoken
+Requires-Dist: fastapi
+Requires-Dist: langchain
+Requires-Dist: pydantic
+Dynamic: license-file

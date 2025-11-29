@@ -1,0 +1,260 @@
+{
+  "session_id": "e64e53d328ca4b63840d999aed0f0cf7",
+  "records": [
+    {
+      "session_id": "e64e53d328ca4b63840d999aed0f0cf7",
+      "job_title": "Mechanical Design/R&D Engineer",
+      "timestamp": "2025-11-17T18:30:56.091281+00:00",
+      "record_id": "mechanical_design/r&d_engineer:2025-11-17T18:30:56.091281+00:00",
+      "message_md": "### Candidate Shortlist for Mechanical Design/R&D Engineer\n\n| Candidate Name            | Job Fit Score | Summary                                                                                                   |\n|--------------------------|----------------|-----------------------------------------------------------------------------------------------------------|\n| Babu                     | 0.884          | Strong expertise in CFD and FEA, with relevant education and extensive experience in R&D and product development. |\n| RONAN                    | 0.559          | Good educational background but limited experience in CFD, making him a moderate fit for the role.           |\n| ROMASHCHENKO            | 0.555          | Lacks necessary CFD skills; experience primarily in automation, which does not align closely with the role.  |\n| Ronnie Elmholdt Kragh   | 0.524          | Relevant safety experience but limited exposure to mechanical design and CFD, resulting in a lower fit.     |\n| Bhaskar                  | 0.494          | Operational experience but lacks qualifications in mechanical design and CFD, making him a poor fit.        |\n\n### Key Insights\n- **Babu** is the strongest candidate, scoring an impressive 0.884. He has a robust background in CFD and related technologies, making him an ideal fit for the position.\n- **RONAN** and **ROMASHCHENKO** show moderate fit scores but lack direct experience in CFD, which is critical for this role.\n- **Ronnie Elmholdt Kragh** and **Bhaskar** do not meet the core requirements, particularly in CFD expertise, which is essential for success in this position.",
+      "database_summary_md": "The candidate pool shows a strong match with Babu, who possesses the required skills and experience. However, there is a noticeable gap in direct experience with CFD among the other candidates, indicating a need for future searches to target professionals with this specific expertise. Adjusting the job description to emphasize the importance of CFD experience may yield better results in subsequent candidate searches.",
+      "candidate_insights": [
+        {
+          "metadata": {
+            "file_name": "BabuResume.txt",
+            "candidate_name": "Babu",
+            "candidate_id": "CAND002",
+            "current_title": "Mechanical Design Engineer",
+            "content_hash": "f54be7f3c7a7ea07443955fc1688c716573de4aba6268d48c680a8b160316c9d"
+          },
+          "scores": {
+            "semantic_score": 0.841,
+            "weighted_feature_score": 0.984,
+            "feature_scores": {
+              "skills": 1.0,
+              "experience": 1.0,
+              "education": 1.0,
+              "title": 1.0,
+              "other": 0.841
+            },
+            "job_fit_score": 0.884,
+            "similarity": 0.841
+          },
+          "summary_md": "Babu is a results-driven Mechanical Engineer with over 10 years of experience across mechanical engineering, renewable energy systems, HVAC, and advanced computational analysis. He specializes in Computational Fluid Dynamics (CFD) and Finite Element Analysis (FEA), with proven expertise in research, product development, and R&D projects for energy-efficient technologies.",
+          "fit_reasoning": [
+            "Babu has strong expertise in CFD and FEA, making him highly relevant for the role.",
+            "He holds a Master's degree in Thermal Engineering, aligning with the educational requirements.",
+            "His extensive experience in product development and R&D projects supports the job responsibilities.",
+            "Babu is proficient in key software tools such as ANSYS Fluent, COMSOL Multiphysics, and SolidWorks."
+          ],
+          "matched_features": {
+            "matching_skills": [
+              "Computational Fluid Dynamics (CFD)",
+              "Finite Element Analysis (FEA)",
+              "ANSYS Fluent",
+              "COMSOL Multiphysics",
+              "SolidWorks"
+            ],
+            "matching_education": [
+              "M.Tech Thermal Engineering",
+              "B.Tech Mechanical Engineering"
+            ],
+            "matching_experience": [
+              "Technical Specialist at Renewtherm Engineering",
+              "Research Specialist at Strata Manufacturing PJSC"
+            ],
+            "matching_titles": [
+              "Mechanical Design Engineer"
+            ],
+            "matching_other": []
+          },
+          "knowledge_references": {}
+        },
+        {
+          "metadata": {
+            "file_name": "RonanResume.txt",
+            "candidate_name": "RONAN",
+            "candidate_id": "CAND012",
+            "current_title": "Commissioning / CQV Engineer",
+            "content_hash": "749b795dc3833b6cbdf55ee9f73c0a203060b73d3df5dd2d5f7ced1d0da0c5cf"
+          },
+          "scores": {
+            "semantic_score": 0.505,
+            "weighted_feature_score": 0.686,
+            "feature_scores": {
+              "skills": 0.495,
+              "experience": 0.875,
+              "education": 1.0,
+              "title": 1.0,
+              "other": 0.0
+            },
+            "job_fit_score": 0.559,
+            "similarity": 0.505
+          },
+          "summary_md": "Ronan is a seasoned professional with 10 years of specialized experience in GxP manufacturing and technology projects. He has a strong educational background but lacks direct experience in CFD, which is critical for the Mechanical Design/R&D Engineer role.",
+          "fit_reasoning": [
+            "Ronan has relevant educational qualifications that meet the job requirements.",
+            "He has some experience in engineering roles, but his exposure to CFD is limited.",
+            "His current title as a Commissioning Engineer does not align closely with the job responsibilities."
+          ],
+          "matched_features": {
+            "matching_skills": [],
+            "matching_education": [
+              "BSc (Hons.) Pharmaceutical Chemistry"
+            ],
+            "matching_experience": [
+              "CQV Engineer at Merck Sigma",
+              "Senior Process Engineer at Eli Lilly"
+            ],
+            "matching_titles": [
+              "Commissioning / CQV Engineer"
+            ],
+            "matching_other": []
+          },
+          "knowledge_references": {}
+        },
+        {
+          "metadata": {
+            "file_name": "RomashchenkoResume.txt",
+            "candidate_name": "ROMASHCHENKO",
+            "candidate_id": "CAND011",
+            "current_title": "Electrical and Automation Engineer",
+            "content_hash": "3ab997ed04e8b63d1d652d48de836f801d21111f011b6cc153cd588b0822632a"
+          },
+          "scores": {
+            "semantic_score": 0.544,
+            "weighted_feature_score": 0.58,
+            "feature_scores": {
+              "skills": 0.287,
+              "experience": 0.75,
+              "education": 0.5,
+              "title": 1.0,
+              "other": 0.544
+            },
+            "job_fit_score": 0.555,
+            "similarity": 0.544
+          },
+          "summary_md": "Romashchenko is an Electrical and Automation Engineer with over 20 years of experience in process control systems and industrial automation. While he has a strong technical background, he lacks the necessary skills in CFD, which is essential for the Mechanical Design/R&D Engineer position.",
+          "fit_reasoning": [
+            "Romashchenko has extensive experience in automation and control systems, which is valuable but not directly relevant to the role.",
+            "He possesses a relevant educational background but lacks expertise in CFD.",
+            "His current title does not align with the mechanical design focus of the position."
+          ],
+          "matched_features": {
+            "matching_skills": [],
+            "matching_education": [
+              "Diploma Engineering"
+            ],
+            "matching_experience": [
+              "Principal Instrumentation & Control Field Engineer at Air Products Ukraine"
+            ],
+            "matching_titles": [
+              "Electrical and Automation Engineer"
+            ],
+            "matching_other": []
+          },
+          "knowledge_references": {}
+        },
+        {
+          "metadata": {
+            "file_name": "RonnieElmholdtKraghResume (1).txt",
+            "candidate_name": "Ronnie Elmholdt Kragh",
+            "candidate_id": "CAND013",
+            "current_title": "Hazardous Energies Specialist",
+            "content_hash": "319e19a7cee4a4115d927f01c80e47349797eb8de0083b00464ea66bdf6a70c8"
+          },
+          "scores": {
+            "semantic_score": 0.504,
+            "weighted_feature_score": 0.57,
+            "feature_scores": {
+              "skills": 0.307,
+              "experience": 0.875,
+              "education": 0.5,
+              "title": 1.0,
+              "other": 0.0
+            },
+            "job_fit_score": 0.524,
+            "similarity": 0.504
+          },
+          "summary_md": "Ronnie is a Hazardous Energies Specialist with experience in developing safe systems of work for production. His background is primarily in electrical and safety systems, lacking the mechanical design and CFD experience required for the role.",
+          "fit_reasoning": [
+            "Ronnie has relevant experience in safety and electrical systems but lacks exposure to mechanical design.",
+            "His limited experience in CFD reduces his fit for the position.",
+            "His current title does not align with the mechanical engineering focus of the role."
+          ],
+          "matched_features": {
+            "matching_skills": [],
+            "matching_education": [
+              "Basic Management Education"
+            ],
+            "matching_experience": [
+              "Hazardous Energies Specialist at Siemens Gamesa"
+            ],
+            "matching_titles": [
+              "Hazardous Energies Specialist"
+            ],
+            "matching_other": []
+          },
+          "knowledge_references": {}
+        },
+        {
+          "metadata": {
+            "file_name": "BhaskarResume.txt",
+            "candidate_name": "Bhaskar",
+            "candidate_id": "CAND007",
+            "current_title": "CCR Operator",
+            "content_hash": "8a1dc2ccf3821805ad4119c6232f25b5db15ada5482efde7a49c620e4862eea3"
+          },
+          "scores": {
+            "semantic_score": 0.488,
+            "weighted_feature_score": 0.507,
+            "feature_scores": {
+              "skills": 0.488,
+              "experience": 0.5,
+              "education": 0.363,
+              "title": 1.0,
+              "other": 0.0
+            },
+            "job_fit_score": 0.494,
+            "similarity": 0.488
+          },
+          "summary_md": "Bhaskar is an experienced CCR Operator with a strong background in cement mill operations. His experience does not align with the mechanical design or CFD requirements of the Mechanical Design/R&D Engineer position.",
+          "fit_reasoning": [
+            "Bhaskar has relevant operational experience but lacks qualifications in mechanical design and CFD.",
+            "His current title and experience do not match the job requirements."
+          ],
+          "matched_features": {
+            "matching_skills": [],
+            "matching_education": [
+              "B.Sc Chemistry"
+            ],
+            "matching_experience": [
+              "CCR Operator at Akoga Cement Factory"
+            ],
+            "matching_titles": [
+              "CCR Operator"
+            ],
+            "matching_other": []
+          },
+          "knowledge_references": {}
+        }
+      ],
+      "knowledge_records": [
+        {
+          "candidate_id": "CAND002",
+          "insight_md": "Babu is an exceptional candidate with a strong background in CFD and relevant experience, making him highly suitable for the Mechanical Design/R&D Engineer position."
+        },
+        {
+          "candidate_id": "CAND012",
+          "insight_md": "RONAN has a solid educational background but lacks the critical CFD experience required for the role."
+        },
+        {
+          "candidate_id": "CAND011",
+          "insight_md": "ROMASHCHENKO's extensive experience in automation does not align with the mechanical design focus needed for this position."
+        },
+        {
+          "candidate_id": "CAND013",
+          "insight_md": "Ronnie Elmholdt Kragh has relevant experience but lacks the necessary mechanical design and CFD expertise."
+        },
+        {
+          "candidate_id": "CAND007",
+          "insight_md": "Bhaskar's operational experience does not meet the mechanical design or CFD requirements for the role."
+        }
+      ]
+    }
+  ],
+  "job_titles": [
+    "Mechanical Design/R&D Engineer"
+  ],
+  "last_updated": "2025-11-17T18:30:56.091281+00:00"
+}

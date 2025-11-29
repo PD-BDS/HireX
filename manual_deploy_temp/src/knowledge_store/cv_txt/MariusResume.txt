@@ -1,0 +1,220 @@
+MARIUS
+Manager 
+
+
+SUMMARY 
+======
+With over 30 years of experience in multidisciplinary projects across industries such as Substations, Oil and Gas, Mining, Power Utilities, and Ports and Rail, I have excelled as a Lead Electrical Engineer, Commissioning Engineer, and PTW Coordinator/Project Manager. My expertise spans FEED, Detail Engineering, Package Engineering, Construction Management, and ensuring a safe work environment through the implementation of safety protocols. I have successfully managed pre-startup safety reviews, issued PTW documentation, and provided commissioning and startup support. My strong project management skills, coupled with technical proficiency, enable me to deliver exceptional results. I am a valuable asset with a proven track record in Electrical Engineering.
+
+
+Experience
+======
+E & I Project Manager
+01/2024 - 01/2025
+ - Overall responsibility for Planning, Scheduling and Budgeting activities for Small Capital Projects ($10,000 to $3 Million USD) for Chevron FE Construction
+ - Execution of Facilities and Projects for Onshore Tank Systems, Gas Plants, and an Offshore Oil Field consisting of approximately 133 Platforms
+ - Management of approximately 40 - 50 active projects working simultaneously, including Well Hook Ups, ESD Replacements, and Power Generation & Distribution equipment installation
+ - Oversight of site-related works, ensuring compliance with design specifications and project requirements
+ - Identification and resolution of construction issues and challenges, implementing timely solutions to minimize delays
+ - Creation and maintenance of a construction schedule, ensuring work is scheduled to meet critical deadlines and milestones
+
+Electrical Engineer/Commissioning Engineer
+Exeyte /Amazon Data Centr
+09/2023 - 01/2024
+ - As Lead Electrical Engineer/Commissioning Engineer, managed the Electrical Power System Projects from an engineering point of view and commissioning
+ - Managed the construction and commissioning of a 24MW Power Distribution System, overseeing the installation and commissioning
+ - Managed the tie-in of multiple substations, ensuring proper coordination and integration of power distribution infrastructure
+ - Coordinated with vendors of switchgear panels, protection systems and schemes, transformers, and distribution equipment from a SAT point of view
+ - Managed engineering support of commissioning activities
+ - Developed and maintained the system centric integrated commissioning and start-up plan and schedule
+ - Checked and signed off final testing completion documents
+ - Managed M&E completion certificates
+ - Managed reviewing CTPs
+ - Prepared final energization documents to put equipment into service
+
+Lead Electrical Engineer/E&I |
+TAQA Energy limited
+01/2023 - 09/2023
+ - Managing the electrical projects for the new Wells comprising of Engineering review, Installation, Testing, Commissioning
+ - Plan and execute the construction and implementation of new wells, including associated electrical equipment, well control gear, and all electrical switchgear
+ - Oversee site-related works, ensuring compliance with design specifications and project requirements
+ - Develop Job work packs, Job Safety Assessments, Method statements, Risk assessments, Task Specific Risk Assessments and reporting procedures
+ - Monitoring of Teams Performance, verify that work is carried out as per specification and IEC/IEEE standards
+ - Monitor and verify work is done in a SAFE Electrical Work Practice and that LOTO Procedures are adhered to
+ - Assist in ensuring compliance with (QA/QC), and (HSE)
+ - Provide support and actively participate in pre-commissioning and commissioning
+ - Prepare LIVEN-ING up notices for energization
+ - gdkds
+
+PTW / Electrical Engineer
+HKN Energy limited
+2022 - 2023
+ - As PTW Coordinator/ Electrical Engineer managed the new Green fields Process Plant Installation
+ - Implemented a PTW Office from scratch
+ - Introduced a Set of PTW Permitting books for all works carried out
+ - Introduced a set of files for records, monitoring
+ - Created an Isolation Procedure with Tags and Locks, with a LOTO Procedure
+ - Implemented an Isolation Safety System with Short Term and Long-Term lockouts and filing thereof
+ - In conjunction with HSE introduced Active Safety Field Teams
+ - Promoted employees to report on Score Cards and fostered a Safe Work Environment where employees are praised for reporting and not punished
+ - Created Electrical Safety system on all Tools and associated equipment with records and procedures for auditing/monitoring purposes
+ - Verified protection systems, safety and integrity from an Electrical Safety point of view
+ - Carried out Audits, Inspection and verification of site Electrical Safety systems
+ - Conducted Site Acceptance Testing (SAT)
+ - Monitored and oversaw all Quality Verification Documents (QVDs) and Inspection Test Reports (ITRs)
+ - Monitored and managed the Cathodic Protection system on the pipeline
+
+Lead Electrical Commissioning Engineer HV
+Tengizchevroil
+2021 - 2022
+ - As Lead Electrical Commissioning Engineer managed and lead the commissioning team for completion and energization of the 110 kV/10kV Substations
+ - Verify Permit to Work (PTW) documentation for the teams
+ - Write energization/Isolation switching card procedures for substations, power generation plant, and equipment, ensuring safe and efficient operation
+ - Manage milestones and look a heads, proactively planning and scheduling commissioning activities to meet project deadlines
+ - Liaise with the client and implement their plans, ensuring effective communication and collaboration with our team
+ - Monitor and track daily and weekly activities according to the commissioning plan
+ - Monitor documentation related to commissioning activities, including PTW, Documentation Packs, Work Method Statements (WMS), HSE (Health, Safety, and Environment) documentation, Lockout/Tagout (LOTO) procedures, Test Equipment, Equipment Calibration Certificates, Personal Protective Equipment (PPE), and Substation PPE
+ - Track and ensure the completion of Inspection Test Reports (ITRs), Quality Verification Documents (QVDs), Work Method Statements (WMS), Job Packs, Requested Limitation of Operations (RLMs), and other system completion documentation
+ - Ensure compliance with regulatory requirements, industry standards, and project specifications during the commissioning process
+
+E&I Manager
+Rainbow Technologies
+2019 - 2020
+ - Managed the complete site installation of the Power Island consisting of 8 MW
+ - Oversaw the installation and integration of a diesel generator and PV power system
+ - Managed the power generation step-up system from 400V to 11kV into various rings, followed by further distribution to RMUs and Transformers
+ - Coordinated the PTW (Permit to Work) documentation for the project
+ - Managed the tie-in of multiple substations, ensuring proper coordination and integration of power distribution infrastructure
+ - Coordinated with contractors, suppliers, and internal teams to procure and install
+ - Conducted QA/QC inspections with team members to verify the proper installation and procedures
+ - Developed and implemented strategies for efficient project execution, optimizing resources and timelines
+ - Monitored the progress of the construction project, tracking milestones and ensuring adherence to project schedules
+
+Lead Electrical Engineer
+Sasol Petroleum
+2015 - 2017
+ - As Lead Electrical Engineer, managed the installation of the 33 kV/6.6 kV/525/400 Volt substations and associated equipment
+ - Managed projects involving Distribution Substations, Motor Control Centers, Electrical Cabling Routes and associated equipment
+ - Served as the responsible electrical person during turnarounds, ensuring safe operation and coordinating switching plans
+ - Collaborated with stakeholders, facilitated effective communication, and maintained compliance with industry standards, codes, and regulations
+
+Lead Electrical Engineer
+NCS Copper Mine
+2014 - 2015
+ - As a Lead Electrical Engineer on this project for Rainbow Technologies Being a Specialist Electrical Consulting Firm I was managing the 6 MW/11kV Compressor, 11kv Power factor equipment and all the new installed Switch Gear
+ - Design of equipment, comprising of new switchgear panels, protection and metering schemes, diesel generator, UPS system, air compressor, power factor correction system, and 5th harmonic reactive power filter system.
+ - Coordinate with suppliers of switchgear panels, transformers, and power factor correction (PFC) equipment
+ - Oversee the commissioning work, ensuring proper installation, testing, and functionality of the designed equipment.
+
+Electrical Engineer
+SED
+2013 - 2014
+ - Led the project, testing and commissioning of outdoor substations, indoor switchgear, transformers, OHL Auto Reclosers
+ - Oversaw the entire process from project initiation to completion, ensuring successful testing, commissioning
+
+Commissioning Engineer
+Sherritt, Ambatovy Project Ma
+2012 - 2013
+ - Managed the 30 MW Current Limiting Reactor Project
+ - Sub-contracted by SNC-Lavalin on behalf of Sherritt International to provide consultancy services for the design, procurement, installation, and commissioning of Current Limiting Reactors for the 30MW standby Diesel Generator Plant
+ - Conducted testing and commissioning activities for the Power Factor Correction (PFC) and Harmonic Filter system
+ - Collaborated with the main Engineering Consultant and Client to ensure successful implementation and operation of the Current Limiting Reactors, PFC, and Harmonic Filter system
+
+Electrical Design and Implementation Engineer
+Owner of Company
+1999 - 2011
+ - Oversaw electrical engineering design, project implementation, and control of Permit to Work (PTW) processes, testing, commissioning, project delivery, and site safety for a wide range of projects in sectors such as Pulp and Paper, Petrochemical, Cement, Mining, Power Plant upgrades, and Utility projects
+ - Ensured the safety of my team and staff members as the owner of the company, taking full responsibility for implementing safety measures and protocols throughout all projects
+ - Implemented a ISO 9001 System for the company
+ - Implemented a PTW system and introduced a Safety System
+
+Earlier Positions Held
+1984 - 1999
+ - Electrical design/project Engineer | Schneider Electric | 1994 – 1999
+ - Projects/Commissioning Engineer | AEG Projects | 1993 – 1994
+ - Electrical Trainee engineer | Eskom | 1986 – 1993
+ - Para Trooper | SA National Defense Force | 1984 – 1985
+
+
+PROJECTS/CLIENTS
+======
+DBA Consulting Engineers
+Various projects for Boshoku, Heron Golf Estate, Astra Park, Toyota Rainbow
+
+Millennium
+Various projects: Project Design and implementation: Sappi Paper Mills, Mondi Paper Mills, Silva Cell, Foskor, Hillside Aluminum, Harmony Gold-new biogas power plant and many other projects
+
+RBCT
+Design/Installation of New 11 kV switchgear Boards.
+
+Portnet
+Design of new ring, installation and associated outdoor switch gear and Installation of 11 kV XLPE cabling.
+
+Richards Bay Minerals
+Design of current limiting reactors and Protection system.
+
+Absa
+Projects testing and commissioning Jenbacher gas turbine generator 10 MW.
+
+Eskom/Ithala
+Design installation of 132kV- 16 Mvar Power Factor Correction / 5 TH Harmonic Filter
+
+Samancor Mining
+Design / Installation of PFC filters for an outdoor substation
+
+Anglo American Mines
+Outdoor Substation Design and Protection
+
+Clover Dairies
+Design Implementation of new 11 kV substations
+
+Engen Refineries
+Installation of new 33 kV substations panels
+
+Shell Refineries
+Installation of new 11 kV switch gear panels
+
+
+EDUCATION & PROFESSIONAL STATUS
+======
+National Certificate Engineering
+PMB Technical College
+
+Registered Professional
+Engineering Council of South Africa
+
+Registered Project Management Professional
+PMI - PMP no. 3433669
+
+Completed an SAP
+ESKOM
+
+
+AREA OF EXPERTISE
+======
+Project Management
+
+Design Software Proficiency
+
+Electrical Engineering
+
+Project Execution and Delivery
+
+Commissioning and Startup
+
+Client Relationship Management
+
+Substations Designs Medium and Low Voltage
+
+HV
+
+
+Skills
+======
+ - Python
+
+
+Languages
+======
+English
+

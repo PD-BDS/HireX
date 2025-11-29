@@ -1,0 +1,122 @@
+CHRISTIAN
+
+
+Summary
+======
+Christian is an experienced Electrical Supervisor and Automation Specialist with a strong background in PLC programming, SCADA integration, and electrical commissioning. He has extensive experience in supervision, troubleshooting, and optimizing industrial process systems across various sectors, including renewable energy, offshore, and manufacturing. Known for his technical expertise and hands-on approach, Christian excels in managing complex projects and ensuring high-performance operations.
+
+
+Experience
+======
+Electrical Supervisor, Site Electrical Manager, and Commissioning & Automation Specialist
+VAQ Norge
+01/2024 - 01/2025
+ - Electrical site Manager
+ - Commissioning & Automation Specialist
+ - Electrical Supervisor
+ - Commissioning of Small Power systems, Utility systems, Ventilation and HVAC systems
+
+Q-Star Energy A/S - Wind Division
+01/2023 - 01/2024
+ - Commissioning of Black Start systems
+ - Commissioning and testing of Generator systems
+ - Commissioning instrumentation and control systems
+ - Test of SCADA systems
+ - Commissioning & Automation Specialist
+ - Execution of LOTO (Lockout/Tagout) procedures
+ - Maintenance of blades with robotic technology
+
+Electrical Service Technician
+Semco offshore
+01/2021 - 12/2022
+ - Commissioning of Black Start systems
+ - Commissioning and testing of Generator systems
+ - Commissioning instrumentation and control systems
+ - Test of SCADA systems
+ - Troubleshooting and rebuilding of electrical panels for offshore installations
+
+Service Technician
+Assa abloy
+01/2020 - 12/2021
+ - Troubleshooting and rebuilding of control panels for automatic doors
+
+Service and Instrumentation Technician
+Xellia
+01/2019 - 01/2020
+ - Repair and service of electrical process equipment
+ - Calibration
+ - Troubleshooting
+ - Programming
+
+Electrical Field Engineer
+FLSmidth
+01/2016 - 01/2019
+ - Installation and commissioning of electrical installations
+ - Supervision and commissioning of electrical installations at cement and copper plants in Egypt, Armenia, and Pakistan
+
+Industrial electrical work
+Scan-el International A/S
+01/2015 - 01/2016
+ - Industrial electrical work and assembly of turbines for MHI Vestas Offshore at Lindø Shipyard
+
+Apprenticeship as Industrial Electrician
+Arla Foods
+01/2011 - 01/2015
+
+Carpenter and Project Manager
+Bms
+01/2009 - 01/2011
+
+
+Education
+======
+Automation Technologist
+Navitas
+01/2022 - 12/2023
+Aarhus
+ - Two semesters as Automation Technologist focusing on PLC programming, automation, and SCADA integration
+
+Industrial Electrician specializing in control and regulation
+Den Jydske Håndværkerskole
+2011 - 2016
+
+Apprenticeship as an industrial electrician specializing in control, regulation, and troubleshooting
+Arla Foods, Rødkærsbro
+2011 - 2016
+
+Carpentry Education
+EUC, Viborg
+2005 - 2009
+
+
+Languages
+======
+Danish
+
+English
+
+
+Certification
+======
+GWO Certifications: BST and BTT
+
+Vestas Courses: LOTO Level 2, ESQ, BTO mk11 v112 EnVentus
+
+BOSIET Course: Safety and Helicopter Transport to Offshore
+
+L-AUS Course: Electrical Safety
+
+Fall Protection Course
+
+Forklift Certificate
+
+
+Skills
+======
+ - Allen Bradley Studio 5000
+ - HMI Programming
+ - Microsoft Office
+ - Windows & iOS Platforms
+ - Siemens TIA Portal V13
+ - STEP7
+

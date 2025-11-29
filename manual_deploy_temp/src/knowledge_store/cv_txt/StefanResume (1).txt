@@ -1,0 +1,90 @@
+STEFAN
+
+
+Summary
+======
+An ambitious and versatile consultant with a strong technical foundation across multiple disciplines. With a keen ability to understand and simplify complex topics, he effectively tailors communication to suit diverse audiences. His background as an R&D engineer in the iron and steel sector has equipped him with a deep understanding of value-chain drivers, enabling him to create synergies across departments.
+He is adept at interpreting and managing customer requirements and specifications, ensuring steady, controlled, and effective project execution. His approach to project management emphasizes precision, adaptability, and consistent alignment with stakeholder expectations.
+
+
+Experience
+======
+Design Readiness and Governance of NPD Projects
+Vestas
+2023 - 2024
+ - Establishing the governance for a new role which aims to monitor and track all design changes within a new product development project
+ - Enforced the governance in one of the largest onshore projects
+ - Main focus was on stakeholder management, with multiple teams delivering to the project
+ - Managed a stakeholder network of roughly 150 stakeholders
+
+Project Manager
+Creadis - Alfa Laval 
+2021 - 2023
+ - Ensuring successful delivery of a complete modularized software and HMI interface for a new series of products
+ - Managed a team of roughly 25 Automation engineers, to ensure timelines being kept and requirements being fulfilled
+
+Project manager
+Novo Nordisk A/S Hjørring
+2021 - 2022
+ - Project manager for a minor technology study to increase quality capabilities and reduce takt time
+
+R&D Engineer
+Ngi a/s
+2019 - 2021
+ - Responsible for ensuring adherence to the newest sanitary and hygienic design approvals from 3-A, FDA and EHEDG among others
+ - The adherence covered both existing products and innovation projects
+
+R&D Engineer
+Ngi a/s
+2019 - 2020
+ - Planning, testing and execution of a new product configurator
+ - Improve design efficiency
+ - Streamline sales processes
+ - Meet customer-specific needs
+
+Lead Technical Specialist
+DoltDesign
+2017 - 2018
+ - Lead Technical Specialist, specializing in design and fabrication of custom prototypes and proof-of-concept solutions across diverse industries
+ - Responsible for ensuring and overseeing project development from concept to delivery
+
+
+Skills
+======
+ - Agile
+ - C/C++
+ - DFM
+ - ERP
+ - Microsoft Office
+ - Project Management
+ - Product Management
+ - Navision
+ - PCB
+ - PCB Design
+ - Python
+ - SharePoint
+ - Synergy
+ - SolidWorks
+
+
+Education
+======
+MS.c. Design and Innovation
+Danmarks Tekniske Universitet
+2017 - 2019
+
+BS.c Product development and innovation
+Syddansk Universitet
+2016 - 2017
+
+BS.c Business development engineer
+Aarhus universitet
+2013 - 2016
+
+
+Languages
+======
+Danish
+
+English
+

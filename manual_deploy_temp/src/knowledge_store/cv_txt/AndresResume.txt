@@ -1,0 +1,143 @@
+ANDRÉS
+Mechanical Engineer
+
+
+Summary
+======
+Mechanical Engineer with 12 years of experience specializing in mechanical design, equipment maintenance, and field engineering across South America. Certified SolidWorks Professional (CSWP) with advanced proficiency in mechanical design tools, including static and dynamic simulations using finite element analysis (FEA) within Dassault Systèmes and Autodesk platforms. Brings 4 years of focused experience in mechanical pump systems and machining operations. Possesses strong technical expertise in dimensional measurement, part and assembly inspection, non-destructive testing, heat treatment processes, and CNC machine programming.
+
+
+Experience
+======
+Mechanical Engineer
+Tecnon
+2023 - Ongoing
+Buenos Aires, Argentina
+ - Mechanical design of gear drives, including pinion/gear pairs, shafts, flanges, and casings by following ISO, DIN, AGMA standards and customer requirements
+ - Mechanical design and specifications of flexible and gear couplings
+ - Mechanical design of sprockets for roller chains following American and European standards
+ - Drafting of parts/assemblies for manufacturing using SolidWorks, AutoCAD and Draftsight
+ - Inspection, measurements, and diagnosis of parts and equipment for repairs or new projects
+
+Mechanical Design Engineer
+Eng
+2022 - 2023
+Usa
+ - Inspection, revision, and quality assurance of CAD models for installation
+ - Produce Install & Shop Drawings for field installation, following industry standards
+ - Creation of digital design-to-fabrication workflows
+ - Work with trades on solving model clashes
+ - Creation of spool drawings for prefabrication
+
+Mechanical Project Engineer
+Buenos Aires, Argentina
+2021
+Buenos Aires, Argentina
+ - On-site work inspections
+ - Specification of equipment, materials, and creation of technical drawings
+ - Contribute with design alternatives based on previous knowledge and experience
+ - Management of external providers
+ - Creation of schedules, progress reports, and permanent relationships with suppliers
+
+Mechanical Design Engineer
+Agira,Buenos Aires, Argentina
+2021
+Buenos Aires, Argentina
+ - Mechanical design of compressors skids, based on energy, pressure, and flow requirements
+ - Generation of CAD 3D models and 2D drawings of new equipment for fabrication
+ - Inspection, quality assurance, revision, and approval of fabricated parts and assemblies
+ - Nondestructive testing of fabricated pressure vessels and spools, including hydrostatic testing, radiographic testing, and liquid penetrant testing
+
+Field Service Engineer
+Pall corporation
+2017 - 2021
+Argentina
+ - Responsible for the technical service of equipment in Argentina and Central America
+ - Regular calibration, maintenance, repairs, and upgrades of Pall Corporation's equipment
+ - Managing service calls, including scheduling, execution and closing of customer needs
+ - Commissioning and qualification of Pall Corporation's equipment
+ - Responsible for the technical support in Argentina and South America, including refineries, oil & gas plants, petrochemical plants, automotive plants, offshore plants, among others
+ - Execute on-site filtration tests (Natural Gas, Diesel Oil, Fuel Gas, Automotive Paint)
+ - Execute the commissioning and technical support of Pall's equipment
+
+Plasmatec ingenieros
+Plasmatec ingenieros,Caracas, Venezuela
+2013 - 2017
+Caracas, Venezuela
+ - Responsible for mechanical design, pumps maintenance and repairing, field services, and machining operations
+ - Dimensional inspection of fabricated parts using micrometers, gauges, and calipers
+ - Quality assurance, revision, and approval of fabricated parts and assemblies, including measurement of final clearances, bearing/shaft tolerances, and general adjustments
+ - Initial inspection of damaged pumps, including detailed reports
+ - Nondestructive testing of fabricated parts, including hydrostatic testing, magnetic particle testing, and liquid penetrant testing
+ - Assembling and alignment of pumps, including gears, bearings, shafts, rotors, housings
+ - Dynamic balancing of rotational elements, following API 610 standard
+ - Design and implementation of machining for parts and raw material using CAM
+ - Mechanical designs and projects executions, using CAD, FEA, CFD, and CAM tools
+ - Featured Design Projects
+ - 2013: Automatic soldering machine structure design, including finite elements simulations
+ - 2014: Furnace design for screws of positive displacement pumps, specifically designed for pre-heating in the thermal spray process
+ - 2015: Sandblasting booth design and manufacturing, including ducts and extraction system
+ - 2016: Thermal spray booth design and manufacturing, including ducts and extraction system
+
+
+Education
+======
+B.S. Mechanical Engineering
+Universidad Simón Bolívar
+2014
+Caracas, Venezuela
+
+Exchange Student High School Diploma
+Riverside University High School
+2001
+Milwaukee, USA
+
+
+Skills
+======
+ - Offshore Engineering
+ - Field Service Engineering
+ - Computer-Aided Design
+ - Finite Element Analysis
+ - Computational Fluid Dynamics
+ - Repairs and Coatings with Thermal Spray Technology
+ - Equipment Commissioning
+ - Maintenance & Repair of Industrial Equipment
+ - Dynamic Balancing of Rotors
+
+
+Certification
+======
+Advanced Finite Element Analysis (FEA) with SolidWorks – UTN, AR.
+
+Certified SolidWorks Professional (CSWP) - Mechanical Design - Dassault Systèmes, FR.
+
+Piping & Tubing with SolidWorks – UTN, AR.
+
+Advanced Design and Installations with AutoCAD – UTN, AR
+
+Design with AutoCAD - UTN, AR
+
+Certified SolidWorks Associate (CSWA) - Mechanical Design - Dassault Systèmes, FR.
+
+Finite Element Analysis (FEA) with SolidWorks – UTN, AR.
+
+Mechanical Design and Modeling with SolidWorks - UTN, AR.
+
+Basic Safety Training Offshore - Shelter Courses and Training. Santos, BR.
+
+Helicopter Underwater Escape Training - Shelter Courses and Training. Santos, BR
+
+Pump Repair and Maintenance - American Trainco. Chicago, USA.
+
+Balancing of Overhung Rotors - Universidad Central de Venezuela. Caracas, Venezuela
+
+
+Languages
+======
+English
+
+Portuguese
+
+Spanish
+

@@ -133,38 +133,37 @@ compose_job_description_response:
       {requirement_questions_md}
 
     ## Required Actions
-    1. Produce a warm acknowledgement tied to the recruiter turn.
-    2. Summarize meaningful changes in one clear sentence.
-    3. If updates exist:
-         • message.updates = list of formatted preview strings
-         • narrative omits no update details and introduces no reinterpretation
-       If no updates:
-         • message.updates = []
-         • omit narrative “Updates captured” section
-    4. Render outstanding prompts as a numbered list under Recommended information,
-       matching jd.outstanding_questions exactly.
-    5. Provide guidance referencing the job snapshot tab and clearly outline the next
-       decision (add more details vs explicitly approve screening).
-    6. Populate next_steps with a concise restatement of this guidance.
-    7. Keep message_md empty.
-    8. No delegation.
+    1. Write a warm, natural acknowledgement addressing the recruiter directly about their input.
+    2. Craft a conversational summary sentence about what changed.
+    3. For message.updates:
+       - Write brief, conversational field update summaries
+       - If no updates: message.updates = []
+    4. Render outstanding prompts as message.recommended list matching jd.outstanding_questions.
+    5. Write conversational guidance addressing the recruiter.
+    6. Create a friendly, actionable closing.
+    7. Populate next_steps with a concise summary of what comes next.
+    8. Keep message_md empty (handled downstream).
+    9. Never copy phrasing from context - always rewrite in a fresh, natural voice.
 
     ## Voice Guardrails
-    - Tone: warm, conversational, professional.
-    - Vary acknowledgements and closings to reduce repetition.
+    - Write like you're having a conversation with the recruiter, not generating a technical report.
+    - Use contractions (we're, I've, let's) and warm language.
+    - Avoid phrases like "updated field now includes" or "has been parsed and classified".
+    - Instead of listing technical metadata, explain what you did in plain English.
+    - Vary acknowledgements and closings to sound human, not robotic.
     - Never hallucinate, reword, or reinterpret structured data.
-    - No markdown in JSON.
+    - No markdown formatting in the JSON string values.
 
   expected_output: |
     Produce JSON validating against `JobDescriptionOutput`:
       {
         "message": {
-          "acknowledgement": "<friendly opener>",
+          "acknowledgement": "<friendly opener for user>",
           "summary_sentence": "<recap>",
           "updates": ["- <field descriptive preview>", ...],
-          "guidance": "<guidance paragraph>",
+          "guidance": "<guidance for user>",
           "recommended": ["<outstanding prompt>", ...],
-          "closing": "<friendly close>"
+          "closing": "<friendly closing for user>"
         },
         "message_md": "",
         "jd": { ... mirror specialist output ... },
@@ -172,7 +171,11 @@ compose_job_description_response:
         "phase": "job_description"
       }
 
-    - Never alter jd.
-    - When no fields changed, message.updates = [] and the narrative omits any
-      “Updates captured” section.
-    - Closings must guide the recruiter to either add more details or approve candidate screening explicitly.
+    CRITICAL RULES:
+    - Never copy technical phrases from context (e.g., "processed all recruiter-provided updates")
+    - Write like a helpful human assistant, not a data processor
+    - message.updates should be conversational summaries, NOT "field_name: updated field now includes..."
+    - Keep acknowledgement, guidance, and closing warm and natural
+    - Never alter jd - only update the message fields
+    - When no fields changed: message.updates = [] and omit update details from summary
+

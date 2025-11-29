@@ -19,7 +19,7 @@ analyse_user_query:
     4. Use `reasoning` to outline supporting evidence, risks, or policy considerations the responder must mention—cite candidates or tool findings in plain language so non-technical readers can follow.
     5. Populate `recommended_actions` with concrete steps the responder should encourage, and list any clarifications the recruiter should be asked for in `follow_up_questions`.
   expected_output: |
-    Return JSON validating `DiscussionAnalysisOutput`:
+    Give your response only in this JSON validating `DiscussionAnalysisOutput`, do not include any other text or tool calls:
       {
         "findings": "<succinct paraphrase of the recruiter request and relevant candidate facts>",
         "reasoning": "<bullet or paragraph detailing supporting evidence and trade-offs>",
@@ -28,6 +28,7 @@ analyse_user_query:
       }
     - Every list may be empty, but include the key with an empty array when no items apply.
     - Reference candidate names or IDs exactly as they appear in `screened_candidates`.
+    - This JSON is your final answer - do not include any other text or tool calls.
   agent: discussion_analyser
 
 
@@ -53,7 +54,7 @@ compose_structured_response:
     5. Use `reasoning` to justify the recommendations, list concrete action items in `follow_ups`, and close with an encouraging sign-off aligned with the recruiter’s tone.
 
   expected_output: |
-    Produce JSON validating `DiscussionOutput`:
+    Produce only this JSON validating `DiscussionOutput`, do not include any other text or tool calls:
       {
         "message_md": {
           "acknowledgement": "<natural opener>",
@@ -66,4 +67,5 @@ compose_structured_response:
       }
     - Ensure the final response is ready to send as-is; it should not require further editing.
     - Keep the message empathetic, fact-based, and aligned with the recruiter’s objectives.
+    - This JSON is your final answer - do not include any other text or tool calls.
   agent: structured_responder

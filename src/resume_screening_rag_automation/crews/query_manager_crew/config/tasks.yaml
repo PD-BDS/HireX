@@ -93,25 +93,24 @@ route_query:
       {state}
 
   expected_output: |
-    Emit JSON validating against `QueryRoutingOutput`.
-    Shape:
-      {
-        "query_controls": {
-          "phase_sequence": ["<phase literal>", ...]
-        },
-        "cleaned_user_query": "<exact recruiter message>"
-      }
+    Output ONLY valid JSON that matches the QueryRoutingOutput schema. Do not add extra text or explanations.
 
-    Optional keys:
-      - query_controls.last_completed_phase
-      - query_controls.jd_complete
-      - query_controls.candidates_ready
-      - query_controls.allow_jd_incomplete
-      - query_controls.update_jd
-      - query_controls.new_job_search
-      - query_controls.screen_again
-      - query_controls.top_k_hint
-      - reasoning
+    JSON format:
+    {
+      "query_controls": {
+        "phase_sequence": ["<phase>"],
+        "last_completed_phase": "<phase>",
+        "jd_complete": <bool>,
+        "allow_jd_incomplete": <bool>,
+        "update_jd": <bool>,
+        "screen_again": <bool>,
+        "new_job_search": <bool>,
+        "candidates_ready": <bool>
+      },
+      "cleaned_user_query": "<exact recruiter message>",
+      "top_k_hint": <number or null>,
+      "reasoning": "<brief rationale>"
+    }
 
     Constraints:
       - Allow only these phases: job_description, screening, discussion.
@@ -119,6 +118,4 @@ route_query:
       - Always set allow_jd_incomplete=true when screening occurs.
       - For reruns: set screening + screen_again=true.
       - For role pivots: emit job_description + new_job_search=true (without update_jd).
-      - For composite requests: preserve full sequence and flags.
-      - Reasoning MUST mention the scenario hint outcome (either the returned guidance or that no hint was available).
-      - Never emit markdown. Never hallucinate phases or flags.
+      - Output ONLY the JSON, no additional text.

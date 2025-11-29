@@ -58,25 +58,17 @@ backend.log
 # src/knowledge_store/chroma_vectorstore/
 
 # Session data (created during app usage)
-# src/knowledge_store/
-# src/knowledge_store/conversations/
-# src/knowledge_store/knowledge_sessions/
-# src/knowledge_store/screening_insights/
-# src/knowledge_store/crew_memory/
-
-# CrewAI memory storage
-# src/knowledge_store/.crewai_storage/
-# Structured resumes (can be regenerated)
-# src/knowledge_store/structured_resumes.json
-
-# ============================================
-# Optional: Resume Source Files
-# ============================================
-# OPTION 1: Keep resumes in R2 only (uncomment below)
-# src/knowledge_store/cv_txt/
-
-# OPTION 2: Version control seed resumes (comment line above)
-# Then small resume files can be committed as starter data
+knowledge_store_backup/
+src/knowledge_store/*
+!src/knowledge_store/**/.gitkeep
+#src/knowledge_store/conversations/
+#src/knowledge_store/knowledge_sessions/
+#src/knowledge_store/screening_insights/
+#src/knowledge_store/crew_memory/
+#src/knowledge_store/query_manager/
+#src/knowledge_store/structured_resumes.json
+#src/knowledge_store/cv_txt/
+deploy.zip
 
 # Temporary files
 *.tmp

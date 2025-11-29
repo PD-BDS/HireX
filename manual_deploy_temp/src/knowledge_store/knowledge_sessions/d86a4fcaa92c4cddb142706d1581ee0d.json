@@ -1,0 +1,14 @@
+{
+  "knowledge_session_id": "d86a4fcaa92c4cddb142706d1581ee0d",
+  "structured_resumes_path": "D:\\RAG_CV\\resume_screening_rag_automation_v1_crewai-project\\src\\knowledge_store\\structured_resumes.json",
+  "generated_insights_path": "D:\\RAG_CV\\resume_screening_rag_automation_v1_crewai-project\\src\\knowledge_store\\screening_insights\\d86a4fcaa92c4cddb142706d1581ee0d.json",
+  "vector_collection": "resume_screening",
+  "last_vector_sync": null,
+  "active_candidate_ids": [
+    "CAND011",
+    "CAND001",
+    "CAND012",
+    "CAND009",
+    "CAND014"
+  ]
+}

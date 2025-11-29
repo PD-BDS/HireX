@@ -103,7 +103,7 @@ class ScreeningCrew:
         """Task to retrieve and score the top candidates."""
         return Task(
             config=self.tasks_config["retrieve_candidates"],
-            output_pydantic=CandidateRetrievalOutput,
+            output_json=CandidateRetrievalOutput,
             validate_output=True,
             callback=self._propagate_retrieval_results,
         )

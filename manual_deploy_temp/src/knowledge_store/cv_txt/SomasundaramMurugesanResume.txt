@@ -1,0 +1,665 @@
+SOMASUNDARAM MURUGESAN
+E & I and Automation Engineer
+
+
+Summary
+======
+Bringing more than 24 years of international experience, this Electrical, Instrumentation, and Automation expert has executed complex projects in cement, power, minerals, sugar, and biopharmaceutical sectors. Skilled in commissioning, supervision, and O&M of large-scale industrial systems, with hands-on expertise in PLC systems (Siemens, Allen Bradley, Schneider), SCADA platforms, ABB drives, and modern automation architectures.Has successfully led projects across Asia, Africa, Europe, and the Middle East, delivering on greenfield and brownfield assignments under leading organizations like FLSmidth, Plant Supervision ApS, and Biocon. Strong foundation in safety standards, cyber awareness, and quality systems (ISO 14001, OHSAS 18001), backed by multiple technical and safety certifications.
+
+
+Experience
+======
+Commissioning Engineer
+Limak Cement
+2025 - Ongoing
+Abu Dhabi
+ - Electrical and instrumentation Commissioning Engineer of FL Smidth supplied equipment, Hot-disk
+
+Electrical, Instrumentation and Automation Manager
+Plant Supervision ApS
+2024 - 2025
+ - Working in Plant Supervision ApS, Denmark as an Electrical, Instrumentation and Automation Manager
+
+E&I Commissioning Engineer
+National Center of Meteorology – Sand Transportation Plant
+2024 - 2025
+ - Electrical and instrumentation Commissioning Engineer of KOCH Solutions GmbH supplied equipment’s.
+ - Bucket Wheel Excavator (BWE)
+ - Mobile belt wagon (MBW)
+ - Shiftable Bench Conveyor (SBC)
+ - Hopper & Cable Reeler Car (HCC)
+ - Overland conveyor (OLC)
+ - Shiftable Bench Conveyor (STC)
+ - Spreader with tripper - car (MSP)
+
+E&I Specialist
+FLSmidth Global Services A/S
+2007 - 2024
+
+E&I and MCS Specialist
+San Miguel Northern Cement Line#2
+2024 - 2024
+ - Electrical and instrumentation supervision and commissioning activities of VRM OK 39-4 Cement Mill 210TPH Capacity
+ - ABB MV Motors for Mill Main Drive and Mill Fan Siemens S7 300 PLC and ECS V8-based MCS panel.
+Siemens S7 300 Safety PLC for Hot Gas Generator
+
+E&I Specialist
+The RAMCO Cements Limited, Haridaspur
+2024 - 2024
+ - Electrical and Instrumentation supervision and commissioning activities of Line#2 UMS Ball Mill – 130TPH Cement Grinding full circuit.
+
+E&I and Automation Specialist
+Shree Cements Limited, Nawalgarh
+2023 - 2024
+ - Electrical and instrumentation supervision and commissioning activities of 13500 TPD plant.
+ - Allen Bradley PLC and ECS V8-based CB Cooler and HRB MCS panel.
+ - VRM OK 66-6 Raw Mill and Cement Mill, ATOX 32.5 Coal Mill and Pyro Equipment’s.
+
+JK Cement Limited
+E&I and Automation Specialist
+2023 - 2023
+ - Electrical and instrumentation supervision and commissioning activities of VRM OK 56-4 Cement Mill Siemens TIA Portal and ECS V8-based MCS panel.
+
+E&I Specialist
+Ramco Cements Limited
+2023 - 2023
+ - Electrical and instrumentation supervision and commissioning activities of HRP Raw Mill, ATOX Coal Mill, and Pyro Equipments.
+
+International Travelling Field Engineer
+FLSmidth Global Services A/S
+2022 - 2023
+ - As an Automation Engineer and E&I Specialist
+
+E&I and SCS Specialist
+Xuan Thanh Cement JSC Line#3
+2022 - 2023
+ - Electrical and instrumentation supervision and commissioning activities of 12000 TPD plant.
+ - Siemens TIA Portal PLC and ECS V8-based MCS panels.
+ - Siemens TIA Portal PLC for Kiln and Calciner Coal Firing System and HGG for Raw mill and Coal Mill ABB Drives-ACS 580, ACS 880
+ - Schenck Flow Meter and Pfister Rotor Scale Main Equipment’s: Limestone Crusher – SB Crusher, Additive Crusher – ABON Sizer, Limestone Storage-Circular Blending System, Additive and Coal Storage - Portal Scraper, ST Knee Stacker, Raw Mill 2 X ATOX 50, CF silo, Preheater, Kiln, CB Cooler - CB 22 X 73 with intermediate HRB, Coal Mill 2 X ATOX 32.5.
+
+FLSmidth Limited,
+Manager in CSD-EIS Dept
+2021 - 2022
+
+E&I and Automation Specialist
+Toshiba
+2022 - 2022
+ - Electrical and instrumentation supervision and Automation Engineer of commissioning activities of BWSR and CHP machines Schneider M580 PLC with ECS V8-based MCS Panel
+
+E&I and Automation Specialist
+Prism Johnson Limited
+2021 - 2021
+ - Electrical and instrumentation supervision and Automation Engineer of commissioning activities of Line#2 from SF Cooler to CB and HRB upgradation project
+ - Siemens S7 300 PLC and ECS V8-based MCS panel
+
+E&I Specialist
+Gujarat Sidhee Cement Limited
+2021 - 2021
+ - Kiln Thrust Device adjustment and calibration
+
+E&I and Automation Specialist
+Ultra Tech Cement Limited
+2021 - 2021
+ - Electrical & Instrumentation supervision and Automation Engineer of commissioning activities of Line#2 Cross Bar Cooler-14X35 and HRB-MF314 upgradation project
+ - Siemens TIA Portal and ECS V8-based MCS panel
+
+E&I and Automation Specialist
+Ambuja Cement Limited,
+2021 - 2021
+ - Electrical and instrumentation supervision and Automation Engineer of commissioning activities of Limestone & Additive - ST Stacker and BS Reclaimer
+ - Siemens S7 300 PLC and ECS V8-based MCS panels
+
+Automation Engineer and E&I Specialist
+Hindustan Zinc Limited
+2020 - 2021
+ - Electrical and instrumentation supervision and Automation Engineer of commissioning activities of High-Density Thickener for Zinc Tailing system.
+ - Rockwell Automation Studio 5000 PLC with RS FactoryTalk View Scada
+
+Electrical, Instrumentation, and Automation Maintenance Manager
+El Beida
+2020 - 2020
+ - Electrical, Instrumentation, and Automation Operation & Maintenance Onsite support of 6000 TPD complete plant from Crusher to Packing Plant
+
+Automation Engineer and E&I Specialist
+Barmer Lignite Mining Corporation Limited
+2020 - 2020
+ - Electrical and instrumentation supervision and Automation Engineer of commissioning activities of Coal Handling System for Power plant.
+ - Schneider M580 PLC with ECS V8 based PCS
+
+International Travelling Field Engineer
+FLSmidth Global Services A/S
+2018 - 2020
+
+PLC Specialist and E&I Specialist
+El Beida
+2018 - 2019
+ - Electrical and instrumentation supervision and commissioning activities of 6000 TPD Complete EPC Project.
+ - Siemens S7 PLC and ECS (Expert Control System) based SCS panels.
+ - Siemens S7 Safety PLC for Kiln and Calciner Gas Firing burners and HGG for Cement Mill
+ - ABB Drives- ACS 880 & ACS 2000 and VACON Frequency Drives.
+ - Main Equipment’s: SB Crusher, EH Roller Crusher, Circular Bridge Scraper, Side Scraper, ST Stacker, Raw Mill Atox 52.5, CF Silo-LOW system, Kiln, CB Cooler 16x50, HRB, 2xCement Mill-OK 36-4, 4xCFI Silo, Bulk Loading system, Packing Plant-3Lines.
+
+E&I and SCS Specialist
+Xuan Thanh Cement JSC Line#2
+2017 - 2018
+ - Electrical and instrumentation supervision and commissioning activities of 12000 TPD plant.
+ - Siemens S7 PLC and ECS (Expert Control System) based SCS panels.
+ - Siemens S7 Safety PLC for Kiln and Calciner Coal Firing System and HGG for Raw mill and Coal Mill
+ - ABB Drives-ACS 580, ACS 880
+ - Siemens Soft Starters and Siemens Variable Drives -Sinamic
+ - Main Equipment’s: Limestone Crusher - EV, Limestone Storage-Circular Blending System, Additive and Coal Storage - Portal Scraper, ST Knee Stacker, Raw Mill 2 X ATOX 50, CF silo, Preheater, Kiln, CB Cooler - CB 22 X 73 with intermediate HRB, Coal Mill 2 X ATOX 32.5.
+
+E&I and SCS Specialist.
+Arghakhanchi Cements Limited
+2017 - 2017
+ - Electrical and instrumentation supervision and commissioning activities.
+ - Allen Bradley RS Logix 5000 PLC and ECS (Expert Control System) based CB Cooler SCS panel
+
+E&I Specialist
+My Home Cement
+2017 - 2017
+ - Electrical and instrumentation supervision and commissioning activities of UMS ball cement mill EPC project from clinker transport to Packing plant.
+
+E&I Specialist
+TATA Steel Limited
+2017 - 2017
+ - Electrical and instrumentation supervision and commissioning activities of Secondary crusher C (Symons 7 Feet Cone Crusher) New FLS Supplied Lubrication unit installation and commissioning
+
+E&I and PLC Specialist
+The RAMCO Cements Limited
+2016 - 2016
+ - Line#1 Upgradation - Pyro equipment and Coal transport Equipment - Electrical & Instrumentation supervision and commissioning activities.
+ - Siemens S7 PLC and ECS (Expert Control System) based SCS for CB cooler and HRB system.
+
+E&I and SCS Specialist.
+Khukh Tsav, MAK, Mongolia
+2016 - 2016
+ - Electrical and instrumentation supervision and commissioning activities of Limestone ST-Stacker and BS-Reclaimer.
+ - Allen Bradley RS Logix 5000 PLC and ECS (Expert Control System) based SCS panel
+
+E&I Specialist
+Oman Cement Company
+2016 - 2016
+ - Electrical and instrumentation supervision and commissioning activities of UMS ball cement mill EPC project.
+
+E&I and SCS Specialist.
+Al Khalij Cement Company
+2016 - 2016
+ - Electrical and instrumentation supervision and commissioning activities.
+ - Siemens S7 PLC and ECS (Expert Control System) based SCS panels
+ - Siemens S7 safety PLC and GP-Pro EX HMI based Gas Burners SCS’s for - Kiln and HAG.
+Siemens S7 PLC and GP-Pro EX HMI-based SCS panels
+ - Equipment’s: Raw Mill ATOX 55, CF silo, Preheater, Kiln and HAG gas burners, Clinker Cooler SF 4X6, Cement Mill OK 39-4, Cement Silo’s, Bulk Loaders, Gas analyzers, Airtech equipment’s-Bag house and Other FLS equipment’s
+
+E&I Specialist
+ACC Limited
+2016 - 2016
+ - E&I site audit visit for business development
+
+E&I and PLC Specialist.
+Ultra Tech Cement Limited
+2016 - 2016
+ - CB Cooler and HRB SCS to CCR Profibus communication establishment
+
+E&I Specialist
+Rain Industries Limited
+2016 - 2016
+ - E&I site audit visit for business development.
+
+E&I and PLC Specialist
+Ultra Tech Cement Limited
+2016 - 2016
+ - E&I site audit visit for business development.
+
+E&I Specialist
+Madras Cement Limited
+2016 - 2016
+ - E&I site audit visit for business development.
+
+E&I Specialist
+ACC Limited
+2015 - 2015
+ - Inspection/study of ATOX Mills-Raw and Coal control systems up gradation
+
+Automation and E&I Specialist
+Ma'aden Ad'duwayhi Gravity CIL Gold Project, Saudi Arabia
+2015 - 2015
+ - E&I supervision of equipment's installation and pre- commissioning of Horizontal Belt Filter, Elusion, Thickener, Samplers, and Gold Room-Electro wining
+
+E&I Specialist
+Dalmia Cement Bharat Limited
+2015 - 2015
+ - ATOX 22.5 Coal Mill commissioning. Siemens S7 PLC and ECS (Expert Control System) based SCS
+
+Automation and E&I Specialist
+Tam Diep Cement Company
+2015 - 2015
+ - ATOX 22.5 Coal Mill commissioning. Siemens S7 PLC and ECS (Expert Control System) based SCS.
+ - AB Compact Logix L33ER PLC and Proface HMI
+
+Automation and E&I Specialist
+MEMSpA - Salini, Neckartal Dam Project
+2015 - 2015
+ - 2 No’s of RAPTOR XL-400 cone crushers commissioning.
+ - AB MicroLogix1200 PLC and AB Panel view300 HMI.
+
+E&I Specialist
+Madras Cement Limited
+2015 - 2015
+ - E&I site audit for business development.
+
+E&I and PLC Specialist
+Ultra Tech Cement Limited
+2015 - 2015
+ - SCS to CCS Profibus communication establishment for CB Cooler, ABC Inlet, and HRB SCS’S.
+ - I/O signals list preparation, engineering, and I/O mapping
+
+E&I Specialist
+Vasavadatta Cement
+2015 - 2015
+ - E&I troubleshooting of Line#3 and 4 - SF to CB conversion coolers
+
+E&I Specialist
+Orient Cement Limited
+2015 - 2015
+ - E&I supervision of equipments installation from material handling area to cement storage
+
+E&I Specialist
+Manikgarh Cement Limited
+2014 - 2015
+ - Kiln HTD commissioning
+
+E&I Specialist
+OCL India Limited
+2014 - 2014
+ - Troubleshooting of Siemens S7 PLC and ECS (Expert Control System) based SCS for cement OK Mill 42-4 Roller Lubrication System
+
+E&I Specialist
+JayaJothi Cements Limited
+2014 - 2014
+ - Troubleshooting of Siemens S7 PLC and ECS (Expert Control System) based SCS for CB cooler
+
+E&I and PLC Specialist
+Ultra Tech Cement Limited
+2014 - 2014
+ - Electrical and instrumentation supervision and commissioning activities.
+ - Siemens S7 PLC and ECS (Expert Control System) based SCS for CB cooler and HRB system
+
+E&I Specialist
+Manikgarh Cement Limited
+2014 - 2014
+ - Troubleshooting of SF Cooler hydraulic system
+
+E&I Specialist
+OCL India Limited
+2014 - 2014
+ - Troubleshooting of Siemens S7 PLC and ECS (Expert Control System) based SCS for cement OK Mill 42-4 hydraulic system
+
+E&I and PLC Specialist
+Qizildas Cement
+2014 - 2014
+ - 2 No’s of cement ball mill Water Injection systems commissioning.
+
+Automation and E&I Specialist.
+MEMSpA - Salini, Grand Ethiopian Renaissance Dam Project
+2014 - 2014
+ - 2 No’s of RAPTOR XL-400 cone crushers commissioning.
+AB MicroLogix1200 PLC and AB Panel view300 HMI.
+
+E&I Specialist
+Ultra Tech Cement Limited
+2014 - 2014
+ - E&I audit/inspection of FLS-supplied equipment
+
+E&I Specialist
+ACC Limited, Wadi Cement Works
+2014 - 2014
+ - Inspection/study of ATOX Mills-Raw and Coal control systems up gradation
+
+E&I Specialist
+ACC Limited, Chaibasa Cement Works
+2014 - 2014
+ - Pre-commissioning of pet coke reclaimer
+
+PLC and E&I specialist
+National Cement Company
+2014 - 2014
+ - Electrical and instrumentation supervision and commissioning activities.
+ - Siemens S7 PLC and ECS (Expert Control System) based SCS for CB cooler and HRB.
+ - Siemens S7 safety PLC and GP-Pro EX HMI based SCS for Oil and Gas burners - Kiln and HAG.
+ - Siemens S7 PLC and GP-Pro EX HMI-based SCS panels for ATOX Raw mill and Gas Conditioning Tower.
+ - Equipments: ATOX 52.5 Raw Mill, Kiln Duoflex and HAG burners, CB Cooler 16X52, HRB, Gas analyzers, Airtech equipments-GCT & Bag filter, and Other FLS equipments.
+
+E&I Specialist
+JK Cement Works
+2014 - 2014
+ - E&I supervision and Commissioning for Pyro equipments and Coal Mill.
+ - Siemens S7 PLC and ECS (Expert Control System) based SCS’s for CB Cooler, HRB and Coal Mill.
+ - Equipments: CB Cooler, HRB, ATOX Coal Mill and Field instruments in Pyro equipments.
+
+E&I Specialist and Electrical & Instrumentation Trainer
+Dangote Cement PLC
+2014 - 2014
+ - E&I training program given to customer through FLS Institute:-
+Bedeschi makes material handling equipments (Tripper, Stacker and Reclaimer)
+General field instruments and safety equipments
+IKN cooler and Roller breaker
+Gas and Oil fired burners
+Oil handling, storage and preheating
+ - Preparation for the upgrade of the plant control system to FLS control system for lines #1 and 2
+
+E&I Specialist
+OCL India Limited
+2014 - 2014
+ - E&I supervision and Commissioning for OK Cement Mill and other FLS equipment.
+ - Siemens S7 PLC and ECS (Expert Control System) based SCS for cement OK Mill 42-4 and field instruments in the cement mill area.
+
+E&I Specialist
+ABG Cement Limited
+2014 - 2014
+ - Troubleshooting of Parker Hydraulic skid-based SF Cooler and pump card tuning.
+
+E&I and PLC Specialist
+JSC Sebryakov cement
+2013 - 2013
+ - NEW KILN Line# 5, 3575 TPD; Equipments:-
+2 x Train intake, Clay and Chalk
+Crushers, Chalk EH 150x200, Clay MHC 630x2,1
+Transport to and from Mix Storage
+Storage, BCE 2x21000t (extended to 2x23000t). DB Stacker and BE reclaimer
+Dry Crusher, ET 450x330
+Preheater, ILC 3 stage with by-pass
+Filter retrofit, existing Fans
+Kiln, 4,35x54m.
+SF Cooler 3x5 incl. Cooler fans www.plant-supervision.com Rajarajeshwari 505, 6th Main, Bangalore, India Ved Stranden 10, 1. 9000 Aalborg, Denmark Flæsketorvet 68, 1711 Copenhagen., Denmark www.plant-supervision.com LinkedIn
+Clinker Transport, HRB
+Process Control System & Motor Control Centres
+Motors, Bulk analysers, exhaust gas analysers
+ - Electrical & Instrumentation Testing and commissioning of Siemens S7 PLC and GP-Pro EX HMI-based SCS panels, Field Instruments, MCCs, VFDs, DISOCONT controlled Schenck Kiln feed system and Siemens S7 Safety PLC for Burners at Sebryakov Cement Kiln Line#5, Russia
+
+Polyus Gold Plant
+E&I Specialist
+2013 - 2013
+ - E&I Testing and commissioning of Local Control panels, Field Instruments, smart MCCs, and VFDs at Gold Mines project, Verninskoye, Russia
+
+E&I Specialist
+ABG Cement Limited
+2013 - 2013
+ - E&I supervision and Commissioning for Pyro equipments.
+ - Siemens S7 PLC and GP-Pro EX HMI based SCS for Parker Hydraulic Skid based 6X7 SF cooler, HRB and Kiln start-up burner and field instruments in pyro equipments.
+
+Heidelberg Cement Limited
+E&I Specialist
+2013 - 2013
+ - E&I supervision and Commissioning for Tripper Car
+
+PLC and E&I specialist
+Arab National Cement Company
+2013 - 2013
+ - 5500TPD Complete plant Electrical and instrumentation supervision and commissioning activities.
+ - Siemens S7 PLC and GP-Pro EX HMI based SCS Panels: - Material Handling equipments-Stacker and Reclaimer, ATOX 50 raw Mill, Siemens S7 safety PLC SCS for Oil and Gas burners- HAG, Kiln and Calciner, SF Cooler and Boilers.
+ - Equipments: EV lime stone crushers and clay ABON roller Crusher, storage equipments- stacker and Re claimer, ATOX 50 Raw mill, Preheater, kiln, SF4X6 cooler, 2 No’s Cement Mill-UMS 50, Bulk loaders, silo extraction, silo, Pfister Weigh feeders, auto sampler, Field instruments, Utilities equipments, ABB Drives and LV motors
+
+E&I Specialist
+Heidelberg Cement Limited
+2012 - 2013
+ - E&I audit and capacity enhancement proposal for Line#1 & 2 CHO stacker and reclaimer machines.
+ - E&I supervision and Commissioning for Pyro equipments.
+Siemens S7 PLC and GP-Pro EX HMI-based SCS for SF cooler and Kiln start-up burner and all field instruments in the Pyro area.
+
+Ep Specialist
+Modern Cement and Mining Company
+2011 - 2012
+ - Complete plant Electrical and instrumentation supervision and commissioning activities (3500 TPD; green field full scope project).
+ - Siemens S7 PLC and ECS & GP-Pro EX screen-based SCS panels.
+ - Equipments: EV Crushers –Lime stone and Cone & Jaw crushers for additive, storage equipments, ATOX 40 Raw mill, Preheater, kiln, cooler-SF3X5, HRB, 2 No’s Cement Mill-UMS 50, Bulk loaders, silo extraction, silo, Pfister Weigh feeders, auto sampler, MV motors and panels, ABB Drives and motors, Smart MCC and LV equipments.
+
+E&I Specialist
+National Aluminum Company
+2011 - 2011
+ - Alumina Calciner ESP pre-commissioning activities
+
+E&I Specialist
+Chettinad Cement Limited
+2011 - 2011
+ - Inspection of cement mill UMS ball mill HLPC systems
+
+E&I Specialist
+ACC Limited
+2011 - 2011
+ - SF Cooler optimization and VPCD pump card fine-tuning
+
+E&I Specialist
+Mangalam Cement Limited
+2011 - 2011
+ - E&I audit and proposal for Limestone Bridge Reclaimer up-gradation from 350TPH to 500TPH
+
+E&I Trainer
+Dalmia Cement Bharat Limited
+2011 - 2011
+ - Kiln system E&I training program given to customer through FLS Institute.
+
+ACC Limited
+E&I Specialist
+2011 - 2011
+ - Troubleshooting activities of CFG Grate cooler with AB RSLogix 500 PLC and GP-PRO/PBIII HMI.
+
+Trainer
+Dalmia Cement Bharat Limited
+2011 - 2011
+ - SF Cooler E&I training program given to customer through FLS Institute.
+
+E&I Specialist
+Wadi El Nile Cement Company
+2011 - 2011
+ - Complete plant Electrical and instrumentation supervision and commissioning activities (6000 TPD project).
+ - Siemens S7 PLC and GP-Pro EX HMI-based SCS panels for ATOX mill, Sea Gull Cooler, Safety PLC based Burner panels, cement mill OK 42-4, Hot gas generator, cement storage & dispatch areas (cement silos and bulk loaders).
+ - Equipments: Crushers, ATOX mill, weigh feeders, Preheater, Conditioning tower, kiln, cooler, bulk loader, silo extraction, silo, OK mill, and autosampler.
+
+Chief Electrical Engineer
+Algerian Cement Company
+2011 - 2011
+ - Electrical & Instrumentation Supervision and Commissioning activities of Hot Gas Generator for Line#1 raw mill.
+Siemens S7 safety PLC and GP-Pro EX HMI-based Local Control panel and field instruments.
+
+E&I Specialist
+Zuari Cements Limited
+2011 - 2011
+ - E&I Troubleshooting of ATOX raw mill hydraulic system with AB RSLogix 5000 PLC and GP-Pro EX HMI.
+
+E&I Specialist
+Chettinad Cement Limited
+2011 - 2011
+ - Electrical and Instrumentation audit for Line#1&2 FLS equipments.
+
+E&I Specialist
+Chettinad Cement Limited
+2011 - 2011
+ - Inspection of E&I commissioning activities for Pyro equipments.
+
+E&I Specialist
+ACC Limited
+2010 - 2010
+ - E&I Troubleshooting of Siemens S7 PLC and GP-Pro EX HMI-based LCP and communication between the LCP and CCR.
+
+E&I Specialist and Trainer
+UltraTech Cement Limited
+2010 - 2010
+ - Trouble shooting of SF 3X6 Cooler up gradation with AB RSLogix 5000 and GP-Pro/PBIII HMI based LCP and SF Cooler E&I training program given to customer through FLS Institute.
+
+E&I Specialist
+Raghuram Cement Line#2
+2010 - 2010
+ - Electrical & Instrumentation Supervision and Commissioning activities of Pyro section Equipments (SF 4X5F cooler, Kiln, kiln duo flex startup burner, Preheater, raw Meal Silo, and Fine Coal area).
+ - Siemens S7 PLC and GP-Pro EX HMI-based Local Control panel for SF Cooler
+
+E&I Specialist
+ACC Limited, New Wadi Expansion Project
+2010 - 2010
+ - Electrical & Instrumentation Supervision and Commissioning activities of 13000TPD plant Pyro section Equipments and the World's biggest SF 6X8 Cooler and HRB Siemens S7 PLC and GP-Pro/PBIII HMI-based LCP for Cooler and HRB
+
+E&I Specialist
+JAYPEE Cement Grinding Unit
+2010 - 2010
+ - Pre-commissioning activities for Fine coal bin.
+
+E &I Specialist
+ACC Limited, Chaibasa Cement Works,
+2010 - 2010
+ - E&I Trouble shooting of CFG Grate cooler hydraulic system. AB RSLogix 500 PLC and GP-Pro/PBIII HMI-based LCP.
+
+E &I Specialist
+ICL Mahi
+2010 - 2010
+ - Electrical & Instrumentation Supervision and pre-commissioning activities for Siemens S7 PLC and GP-Pro/PBIII HMI-based LCP for Stacker and Re-claimer.
+
+E &I Specialist
+ACC Limited,Kymore Cement Works
+2010 - 2010
+ - E&I Troubleshooting of CFG Grate cooler hydraulic system with AB RSLogix 500 PLC and GP-Pro/PBIII HMI-based LCP.
+
+E&I Specialist
+Halong Main Plant
+2009 - 2010
+ - Electrical and instrumentation supervision and commissioning of 5500TPD green field project from crusher to cement mill.
+ - Siemens S7 PLC and GP-Pro/PBIII HMI based Local Control panel for CF silo, Kiln startup burner, SF cooler, and HRB. Testing and commissioning of smart MCC
+ - Equipment’s: crushers, Schenck belt weigher, silo extraction, silo, kiln feed system, raw mill, kiln, preheater, cooler, and all field instruments.
+
+E & I Specialist
+Hoang Thach 3,
+2009 - 2009
+ - Electrical and instrumentation supervision and commissioning of 3300TPD plant.
+ - Equipment’s: ATOX mill, UMS ball mill, compressors, preheater, kiln, cooler, silo, and all field instruments.
+
+E & I Specialist
+JP Ayodhya,
+2009 - 2009
+ - Raw mill (OK mill) LCP communication setup and system configuration.
+
+Chief Electrical Engineer
+Basel Cement
+2009 - 2009
+ - Electrical and instrumentation supervision and commissioning of SF cooler and AHU.
+ - Siemens S7 PLC and GP-Pro/PBIII HMI-based Local Control Panel for SF Cooler and field instruments.
+
+E&I Specialist
+Raghuram Cement Line#1
+2009 - 2009
+ - Electrical & Instrumentation Supervision and Commissioning activities of Pyro section Equipments(SF 4X5F cooler, Kiln, kiln duo flex startup burner, Preheater, raw Meal Silo, and Fine Coal area).
+ - Siemens S7 PLC and GP-Pro/PBIII HMI-based Local Control panel for SF Cooler
+
+Local Control Manager
+UCC Calabar
+2009 - 2009
+ - Electrical & Instrumentation Supervision and Commissioning activities of 6250TPD Turn Key project.
+ - Siemens S7 PLC and GP-Pro EX HMI-based LCP
+
+Local Control Manager
+Hubei Ya Dong Cement Co., Ltd.
+2009 - 2009
+ - Electrical & Instrumentation Supervision and Commissioning of SF 4X6F Clinker Cooler with Intermediate HRB.
+ - FUJI Logic LCP for SF Cooler and HRB interfacing with main DCS system. E&I commissioning of AHU and Clinker Cooler ESP.
+
+E&I Specialist
+Rain Industries Limited
+2009 - 2009
+ - Electrical & Instrumentation supervision of Atox Mills (Raw and Coal) and Pyro section equipments with AB RSLogix 500 PLC and GP-Pro/PBIII HMI-based LCP for raw & coal mills and SF cooler.
+
+E&I Specialist
+Dalmia Cement Bharat Limited
+2009 - 2009
+ - Electrical & Instrumentation Supervision and Inspection of Pyro section equipments (preheater, Kiln, and SF Cooler).
+
+Local Control Manager
+Sichuan Ya Dong Cement Co., Ltd.
+2008 - 2008
+ - Electrical & Instrumentation Supervision and Commissioning of SF 4X6F Clinker Cooler with Intermediate HRB.
+ - FUJI Logic LCP for SF Cooler and HRB interfacing with main DCS system. E&I commissioning of AHU and Clinker Cooler ESP.
+
+Local Control Manager
+Dalian Cement Company,
+2008 - 2008
+ - Electrical & Instruments Troubleshooting of SF 4X5F Clinker Cooler Hydraulic.
+ - Siemens S7 PLC and GP-Pro/PBIII HMI-based LCP.
+
+Chief Electrical Engineer
+Bojnourd Cement Company,
+2008 - 2008
+ - Electrical & Instrumentation Supervision and Pre-Commissioning activities of the FLS Equipments.
+ - Equipments: Preheater, Kiln, cooler, burners, kiln main motors, and all field instruments
+
+E & I Specialist
+Madras Cement Limited
+2008 - 2008
+ - Siemens S7 PLC and GP-Pro/PBIII HMI-based LCP for SF Cooler.
+Inspection and Electrical Supervision and commissioning of SF 3X5F Clinker Cooler.
+
+E&I Specialist
+ACC New Wadi Cement Plant
+2008 - 2008
+ - Troubleshooting of Coolax cooler hydraulic system.
+ - AB RSLogix 500 PLC and GP-Pro/PBIII HMI LCP.
+
+E & I Specialist
+Penna Cement Limited,
+2008 - 2008
+ - Troubleshooting of Kiln HTD system and Electrical supervision of Cement mill.
+
+E & I Specialist
+Cementeria Costantinopoli,
+2008 - 2008
+ - Electrical & Instrumentation Supervision and Commissioning of the FLS-supplied equipments.
+ - Equipment’s: DOSAX feeders, preheater, Pfister feeders, raw mill, kiln, cooler, and field instruments.
+ - Siemens S7 PLC and GP-Pro/PBIII HMI LCP.
+
+E & I Specialist
+Rain Industries Limited
+2008 - 2008
+ - Electrical & instrumentation Supervision and Commissioning of the following areas in Rain Industries Limited, Kurnool, AP, India.
+ - AB RSLogix 500 PLC and GP-Pro/PBIII HMI-based LCP for ATOX 47.5 Raw mill, ATOX 20 Coal mill, and 3X5 SF Cooler and field instruments.
+
+Junior Executive – Engineering & Maintenance
+BioPharma Company
+2005 - 2007
+ - Fully involved in 20MW Captive Power Plant Operation and Maintenance activities.
+ - AB RSLogix5000 and S7 300 PLC, VFD Drives, HT & LT panels, SF6 and VCB 11KV Breakers, 66/11KV and 11KV/440V Transformers, LV motors, 66/11KV switchyard, Gas turbines and DG sets, ATLAS CAPCO Compressors and chillers.
+
+Supervisor A - Engineering and maintenance
+Parry (I) Ltd
+1999 - 2005
+ - Siemens S7 200 PLC, AC and DC Drives, LT panels, breakers and Motors, Steam Turbines and DG sets, ESP, plant wireless and telecom system
+
+
+Education
+======
+Diploma in Electronics and Communication Engineering
+1999
+
+Bachelor of Business Administration
+2004
+
+
+Training / Courses
+======
+Basic Hydraulics system By Rexroth Hydraulics.
+
+Maintenance and Servicing of LV and MV switchgear and controls.
+
+Multi-Skill Training program at Bangalore and Tellicherry by NTTF (Nettur Technical Training Foundation).
+
+Electrical safety course – EN 50 110, L- AUS and electrical safety
+
+Site Safety Cement – Certified by British Safety Council
+
+Cyber Awareness Course – Certify by Deloitte
+
+
+Languages
+======
+English
+
+Kannada
+
+Tamil
+

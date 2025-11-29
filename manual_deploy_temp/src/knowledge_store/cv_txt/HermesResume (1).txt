@@ -1,0 +1,112 @@
+HERMES
+Industrial Engineer
+
+
+Summary
+======
+Industrial Engineer with a strong foundation in renewable energy systems and electromechanical installations, offering over 6 years of progressive experience across engineering design, project management, and site supervision. Proven expertise in drafting and legalizing technical projects related to electrical installations, HVAC, and photovoltaic systems, ensuring compliance with Spanish and international regulations (CTE, REBT, RITE).Extensive field experience supervising civil and electromechanical works at high-voltage substations (REDEIA) and managing full-cycle engineering projects—ranging from initial client consultations to execution oversight and documentation handling. Demonstrated capability in international project development, particularly in LATAM hotel infrastructure, involving complex power distribution systems and technical-economic proposal preparation.Highly skilled in AutoCAD, SolidWorks, and simulation tools such as LabView and Simulink, with advanced proficiency in Excel for data analysis and reporting. Complemented by hands-on knowledge in programming and automation using Matlab, Arduino, and RStudio. Strong interpersonal and coordination skills developed through technical teaching and leadership of cross-functional teams. Multilingual with fluency in Catalan and English.
+
+
+Experience
+======
+Industrial Engineer and Technical Site Supervisor
+Self-employed
+2023 - Ongoing
+ - Drafting of technical engineering projects (electrical installations, renewable energy systems, HVAC, business licenses, etc.)
+ - Preparation of technical reports, drawings, calculations and regulatory compliance according to CTE, REBT, RITE and other applicable standards
+ - Legalization of installations through industry authorities and coordination with public administrations
+ - Technical site supervision and project management during execution phases
+ - Full-cycle project management: technical visits, client interaction, coordination with contractors, and handling of official documentation
+ - Technical assistance and resolution of issues during construction
+
+Construction supervisor
+Applus
+2023 - 2025
+ - Technical supervision of site works and monitoring of electromechanical installation progress
+ - Verification of technical datasheets, assembly documentation, and compliance with specifications
+ - Reception, inspection, and tracking of materials on site
+ - Access control and monitoring of on-site personnel activities
+ - Coordination with contractors and resolution of technical issues
+ - Technical support to the client and assistance during inspection visits
+ - Follow-up on work schedules and progress reporting
+
+Electrical Engineer
+Estel ingenieria Y obras
+2019 - 2022
+ - Design and development of medium and low voltage electrical projects for large-scale hotel facilities across Latin America
+ - Engineering of comprehensive systems: power distribution, main switchboards, lighting, HVAC, telecommunications, and photovoltaic self-consumption
+ - Preparation of detailed budgets and technical-economic studies for international bids and proposals
+ - Drafting of technical documentation: reports, drawings, single-line diagrams, load calculations, and feasibility studies
+
+Specialist teacher
+Les artxiduc lluís salvador
+2019 - 2019
+ - Worked as a technical teacher in two subjects: Intermediate Level Electricity and Electronics
+
+Engineering Intern
+Imaber S L
+2018 - 2019
+ - Achieved successful project delivery for {1} major company by managing a team of {5} associates and handling a budget of {$500,000}
+ - Carrying out commercial tasks and small projects related to renewable energies
+ - Conducting theoretical calculations
+ - Ordering materials from suppliers
+ - Monitoring and quality control on site
+ - Certification of the final execution
+
+Engineering Intern
+Alet-taldea S L
+2017 - 2017
+ - During the last year of my degree, I arranged an internship with this company
+ - Combined my studies with field work related to plumbing installations
+ - Worked on renewable energy heating (biomass)
+ - Worked on renewable energy electrical installations (photovoltaic)
+
+Engineering Intern
+Imaber S L
+2016 - 2016
+ - Increased efficiency by {15%} by supporting technical operations within the office environment
+ - Supporting the budgeting and construction execution department
+
+
+Education
+======
+Master's Degree in Industrial Engineering
+2019 - 2023
+ - Master's Degree in Industrial Engineering
+
+Bachelor's Degree in Renewable Energy Engineering
+2013 - 2018
+ - Bachelor's Degree in Renewable Energy Engineering
+
+Scientific-Technological Baccalaureate
+2008 - 2010
+ - Scientific-Technological Baccalaureate
+
+
+Training / Courses
+======
+Higher Vocational Training in Automotive Engineering
+
+
+Skills
+======
+ - Arduino
+ - AutoCAD
+ - HVAC
+ - IAM
+ - LabVIEW
+ - Macros
+ - MATLAB
+ - Microsoft Office
+ - PSIM
+ - RStudio
+ - Simulink
+ - SolidWorks
+
+
+Languages
+======
+English
+
+Spanish
+

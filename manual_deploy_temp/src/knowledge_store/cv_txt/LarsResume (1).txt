@@ -1,0 +1,294 @@
+LARS
+PLC Specialist for Erection and Commissioning
+
+
+Summary
+======
+Experienced and highly skilled Electro Engineer and PLC Specialist with over 35 years of international experience in industrial automation, electrical supervision, commissioning, and maintenance across various sectors, including cement, sawmill, energy, and humanitarian aid. Fluent in Swedish and English, with working proficiency in Norwegian and Danish, Lars has built a distinguished career through key roles with global leaders such as Siemens, ABB, Ericsson, FLSmidth, and UN-affiliated agencies. Specialized in PLC systems (Siemens S5/S7, TIA Portal, PCS7, Safety, WinCC), frequency converters (ABB, SEW Eurodrive), and electrical system design using AutoCAD and other CAD tools. Strong hands-on expertise in commissioning, troubleshooting, and design of industrial systems, combined with solid knowledge of UPS systems, emergency power, instrumentation, and generator maintenance.
+
+
+Experience
+======
+Plant Supervision ApS
+Electrical Automation's Design
+2020 - Ongoing
+ - PLC specialist for erection, commissioning and trouble shooting
+ - Electro Engineer and some design/construction
+ - Electrical Supervision and Commissioning of Industrial Automation's equipment
+ - Siemens Simatic S7/Safety
+ - Siemens Simatic TIA portal/Safety
+ - Electrical Automation's Design
+ - Electrical Constructions (CAD)
+ - Commissioning of Modified Constructions
+ - Central industrial UPS Installation
+
+Electrical Supervision and Commissioning of Industrial Automation's equipment
+AB Tändkulan
+2019 - 2020
+ - PLC specialist for erection, commissioning and trouble shooting
+ - Performed PLC programming, commissioning, and troubleshooting of industrial automation systems.
+ - Provided electrical supervision during erection and commissioning phases at client sites.
+ - Hands-on experience with the following Siemens platforms:
+ - Simatic WinCC – HMI and SCADA configuration.
+ - Simatic S7 – Programming, diagnostics, and system integration.
+ - Simatic PCS7 – Process control system for large-scale automation.
+ - TIA Portal – Integrated automation configuration, including Safety and networking.
+ - Ensured compliance with electrical standards and contributed to system optimization during commissioning.
+ - Worked in collaborative, cross-functional environments supporting client operations and project deadlines.
+
+PLC specialist For erection, commissioning and trouble shooting
+ELE Engineering AB
+2018 - 2019
+ - ELE Engineering AB, in the consult branch
+ - Conducted electrical supervision and commissioning of industrial automation systems for various clients.
+ - Delivered PLC programming, testing, and troubleshooting services during installation and commissioning phases.
+ - Specialized in Siemens automation platforms, including:
+ - Simatic WinCC – SCADA/HMI development and integration.
+ - Simatic S7 / S7 Safety – Standard and safety PLC configuration and diagnostics.
+ - TIA Portal / TIA Portal Safety – Comprehensive system setup, including safety applications and network configuration.
+ - Ensured system reliability, safety compliance, and efficient project execution.
+ - Collaborated closely with engineering teams and site personnel to ensure smooth project delivery and handover.
+
+PLC specialist
+Bergkvist-Insjon AB
+2017 - 2018
+ - for erection, commissioning and trouble shooting
+ - Performed erection, commissioning, and troubleshooting of advanced industrial automation systems.
+ - Provided electrical supervision throughout installation and start-up phases, ensuring compliance with technical standards and project specifications.
+ - Hands-on work with a wide range of automation and control equipment, including:
+ - Siemens Simatic WinCC – HMI/SCADA configuration and integration.
+ - Siemens Simatic S7 / S7 Safety – PLC programming, diagnostics, and safety system deployment.
+ - Siemens TIA Portal – Unified automation engineering for PLCs, HMIs, and networks.
+ - SEW Eurodrive frequency converters – Parameterization and commissioning of motor drives.
+ - ABB ACS880 frequency converters – Setup, tuning, and troubleshooting of variable speed drives.
+ - Microsonic ultrasonic sensors – Integration and calibration for object detection and measurement.
+ - IBH Softec, IBH Link S7++ – Communication tools for Siemens PLC programming and remote diagnostics
+
+Electrical Supervisor for erection and commissioning
+Plant Supervision
+2016 - 2017
+ - Electrical Supervision and Commissioning of Industrial Automation's equipment at Siemens Simatic S7
+ - Performed electrical supervision and commissioning of industrial automation systems in compliance with project standards and safety protocols.
+ - Specialized in Siemens automation platforms, including:
+ - Siemens Simatic S7 – PLC programming, configuration, and on-site commissioning for process control systems.
+ - Siemens ProfiNET – Setup and commissioning of industrial Ethernet-based communication networks for real-time data exchange and device integration.
+ - Conducted system testing, fault analysis, and troubleshooting to ensure optimal performance and reliability.
+ - Collaborated with multidisciplinary teams during installation, commissioning, and final handover phases.
+
+PLC specialist for erection and commissioning
+Bergkvist-Insjon AB
+2016 - 2016
+ - Electrical Supervision and Commissioning of Industrial Automation's equipment at Siemens Simatic WinCC
+ - Carried out electrical supervision and on-site commissioning of industrial automation systems across various applications.
+ - Worked extensively with the following technologies:
+ - Siemens Simatic WinCC – HMI/SCADA setup, configuration, and integration.
+ - Siemens Simatic S7 – PLC programming, system diagnostics, and control logic implementation.
+ - Siemens TIA Portal – Unified engineering of PLCs, HMIs, and network components.
+ - SEW Eurodrive frequency converters – Installation, parameter configuration, and performance tuning of drive systems.
+ - ABB ACS880 frequency converters – Drive commissioning and optimization for various motor control applications.
+ - Microsonic ultrasonic sensors – Integration and calibration for object detection, distance measurement, and automation feedback loops.
+ - Ensured system stability, safety compliance, and seamless integration with process control environments.
+
+Electrical Supervisor for erection and commissioning
+Plant Supervision
+2014 - 2016
+ - Electrical Supervision and Commissioning of Industrial Automation's equipment at Siemens Simatic WinCC
+ - Conducted electrical supervision and commissioning of a wide range of industrial automation and power generation equipment.
+ - Worked with Siemens automation platforms:
+ - Simatic WinCC – SCADA system configuration, visualization, and integration.
+ - Simatic S7 – PLC programming, system setup, and diagnostics.
+ - Oversaw installation and commissioning of power generation and distribution components:
+ - Caterpillar Emergency Generator – Setup, synchronization, and operational testing.
+ - Step-Up Transformer – Commissioning for voltage transformation in generator systems.
+ - Supervised installation and commissioning of filtration and emission control systems, including:
+ - Intensive Filter Equipment – Integration into plant exhaust and process systems.
+ - Gas Analysers – Calibration and commissioning for CO₂, NO, and other gas measurements.
+ - Commissioned a variety of industrial instrumentation, such as:
+ - PT100 sensors – For accurate temperature measurement and control.
+ - Thermocouples – Installation and calibration for process monitoring.
+
+Electrician and Supervisor for Electrical installations and Commissioning and continues maintenance
+EuPol Caterpillar Generator
+2013 - 2014
+ - Electrician and Supervisor for Electrical installations and Commissioning and continues maintenance for 24/7 operation of EuPol Caterpillar Generator set MSB
+ - Supervised and performed electrical installations, commissioning, and 24/7 maintenance of Caterpillar generator sets for the EuPol project under the Swedish Civil Contingencies Agency (MSB).
+ - Managed synchronization and operational control using Caterpillar Woodward easYgen-3000 genset controllers.
+ - Executed electrical construction and installation work for mission-critical infrastructure.
+ - Carried out routine and corrective maintenance of generator systems to ensure continuous power availability.
+ - Designed electrical systems and layouts using AutoCAD.
+ - Developed and implemented grounding systems, AC/DC power supply systems, and emergency power setups.
+ - Installed and commissioned central UPS systems to support critical loads during power interruptions.
+ - Ensured system reliability, safety compliance, and uninterrupted operation in a high-demand environment.
+
+Service Engineer
+Siemens AB
+2012 - 2013
+ - Electrical Supervision, Repair and Commissioning of Industrial Automation's equipment at Siemens Industrial products, mostly motor drives (DC and AC)
+ - Executed electrical construction and installation work for mission-critical infrastructure.
+ - Carried out routine and corrective maintenance of generator systems to ensure continuous power availability.
+ - Designed electrical systems and layouts using AutoCAD.
+ - Developed and implemented grounding systems, AC/DC power supply systems, and emergency power setups.
+ - Ensured system reliability, safety compliance, and uninterrupted operation in a high-demand environment.
+
+Electrical Supervisor PLC specialist for erection and commissioning
+FLSmidth
+2007 - 2011
+ - Electrical Supervision and Commissioning of Industrial Automation's equipment at:
+ - Supervised and commissioned industrial automation systems, including Siemens Simatic S7 / S7 Safety PLCs.
+ - Performed simulation and testing of PLC programs using Siemens PLCSIM.
+ - Managed and diagnosed process devices with Siemens PDM.
+ - Integrated and configured Siemens Sirius Simocode motor management and protection systems.
+ - Configured PROFIBUS communication networks.
+ - Installed and maintained analog, frequency, and Ex interfaces for process instrumentation and hazardous areas.
+ - Worked with hydraulic control interfaces for proportional valves and pumps.
+ - Calibrated and commissioned instrumentation for pressure, flow, and level control.
+ - Configured ProFace HMI panels for operator interfaces.
+
+Supervisor for Electrical and Generator installations
+Swedish Rescue Service Agency
+2005 - 2006
+ - Electrical Constructions
+ - Performed electrical construction and installation for various industrial projects.
+ - Conducted routine and preventive maintenance on generators.
+ - Created electrical system designs and schematics using AutoCAD.
+ - Designed and implemented grounding systems for electrical safety.
+ - Worked with both AC/DC power supply systems.
+ - Installed and maintained emergency power systems.
+ - Commissioned and serviced central UPS installations.
+
+Service Engineer
+ABB Automation Technologies
+2004 - 2005
+ - Service, maintenance and trouble shooting of ABB's Industrial systems AC drives and Control system
+ - Provided service, maintenance, and troubleshooting for ABB industrial systems, including AC drives and control systems.
+ - Led commissioning of industrial plants, ensuring smooth start-up and operation.
+ - Utilized Process Portal A and AC800M/C control systems for configuration and diagnostics.
+ - Configured AC800 Controller with Continuous Build Professional (Cont.Build. Prof.) tools.
+ - Performed electrical constructions related to control and power systems.
+ - Commissioned both AC and DC drives for various industrial applications.
+ - Developed and implemented electrical system designs tailored to project requirements.
+
+Electrician
+Swedish Rescue Service Agency
+2003 - 2003
+ - Electrical work in Baghdad (Canal Hotel, UN WFP)
+
+Electrician
+Swedish Armed Forces International Centre
+2001 - 2002
+ - Electrical Constructions
+ - Executed electrical constructions and installations for military and industrial projects.
+ - Performed generator maintenance to ensure reliable power supply.
+ - Worked with Swedish NSE KM06 during deployment in KFOR, Macedonia.
+
+Electro Engineer
+Ericsson Network Technologies
+2000 - 2001
+ - Electrical Automation's Design
+ - Electrical Constructions
+ - Commissioning of Modified Constructions
+
+Rifleman/Medic
+Swedish Armed Forces International Centre
+2000 - 2000
+ - Rifleman/Medic, Guard Escort Platoon
+ - Served in Battalion KS02 in KFOR, Kosovo.
+
+Electro Engineer
+Ericsson Network Technologies
+1996 - 2000
+ - In KFOR, Kosovos
+ - Designed electrical automation systems.
+ - Executed electrical constructions and installations.
+ - Managed commissioning of modified electrical constructions.
+
+Service Engineer
+ABB Service
+1996 - 1996
+ - Service and Commissioning of AC and DC Drives
+
+Driver at Force Mobile reserve
+Swedish Armed Forces International Centre
+1993 - 1994
+ - Swedish Battalion L118 UNIFIL, L118 Lebanon
+
+Electrician
+Bpa EI
+1990 - 1992
+ - Installation
+ - Commissioning
+ - Service of Electrical Installations in all kind of Electrical Plant
+
+Electrician
+ABB Installation
+1984 - 1989
+ - Installation
+ - Commissioning
+ - Service of Electrical Installations in all kind of Electrical Plant
+
+
+Education
+======
+Computer Security
+Linköping University
+1999
+
+Moderen PLC Programming KTH
+Stockholm Sweden
+1999
+
+Certificate PLC Programming IEC 1131KTH,
+Stockholm Sweden
+1998
+
+Network Administration
+Dalarna University
+1998
+
+AutoCAD
+Dalarna University
+1997 - 06/1996
+
+School of Engineering and Technology
+School of Engineering and Technology
+1983
+
+
+Skills
+======
+ - Argus
+ - AutoCAD
+ - DraftSight
+ - Firefox
+ - IBM Lotus Notes
+ - Instrumentation
+ - Linux
+ - Linux Mint
+ - Lotus
+ - Mac OS
+ - Microsoft OS
+ - OS X
+ - PLC
+ - Thunderbird
+ - Ubuntu
+ - Visio
+ - WinCC
+ - PDM
+ - PLC Programming
+ - CAD
+ - Acrobat
+ - Pro-Face
+ - ABB Drive
+ - Window Light2
+
+
+Languages
+======
+Danish
+
+English
+
+Norwegian
+
+Swedish
+

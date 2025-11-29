@@ -5,12 +5,48 @@ from __future__ import annotations
 import json
 from typing import Any
 
-from resume_screening_rag_automation.core.py_models import DiscussionInput
+from resume_screening_rag_automation.core.py_models import DiscussionInput, DiscussionOutput
 from resume_screening_rag_automation.crews.discussion_crew.discussion_crew import (
     DiscussionCrew,
 )
 from resume_screening_rag_automation.models import CandidateAnalysisOutput, JobDescription
 from resume_screening_rag_automation.state import ChatSessionState
+
+from crewai import TaskOutput
+
+
+def _task_output_to_model(task_output: TaskOutput, model_cls: Any) -> Any:
+    """Convert task output to a validated model instance, matching main.py logic with improved fallback parsing."""
+    if task_output is None:
+        raise ValueError("Crew returned no output")
+
+    payload = getattr(task_output, "pydantic", None)
+    if payload is not None:
+        return payload
+
+    json_dict = getattr(task_output, "json_dict", None)
+    if json_dict is not None:
+        return model_cls.model_validate(json_dict)
+
+    raw = getattr(task_output, "raw", None)
+    if raw:
+        try:
+            return model_cls.model_validate_json(raw)
+        except Exception:
+            # Try to extract JSON from raw text if it contains extra content
+            import re
+            import json
+            # Look for all JSON objects in the raw output
+            json_matches = re.findall(r'\{.*?\}', raw, re.DOTALL)
+            # Try each JSON object from last to first (most likely to be the final answer)
+            for json_str in reversed(json_matches):
+                try:
+                    json_data = json.loads(json_str)
+                    return model_cls.model_validate(json_data)
+                except Exception:
+                    continue
+
+    raise ValueError(f"Unable to coerce crew output into {model_cls.__name__}")
 
 
 def _print_result(result: Any) -> None:
@@ -174,7 +210,10 @@ def main() -> None:
 
     result = crew.kickoff(inputs=kickoff_inputs)
 
-    _print_result(result)
+    # Validate the final result using the same logic as main.py
+    validated_result = _task_output_to_model(result, DiscussionOutput)
+    print("✅ Validated Discussion Output:")
+    print(validated_result.model_dump_json(indent=2))
 
 
 if __name__ == "__main__":

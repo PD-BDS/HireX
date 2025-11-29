@@ -1,0 +1,151 @@
+GBENGA
+
+
+Summary
+======
+Gbenga is a seasoned Electrical and Automation Engineer with extensive experience in the cement industry across Africa and the Middle East. He has played key roles in commissioning, troubleshooting, and automation support for major cement plants such as Dangote, BUA, and Prime Cement. His expertise includes PLC programming, SCADA development, and control systems, with a strong focus on vertical roller mills, as well as hydraulic, lubrication, and pneumatic systems. Gbenga brings critical thinking and hands-on problem-solving to complex industrial environments, consistently ensuring smooth operations and optimized plant performance.
+
+
+Experience
+======
+Electrical and Instrumentation Control System | Automation
+Dangote Cement, Ibese, Nigeria, Plant Supervision
+01/2025 - 03/2025
+ - Plant support on Electrical and Automation System trouble shooting
+
+Electrical and Instrumentation Control System | Automation
+Nigeria Breweries Plc, Enugu. (Subsidiary of Heineken)
+09/2024 - 12/2024
+ - PLC programming, communication between CPU 315 PN and Energy Meter RSG 45 using MODBUS TCP communication.
+
+Electrical and Instrumentation Control System | Automation
+Dangote Cement, Obajana, Nigeria, Plant Supervision
+01/2024 - 08/2024
+ - Plant support on Electrical and Automation System trouble shooting
+
+Electrical and Instrumentation Control System | Automation
+BUA Cement Okpella, Nigeria, Loesche, Plant Supervision
+09/2023 - 12/2023
+ - E C & I commissioned of Raw meal
+ - Vertical roller mill.
+ - Hydraulic System.
+ - Lubrication system
+ - Pneumatics system.
+
+Electrical and Instrumentation Control System | Automation
+Al Qassim Cement Plant, Saudi Arabia. Loesche, Plant Supervision
+04/2023 - 07/2023
+ - E C & I commissioned of cement grinding plant incl plc.
+ - Vertical roller mill.
+ - Hydraulic System.
+ - Lubrication system
+ - pneumatics system.
+
+Electrical and Instrumentation Control System | Automation
+Nigeria Breweries Plc, Ibadan.
+01/2023 - 02/2023
+ - PLC program for bottle filling machine.
+ - Develop CIP program.
+ - Develop a new HMI program for the filler.
+ - Commissioned bottle infeed and discharge conveyor
+
+Electrical and Instrumentation Control System | Automation
+CIM Etoile, GCM, Burkina Faso. Loesche, Plant Supervision
+09/2022 - 12/2022
+ - E C & I commissioned of cement grinding plant.
+ - Vertical roller mill.
+ - Hydraulic system.
+ - Lubrication system
+ - pneumatics system.
+ - Raw material handling system.
+ - Product handling system.
+
+Electrical and Instrumentation Control System | Automation
+Prime Cement Limited, Musanze, Rwanda.
+05/2022 - 08/2022
+ - SCADA graphics development for Grinding aid system.
+ - Create automatic operation
+
+Electrical and Instrumentation Control System | Automation
+Prime Cement Limited, Musanze, Rwanda.
+12/2021 - 04/2022
+ - Integration of Silo 3 to the existing plant.
+ - Supervise the electrical installation.
+ - SCADA graphics development on the existing plant control system.
+ - Create S7 communication between the Silo 3 control system and the existing plant control system.
+ - IO signal checks.
+
+Electrical and Instrumentation Control System | Automation
+Kimberly Clarke Sub Sahara Limited (Ikorodu Milling Plant), Lagos State.
+04/2021 - 10/2021
+ - Commissioning of Palletizing machine and stretch wrapping machine.
+ - IOs Signal Checks to PLC (RS Logix 5000).
+ - VFDs for conveyor system.
+ - PLC software programming modification.
+ - Supervision of electrical installation.
+
+E C & I / Automation Commissioning Engineer
+Project Accomplished
+2015 - 2020
+ - 2020 Prime Cement limited project in Musanze, Rwanda (CCG Grinding Plant). Production of 0.6MT/year of cement.
+ - 2020 Dangote line 5 project Obajana, Kogi. Production of 5.2MT/year of raw meal
+ - 2019 Larfarge project, Yaounde, Cameroon. Production of 1.2MT/year of cement.
+ - 2019 Cimod in Ayama, Abidjan. (EPC) Production of 1.9MT/year of cement.
+ - 2019 Dangote cement Dingui in Congo to give automation support by returning of the mill motor power to 100% after the main gearbox fault has been rectify.
+ - 2019 Dangote in Congo to give automation support for process engineer on audit (Clinker, Raw meal, and Coal mill) and to reducing the mill motor power to 50% due the main gearbox fault.
+ - 2019 Dangote cement in Senegal to give automation support for process engineer on audit (Raw meal and Coal mil) and make correction on the water injection program for better optimization.
+ - 2019 Lafarge Mfamosing to give automation support for process engineer on audit (Clinker, Raw meal, and Coal mill).
+ - 2018 Cimasso in Bobo Dioulasso, Burkina Faso. Production of 1.9MT/year of cement.
+ - 2018 Larfarge project in Tororo, Uganda. Production of 1.2MT/year of cement.
+ - 2017 Lafarge Mfamosing, Nigeria. Production of 3.4MT/year of cement.
+ - 2016 Dangote cement Ibese 3 + 4 project. Production of 0.5MT/year coals.
+ - 2015 Dangote cement in Ibese 7, Nigeria. Production of 2.5 MT/year of cement
+
+Lead E/I and Automation
+KIMBERLY CLARKE SSA WEST AFRICA LIMITED
+2014 - 2015
+ - Facilitate morning meeting and safety talk in engineering department.
+ - To provide electrical and automation support for babies’ diapers machine
+ - Troubleshooting with Rslogix 5000.
+
+Electrical and Automation Supervisor
+RECKITT BENCKISER NIGERIA LIMITED
+2012 - 2014
+ - Facilitate the weekly meeting in the department.
+ - Provide electrical and automation support for bath soap production line.
+ - Provide electrical and automation support for bleaching agent production line.
+ - Troubleshooting with Siemens step 7 Manager.
+ - Create shift schedule for the shift technician.
+
+Automation Specialist.
+Nigeria Breweries PLC (Subsidiary of Heineken Beer)
+2005 - 2011
+ - Morning safety meeting and shift report.
+ - To provide automation support for bottles and canning line production for Star beer line, Heineken canning line and Maltine bottle line.
+ - Good knowledge in trouble shooting with programmable logic control using Siemens Step7 software.
+ - Performing hardware configuration using Siemens step 7.
+ - Good knowledge on profibus/profinet for communication protocol.
+ - Electrical maintenance and installation of industrial equipment and control.
+ - Interpretation and design of electrical schematic diagram, electrical wiring diagram and electrical single line diagram.
+ - Installation, maintenance and overhauling of packaging machine.
+
+
+Languages
+======
+English
+
+
+CERTIFICATION
+======
+Siemens Step 7 300/ 400 training Serve 2
+11/2020
+
+Siemens SITRAIN training on TIA Portal Serve 2.
+11/2020
+
+Certificate in Project Management Professional (PMP).
+03/2021
+
+Online training HMI/SCADA by Scada World from Poland.
+06/2021
+

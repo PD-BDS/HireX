@@ -1,0 +1,79 @@
+DAVID ROSENDAL JENSEN
+
+
+PROFIL
+======
+Jeg er nyuddannet cand.polyt. i Sundhedsteknologi fra Aalborg Universitet. Jeg er nysgerrig, målrettet og analytisk med en stærk interesse for, hvordan teknologi, data og intelligente systemer kan anvendes til at skabe værdi og understøtte beslutningstagning på tværs af sektorer. Gennem min uddannelse har jeg opnået solid erfaring med sundhedsdata, programmering, systemudvikling og anvendelse af digitale teknologier i komplekse miljøer. Mit specialeområde omfatter blandt andet kunstig intelligens, maskinlæring og algoritmeudvikling, og jeg brænder for at anvende disse kompetencer til at udvikle datadrevne og brugbare løsninger. Jeg motiveres af at skabe teknologi, der løser reelle problemer og bidrager til effektivisering, innovation og bedre resultater.
+
+
+PROJEKTER
+======
+Speciale
+ - Udviklede en pancancer og to vævsspecifikke deep learning-modeller til klassifikation af cancer baseret på H&E-farvede vævsprøvebilleder
+ - Modellerne anvendte en Clustering-constrained Attention Multiple Instance Learning akitektur, hvor hele vævsbilleder blev opdelt i mindre udsnit og feature-ekstraktion blev udført med et trunkeret pre-trænet ResNet50 netværk
+ - Projektet undersøgte pan-cancer modellens evne til at generalisere til usete cancertyper
+
+9. Semester Projekt
+ - Udviklede et multimodal CNN til at forudsige stråleinduceret pneumonitis hos lungekræftpatienter
+ - Modellen integrerede CT-scanninger fra flere tidspunkter, dosimetriske data og demografiske oplysninger
+
+8. Semester Projekt
+ - Udviklede et proof-of-concept system til Point-of-Care Testing, bestående af to moduler: ét til reduktion af kalibreringsfrekvens baseret på
+mønstergenkendelse i historiske data, og ét til fejldetektion baseret på et bayesiansk netværk anvendt på patientmålinger.
+
+Bachelor Projekt
+ - Udviklede et informationssystem med fokus på forbedret visualisering og anvendelse af indirekte kalorimetri i intensivafdelinger
+ - Systemet kombinerede klinisk dataoverblik med forskningsfunktioner, med mulighed for at eksportere sub-populationer til statistisk analyse.
+ - Projektet havde til formål at gøre kalorimetri-data mere tilgængelige og skabe grundlag for fremtidige retningslinjer baseret på empiriske data
+
+
+UDDANNELSE
+======
+MSc | Biomedical Engineering and informatics
+Aalborg University
+2023 - 2025
+
+BSC | Biomedical Engineering and informatics
+Aalborg University
+2019 - 2023
+
+
+ERFARING
+======
+Praktik(graphic design)
+Internship
+01/2016 - 02/2016
+
+Kasse assistent
+Dagli'Brugsen
+2014 - 2015
+
+
+Skills
+======
+Øvet
+ - Informationssystem udvikling
+ - SQL
+ - UML
+ - Medical Device Regulation
+ - SPSS
+ - LaTeX
+
+Avanceret
+ - Maskinlæring/AI
+ - Deep learning
+ - Ai værktøjer
+ - Billedanalyse
+ - Health Technology
+ - Domæne forståelse
+ - Projekt arbejde
+ - Agile Projekt Strukturering
+ - Beslutningsstøtte
+
+
+SPROG
+======
+Danish
+
+English
+

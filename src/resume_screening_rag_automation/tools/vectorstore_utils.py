@@ -137,7 +137,7 @@ def _truncate_text(
 
     truncated = value
     if len(truncated) > limit:
-        LOGGER.debug("Truncating embedding input from %d to %d chars", len(truncated), limit)
+        LOGGER.warning("Truncating embedding input from %d to %d chars", len(truncated), limit)
         truncated = truncated[:limit]
 
     if max_tokens:

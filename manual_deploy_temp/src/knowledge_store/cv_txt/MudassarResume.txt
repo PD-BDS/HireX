@@ -1,0 +1,87 @@
+MUDASSAR
+SCADA Data Engineer
+
+
+Summary
+======
+A highly skilled and results-driven Senior SCADA Engineer and EPC Project Engineer with over a decade of experience in the design, implementation, commissioning, and operation of SCADA systems in both offshore and onshore renewable energy projects. With a strong background in electrical engineering and hands-on expertise in SCADA control systems, grid compliance, and automation, I have successfully led numerous EPC-phase projects across industry leaders including Ørsted, Vattenfall, and Vestas.His technical proficiencies include working with diverse data stream protocols such as PI, OPC, ODBC, IEC 101/104, DNP3, and Modbus, and utilizing databases like SQL for system integration, backup, and data recovery.I have extensive experience in system testing (FAT, SAT, SIT), grid code compliance, SCADA software customization, and power system analysis—ensuring optimal performance and regulatory alignment for wind farm operations.
+
+
+Experience
+======
+SCADA Data Engineer
+Vattenfall
+2024 - 2025
+ - Project management of several projects from Operations department
+ - Data availability, troubleshooting and maintenance of the data streams from Operations department
+ - Data streams include but not limited to PI, OPC, ODBC, IEC 101, 104, DNP3, Modbus Interface
+ - Databases include SQL for backup and restore of data
+
+Electrical Engineer
+Vestas A/S
+2023 - 2023
+
+Control Engineer
+Ørsted
+2018 - 2022
+ - Project management of several projects through EPC execution phase, while handling responsibilities throughout project timeline including Design, development and implementation of SCADA systems for Wind Industry application
+ - Customization and configuration of SCADA Software to meet organizational requirements
+ - Performing integration, testing and troubleshooting to ensure smooth operations
+ - SCADA design, development & maintenance of SCADA systems
+ - Project Management activities implementing QA improvement & verification with vendor counterparts
+ - Update, improvement & verification of test schedules
+ - FAT, Pre SAT, System Integration Testing on OSS
+ - Submission, acceptance & approval of Documentation
+
+Electrical Operations Engineer
+SCADA
+2017 - 2018
+ - Operations & Maintenance activities with focus on Grid Compliance & strong focus on service quality improvements of O&M related activities
+ - Rectification of SCADA software Issues related to operation department
+ - Simulation Lab for Power plant control testing
+ - Rectification of O&M Electrical Operation Issues for Active
+
+Commissioning & installation Engineer
+Vestas Wind Systems
+2014 - 2017
+ - Project management of several projects through EPC phase, while handling responsibilities throughout project timeline including Sales Handover
+ - SCADA project scope and technical deliverable clarification
+ - Pre-FAT SCADA commissioning and system calibrations
+ - QA Verification throughout project
+ - Technical Implementation of project specific services
+ - Data Integration (OPC, ODBC, IEC-104, IEC-101, MODBUS interfaces)
+ - Tests execution and documentation (pre FAT, FAT, SAT and system integration test)
+ - Project Handover to O&M
+ - Relevant Customer Trainings
+ - O&M of Wind Farm
+ - Grid Compliance Testing, Acceptance of Wind Farms
+
+
+Education
+======
+Electrical Engineering with Power Electronics
+University of Bradford
+2012
+
+Electrical Engineering
+COMSATS Institute of Information Technology
+2009
+
+
+Skills
+======
+ - EPC
+ - Integration Testing
+ - Modbus
+ - ODBC
+ - SCADA
+ - SQL
+ - VMWare
+
+
+Languages
+======
+English
+
+Danish
+

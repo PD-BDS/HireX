@@ -1,0 +1,87 @@
+MAHENDRA. K
+Senior Engineer
+
+
+Summary
+======
+Seeking to achieve a responsible position in a reputed Organization where I could apply all my knowledge with all my available resources and can be part in the growth of the Organization. Having more than 14 years of experience in the Pharmaceutical, chemical industry and electronic manufacturing industry in the Instrumentation, maintenance and Projects.
+
+
+Experience
+======
+Senior Engineer-Automation, Digitalization 
+Tata electronics Pvt LTD
+03/2021
+Tamil Nadu, India
+ - Increased operational efficiency by {30%} by implementing CMMS for digitalizing maintenance and calibration activities.
+ - Enhanced shopfloor traceability by integrating {5} CNC machines with MES application, resulting in a {25%} efficiency increase.
+ - Integration of PLC and cobot for De-anodizing machine, laser marking machines, DE-PU machines, injection moulding machines
+ - Machine connectivity to Kepware software for MES (manufacturing execution system) and OEE (overall equipment efficiency)
+ - Coordination with SCM and purchase department to maintain the required spares
+ - Visiting third-party place for Pre delivery inspection to ensure the machines meets the requirements
+ - Coordination with CFT team to carry out planning and execution to implement Digitalized systems (MES and CMMS application)
+
+Executive-Operation Maintenance Engineering
+Solara Active Pharma Sciences Ltd
+10/2017 - 03/2021
+Bangalore, India
+ - Installation and commissioning of Building management systems, CCTV systems, Access control system, Nitrogen plant, Diesel generator, Gas distribution systems, Elevators, UPS in coordination with third-party vendors
+ - Carried out electrical work, civil work and gas distribution work for hydrogenation lab setup as per user requirement in coordination with third-party vendors
+ - Routine calibration of the process instruments like Pressure Gauge, temperature Gauge, Pressure transmitters, RTD sensors in coordination with the third party
+ - Routine preventive maintenance of AHU, Scrubber system, Gas distribution system, Diesel generator, Transformers, UPS and Elevators as per OEM
+ - Carried out the temperature mapping in the required laboratory as per GMP
+ - Installation of biometric device with the flap barrier and turnstile as per company requirement
+ - Coordination with the third-party vendor for electrical, furniture, GDS system, installation of fume hood for analytical method validation (AMV) lab setup
+ - Maintaining the electrical spares and instrument spares in coordination with Supply chain department and initiating required materials in SAP
+ - Maintaining and renewal of the statutory related documents (electrical inspection, Vessel inspection)
+
+Officer Instrumentation Engineer
+M/S Hikal LTD
+11/2007 - 10/2017
+Bangalore, India
+ - Calibrated and configured various field instruments, including pressure gauges, level transmitters, and temperature indicators, ensuring accurate readings and performance.
+ - Prepared and updated comprehensive calibration reports, facilitating timely and efficient data analysis.
+ - Established communication between field instruments and PLC processors, enhancing system integration and performance.
+ - Managed instrument stock levels by coordinating with the stores department, ensuring availability and minimizing downtime.
+ - Conducted break down maintenance and repair of field instruments, reducing operational disruptions.
+ - Installed and commissioned various instruments, successfully integrating them with PLC systems for optimized functionality.
+ - Performed testing and commissioning of PLCs, I/Os, and field instruments, ensuring reliable operation of automation systems.
+
+Associate in Facility and Engineering department
+Mylan Laboratories LTD Jigani
+05/2013 - 12/2015
+Bangalore, India
+ - Actively involved in calibration of field instruments, updating the details of calibrated instruments in SAP, Preparing the Master calibration list
+ - Actively involved in Annual shutdown activities
+ - Sufficient hold in handling and maintaining the quality management system and qualification related documents
+ - Involved in erection, installation and commissioning of new equipment and instruments
+
+Instrumentation Technician
+Sequent Scientific LTD
+06/2012 - 05/2013
+Bangalore, India
+ - Actively involved in projects on behalf of engineering department for planning, construction, erection of machines, equipment's
+ - Involved in preparing the Design qualification documents regarding user requirement specifications
+
+
+Education
+======
+Diploma in Electronics Instrumentation and Control
+M.E.I. polytechnic
+
+S.S.L.C
+Kannada Sangha Higher secondary school
+
+
+Languages
+======
+English
+
+Hindi
+
+Indian
+
+Kannada
+
+Tamil
+

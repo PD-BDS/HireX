@@ -1,0 +1,118 @@
+SUNE
+
+
+Summary
+======
+An experienced development engineer with a strong background in materials science and renewable energy, bringing a proven track record in advancing technologies for sustainable solutions. Enthusiastic about contributing to innovative projects that drive environmental progress, particularly in the realm of green hydrogen and water splitting technologies. Demonstrates a keen interest in leveraging AI for design efficiencies and problem-solving, underscoring a commitment to delivering technological advancements that align with the mission of promoting sustainable energy solutions.
+
+
+Experience
+======
+Senior Development Engineer, Innovation and IP (Formerly Corporate Technology, Materials)
+Green Hydrogen Systems
+2019 - Ongoing
+ - Preparation of materials and coating specifications ensuring that learnings are implemented, and long-term quality goals are met
+ - Responsible for construction and improvements of in-house designed laboratory test equipment i.e. test cells
+ - A recent project has been a low-cost potentiostat for a series of test cells previously designed
+ - Currently exploring the possibilities of AI assistance for design and execution of such tasks including programming in Python
+ - Construction of various control boxes used by other engineers and lab technicians
+ - In-house materials specialist on metals and corrosion
+ - Continuous development and validation of electrodes for water splitting
+ - Ramp up of production and commissioning of equipment
+ - Laboratory related failure analysis to ensure improved reliability and uptime on fleet
+ - Supporting other researchers and supervising the company's Ph.D. students
+
+Advanced R&D Engineer (appointed Advisory Engineer prior to leaving)
+Siemens Gamesa Renewable Energy
+2016 - 2019
+ - Working as specialist on surface treatment of wind turbines as well as with validation of surface related solution
+ - Involved in various request related work conducted according to standards (ISO and ASTM)
+ - Development of custom test methods in case of lack of standards
+ - Involved in ISO committee work representing SGRES interests
+ - Preparation of SGRE coating specifications (for SG10 and beyond)
+ - Validation and environmental testing
+ - Environmental testing in SGREs lab (salt spray, cyclic tests, UV test etc)
+ - Electrochemical tests i.e. permeation tests in relation to embrittlement related issues
+
+R&D Engineer
+Siemens Corporate Technology
+2011 - 2016
+ - Identification of electrocatalysts for water splitting
+ - Alkaline electrolyser development
+ - Constructed a functional laboratory ammonia cracker
+ - Developed catalysts for ammonia cracking
+ - Prepared electrocatalytic coatings via primarily electroplating
+ - Involved in upscaling together with other partners
+ - Heavily engaged in securing success for funded research projects
+
+Internship and student job
+IronPump A/S
+01/2007 - 01/2009
+ - Conventional construction and mechanical engineering
+ - CAD and FEM (primarily CREO/ProE)
+
+
+Education
+======
+Ph.D. in materials and manufacturing engineering
+Green Hydrogen Systems
+2012 - 2015
+ - Through my
+ - Employment in Siemens Corporate Technology and in collaboration with
+ - Green Hydrogen Systems
+ - Development of low-cost heterogeneous electrocatalysts for large
+ - Scale advanced alkaline electrolysers
+
+M.Sc. in materials and manufacturing engineering, DTU
+Danmarks Tekniske Universitet - DTU
+2009 - 2011
+ - Final project: Electrodeposition of ultra fine structured tin for
+ - Microelectronic applications - Feasibility study on electroplating of
+ - Tin by the Electro Chemical Pattern Replication (ECPR) process (12)
+
+B.Sc. in mechanical engineering
+Danmarks Tekniske Universitet - DTU
+2005 - 2009
+ - Final project: Characterization of piston rings tribological properties
+ - In collaboration with MAN B&W, Denmark (12)
+
+
+KEY SKILLS AND ACCOMPLISHMENTS:
+======
+Materials and corrosion specialist
+Expert in surface treatments, coatings, and electrocatalytic materials. FROSIO Level 3 certified
+
+Electrochemical innovation
+Developed and scaled electrocatalysts and coatings for water splitting and alkaline electrolysis.
+
+Laboratory equipment design:
+Designed custom test equipment, including cost-effective control systems.
+
+Failure analysis:
+Improved fleet reliability through laboratory failure analysis of coatings and mechanical components
+
+Environmental testing:
+Skilled in salt spray, UV, and cyclic testing to ISO/ASTM standards.
+
+Research active:
+Has supervised Ph.D. students, and supported innovation projects
+
+Standards and compliance
+Developed technical specifications and represented industry interests on ISO committees.
+
+Mechanical engineering:
+Proficient in CAD, FEM, and CFD, with experience in designing and validating test systems.
+
+Patents and publications:
+Co-author of scientific publications and patents in green hydrogen technologies.
+
+Electroplating expertise:
+Advanced techniques for manufacturing and troubleshooting catalytic materials.
+
+
+Languages
+======
+Danish
+
+English
+

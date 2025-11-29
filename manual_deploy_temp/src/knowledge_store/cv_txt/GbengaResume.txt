@@ -1,0 +1,136 @@
+GBENGA
+Electrical EngineerLagos Nigeria
+
+
+Summary
+======
+A seasoned Electrical and Automation Engineer with over 17 years of experience in industrial automation, instrumentation, and electrical systems. Specialized in PLC programming (Siemens, Allen-Bradley), SCADA integration, and commissioning of process control systems across cement, oil & gas, power, and FMCG industries. Proven track record in equipment installation, system troubleshooting, and process optimization. Experienced with global OEMs and multinational project environments. Holds a B.Sc. in Electrical Engineering, PMP certification, and Siemens automation training. Adept at leading technical teams, ensuring safety compliance, and training client personnel. Strong analytical skills combined with hands-on field expertise and a commitment to engineering excellence
+
+
+Experience
+======
+Commissioning Engineer
+Plant Supervision
+2020 - 2025
+ - MAAG gear sales and service rep.
+ - FLS. Various jobs
+ - Other freelance jobs for OEMs
+
+EC & I | Automation Commissioning Engineer
+Loesche gmbh nigeria limited
+2015 - 2020
+ - Equipment and machine installation and commissioning
+ - Provide maintenance support during machine operation
+ - Develop machine programs both on PLC and SCADA system
+ - Program backup, modification and archiving
+ - Provide support for maintenance on automated system
+ - Ensure all machine safety are implemented both on software and hardware
+ - Ensure all warning and trip alarm signal are implemented both on software and hardware
+ - Ensure that all machine electrical and instrument systems are correctly wired
+ - Ensure that machine remote and local operations are implemented
+ - Coordinate the instrumentation, electrical and automation activities in accordance with engineering standard
+ - Prepare work instructions concerning all automated systems and the working instructions for the maintenance staff in general
+ - Present weekly report based on the work done on site
+ - Raise claim report on damage/defective device and equipment
+ - Document and report all modification and as-built diagrams to the office
+ - Provide training for the operation and maintenance team
+
+Lead Electrical and Automation
+Kimberly clarke ssa west africa limited
+2014 - 2015
+ - Facilitate morning meeting and safety talk in engineering department
+ - Provide electrical and automation support for babies' diapers machine
+ - Troubleshoot with Rslogix 5000
+ - Ensure proper work permit and electrical safe work practices are maintained within the plant
+ - Supervise and ensure all electrical safety within the plant
+ - Supervise and ensure proper logout and tag out of all electrical and instrumentation on equipment
+
+Electrical Technical Trainee
+Exxonmobil technical training center
+2011 - 2012
+ - Knowledge in electrical safe work practice and good housekeeping in oil and gas industries
+ - Electrical installation, repair, troubleshooting and maintenance on electrical equipment in hazardous area location such as class 1 Division 1 and 2 for oil and gas production plant according to recommended practice (RP) and American petroleum industry using article API RP 500A and 500C, and national fire protection agency NFPA 30, NFPA 70 and NPFA 497M
+ - Electrical installation, trouble shooting and maintenance of all type of electrical equipment in hazardous area location such as class 1 Division 1 and 2, unclassified are in oil and gas industries according to the national electrical code (NEC) and regulation using article 500, national fire protection agency (NFPA)
+ - Good knowledge of electronics permits to work system (EPTW) such as critical work permit, hot work permit, general work permit, and confined space entry
+ - Undergo training on gas turbine generator
+ - Interpretation and design of electrical schematic diagram, electrical wiring diagram and electrical single line diagram
+ - Interpretation of electrical power distribution for low voltage and medium voltage diagram
+ - Interpreting process and instrumentation diagram (P&ID)
+ - Installation, repair and maintenance of all type of control relay, protective relay
+ - Carry out maintenance on motor control center (MCC). Low and medium voltage switch gear
+ - Replacement of faulty 40HP fan cooler motor in OSO production platform
+ - Carry out routine and corrective maintenance on fire engine, water treatment plant
+ - Installation and maintenance of three-phase and single-phase transformer
+
+Electrical and Automation Supervisor
+Reckitt benckiser nigeria limited
+2012 - 2014
+ - Support the safety health and environment officer on hazard identification and mitigation
+ - Effective communication feedback with team work
+ - Provide electrical and automation support for bath soap production line
+ - Provide electrical and automation support for bleaching agent production line
+ - Troubleshooting with Siemens step 7 Manager
+ - Create shift schedule for the shift technician
+ - Create planned maintenance for the technician
+
+Automation Specialist
+Nigeria Breweries PLC
+2007 - 2011
+ - Morning safety meeting and shift report
+ - To provide automation support for bottles and canning line production for Star beer line, Heineken canning line and Maltine bottle line
+ - Good knowledge in trouble shooting with programmable logic control using Siemens Step7 software
+ - Performing hardware configuration using Siemens step 7
+ - Good knowledge on profibus/profinet for communication protocol
+ - Electrical maintenance and installation of industrial equipment and control
+ - Interpretation and design of electrical schematic diagram, electrical wiring diagram and electrical single line diagram
+ - Installation, maintenance and overhauling of packaging machine
+ - Configuration and installation of variable speed drive
+
+
+Skills
+======
+ - DCS
+ - Electrical Engineering
+ - Instrumentation
+ - PLC
+ - PMP
+ - SCADA
+ - Soap
+ - SSAS
+ - Step7
+ - WinCC
+
+
+Certification
+======
+Certificate in Project Management Professional (PMP)
+
+
+Training / Courses
+======
+Siemens Step 7 300/400 Serve 2 training
+
+Siemens Sitrain training on TIA Portal Serve 2
+
+
+Education
+======
+B.Eng. in Electrical Engineering
+Bell University of Technology
+2016 - 2020
+
+Higher National Diploma in Electrical Engineering
+Yaba College of Technology
+2008 - 2010
+
+Ordinary National Diploma in Electrical Engineering
+Yaba College of Technology
+2005 - 2007
+
+
+Languages
+======
+English
+
+French
+

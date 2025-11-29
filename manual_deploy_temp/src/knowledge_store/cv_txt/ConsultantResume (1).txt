@@ -1,0 +1,129 @@
+CONSULTANT
+Senior Project Engineer
+
+
+Summary
+======
+Highly experienced Mechanical Engineer with over 25 years of expertise in design, development, and optimization of industrial machinery and steel structures across sectors including wind energy, biogas, manufacturing, and construction. Skilled in delivering custom lifting equipment, conveyor systems, and production machinery, with a strong track record of providing innovative engineering solutions for global companies such as Siemens, SGRE, Novo Nordisk, and Semco Maritime.Proficient in 3D/2D design (Autodesk Inventor, SolidWorks), strength calculations (FEA, ANSYS, Nastran), and technical documentation, combined with deep knowledge of welding, sheet metal, and machining processes. Experienced in managing projects end-to-end—from concept and design through production, testing, and compliance with onshore/offshore industry standards (DNVGL, EN13135).
+
+
+Experience
+======
+Senior Project Engineer
+Consultant
+2023 - 2025
+ - Design of hoist for spinner nose.
+ - Development of modular platforms—standard elements according to our own concept.
+ - Development of production equipment for SGRE.
+
+Freelance Consultant
+Consultant
+2018 - 2024
+ - Semco Maritime A/S Esbjerg – Yoke for handling nacelle (SW, weldment)
+ - Nature Energy (Xergi), Støvring – Biogas plant (pipes, supports and clamps, based on P&I) – 8 months
+ - FSE A/S, Skanderborg – Tender drawings and exploded drawings of hydraulic pump systems
+ - Much More Water – Design of transport box for the army
+ - Dan Web Machinery A/S, Galten – 3D design and production drawings of machines for pulp web production – 7 months (SW, weldment)
+ - Sealing System A/S Grænsed – 3D and 2D drawings (Inventor) of conveyor systems, registration in ERP system
+ - Moveero A/S Nagbøl – 3D drawings of tools for weld reinforcement cutting, lathe adhesive, hydraulic parts, minor calculations, and others for the maintenance department (Inventor)
+ - Jørgensen Engineering A/S, Odense – 3D or 2D conveyor system (Inventor)
+ - ECM Industries – Water Cutting Machine for Blade Edge Cutting (SW)
+ - Dansk Stålmontage Odense – Stairs and railings, part of steel construction, 3D and 2D in Inventor
+ - JQ Staalmontage Køge – Stairs and railings, steel structures for stairs, steel walkways (SW), project for Novo Nordisk
+ - ZITON A/S – Lifting equipment, steel foundation for crane, steel frame, strength and bolt calculations, documentation
+ - Bobach Stålenterprise A/S – Stairs, balconies, steel structures
+
+Design Engineer
+Eltronic A/S Wind Solution
+2016 - 2017
+ - Designed hydraulic yoke for handling wind turbine nacelles (Siemens).
+ - Developed Universal Blade Clamper and blade lifting yoke.
+ - Engineered stand rotor installation system (Senvion).
+ - Designed tower lifting system and tack & guide wire system (extendable top traverse, clamps).
+ - Created generator upending system (Siemens).
+ - Designed turner tools for rotation of hub (Goldwind).
+ - Developed transport frameworks for turbine components.
+ - Prepared lifting instructions and assembly drawings.
+ - Performed static calculations to ensure safety and compliance.
+ - Delivered detailed 3D and 2D designs in Inventor, including welding drawings.
+ - Reviewed and validated 2D and 3D drawings for accuracy and compliance.
+ - Handled ad hoc engineering tasks as required.
+
+Design Mechanical Engineer
+Brødbæk & Co
+2015 - 2016
+ - Converted and developed sawmill machinery (conveyors and elevators).
+ - Selected and specified electric motors.
+ - Designed in Autodesk Inventor (2013) with Vault.
+ - Created bills of materials in Axapta.
+ - Monitored the cost control of designed machines.
+ - Managed the ordering of laser-cut and bent plates.
+
+Internship
+TRESU A/S
+2013 - 2014
+ - Design and redesign of printing facilities in SolidWorks
+ - Documentation
+ - Styklister
+ - SAP
+
+Production employee
+Triax A/S
+2004 - 2011
+ - , Hornsyld Mechanical Engineer at SB Montage, Horsens (company closed)
+
+Production Manager
+Technika Betonowa
+2003 - 2004
+ - In Koszalin, Poland
+(concrete spacers under steel reinforcement)
+
+Sales and marketing
+Self Employed
+2001 - 2002
+ - Work in sales and marketing area (self-employed and as an employee of various companies such as:
+Alima-Gerber, Bakoma, Don Trading, Generali)
+
+Production engineer
+ZATEM
+1993 - 2001
+ - Produced and installed hospital equipment, including panel systems for medical gases, autoclaves, and entrance scalpers.
+ - Designed small components in stainless steel, aluminum, copper, and brass.
+ - Created 2D technical drawings using AutoCAD.
+ - Oversaw production processes and ensured quality control.
+ - Served as Production Manager for 3 months, supervising operations and workflows.
+
+
+Education
+======
+Mechanical Engineer, thesis:Overhead crane for galvanic systems
+VIA University College
+2015
+
+M.Sc. Mechanical Engineer, specialty: Technology of Machine Building,
+University of Technology
+1990
+
+
+Skills
+======
+ - ANSYS
+ - Autodesk
+ - Autodesk Inventor
+ - AutoCAD
+ - ECM
+ - ERP
+ - FEA
+ - Inventor
+ - SAP
+ - SolidWorks
+
+
+Languages
+======
+Danish
+
+English
+
+Polish
+

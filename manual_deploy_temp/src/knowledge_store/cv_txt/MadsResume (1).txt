@@ -1,0 +1,88 @@
+MADS
+Automation Engineer
+
+
+Summary
+======
+Automation Engineer with a solid background in industrial automation, PLC programming, and project leadership. Experienced in designing, programming, and commissioning PLC and HMI systems for complete factory floors with 3,000+ field devices. Focused on delivering reliable, maintainable, and scalable automation solutions that integrate seamlessly with mechanical and electrical systems. "You value robust control architectures, and long-term maintainability" "You don't just write PLC code, you design complete automation systems." "You understand both the engineering perspective and the operator's needs on the factory floor."
+
+
+Experience
+======
+Founder
+SaaS Company
+01/2024 - Ongoing
+ - Designed digital tools for automation project versioning, diagramming, and collaboration
+ - Built custom visualization tools to support automation engineers in documenting and simulating PLC-based systems
+ - Integrated strong version control principles into automation workflows
+
+PLC Programmer/Technical Project Manager / Product Developer
+Carsoe
+2022 - 01/2024
+ - Programmed and deployed Siemens PLC and HMI systems for food processing and automation lines
+ - Product Manager (2021)
+ - Technical Project Manager (2019-2021)
+
+Project Director
+LT Automation
+01/2022 - 09/2022
+ - As a Project Director at LT Automation, I undertook a challenging role that envolved project management for 10+ projects within the organization. My responsibilities revolved around orchestrating and overseeing project activities to achieve desired outcomes, despite the absence of the authority to enact necessary changes.
+
+Software Project Manager
+Körber Supply Chain
+09/2021 - 01/2022
+ - Oversaw development and deployment of warehouse automation software (Siemens TIA Portal)
+ - Coordinated with clients and internal teams to align deliverables
+
+Technical Project Manager
+Carsoe
+2019 - 2021
+ - System Integration · Budget Management · Project Management · Negotiation
+
+Head Automation
+Overbeck Staal
+2018 - 2019
+ - Automation · System Integration · Electrical Engineering · Project Management · Software Development
+ - Siemens TIA
+
+Weapons Manager
+Royal Danish Navy - HDMS Absalon
+2017 - 2018
+
+Weapons Technician
+Royal Danish Navy - HDMS Esben Snarre
+2016 - 2017
+
+
+Skills
+======
+ - Siemens PLC
+ - Siemens TIA
+ - WCS Integration
+ - HMI
+ - LTE
+ - PLC
+ - Software Architectures
+ - SaaS Delivery
+ - Project Management
+
+
+Education
+======
+MSc, Computer Software
+Aalborg University
+2012 - 2016
+
+Automation Technician
+EUC-Syd
+2007 - 2010
+
+
+Languages
+======
+Danish
+
+English
+
+German
+

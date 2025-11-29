@@ -1,0 +1,301 @@
+SANTOSH KUMAR
+Instrumentation & Automation Engineer
+
+
+Summary
+======
+A results-driven professional with 16 years of extensive leadership experience in Project Management, Execution, and Operations across diverse industries. Skilled in Electrical, Instrumentation, and Control Systems, with proven expertise in PLC, DCS, and SCADA systems, Process Automation, and Equipment Commissioning. Proficient in conducting Factory Acceptance Testing (FAT), developing Proof of Concept (POC) and Proof of Value (POV), performing Gap Analyses, and preparing Quality and Equipment Performance Reports. Experienced in root cause analysis techniques such as Why-Why and Fishbone Analysis, implementing CAPA measures, and upholding high standards in Reporting and Safety compliance.
+Experienced Electrical, Instrumentation & Control Engineer with a strong background in managing project planning, installation, commissioning, and startup activities across diverse industrial environments. Skilled in control panel design, instrumentation testing, and DCS/PLC system integration using protocols such as HART, Modbus, Profibus, and more. Proficient in FAT, technical documentation, system troubleshooting, and field commissioning of major equipment, including VRMs, kilns, coolers, and Ventomatic Packers in packing plants. Demonstrates expertise in programming (Siemens, Rockwell), HMI configuration, and communication protocols. Capable of reviewing supplier documentation, preparing engineering deliverables, and maintaining strong client communication throughout project lifecycles.
+
+
+Experience
+======
+Electrical and Automation Engineer
+Bursa Cement, Turkey
+2025 - Ongoing
+ - Responsible for E&I Commissioning of Cement Pyro section, material handling equipment of FL Smidth equipments
+ - IO checks, testing of LCP panels, and communication with DCS
+
+Automation Engineer
+Solid Cement Corporation
+2024 - 2025
+Philippines
+ - Responsible for E&I Commissioning of Cement mill VRM (Loesche Mill)
+ - Pyro section, CEM Scanner installation and commissioning
+ - Commissioning of Material handling equipment
+ - Working on Siemens, Schneider PLC's and WinCC SCADA
+ - Commissioning of H&B packers.
+
+Managing Consultant for Cement
+Wipro Technologies
+2022 - 2024
+Asia
+ - Worked with Wipro Technologies as Managing Consultant for Cement, Metal & Mining Industries
+ - Focused on Gap Analysis, Predictive maintenance module, quality reports, Sustainability, Digital & DE carbonization projects, and process Optimization
+ - Deliver growth in cement domain consulting
+ - Providing end-to-end solutions to the cement industry towards predictive maintenance strategy & process gap analysis to improve productivity and minimize the plant's unwanted breakdown
+ - Conducting machineries performance and operational analysis audit and reporting
+ - Providing solutions for improving asset reliability, plant capacity utilization, and operational efficiency
+ - Achieving continuous reduction in specific energy consumption in milling and pyro-processing to improve productivity, reduce cost/tone, and enhance the safety of workmen
+ - Leveraging digital tools to enhance operations reliability and improve process stability
+ - Improving the environmental performance of the plant by meeting all emission norms
+ - Empowering Internal Stakeholders by making data and information available as per the business need
+ - Working on a carbon mitigation strategy in cement manufacturing to reduce carbon footprint, supporting cement clients in South Asia region
+ - Acting as a cement domain technical expert for developing an AI/ML-based working model to increase the consumption of alternative fuels in cement kiln and calciner firing without affecting clinker quality and optimizing process disturbance
+ - Providing solutions in mines to reduce HEMM idle hours, increase production, and reduce carbon footprint in mining operations
+
+Sr. Manager
+Heidelberg Cement India Limited
+2021 - 2022
+Heidelberg Cement
+ - Worked as Sr. Manager -Instrumentation & Control in Heidelberg Cement India Ltd and was involved in maintenance & project work in the plant, directly reporting to the Technical Head
+ - Worked as Line manager for kiln L-1 & kiln L-2 from material handling to Clinkerisation in Heidelberg Cement
+ - Commissioning, mapping and testing of CEM Scanner
+ - Worked as Sr. Manager of Electrical Instrumentation & Control and led engineering for capex and Opex
+ - Responsible for execution of Capex projects within a production network with a focus on the production site in Heidelberg in the E&I Domain
+ - Responsible for implementation of the Decarbonization project in a group, e.g., from engineering to commissioning of AFR
+ - Provide inputs for RFP responses including things such as high-level vision, and guidance on response terminology
+ - Respond to questions regarding overarching concepts; and provide a final review of response alignments with Overall solution vision
+ - Installation and commissioning of Ventomatic Packers, bulk loading and Palletizers
+ - Responsible for technical evaluation of the capital investment projects in the E&I Domain
+ - Responsible for the implementation of the Digitalization project in the Heidelberg group in India
+ - Responsible for the implementation of an expert control system in the Heidelberg group for all plants in India
+ - Actively working along with HTC -Germany for the implementation of group projects
+
+Chief E&I
+Shaurya Cement Nepal
+2020
+ - Responsible for Installation and commissioning of Stacker & Reclaminer
+ - Responsible for Installation and commissioning of Coal Mill
+ - Responsible for Installation and commissioning of Pyro field instruments
+ - Responsible for Installation and commissioning of Close loop cooler
+
+Chief E&I
+ACPL Nepal
+2019 - 2020
+ - E&I Commissioning of Additive stacker
+ - Additive Reclaimer and fly ash handling system commissioning
+ - SF cooler commissioning
+
+LCP Manager
+LCP Manager
+2020 - 2020
+Nairobi, Kenya
+ - Savannah Cement Nairobi Kenya
+ - Responsible for E&I Commissioning of Cement mill VRM (OK Mill)
+ - Cement silo
+ - Bulk loading system and its auxiliaries
+
+Project Service Professional (E&I)
+FLSmidth Pvt. Ltd
+2008 - 2020
+Chennai
+ - From to with FLSmidth Pvt. Ltd., Chennai
+ - Project Service Professional (E&I)
+
+LCP Manager
+LCP Manager
+2019 - 2019
+Dalmia (Bharat
+ - Cement plant at Rajgangpur Odisha
+ - Worked for Local PLC commissioning of LS Stacker
+ - LS reclaimer additive stacker
+ - Open loop cooler
+ - All Gas Analyzer
+
+Chief E&I
+Palpa Cement Nepal
+2019 - 2019
+ - Responsible for Installation and commissioning of Raw mill, Coal Mill, and Pyro field instruments
+ - Close loop cooler
+
+LCP PLC Commissioning
+LCP PLC Commissioning
+2018
+ - Sagar Cement and Dalmia Cement
+ - Commissioning of an open loop cooler local PLC and establishing communication with CCR for plant operation
+
+Chief E&I
+Akij Cement Dhaka Bangladesh
+2018
+ - Responsible for Installation and commissioning of Stacker & Reclaimer
+ - Cement Mill (OK mill) LCP commissioning
+ - Weigh feeder commissioning
+ - Field instruments installation and commissioning
+
+LCP Manager
+LCP Manager
+2016 - 2017
+Indonesia
+ - Semen Gresik cement Indonesia
+ - Responsible for installation and commissioning of all Local PLC installation and commissioning for equipment such as Atox Raw mill, GCT, Coal mill, cooler, Gas Analyser, and other auxiliaries equipment
+
+LCP Manager
+LCP Manager
+2016
+ - As LCP manager responsible for installation and commissioning of all Local PLC installation and commissioning for Atox Raw mill, GCT, Coal mill, and Gas Analyser
+
+Commissioning Supervisor
+CJS YANJO Kyrgyzskiy Cement
+2015 - 2016
+
+Chief E&I
+Orient Cement Chittapur
+2015 - 2016
+ - Responsible for Installation and commissioning of Stacker & Reclaimer
+ - Cement Mill (OK mill) LCP
+ - CB cooler commissioning
+ - Weigh feeder commissioning
+ - Pyro field instruments installation and commissioning
+
+LCP Manager
+LCP Manager
+2014 - 2015
+South Africa
+ - PPC Dwaalboom South Africa
+ - Commissioning of a CB cooler local PLC and HRB VFD establishing communication with CCR for plant operation
+
+Field Supervisor
+IBSESE Cement Nigeria
+2014
+ - Responsible for Cement mill operation and maintenance
+
+Chief E&I
+JK Cement
+2013 - 2014
+Mangrol Rajasthan
+ - Responsible for Installation and commissioning of Stacker & Reclaimer
+ - Coal mill commissioning
+ - CB cooler Local PLC commissioning
+ - Weigh feeder commissioning
+ - Pyro field instruments installation and commissioning
+
+LCP Supervisor
+LCP Supervisor
+2013
+Rajasthan
+ - Birla Chandaria Rajasthan
+ - Responsible for the commissioning of LOW weighing system PLC for raw mill silo upgradation project
+
+LCP Supervisor
+LCP Supervisor
+2013
+ - Responsible for the commissioning of CB cooler PLC panel
+ - Responsible for the commissioning of HRB VFD
+ - Responsible for the commissioning of pyro Field instruments commissioning
+
+LCP Supervisor
+LCP Supervisor
+2013
+ - Mangalam Cement Kota
+ - Responsible for the commissioning of Atox Raw mill PLC Panel, CB cooler PLC panel, HRB VFD, and pyro
+ - Field instruments commissioning
+
+Responsible for E&I Commissioning of Cement
+LCP Manager
+2013
+ - Sonar Bangla Cement
+ - Responsible for E&I Commissioning of Cement mill VRM (OK Mill)
+ - Cement silo
+ - Bulk loading system
+ - Fly ash handling system and its auxiliaries
+
+Responsible for Installation and commissioning of Stacker & Reclaimer Local PLC
+LCP Manager
+2012 - 2013
+Russia
+ - Responsible for Installation and commissioning of Stacker & Reclaimer Local PLC
+ - Gas Burner PLC commissioning
+ - SF cooler Local PLC commissioning
+ - Weigh feeder commissioning
+ - Pyro field instruments installation and commissioning
+
+Responsible for Installation and commissioning of Ventomatic Packer, Palletizer and Burner and Cooler.
+LCP Manager
+2011 - 2012
+Russia
+ - 2 no of Ventomatic Packer (12 sprouts) commissioning and Palletizer
+ - Responsible for Installation and commissioning
+ - Gas Burner PLC commissioning
+ - SF cooler Local PLC commissioning
+ - Weigh feeder commissioning
+ - Pyro field instruments installation and commissioning
+
+LCP Manager
+LCP Manager
+2011
+Russia
+ - Responsible for Installation and commissioning of SF cooler Local PLC
+ - CF silo Local PLC commissioning
+ - Gas analyzer PLC
+ - Pyro field instruments installation and commissioning
+
+Field Supervisor
+LSR Cement Slantsy
+2010 - 2011
+Russia
+ - Responsible for Installation and commissioning of Bag House
+ - Installation of ESP Panel
+ - Commissioning of pyro field instruments
+ - Installation of Belt conveyor
+ - Testing and commissioning of motor
+ - Wiring and testing of LV Panel
+ - Commissioning of gas analyzer
+
+LCP Manager
+LCP Manager
+2010
+ - Responsible for Installation and commissioning of SF cooler PLC
+ - Raw mill & Coal mill Local PLC
+ - Gas Burner PLC
+ - SF cooler Local PLC commissioning
+ - Weigh feeder commissioning
+ - Pyro field instruments installation and commissioning
+
+Field Supervisor
+India Cement Mahi Rajasthan
+2010
+ - Responsible for Installation and commissioning of Stacker and Reclaimer
+
+Field Supervisor
+Zuari Cement
+2009 - 2010
+ - Responsible for Installation and commissioning of Coal Mill Local PLC
+ - Responsible for Installation and commissioning of SF cooler PLC Panel
+
+Field Supervisor
+India Cement Mahi Rajasthan
+2009
+ - Responsible for Installation and commissioning of Stacker and Reclaimer local PLC for a total of 8 nos
+ - Installation and commissioning of cement mill
+
+
+Certification
+======
+Iso 14001: 201
+
+Lean Six Sigma Green Belt
+Kpmg
+
+
+Training / Courses
+======
+Training (PMP)
+Asq
+
+PHA (Process Hazard Analysis)
+PHA (Process Hazard Analysis)
+
+
+Education
+======
+EMBA in Business Administration
+IIBMS
+2018
+Mumbai
+
+B.Tech. (Electrical & Electronics
+Bharath Institute of Science & Technology
+2008
+Chennai
+

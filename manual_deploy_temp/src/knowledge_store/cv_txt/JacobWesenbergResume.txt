@@ -1,0 +1,140 @@
+JACOB WESENBERG
+Automation Engineer
+
+
+Summary
+======
+An Automation Engineer with an M.Sc. in Control & Automation and a B.Sc. in Robotics, with a focus on programming and control systems. Experience includes the design, programming, and commissioning of automation solutions, primarily in the pharmaceutical sector for clients such as Novo Nordisk A/S. Skilled in PLC and HMI development using Siemens (TIA Portal), Allen Bradley (Studio 5000), and Beckhoff (TwinCAT 3), as well as robotics integration, GAMP5 documentation, and system standardization. Known for a structured and detail-oriented approach with experience in team coordination and customer-facing roles.
+
+
+Experience
+======
+Team lead, Technical Writer
+CREADIS for Körber Supply Chain
+2025 - 2025
+ - Development, review, and advisory consultant of GAMP5/GxP documentation for Novo Nordisk
+ - The project consisted of five systems for five different sites around the world
+ - Acted as a middle link between Körber Supply Chain and Novo Nordisk
+
+Team lead
+CREADIS for Jorgensen Engineering
+2024 - 2024
+ - Development of documentation for three projects, including the following documents:
+ - Functional Design Specification (FDS)
+ - Software Design Specification (SDS)
+ - Hardware Design Specification (HDS)
+ - Disaster Recovery (DIS)
+ - Acquired understanding of the systems by working closely with project developers and reading their material
+
+Software Developer
+Novo Nordisk
+2024 - 2024
+ - Project development of an Autonomous Mobile Robot (AMR) mounted with a collaborative robot, which should autonomously pick up samples from a busy and dynamic production line, and deliver the samples at an inspection station
+ - Startup of project
+ - System design
+ - Customer and supplier contact
+ - Project is on hold for now, so no software and physical development have been done
+
+Software Engineer
+Technicon
+2023 - 2023
+ - Development of standardized documents and templates of a project documentation package
+ - The development was performed independently while working on projects as a software engineer
+ - All documents are developed in accordance with the GAMP 5 and GxP guidelines
+ - Functional Design Specification (FDS)
+ - Software Design Specification (SDS)
+ - SDS Appendix - Disaster Recovery (DIS)
+ - SDS Appendix - Eventlist
+ - SDS Appendix - Flowcharts
+ - SDS Appendix - Robot Cases
+ - HDS Appendix Critical Items List (CIL)
+ - HDS Appendix - I/O List
+ - Test Protocol - FAT
+ - Test Protocol - SAT
+
+Software Developer
+Technicon A/S
+2022 - 2023
+ - Automation of outfeed of cartridges in a pharmaceutical production line
+ - The system consists of a Siemens PLC, Siemens HMI, 4 UR robots, SICK security scanners, SICK barcode scanner, LSS Novexx Solutions label printer, JVL steppers, IAI steppers, and 200+ I/O
+ - Most of the configuration, programming, and testing was done by the consultant
+ - The project was handed over to another colleague due to a deadline on another project, which the consultant helped meet
+
+Software Lead
+Technicon A/S for Novo Nordisk A/S
+2021 - 2022
+ - Automation of infeed of cartridges in a pharmaceutical production line
+ - The system consists of an Allen Bradley PLC, Allen Bradley HMI, 5 UR robots, SICK safety scanners, JVL steppers, Cognex camera, and 200+ I/O
+ - All configuration, programming, testing and commissioning (FAT & SAT) was done by the consultant
+ - The robots were programmed in collaboration with a colleague
+
+Software Lead
+Technicon A/S for Daloon A/S
+01/2020 - 12/2021
+ - Automation of collection, orientation, and placement of cabbage in a food production line
+ - The system consists of a Beckhoff PLC, UR robot, Cognex camera, custom-designed gripper, and several I/O devices
+ - All configuration, programming, and testing was done by the consultant
+
+Software Lead
+Technicon A/S for Daloon A/S
+2020 - 2021
+ - Technicon A/S for Novo Nordisk A/S
+ - Novo Nordisk Pharmatech A/S
+ - Software developer
+ - Automation of filling containers and applying labels in a pharmaceutical production line
+ - The system consists of a Siemens PLC, Siemens HMI, 2 UR robots, INOX label printer, and several I/O devices
+ - All configuration, programming, testing and commissioning (FAT) was done by the consultant, however, the robots were programmed in collaboration with a colleague
+
+
+Skills
+======
+ - Arduino
+ - C/C++
+ - Ethernet
+ - Microsoft Office
+ - Beckhoff Vision
+ - Modbus
+ - PIC
+ - PLC
+ - Python
+ - RFID
+ - Robotics
+ - SCADA
+ - UDP
+ - Virtualbox
+ - Virtualisation
+ - Visual Basic
+ - VMware Workstation
+ - Raspberry PI
+ - TCP
+
+
+Education
+======
+Master's, Control & Automation
+AAU
+2018 - 2020
+ - During the master's degree, gained further knowledge in control theories and optimization, and have
+ - Among other courses, completed stochastic processes, multivariable control systems, and non-linear control systems. In addition, done
+ - Programming during each project
+
+Bachelor, Robotics, AAU
+AAU
+2015 - 2018
+ - During bachelor's degree, gained knowledge in programming, sensor fusion, kinematics, dynamics, and control theory. Had a physical
+ - Robot for each project
+
+Mathematics
+HTX, Aalborg HTX
+2012 - 2015
+ - The world of physics: Mathematics, physics, English, Danish and mechanical engineering at A-level
+
+
+Languages
+======
+Danish
+
+English
+
+German
+

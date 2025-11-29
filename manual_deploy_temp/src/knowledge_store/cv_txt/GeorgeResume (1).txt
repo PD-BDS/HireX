@@ -1,0 +1,136 @@
+GEORGE
+Commissioning Engineer
+
+
+Summary
+======
+Experienced Commissioning Engineer with over 20 years of global experience across more than 50 countries. Expertise in steam turbines, industrial burners, heat exchangers, hot gas generators, and advanced testing facilities for the automotive industry. Strong background in electrical design, R&D, technical training, and site management. Proven ability to lead commissioning, testing, and training for complex industrial systems across the energy, oil & gas, solar, and process engineering sectors.
+
+
+Experience
+======
+R&D Senior Engineer & Commissioning Engineer
+Fives European Combustion Centre
+11/2024 - Ongoing
+Piacenza, Italy
+ - Conducted performance testing of industrial burners using hydrogen and natural gas blends
+ - Tested 0.3MW prototype burners for STARA GLASS using various fuel combinations and oxidizers
+ - Led HYFLAM Smart project to develop ultra-low NOx, 100% hydrogen burners for gas infrastructure
+ - Enhanced burner performance through injector variation and combustion parameter optimization
+ - Used Siemens Step 7 extensively for control systems and instrumentation
+
+Commissioning Engineer
+Bosch Servicii Termotehnica SRL
+02/2024 - 10/2024
+Romania
+ - Supervised installation and commissioning of Bosch steam boilers
+ - Performed parameter tuning and training using Bosch CSC software
+ - Tests and training with technical staff of the plants.
+ - Start-up and maintenance.
+
+Commissioning Engineer
+ICPET TURBO
+08/2019 - 08/2023
+Bucharest, Romania
+ - Installed and maintained automation equipment for turbine speed control
+ - Used Siemens and Mauell systems at Romanian power plants
+
+Commissioning Engineer
+Fives pillard
+11/2013 - 07/2019
+Marseille, France
+ - Supervised installations of high-capacity industrial burners
+ - Conducted testing, training and PLC tuning across international sites
+
+Site Manager
+KLB GROUP S.A
+11/2012 - 11/2013
+Madrid, Spain
+ - Led solar projects of 15 MW and 18 MW in Romania and UK
+ - Oversaw construction, budgeting, and testing
+ - Supervision of electrical and mechanical assembly, as well as civil engineering works
+ - Field engineering, including testing and commissioning of systems
+ - Oversight of cost control, measurements, and certifications
+ - Support to the Project Manager in all aspects of project execution
+
+Electrical Design and Commissioning Engineer
+ARIES INGENIERIA Y SYSTEMAS S.A.
+04/2011 - 11/2012
+Madrid, Spain
+ - Electrical system design for complex test installations
+ - Supervision of electrical and mechanical assembly activities
+ - Field engineering, including testing and commissioning
+ - Conducting tests and technical training for client teams
+ - Electrical project management, including planning, execution oversight, and client coordination
+
+Electrical Design and Commissioning Engineer
+FIVES PILLARD ESPAÑA S.A
+07/2008 - 04/2011
+Madrid, SPAIN.
+ - Design of electrical and instrumentation plans for hot gas generators and industrial burners
+ - PLC programming using STEP 7 (Siemens)
+ - Supervision of mechanical and electrical assembly on-site
+ - Execution of testing, start-up, and maintenance activities
+ - Training and technical support to plant personnel
+
+Electromechanical
+RESHOIN (Repair Shop Industrial, S.L.)
+03/2008 - 06/2006
+Madrid, SPAIN
+ - Lifting machinery repair: forklift trucks, service lifts, cranes and aerial platforms, telescopic furniture hoists.
+
+Project Manager Technical Support
+DANFOSS
+03/2006 - 03/2008
+Romania
+ - Delivery, mechanical and electrical assembly, and start-up of 630 expansion modules aimed at increasing the pressure of the thermal agent in the heating plant facilities
+ - Delivery, mechanical and electrical assembly, and start-up of 106 HVAC modules equipped with heat exchangers for residential buildings
+ - Planning and overseeing the daily execution of project tasks related to equipment transport, mechanical and electrical assembly, and commissioning
+ - Execution and supervision of the mechanical and electrical assembly of heat exchangers and expansion modules for centralized heating and hot water systems
+ - Start-up and commissioning of thermal distribution units
+ - On-site training and technical support provided to plant personnel
+
+Commissioning Engineer
+ICPET TURBO
+05/2002 - 12/2005
+Romania
+ - Implementation and maintenance of automation systems for steam turbine and generator speed control
+ - Electrical testing of control cabinets for proper configuration and operation
+ - PLC program validation and simulation testing to ensure accurate response to control signals
+ - Supervision of mechanical and electrical assembly during installation phases
+ - Conducting system tests and training in collaboration with plant technical staff
+
+
+Skills
+======
+ - AutoCAD
+ - Microsoft Office
+ - Siemens Step 7
+ - Mauell
+
+
+Education
+======
+Master's Degree in Thermal Energy Industrial Process Automation
+University POLITEHNICA of Bucharest
+2001 - 2002
+
+Bachelor's in Power Engineering, Applied Informatics
+University POLITEHNICA of Bucharest
+1995 - 2001
+
+
+Languages
+======
+English
+
+French
+
+Portuguese
+
+Romanian
+
+Russian
+
+Spanish
+

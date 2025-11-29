@@ -71,7 +71,7 @@ class JobDescriptionCrew:
         """Task to gather and validate the job description"""
         return Task(
             config=self.tasks_config["gather_job_description"],
-            output_pydantic=JobDescriptionOutput,
+            output_json=JobDescriptionOutput,
             validate_output=True,
         )
 

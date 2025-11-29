@@ -1,0 +1,115 @@
+MARIANO
+Field service engineer
+
+
+Summary
+======
+Dynamic and results-oriented Mechanical and Electrical Technician and Field Service Engineer with over 20 years of diverse experience in industrial maintenance, electromechanical installations, and telecommunications infrastructure. Proven expertise in mechanical and electrical systems across sectors including food production, chemical processing, and digital power solutions. Skilled in supervising maintenance operations, leading site surveys, and coordinating international projects with top-tier organizations such as Huawei, SABIC, and Unilever.Strong background in commissioning continuous production lines, executing residential and industrial electrical installations, and implementing lean maintenance practices (5S, Kaizen, BPM). Adept at team leadership, technical training, and cross-functional coordination with a solid commitment to EHS standards and continuous improvement. Proficient in SAP PM, AutoCAD, and DevOps tools, with additional hands-on experience in ABB Robot Programming and corporate digital power systems. Trilingual in Spanish (native), English (advanced), and Italian (beginner), currently based in A Coruña, Spain, and open to international collaboration opportunities.
+
+
+Experience
+======
+ELECTRICAL INSTALLER
+Self-Employed
+2025 - Ongoing
+ - Design, execution, and certification of residential electrical installations.
+ - Electrical installations in industrial, commercial, hospitality, and shopping environments.
+ - COPIME registration - DCI signature (similar to a REBP electrical bulletin).
+ - Electrical works subcontractor.
+ - Electromechanical installation - Home automation.
+
+Field service engineer
+Huawei
+2024 - 2025
+ - Technical support in hybrid and critical energy for telecommunications and datacenters.
+ - Commissioning of Hybrid Power Solution Solar system, integration on cloud based monitoring systems, inverter configuration, on/off grid setup
+ - Leadership in site surveys for network design and deployment.
+ - Developed safety protocols, consistently implementing best practices for fall protection, lockout procedures, and electrical safety.
+ - Training subcontractors in digital tools (ISDP, SIMS Space, eSurvey).
+
+Work & Project Supervisor
+Unilever Pilar Plant
+2022 - 2024
+ - Coordination and Supervision of Mechanical Works
+ - Piping Chemical Industry | Food Industry
+ - Commissioning of Continuous Production Lines
+ - Assembly and Disassembly of Electromechanical Installations in the Plant
+ - Use of Forklifts | Lifting Platforms
+
+Head of maintenance Department
+Ingetermo
+2017 - 2022
+ - Leadership of the plant maintenance team (SABIC), focused on operational efficiency and continuous improvement
+ - Implementation of SOPs and promotion of an EHS, 5S, Lean, and Good Maintenance Practices culture
+ - Maintenance management with SAP PM: planning, KPIs, reports, and presentations
+ - Maintenance team trainer in PM and MM
+ - SAP PM Master Data
+ - LOTO Ambassador 2022 (SABIC Argentina and Brazil) and participation in SHEM (Mechanical Integrity)
+ - Coordination of external suppliers and interdepartmental support
+ - Experience in Corporate Audits / ISO 9001
+
+Maintenance technician
+Poliuretanos woodbridge
+2016 - 2017
+ - Maintenance: electrical, mechanical, pneumatic, and hydraulic
+ - 5S Methodology
+ - WPS (Woodbridge Production System)
+ - Kaizen Methodology
+ - Continuous production line maintenance
+ - Forklift, truck, and platform lift operation
+
+Maintenance Technician
+O&m
+2014 - 2016
+ - Mechanical/electrical/pneumatic maintenance of continuous production machine tools
+ - Vacuum packaging machines
+ - Thermoforming
+ - Meat slicing machine
+ - Electric saws
+ - Sterilization system
+ - Mechanics: Continuous belt, pulleys, bearings, gear motors
+ - Corrective, preventive and proactive maintenance
+ - Welding and civil works maintenance
+ - Food production standards
+ - Ensure daily production start-up and verification of all machines and equipment used on a daily basis
+
+
+Education
+======
+Mechanical Technician
+Casal Calviño
+2003
+
+Electrical Installer
+APSE
+2003
+
+Electrical Installer
+COPIME
+2010
+
+Diploma devops
+University of Córdoba
+2023
+
+
+Certification
+======
+ABB robot programming - irc5
+
+
+Training / Courses
+======
+IT: Hardware Maintenance - Servers - Systems Administrator - Windows / Linux / Mac -AutoCAD - Office - DevOps
+
+Huawei Corporate Training: Digital Power, Telecom Hardware, Digital Power Commissioning
+
+
+Languages
+======
+English
+
+Italian
+
+Spanish
+

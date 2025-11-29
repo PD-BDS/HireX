@@ -60,7 +60,7 @@ class QueryManagerCrew:
         """Task that inspects the flow state and queues the next phases."""
         return Task(
             config=self.tasks_config["route_query"],
-            output_pydantic=QueryRoutingOutput,
+            output_pydantic=QueryRoutingOutput,  # Re-enable pydantic validation for proper structure enforcement
             validate_output=True,
         )
 

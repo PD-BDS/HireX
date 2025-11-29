@@ -8,7 +8,7 @@ HireX is a sophisticated resume screening and recruitment assistant powered by *
 
 -   **AI Resume Screening**: Automatically analyzes resumes against job descriptions using multi-agent orchestration (CrewAI).
 -   **RAG-Powered Chat**: Ask questions about any candidate and get answers based on their resume content.
--   **Persistent Knowledge Store**: All data (conversations, screening results, vector embeddings) is synced to **Cloudflare R2**, ensuring persistence across deployments.
+-   **Persistent Knowledge Store**: Data is persisted using **Azure Files**, ensuring seamless state management across deployments.
 -   **Modern UI**: Built with React, Vite, and Tailwind CSS for a seamless user experience.
 -   **Private & Secure**: Designed for private repository deployment with strict data separation.
 
@@ -17,7 +17,8 @@ HireX is a sophisticated resume screening and recruitment assistant powered by *
 -   **Frontend**: React, TypeScript, Vite, Tailwind CSS
 -   **Backend**: Python, FastAPI, Uvicorn
 -   **AI/ML**: CrewAI, LangChain, OpenAI (GPT-4o-mini), ChromaDB
--   **Storage**: Cloudflare R2 (Object Storage)
+-   **Storage**: Azure Files (mounted directly to App Service)
+-   **Infrastructure**: Azure App Service (Linux/Python)
 
 ## 📦 Installation
 
@@ -26,7 +27,7 @@ HireX is a sophisticated resume screening and recruitment assistant powered by *
 -   Python 3.10+
 -   Node.js 18+
 -   OpenAI API Key
--   Cloudflare R2 Credentials
+-   Azure Subscription (for deployment)
 
 ### 1. Clone the Repository
 
@@ -63,8 +64,8 @@ cp .env.example .env
 
 Required variables:
 - `OPENAI_API_KEY`
-- `REMOTE_STORAGE_PROVIDER=r2` (for production) or `local` (for dev)
-- `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET_NAME`, `R2_ENDPOINT_URL`
+- `REMOTE_STORAGE_PROVIDER=local` (Default for both local dev and Azure Files)
+- `KNOWLEDGE_STORE_PATH` (Optional: Custom path for storage)
 
 ## 🏃‍♂️ Running Locally
 
@@ -86,13 +87,13 @@ Visit `http://localhost:5173` to use the app.
 
 ## ☁️ Deployment
 
-HireX is optimized for deployment on **Render** (or similar platforms) with a **private GitHub repository**.
+HireX is optimized for deployment on **Azure App Service** using a custom deployment script.
 
 -   **Backend**: Deployed as a Web Service (FastAPI).
--   **Frontend**: Deployed as a Static Site.
--   **Data**: Persisted in Cloudflare R2.
+-   **Frontend**: Built and served as static assets by the backend.
+-   **Data**: Persisted in Azure Files mounted to the App Service.
 
-👉 **See [DEPLOYMENT.md](DEPLOYMENT.md) for the complete deployment guide.**
+👉 **See [DEPLOYMENT_AZURE.md](DEPLOYMENT_AZURE.md) for the complete deployment guide.**
 
 ## 📂 Project Structure
 
@@ -101,11 +102,11 @@ HireX/
 ├── backend/                 # FastAPI application
 ├── frontend/                # React application
 ├── src/                     # Core AI logic & packages
-│   ├── knowledge_store/     # Local runtime data (synced to R2)
+│   ├── knowledge_store/     # Runtime data (persisted via Azure Files)
 │   └── resume_screening.../ # CrewAI agents & tools
 ├── requirements.txt         # Python dependencies
-├── render.yaml              # Render Blueprint configuration
-└── DEPLOYMENT.md            # Deployment instructions
+├── deploy_to_azure.ps1      # Automated Azure deployment script
+└── DEPLOYMENT_AZURE.md      # Deployment instructions
 ```
 
 ## 📄 License

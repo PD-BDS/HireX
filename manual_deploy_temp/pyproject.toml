@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resume_screening_rag_automation"
+version = "0.1.0"
+description = "Resume Screening Chat Assistant Using CrewAI"
+authors = [{ name = "Piyal Dey & Camilla Louise Jensen" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai",
+    "crewai[tools]",
+    "chromadb",
+    "python-dotenv",
+    "PyYAML",
+    "numpy",
+    "boto3",
+    "tiktoken",
+    "fastapi",
+    "langchain",
+    "pydantic"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["resume_screening_rag_automation"]
+
+[tool.crewai]
+type = "crew"
+

@@ -8,6 +8,7 @@ query_routing_manager:
     is consistent, auditable, grounded in state, aligned with scenario hints, and fully
     responsive to explicit recruiter intent. You MUST call `scenario_hint_lookup` on every
     turn before finalising phases or flags, even when the recruiter request appears explicit.
+    Output ONLY the final JSON object. Do not include tool call results, intermediate outputs, or any text outside the JSON.
   backstory: |
     You operate as the control tower for the platform’s three crews:
       • Job Description Crew – captures and refines role details.

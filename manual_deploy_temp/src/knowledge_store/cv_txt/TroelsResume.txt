@@ -1,0 +1,119 @@
+TROELS
+Senior GPU Engineer
+
+
+Summary
+======
+TROELS SKJØTTGAARD A detail oriented, ambitious, and organized developer with lots of experience in data processing at large scale. A fast learner who is pursuing new challenges with high performance, low latency applications where resources are a limiting factor. A developer that value readability, reusability and elimination of code debt.
+
+
+Experience
+======
+Senior GPU Engineer
+VEO Technologies APS
+Ongoing
+ - Improved visual quality of camera recordings by implementing GPU-accelerated computer vision algorithms in CUDA
+ - Optimizing video rendering pipeline to execute faster, leading to significant operational cost savings
+ - Kernel space and driver patching of Linux (NVIDIA Linux for Tegra)
+ - NVIDIA Jetson
+ - NVIDIA Nsight
+
+Tech Lead
+Risika A/S
+04/2018 - 05/2022
+ - Optimized cloud infrastructure to support rapid scaling, ensuring high availability and performance during peak loads
+ - Designed, implemented, and maintained REST APIs and PostgreSQL databases, improving system performance and scalability
+ - Led and coordinated back-end and front-end teams, fostering collaboration and ensuring timely delivery of solutions
+
+Back-end Developer
+Mearto ApS
+11/2016 - 09/2017
+ - Web scraping of auction sites
+ - Identifying art pieces using text analysis
+ - Find related art pieces
+
+Back-end Developer
+Aporta Digital ApS
+11/2015 - 09/2016
+ - Implemented LLRP protocol in Python for RFID
+ - Developed embedded hardware for deployment in trains
+ - Developed error resilient infrastructure for communicating with devices on trains over an unstable internet connection
+
+Back-end Developer
+DAMVAD A/S
+10/2014 - 05/2015
+ - Increased data processing speed by {30%} by optimizing database queries and enhancing performance efficiency.
+ - Scraped data from job posts, improving analytics for strategic hiring decisions by enhancing data quality.
+ - Extraction of unstructured data.
+ - IBM Netezza Database.
+
+Student Assistant
+Napatech
+07/2013 - 09/2014
+ - Developed tools for internal testing of FPGA adapters
+ - Maintenance of Linux and Windows servers
+ - Windows Server 2012
+
+
+Skills
+======
+ - C/C++
+ - CUDA
+ - Python
+ - Postgres
+ - MacOS
+ - NVIDIA A10G
+ - NVIDIA Nsight
+ - OpenCV
+ - Eigen
+ - cuBLAS
+ - Zephyr
+ - Yocto
+ - Bit bake
+ - GDB
+ - Open OCD
+ - Protobuf
+ - NVIDIA Visual Profiler
+ - AWS
+ - S3
+ - Apache Airflow
+ - Nginx
+ - Docker
+ - Drone CI
+ - Cloudflare
+ - Let's Encrypt
+ - NVIDIA Jetson Xavier NX
+ - NVIDIA Jetson TX2 NX
+ - STM32
+ - Ubuntu
+ - Debian
+ - Alpine
+ - Windows
+ - SQL
+
+
+Education
+======
+Master's degree in Computer Science
+University of Copenhagen
+2017 - 2019
+
+Bachelor's degree in Computer Science
+University of Copenhagen
+2013 - 2017
+
+Signal and Image Processing
+University of Copenhagen
+2025
+
+Research Topics in Physical Oceanography
+University of Copenhagen
+2018
+
+
+Languages
+======
+English
+
+Danish
+

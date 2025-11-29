@@ -1,0 +1,72 @@
+FAIZ
+Mechanical Engineer(Design & Execution)
+
+
+Summary
+======
+A dedicated and detail-oriented Mechanical Engineer with a strong foundation in design, analysis, and execution of mechanical systems. With 7 years of experience and skilled in CAD software, problem-solving, and project coordination, with hands-on experience in mechanical system design and manufacturing processes. Seeking a position in a dynamic organization where I can apply my technical expertise and innovative approach to contribute to operational efficiency and organizational growth.
+
+
+Experience
+======
+Junior mechanical engineer
+Prowayz solutions pvt
+2018 - 2019
+Calicut, india
+ - Quantity surveying of all Mechanical works using Plan swift software
+ - Prepare Shop drawings from Design Drawing
+ - HVAC Duct and Chilled water pipe sizing
+ - Coordinate HVAC with other MEP services
+ - Checking and Evaluating shop drawing before submission
+ - Designing and Modelling ventilation and air conditioning ducts using REVIT & Autocad software
+ - HVAC System Modelling using REVIT as per final diagrams
+ - Preparation of SHOP DRAWING in REVIT
+ - Preparation of parametric MEP REVIT FAMILIES as per specification
+ - Clash detection
+ - Calculating cooling load (tonnage of refrigeration) & External Fresh air discharge for air conditioning using HAP software, E 20 Excel sheet, Manual
+ - Psychometric Calculation using Carrier software, Conversion softwares
+ - Diffuser selection using Mcquay software, Routings
+ - Duct sizing for ventilation and air conditioning ducts using duct sizing software
+ - Pipe sizing for chilled water supply and chilled water return using pipe sizer tool
+ - Ventilations by external static pressure calculation (ESP), Discharge Method
+ - Bill of quantity, estimation
+ - VRV/VRF designing, Package Units, AHU, FCU, RTU, Cassettes Designing
+ - ASHRAE & ISHRAE standards & codes
+ - Preparing plumbing modeling using REVIT software
+ - Floor plan, Roof plan and site plan of buildings
+ - Design of underground and overhead storage of water
+ - Soil and waste water drain calculation
+ - Design of septic tank, sockway, pit, waste pit and junction manholes
+ - Pipe sizing for water supply, drainage system, rainwater drainage and pumping main
+ - Plumbing standards & codes (IPC, NSPC)
+
+
+Skills
+======
+ - AutoCAD
+ - HAP
+ - HVAC
+ - Microsoft Excel
+ - Microsoft Office
+ - Revit
+ - CAD Software
+ - PLANSWIFT
+
+
+Education
+======
+BTech in Mechanical Engineering
+
+MEP Engineering
+
+
+Languages
+======
+English
+
+Hindi
+
+Malayalam
+
+Tamil
+

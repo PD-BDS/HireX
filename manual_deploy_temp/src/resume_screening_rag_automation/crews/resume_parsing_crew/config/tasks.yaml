@@ -1,0 +1,104 @@
+structure_resumes:
+  agent: resume_parsing_analyst
+  description: |-
+    You receive `resume_batch`, a list where each item contains the resume file
+    metadata alongside a `file_path` pointing to the resume on disk (and,
+    occasionally, an `inline_preview`). For every resume:
+      * Use the provided `file_reader` tool to open the full contents from
+        `file_path` before extracting any information. Do not rely solely on the
+        inline preview text.
+      * Call the tool at most once per resume. If the read fails, record a
+        warning for that file and move on instead of retrying with the same
+        input.
+      * After you have read the file, rely on your notes and the captured
+        content—never call `file_reader` again with the same `file_path` during
+        this task because repeated requests are rejected.
+      * Extract the candidate name, current/target title, summary, experience,
+        education, skills, languages, and any other notable sections present in
+        the text.
+      * Represent experience as an ordered list (most recent first) with
+        `title`, `company`, `period`, `location` when available, and a concise
+        `roles` list capturing distinct bullet points or responsibilities from
+        the resume.
+      * Populate the `skills` object with `technical` and `soft` skills. Split
+        comma-separated or slash-delimited strings into individual skills and
+        place each skill in the appropriate list. Treat tools, programming
+        languages, cloud platforms, automation systems, analytics stacks,
+        certifications, and domain-specific methodologies as technical skills
+        (e.g., Python, Terraform, SAP, AWS, PLC programming, Six Sigma, ISO
+        27001, GMP compliance). Treat behavioural, interpersonal, leadership,
+        change-management, customer-facing, and communication capabilities as
+        soft skills (e.g., stakeholder management, strategic planning,
+        coaching, negotiation, conflict resolution, customer focus, mentoring,
+        collaboration, time management). If the resume provides a single mixed
+        list, you **must** split it after reading the file; do not leave
+        strategic or people-oriented traits in the technical list. Capture
+        compound phrases by breaking them into multiple skills when the parts
+        belong to different categories (e.g., "PLC programming and team
+        leadership" → `technical` = ["PLC programming"], `soft` = ["Team
+        leadership"]). Only use categories defined in the schema; leave a list
+        empty if no skills are provided.
+      * Include `education` entries with degree, institution, dates, and any key
+        notes. If dates are missing, omit the field instead of fabricating it.
+      * Capture any extra information (certifications, publications, awards,
+        portfolio links, etc.) in the `other` dictionary. Keep the keys short and
+        snake_case (e.g., `certifications`, `projects`).
+      * Do not generate or guess a `candidate_id`. Leave it null so downstream
+        scripts can assign a stable identifier.
+      * Record factual ambiguities, unreadable files, or missing sections in the
+        `warnings` array instead of inventing content.
+
+    After analysing the entire batch, respond **only** with valid JSON that
+    matches the `ResumeParsingOutput` schema shown below. Do not include any
+    explanatory text outside the JSON object.
+
+    Resume batch to process:
+    {resume_batch}
+  expected_output: |-
+    {
+      "parsed_resumes": [
+        {
+          "metadata": {
+            "file_name": "SampleResume.txt",
+            "candidate_name": "Sample Candidate",
+            "candidate_id": null,
+            "current_title": "Lead Engineer",
+            "content_hash": "<optional hash value if provided>"
+          },
+          "content": {
+            "title": "Lead Engineer",
+            "summary": "One paragraph that captures the candidate's profile.",
+            "experience": [
+              {
+                "title": "Lead Engineer",
+                "company": "Tech Corp",
+                "period": "2020 - Present",
+                "location": "San Francisco, CA",
+                "roles": [
+                  "Built data platforms for analytics.",
+                  "Led a team of five engineers."
+                ]
+              }
+            ],
+            "skills": {
+              "technical": ["Python", "Spark", "AWS"],
+              "soft": ["Communication", "Leadership"]
+            },
+            "education": [
+              {
+                "degree": "BSc Computer Science",
+                "institution": "MIT",
+                "period": "2010 - 2014",
+                "notes": []
+              }
+            ],
+            "languages": ["English"],
+            "other": {
+              "certifications": ["AWS Solutions Architect Associate"],
+              "volunteer_work": ["STEM mentor for Girls Who Code"]
+            }
+          }
+        }
+      ],
+      "warnings": []
+    }
