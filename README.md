@@ -16,7 +16,7 @@ HireX is a sophisticated resume screening and recruitment assistant powered by *
 
 -   **Frontend**: React, TypeScript, Vite, Tailwind CSS
 -   **Backend**: Python, FastAPI, Uvicorn
--   **AI/ML**: CrewAI, LangChain, OpenAI (GPT-4o-mini), ChromaDB
+-   **AI/ML**: CrewAI, LangChain, OpenAI (GPT-4.1), ChromaDB
 -   **Storage**: Azure Files (mounted directly to App Service)
 -   **Infrastructure**: Azure App Service (Linux/Python)
 
